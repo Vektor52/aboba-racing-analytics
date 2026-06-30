@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Safety Rating</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+    <header class="site-header">
+        <div>
+            <h1>Safety Rating</h1>
+            <p class="subtitle">Clean driving score based on valid laps and penalties</p>
+        </div>
+    </header>
+
+    <nav class="menu">
+    <a href="index.html">Home</a>
+    <a href="records.html">Track Records</a>
+    <a href="cars.html">Cars Analytics</a>
+    <a href="driver_stats.html">Driver Analytics</a>
+    <a href="safety.html">Safety Rating</a>
+</nav>
+
+    <section class="section">
+        <h2>Safety Overview</h2>
+
+        <div id="safetyCards"></div>
+
+        <div class="menu">
+            <button onclick="showTrusted()">Trusted Rating</button>
+            <button onclick="showAll()">All Drivers</button>
+            <button onclick="showLifetime()">Lifetime</button>
+            <button onclick="showActive()">Active Window</button>
+            <button onclick="sortBySafety()">Sort by Safety</button>
+            <button onclick="sortByLaps()">Sort by Laps</button>
+            <button onclick="sortByPenalties()">Sort by Penalties</button>
+        </div>
+
+        <p class="updated-info">
+            Search driver:
+            <input
+                id="safetySearch"
+                type="text"
+                placeholder="Type driver name..."
+                oninput="renderSafety()"
+                style="padding: 8px 12px; border-radius: 8px; border: 1px solid #444; background: #151515; color: white; min-width: 260px;"
+            >
+        </p>
+
+        <p id="safetyInfo" class="updated-info"></p>
+
+        <table id="safetyTable">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Driver</th>
+                    <th>Grade</th>
+                    <th>Safety</th>
+                    <th>Confidence</th>
+                    <th>Laps</th>
+                    <th>Valid</th>
+                    <th>Invalid</th>
+                    <th>Invalid / 100</th>
+                    <th>Penalties</th>
+                    <th>Penalties / 100</th>
+                    <th>Sessions</th>
+                    <th>Tracks</th>
+                    <th>Last Seen</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </section>
+
+</div>
+
+<script src="js/safety.js?v=1"></script>
+
+</body>
+</html>
