@@ -422,3 +422,227 @@ tbody tr:last-child td {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== DRIVER ANALYTICS V2 ===== */
+
+.hidden {
+    display: none !important;
+}
+
+.table-scroll {
+    width: 100%;
+    overflow: auto;
+    border-radius: 14px;
+    border: 1px solid #292929;
+    background: rgba(16, 16, 16, 0.72);
+}
+
+.table-scroll table {
+    margin: 0;
+    min-width: 980px;
+    border-radius: 0;
+}
+
+.table-scroll thead th {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: linear-gradient(180deg, #2c2c2c 0%, #202020 100%);
+}
+
+.driver-table-scroll {
+    max-height: 72vh;
+}
+
+.compare-table-scroll {
+    max-height: 420px;
+}
+
+.mini-table-scroll {
+    width: 100%;
+    overflow: auto;
+    border-radius: 12px;
+    border: 1px solid #282828;
+}
+
+.mini-table-scroll table {
+    min-width: 720px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.compare-cell {
+    text-align: center;
+}
+
+.compare-cell input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #ff6a00;
+    cursor: pointer;
+}
+
+.driver-name-cell {
+    font-weight: 800;
+    color: #ffffff;
+    min-width: 180px;
+}
+
+.small-action-button {
+    padding: 7px 12px;
+    border-radius: 999px;
+    border: 1px solid #444;
+    background: linear-gradient(180deg, #282828 0%, #1b1b1b 100%);
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.small-action-button:hover {
+    border-color: #ff6a00;
+    color: #ff7a1a;
+}
+
+.driver-row-expanded {
+    background: rgba(255, 106, 0, 0.08);
+}
+
+.driver-details-row td {
+    padding: 0;
+    background: rgba(10, 10, 10, 0.72);
+}
+
+.driver-details-card {
+    padding: 18px;
+    border-top: 1px solid rgba(255, 106, 0, 0.25);
+    border-bottom: 1px solid rgba(255, 106, 0, 0.15);
+    background:
+        radial-gradient(circle at top left, rgba(255,106,0,0.10), transparent 32%),
+        linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0.008));
+}
+
+.driver-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.driver-details-header h3 {
+    margin: 0;
+    color: #ff7a1a;
+    font-size: 22px;
+}
+
+.driver-details-header p {
+    margin: 6px 0 0 0;
+    color: #bdbdbd;
+    font-size: 12px;
+}
+
+.driver-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 12px 0 16px 0;
+}
+
+.driver-mini-card {
+    min-height: 72px;
+    padding: 10px 12px;
+    border-radius: 13px;
+    border: 1px solid #303030;
+    background: rgba(20, 20, 20, 0.84);
+}
+
+.driver-mini-card span {
+    display: block;
+    color: #a9a9a9;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.35px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.driver-mini-card b {
+    display: block;
+    color: #ff7a1a;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.driver-mini-card small {
+    display: block;
+    margin-top: 4px;
+    color: #c9c9c9;
+    font-size: 10px;
+}
+
+.driver-details-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 14px;
+}
+
+.driver-detail-panel {
+    margin: 0;
+    padding: 12px;
+}
+
+.driver-detail-panel h3 {
+    font-size: 16px;
+}
+
+.driver-detail-panel-wide {
+    grid-column: 1 / -1;
+}
+
+.compare-panel {
+    margin: 14px 0 18px 0;
+    padding: 14px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 106, 0, 0.35);
+    background:
+        radial-gradient(circle at top left, rgba(255,106,0,0.12), transparent 32%),
+        linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012)),
+        rgba(18, 18, 18, 0.86);
+}
+
+.compare-header h3 {
+    margin: 0;
+    color: #ff7a1a;
+    font-size: 19px;
+}
+
+.compare-header p {
+    margin: 6px 0 12px 0;
+    color: #c9c9c9;
+    font-size: 12px;
+}
+
+.compare-missing-row td {
+    color: #8f8f8f;
+    font-style: italic;
+}
+
+@media (max-width: 1200px) {
+    .driver-mini-grid {
+        grid-template-columns: repeat(3, minmax(120px, 1fr));
+    }
+
+    .driver-details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .driver-mini-grid {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+    }
+
+    .driver-details-card {
+        padding: 12px;
+    }
+}

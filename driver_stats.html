@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Driver Analytics</title>
-<link rel="stylesheet" href="css/style.css?v=8">
+<link rel="stylesheet" href="css/style.css?v=9">
 </head>
 
 <body>
@@ -34,6 +34,8 @@
             <button onclick="sortByActivity()">Sort by Activity</button>
             <button onclick="sortByPace()">Sort by Pace</button>
             <button onclick="sortByTracks()">Sort by Tracks</button>
+            <button onclick="compareSelected()">Compare selected</button>
+            <button onclick="clearCompare()">Clear selection</button>
         </div>
 
         <p class="updated-info">
@@ -49,26 +51,55 @@
 
         <p id="driversInfo" class="updated-info"></p>
 
-        <table id="driversTable">
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Driver</th>
-                    <th>Status</th>
-                    <th>Sessions</th>
-                    <th>Tracks</th>
-                    <th>Cars</th>
-                    <th>Best Lap</th>
-                    <th>Best Track</th>
-                    <th>Best Car</th>
-                    <th>Favorite Track</th>
-                    <th>Favorite Car</th>
-                    <th>Last Seen</th>
-                </tr>
-            </thead>
+        <div id="comparePanel" class="compare-panel hidden">
+            <div class="compare-header">
+                <div>
+                    <h3>Selected Drivers Comparison</h3>
+                    <p id="compareSummary"></p>
+                </div>
+            </div>
 
-            <tbody></tbody>
-        </table>
+            <div class="table-scroll compare-table-scroll">
+                <table id="compareTable">
+                    <thead>
+                        <tr>
+                            <th>Track</th>
+                            <th>Driver</th>
+                            <th>Best Lap</th>
+                            <th>Gap</th>
+                            <th>S1</th>
+                            <th>S2</th>
+                            <th>S3</th>
+                            <th>Car</th>
+                            <th>Session</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-scroll driver-table-scroll">
+            <table id="driversTable">
+                <thead>
+                    <tr>
+                        <th>Compare</th>
+                        <th>Rank</th>
+                        <th>Driver</th>
+                        <th>Safety</th>
+                        <th>Sessions</th>
+                        <th>Tracks</th>
+                        <th>Best Lap</th>
+                        <th>Best Track</th>
+                        <th>Favorite Car</th>
+                        <th>Favorite Track</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+            </table>
+        </div>
     </section>
 
     <footer class="site-footer">
@@ -78,7 +109,7 @@
 </div>
 
 <script src="js/cars.js?v=6"></script>
-<script src="js/driver_stats.js?v=6"></script>
+<script src="js/driver_stats.js?v=7"></script>
 
 </body>
 </html>
