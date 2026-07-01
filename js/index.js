@@ -1,4 +1,4 @@
-console.log("Index Dashboard V2 Safety Snapshot loaded");
+console.log("Index Dashboard V2.1 Home counters loaded");
 
 function formatLap(ms)
 {
@@ -80,54 +80,66 @@ function isTrustedSafety(row)
 
 function renderDashboardCards(data)
 {
-    const stats = data.site_stats;
-    const meta = data.meta;
+    const stats = data.site_stats || {};
+    const meta = data.meta || {};
 
     const safetyRows = data.active_safety_rating || [];
     const trustedRows = safetyRows.filter(isTrustedSafety);
 
-    const sGradeCount = trustedRows.filter(row => row.grade === "S").length;
-    const riskyCount = trustedRows.filter(row => row.grade === "C" || row.grade === "D").length;
+    const trustedCount = stats.trusted_drivers_total !== undefined
+        ? stats.trusted_drivers_total
+        : trustedRows.filter(row => row.grade === "S" || row.grade === "A").length;
+
+    const riskyCount = stats.risky_drivers_total !== undefined
+        ? stats.risky_drivers_total
+        : trustedRows.filter(row => row.grade === "C" || row.grade === "D").length;
+
+    const totalLaps = stats.safety_laps_total || stats.lap_entries_total || 0;
+    const lastUpdate = formatDate(meta.generated_at);
+    const topTrack = stats.top_track ? formatTrack(stats.top_track) : "-";
+    const topCar = stats.top_car_model !== null && stats.top_car_model !== undefined
+        ? getCarName(stats.top_car_model)
+        : "-";
 
     const container = document.querySelector("#dashboardCards");
 
     container.innerHTML = `
         <div class="dashboard-grid">
 
-            <div class="dashboard-card">
+            <div class="dashboard-card accent-card">
                 <div class="dashboard-card-title">Active Drivers</div>
-                <div class="dashboard-card-value">${stats.drivers_active}</div>
-                <div class="dashboard-card-note">Total: ${stats.drivers_total}</div>
+                <div class="dashboard-card-value">${stats.drivers_active || 0}</div>
+                <div class="dashboard-card-note">Total: ${stats.drivers_total || 0}</div>
+            </div>
+
+            <div class="dashboard-card">
+                <div class="dashboard-card-title">Sessions</div>
+                <div class="dashboard-card-value">${stats.sessions_total || 0}</div>
+                <div class="dashboard-card-note">Imported sessions</div>
+            </div>
+
+            <div class="dashboard-card">
+                <div class="dashboard-card-title">Total Laps</div>
+                <div class="dashboard-card-value">${totalLaps}</div>
+                <div class="dashboard-card-note">Analyzed laps</div>
             </div>
 
             <div class="dashboard-card">
                 <div class="dashboard-card-title">Servers</div>
-                <div class="dashboard-card-value">${stats.servers_total}</div>
+                <div class="dashboard-card-value">${stats.servers_total || 0}</div>
                 <div class="dashboard-card-note">ACC servers</div>
             </div>
 
             <div class="dashboard-card">
                 <div class="dashboard-card-title">Tracks</div>
-                <div class="dashboard-card-value">${stats.tracks_total}</div>
+                <div class="dashboard-card-value">${stats.tracks_total || 0}</div>
                 <div class="dashboard-card-note">Collected tracks</div>
             </div>
 
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Sessions</div>
-                <div class="dashboard-card-value">${stats.sessions_total}</div>
-                <div class="dashboard-card-note">Imported sessions</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Safety Laps</div>
-                <div class="dashboard-card-value">${stats.safety_laps_total || 0}</div>
-                <div class="dashboard-card-note">Analyzed laps</div>
-            </div>
-
             <div class="dashboard-card accent-card">
-                <div class="dashboard-card-title">S Grade</div>
-                <div class="dashboard-card-value">${sGradeCount}</div>
-                <div class="dashboard-card-note">Trusted clean drivers</div>
+                <div class="dashboard-card-title">Trusted</div>
+                <div class="dashboard-card-value">${trustedCount}</div>
+                <div class="dashboard-card-note">S / A trusted drivers</div>
             </div>
 
             <div class="dashboard-card">
@@ -136,6 +148,38 @@ function renderDashboardCards(data)
                 <div class="dashboard-card-note">Trusted C / D grade</div>
             </div>
 
+            <div class="dashboard-card">
+                <div class="dashboard-card-title">Last Update</div>
+                <div class="dashboard-card-value dashboard-card-date">${lastUpdate}</div>
+                <div class="dashboard-card-note">Data generated</div>
+            </div>
+
+        </div>
+
+        <div class="quick-activity-grid">
+            <div class="quick-activity-chip">
+                <span>Top Track</span>
+                <b>${topTrack}</b>
+                <small>${stats.top_track_sessions || 0} sessions</small>
+            </div>
+
+            <div class="quick-activity-chip">
+                <span>Top Car</span>
+                <b>${topCar}</b>
+                <small>${stats.top_car_entries || 0} entries</small>
+            </div>
+
+            <div class="quick-activity-chip">
+                <span>New Drivers 7d</span>
+                <b>${stats.new_drivers_last_7_days || 0}</b>
+                <small>first seen drivers</small>
+            </div>
+
+            <div class="quick-activity-chip">
+                <span>Sessions 7d</span>
+                <b>${stats.sessions_last_7_days || 0}</b>
+                <small>recent sessions</small>
+            </div>
         </div>
     `;
 }
