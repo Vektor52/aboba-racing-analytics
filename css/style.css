@@ -646,3 +646,347 @@ tbody tr:last-child td {
         padding: 12px;
     }
 }
+
+
+/* ===== SERVER ACTIVITY V2.5 ===== */
+
+.activity-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 12px 0 18px 0;
+    padding: 14px;
+    border-radius: 16px;
+    border: 1px solid #2e2e2e;
+    background:
+        linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0.010)),
+        rgba(18, 18, 18, 0.74);
+}
+
+.activity-filter-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.activity-filter-group span {
+    color: #a8a8a8;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+}
+
+.activity-filter-group button,
+.activity-filter-group select {
+    min-height: 38px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid #3c3c3c;
+    background: linear-gradient(180deg, #262626 0%, #1b1b1b 100%);
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.activity-filter-group select {
+    min-width: 180px;
+    border-radius: 10px;
+}
+
+.activity-filter-group button:hover,
+.activity-filter-group select:hover {
+    border-color: #ff6a00;
+    color: #ff7a1a;
+}
+
+.activity-chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin: 12px 0 22px 0;
+}
+
+.activity-panel {
+    min-height: 320px;
+}
+
+.activity-panel-wide {
+    grid-column: 1 / -1;
+}
+
+.chart-note {
+    margin: -4px 0 12px 0;
+    color: #a9a9a9;
+    font-size: 12px;
+}
+
+.svg-chart-box {
+    width: 100%;
+    min-height: 320px;
+}
+
+.activity-svg {
+    width: 100%;
+    height: 310px;
+    display: block;
+    border-radius: 12px;
+    background:
+        radial-gradient(circle at top left, rgba(255,106,0,0.08), transparent 34%),
+        rgba(12, 12, 12, 0.72);
+}
+
+.chart-grid-line {
+    stroke: rgba(255,255,255,0.08);
+    stroke-width: 1;
+}
+
+.chart-axis-line {
+    stroke: rgba(255,255,255,0.18);
+    stroke-width: 1;
+}
+
+.chart-axis-label {
+    fill: #a9a9a9;
+    font-size: 11px;
+}
+
+.activity-line {
+    fill: none;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.activity-line-sessions,
+.activity-dot-sessions {
+    stroke: #ff7a1a;
+    fill: #ff7a1a;
+}
+
+.activity-line-drivers,
+.activity-dot-drivers {
+    stroke: #00b894;
+    fill: #00b894;
+}
+
+.activity-line-laps,
+.activity-dot-laps {
+    stroke: #74b9ff;
+    fill: #74b9ff;
+}
+
+
+.activity-bar {
+    stroke: rgba(255,255,255,0.08);
+    stroke-width: 0.5;
+    filter: drop-shadow(0 0 6px rgba(255, 106, 0, 0.12));
+}
+
+.activity-bar-sessions {
+    fill: #ff7a1a;
+}
+
+.activity-bar-drivers {
+    fill: #00b894;
+}
+
+.activity-bar-laps {
+    fill: #74b9ff;
+}
+
+.chart-legend {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    color: #cfcfcf;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.chart-legend span::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.legend-sessions::before {
+    background: #ff7a1a;
+}
+
+.legend-drivers::before {
+    background: #00b894;
+}
+
+.legend-laps::before {
+    background: #74b9ff;
+}
+
+.bar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bar-row {
+    display: grid;
+    grid-template-columns: minmax(120px, 190px) 1fr 56px;
+    gap: 10px;
+    align-items: center;
+}
+
+.bar-label {
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 800;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bar-track {
+    height: 13px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.08);
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    min-width: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ff5a00, #ff9f43);
+    box-shadow: 0 0 12px rgba(255, 106, 0, 0.28);
+}
+
+.bar-value {
+    color: #ff7a1a;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.empty-chart {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8f8f8f;
+    border: 1px dashed #333;
+    border-radius: 12px;
+    background: rgba(12, 12, 12, 0.50);
+}
+
+.heatmap-scroll {
+    width: 100%;
+    overflow: auto;
+}
+
+.heatmap-grid {
+    min-width: 640px;
+    display: grid;
+    grid-template-columns: 66px repeat(7, 1fr);
+    gap: 4px;
+    align-items: stretch;
+}
+
+.heatmap-corner,
+.heatmap-header,
+.heatmap-hour,
+.heatmap-cell {
+    min-height: 24px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.heatmap-header {
+    color: #ff7a1a;
+    font-weight: 900;
+    background: rgba(255,106,0,0.08);
+}
+
+.heatmap-hour {
+    color: #a8a8a8;
+    justify-content: flex-end;
+    padding-right: 8px;
+    font-weight: 800;
+}
+
+.heatmap-cell {
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.035);
+    background: rgba(255,255,255,0.035);
+}
+
+.heatmap-level-0 {
+    color: transparent;
+    background: rgba(255,255,255,0.025);
+}
+
+.heatmap-level-1 {
+    background: rgba(255,106,0,0.18);
+}
+
+.heatmap-level-2 {
+    background: rgba(255,106,0,0.30);
+}
+
+.heatmap-level-3 {
+    background: rgba(255,106,0,0.46);
+}
+
+.heatmap-level-4 {
+    background: rgba(255,106,0,0.64);
+}
+
+.heatmap-level-5 {
+    background: rgba(255,106,0,0.86);
+    box-shadow: 0 0 12px rgba(255,106,0,0.25);
+}
+
+.activity-table-scroll {
+    max-height: 72vh;
+}
+
+.activity-table-scroll table {
+    min-width: 1040px;
+}
+
+@media (max-width: 1100px) {
+    .activity-chart-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-panel-wide {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .activity-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .activity-filter-group {
+        align-items: stretch;
+    }
+
+    .activity-filter-group button,
+    .activity-filter-group select {
+        width: 100%;
+    }
+
+    .bar-row {
+        grid-template-columns: 120px 1fr 48px;
+    }
+}
