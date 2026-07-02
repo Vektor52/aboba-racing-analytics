@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-02 05:39:49",
+        "generated_at": "2026-07-02 05:57:05",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-03 05:39:49",
+        "active_cutoff": "2026-04-03 05:57:05",
         "data_source": "SQLite",
         "safety_model": "v1_laps_and_penalties",
         "public_build": true,
@@ -14,18 +14,18 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 6,
-        "sessions_total": 450,
-        "sessions_last_7_days": 122,
+        "sessions_total": 451,
+        "sessions_last_7_days": 123,
         "new_drivers_last_7_days": 142,
-        "lap_entries_total": 882,
+        "lap_entries_total": 883,
         "cars_total": 27,
-        "safety_laps_total": 6773,
+        "safety_laps_total": 6779,
         "safety_penalties_total": 180,
         "trusted_drivers_total": 11,
         "risky_drivers_total": 107,
-        "last_activity": "2026-07-02 03:47:53",
+        "last_activity": "2026-07-02 05:53:16",
         "top_track": "spa",
-        "top_track_sessions": 211,
+        "top_track_sessions": 212,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 228
@@ -33,10 +33,10 @@
     "servers": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions_count": 211,
+            "sessions_count": 212,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 02:07:00"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
@@ -87,9 +87,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 211,
+            "sessions_count": 212,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 02:07:00"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "track": "zolder",
@@ -99,9 +99,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 450,
+        "sessions": 451,
         "drivers": 95,
-        "laps": 6773,
+        "laps": 6779,
         "servers": 4,
         "tracks": 6,
         "cars": 27,
@@ -364,24 +364,24 @@
         },
         {
             "date": "2026-07-02",
-            "sessions": 6,
-            "drivers": 18,
-            "laps": 257,
+            "sessions": 7,
+            "drivers": 19,
+            "laps": 263,
             "servers": 3,
             "tracks": 3,
-            "entries": 18
+            "entries": 19
         }
     ],
     "activity_by_server": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions": 211,
+            "sessions": 212,
             "drivers": 319,
-            "laps": 3837,
+            "laps": 3843,
             "tracks": 1,
-            "entries": 519,
+            "entries": 520,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 02:07:00"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
@@ -417,14 +417,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 211,
+            "sessions": 212,
             "drivers": 319,
-            "laps": 3837,
+            "laps": 3843,
             "servers": 1,
-            "entries": 519,
+            "entries": 520,
             "best_lap": 138487,
             "best_driver": "Anatoliy Rubtsevich",
-            "last_seen": "2026-07-02 02:07:00"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "track": "zolder",
@@ -492,8 +492,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 120,
-            "entries": 351,
+            "sessions": 121,
+            "entries": 352,
             "drivers": 284,
             "best_lap": 89497
         },
@@ -581,8 +581,8 @@
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "entries": 26,
-            "sessions": 23,
+            "entries": 27,
+            "sessions": 24,
             "drivers": 15,
             "tracks": 3,
             "best_lap": 90895
@@ -884,6 +884,14 @@
             "weekday": "Saturday",
             "hour": 4,
             "sessions": 3,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 4,
+            "weekday": "Thursday",
+            "hour": 5,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
@@ -1484,6 +1492,18 @@
             "laps": 195,
             "best_lap": 107510,
             "best_driver": "Riccardo Chiesa"
+        },
+        {
+            "date": "2026-07-02",
+            "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
+            "track": "spa",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 6,
+            "best_lap": 145960,
+            "best_driver": "Bogdan Knysh"
         },
         {
             "date": "2026-07-02",
@@ -3470,14 +3490,14 @@
         {
             "driver": "Bogdan Knysh",
             "first_seen": "2026-06-28 20:42:42",
-            "last_seen": "2026-07-01 03:50:49",
-            "days_since_last_seen": 1,
+            "last_seen": "2026-07-02 05:53:16",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 5,
+            "sessions_count": 6,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 2,
-            "entries_count": 5
+            "entries_count": 6
         },
         {
             "driver": "Bogdan Mustafin",
@@ -15517,13 +15537,13 @@
             "driver": "Bogdan Knysh",
             "active": true,
             "first_seen": "2026-06-28 20:42:42",
-            "last_seen": "2026-07-01 03:50:49",
-            "days_since_last_seen": 1,
-            "sessions_count": 5,
+            "last_seen": "2026-07-02 05:53:16",
+            "days_since_last_seen": 0,
+            "sessions_count": 6,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 2,
-            "entries_count": 5,
+            "entries_count": 6,
             "best_lap": 143755,
             "best_track": "spa",
             "best_session": "Race",
@@ -19765,9 +19785,9 @@
             "servers_count": 1,
             "cars_count": 2,
             "entries_count": 2,
-            "total_laps": 47,
+            "total_laps": 49,
             "valid_laps": 3,
-            "invalid_laps": 44,
+            "invalid_laps": 46,
             "best_lap": 145905,
             "best_track": "spa",
             "best_session": "Race",
@@ -23262,16 +23282,16 @@
             "driver": "Bogdan Knysh",
             "active": true,
             "first_seen": "2026-06-28 20:42:42",
-            "last_seen": "2026-07-01 03:50:49",
-            "days_since_last_seen": 1,
-            "sessions_count": 5,
+            "last_seen": "2026-07-02 05:53:16",
+            "days_since_last_seen": 0,
+            "sessions_count": 6,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 2,
-            "entries_count": 5,
-            "total_laps": 46,
-            "valid_laps": 9,
-            "invalid_laps": 37,
+            "entries_count": 6,
+            "total_laps": 50,
+            "valid_laps": 12,
+            "invalid_laps": 38,
             "best_lap": 143755,
             "best_track": "spa",
             "best_session": "Race",
@@ -23295,7 +23315,7 @@
                 {
                     "car_model": 25,
                     "car_name": "Mercedes-AMG GT3 2020",
-                    "entries": 3,
+                    "entries": 4,
                     "tracks": 1,
                     "best_lap": 143755,
                     "best_track": "spa"
@@ -23312,21 +23332,21 @@
             "server_usage": [
                 {
                     "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-                    "entries": 5,
+                    "entries": 6,
                     "tracks": 1,
-                    "last_seen": "2026-07-01 03:50:49"
+                    "last_seen": "2026-07-02 05:53:16"
                 }
             ],
             "session_types": [
                 {
+                    "session": "Qualifying",
+                    "entries": 3,
+                    "best_lap": 145162
+                },
+                {
                     "session": "Race",
                     "entries": 3,
                     "best_lap": 143755
-                },
-                {
-                    "session": "Qualifying",
-                    "entries": 2,
-                    "best_lap": 145162
                 }
             ]
         },
@@ -49493,11 +49513,11 @@
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
             "drivers": 15,
-            "entries": 26,
+            "entries": 27,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 145981
+            "avg_lap": 145980
         },
         {
             "car_model": 20,
@@ -49765,11 +49785,11 @@
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
             "drivers": 15,
-            "entries": 26,
+            "entries": 27,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 145981
+            "avg_lap": 145980
         },
         {
             "car_model": 20,
@@ -58305,23 +58325,23 @@
         },
         {
             "driver": "Aleksandr Omelyanchuk",
-            "safety_score": 43.8,
+            "safety_score": 43.7,
             "grade": "D",
             "confidence": "medium",
-            "total_laps": 47,
+            "total_laps": 49,
             "valid_laps": 3,
-            "invalid_laps": 44,
-            "valid_lap_ratio": 0.064,
+            "invalid_laps": 46,
+            "valid_lap_ratio": 0.061,
             "penalties_count": 0,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 93.62,
+            "invalid_laps_per_100": 93.88,
             "penalties_per_100": 0.0,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 7,
+            "sessions_count": 8,
             "tracks_count": 1,
             "servers_count": 1,
             "first_seen": "2026-06-28 21:11:31",
-            "last_seen": "2026-07-01 03:50:49"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "driver": "Christoph Meech",
@@ -60844,6 +60864,26 @@
             "last_seen": "2026-07-02 00:01:11"
         },
         {
+            "driver": "Bogdan Knysh",
+            "safety_score": 22.4,
+            "grade": "D",
+            "confidence": "high",
+            "total_laps": 50,
+            "valid_laps": 12,
+            "invalid_laps": 38,
+            "valid_lap_ratio": 0.24,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.0,
+            "penalties_per_100": 4.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 9,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-06-28 20:42:42",
+            "last_seen": "2026-07-02 05:53:16"
+        },
+        {
             "driver": "Kimi Antoneli",
             "safety_score": 21.0,
             "grade": "D",
@@ -60942,26 +60982,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-01 23:27:23",
             "last_seen": "2026-07-02 00:01:11"
-        },
-        {
-            "driver": "Bogdan Knysh",
-            "safety_score": 17.0,
-            "grade": "D",
-            "confidence": "medium",
-            "total_laps": 46,
-            "valid_laps": 9,
-            "invalid_laps": 37,
-            "valid_lap_ratio": 0.196,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.43,
-            "penalties_per_100": 4.35,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 8,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-28 20:42:42",
-            "last_seen": "2026-07-01 03:50:49"
         },
         {
             "driver": "Saveliy Ardemasov",
@@ -71047,23 +71067,23 @@
         },
         {
             "driver": "Aleksandr Omelyanchuk",
-            "safety_score": 43.8,
+            "safety_score": 43.7,
             "grade": "D",
             "confidence": "medium",
-            "total_laps": 47,
+            "total_laps": 49,
             "valid_laps": 3,
-            "invalid_laps": 44,
-            "valid_lap_ratio": 0.064,
+            "invalid_laps": 46,
+            "valid_lap_ratio": 0.061,
             "penalties_count": 0,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 93.62,
+            "invalid_laps_per_100": 93.88,
             "penalties_per_100": 0.0,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 7,
+            "sessions_count": 8,
             "tracks_count": 1,
             "servers_count": 1,
             "first_seen": "2026-06-28 21:11:31",
-            "last_seen": "2026-07-01 03:50:49"
+            "last_seen": "2026-07-02 05:53:16"
         },
         {
             "driver": "Christoph Meech",
@@ -73586,6 +73606,26 @@
             "last_seen": "2026-07-02 00:01:11"
         },
         {
+            "driver": "Bogdan Knysh",
+            "safety_score": 22.4,
+            "grade": "D",
+            "confidence": "high",
+            "total_laps": 50,
+            "valid_laps": 12,
+            "invalid_laps": 38,
+            "valid_lap_ratio": 0.24,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.0,
+            "penalties_per_100": 4.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 9,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-06-28 20:42:42",
+            "last_seen": "2026-07-02 05:53:16"
+        },
+        {
             "driver": "Kimi Antoneli",
             "safety_score": 21.0,
             "grade": "D",
@@ -73684,26 +73724,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-01 23:27:23",
             "last_seen": "2026-07-02 00:01:11"
-        },
-        {
-            "driver": "Bogdan Knysh",
-            "safety_score": 17.0,
-            "grade": "D",
-            "confidence": "medium",
-            "total_laps": 46,
-            "valid_laps": 9,
-            "invalid_laps": 37,
-            "valid_lap_ratio": 0.196,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.43,
-            "penalties_per_100": 4.35,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 8,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-28 20:42:42",
-            "last_seen": "2026-07-01 03:50:49"
         },
         {
             "driver": "Saveliy Ardemasov",
