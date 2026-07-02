@@ -1,4 +1,4 @@
-console.log("Index Dashboard V2.1 Home counters loaded");
+console.log("Index Dashboard V2.2 i18n update card loaded");
 
 function formatLap(ms)
 {
@@ -51,7 +51,25 @@ function sessionShort(session)
 function formatDate(dateText)
 {
     if (!dateText) return "-";
-    return dateText.substring(0, 10);
+    return String(dateText).substring(0, 10);
+}
+
+function formatUpdateParts(dateText)
+{
+    if (!dateText) {
+        return { time: "-", date: "-" };
+    }
+
+    const normalized = String(dateText)
+        .replace("T", " ")
+        .replace("Z", "")
+        .trim();
+
+    const parts = normalized.split(/\s+/);
+    const date = parts[0] || "-";
+    const time = parts[1] ? parts[1].substring(0, 5) : "-";
+
+    return { time, date };
 }
 
 function shortServerName(serverName)
@@ -95,7 +113,7 @@ function renderDashboardCards(data)
         : trustedRows.filter(row => row.grade === "C" || row.grade === "D").length;
 
     const totalLaps = stats.safety_laps_total || stats.lap_entries_total || 0;
-    const lastUpdate = formatDate(meta.generated_at);
+    const lastUpdate = formatUpdateParts(meta.generated_at);
     const topTrack = stats.top_track ? formatTrack(stats.top_track) : "-";
     const topCar = stats.top_car_model !== null && stats.top_car_model !== undefined
         ? getCarName(stats.top_car_model)
@@ -150,7 +168,8 @@ function renderDashboardCards(data)
 
             <div class="dashboard-card">
                 <div class="dashboard-card-title">Last Update</div>
-                <div class="dashboard-card-value dashboard-card-date">${lastUpdate}</div>
+                <div class="dashboard-card-value dashboard-card-time">${lastUpdate.time}</div>
+                <div class="dashboard-card-subdate">${lastUpdate.date}</div>
                 <div class="dashboard-card-note">Data generated</div>
             </div>
 

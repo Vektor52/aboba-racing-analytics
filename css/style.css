@@ -990,3 +990,252 @@ tbody tr:last-child td {
         grid-template-columns: 120px 1fr 48px;
     }
 }
+
+/* ===== V3 UI / I18N PATCH ===== */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input,
+select,
+textarea {
+    font-size: 16px;
+}
+
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 8px auto 14px auto;
+    width: 100%;
+}
+
+.language-switcher button {
+    min-width: 86px;
+    min-height: 38px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #3c3c3c;
+    background: linear-gradient(180deg, #252525 0%, #171717 100%);
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+    transition: all 0.16s ease;
+}
+
+.language-switcher button:hover,
+.language-switcher button.active {
+    border-color: #ff6a00;
+    color: #ff7a1a;
+    box-shadow: 0 0 14px rgba(255, 106, 0, 0.22);
+    transform: translateY(-1px);
+}
+
+.dashboard-card-time {
+    font-size: 31px;
+    line-height: 1;
+}
+
+.dashboard-card-subdate {
+    color: #cfcfcf;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: -1px 0 6px 0;
+}
+
+.table-scroll,
+.mini-table-scroll,
+.activity-table-scroll,
+.compare-table-scroll,
+.driver-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+svg,
+.activity-svg,
+.chart-card,
+.panel-box,
+.dashboard-card,
+.quick-activity-chip {
+    max-width: 100%;
+}
+
+@media (max-width: 520px) {
+    .language-switcher {
+        justify-content: center;
+        gap: 8px;
+        margin-top: 4px;
+    }
+
+    .language-switcher button {
+        min-width: 78px;
+        min-height: 36px;
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .dashboard-card-time {
+        font-size: 28px;
+    }
+
+    .dashboard-card-subdate {
+        font-size: 13px;
+    }
+}
+
+/* ===== I18N CLEANUP + TABLE ALIGNMENT FIX ===== */
+
+.language-switcher button {
+    min-width: 66px;
+    min-height: 36px;
+    padding: 8px 18px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.table-scroll,
+.mini-table-scroll,
+.activity-table-scroll,
+.compare-table-scroll,
+.driver-table-scroll {
+    scrollbar-gutter: stable;
+}
+
+.table-scroll table,
+.mini-table-scroll table,
+.activity-table-scroll table,
+.compare-table-scroll table,
+.driver-table-scroll table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-scroll th,
+.table-scroll td,
+.mini-table-scroll th,
+.mini-table-scroll td,
+.activity-table-scroll th,
+.activity-table-scroll td,
+.compare-table-scroll th,
+.compare-table-scroll td,
+.driver-table-scroll th,
+.driver-table-scroll td {
+    vertical-align: middle;
+}
+
+.driver-table-scroll table {
+    table-layout: fixed;
+    min-width: 1180px;
+}
+
+.driver-table-scroll th,
+.driver-table-scroll td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.driver-table-scroll th:nth-child(1),
+.driver-table-scroll td:nth-child(1) {
+    width: 74px;
+    text-align: center;
+}
+
+.driver-table-scroll th:nth-child(2),
+.driver-table-scroll td:nth-child(2) {
+    width: 72px;
+    text-align: center;
+}
+
+.driver-table-scroll th:nth-child(3),
+.driver-table-scroll td:nth-child(3) {
+    width: 210px;
+}
+
+.driver-table-scroll th:nth-child(4),
+.driver-table-scroll td:nth-child(4) {
+    width: 130px;
+}
+
+.driver-table-scroll th:nth-child(5),
+.driver-table-scroll td:nth-child(5),
+.driver-table-scroll th:nth-child(6),
+.driver-table-scroll td:nth-child(6) {
+    width: 85px;
+    text-align: center;
+}
+
+.driver-table-scroll th:nth-child(7),
+.driver-table-scroll td:nth-child(7) {
+    width: 120px;
+}
+
+.driver-table-scroll th:nth-child(8),
+.driver-table-scroll td:nth-child(8) {
+    width: 150px;
+}
+
+.driver-table-scroll th:nth-child(9),
+.driver-table-scroll td:nth-child(9) {
+    width: 230px;
+}
+
+.driver-table-scroll th:nth-child(10),
+.driver-table-scroll td:nth-child(10) {
+    width: 160px;
+}
+
+.driver-table-scroll th:nth-child(11),
+.driver-table-scroll td:nth-child(11) {
+    width: 110px;
+    text-align: center;
+}
+
+.activity-table-scroll table {
+    table-layout: fixed;
+    min-width: 1120px;
+}
+
+.activity-table-scroll th,
+.activity-table-scroll td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activity-table-scroll th:nth-child(1),
+.activity-table-scroll td:nth-child(1) {
+    width: 110px;
+}
+
+.activity-table-scroll th:nth-child(2),
+.activity-table-scroll td:nth-child(2) {
+    width: 190px;
+}
+
+.activity-table-scroll th:nth-child(3),
+.activity-table-scroll td:nth-child(3) {
+    width: 160px;
+}
+
+@media (max-width: 520px) {
+    .language-switcher button {
+        min-width: 58px;
+        min-height: 34px;
+        padding: 7px 14px;
+    }
+}
