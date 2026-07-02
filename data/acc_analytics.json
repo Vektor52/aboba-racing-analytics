@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-02 17:57:05",
+        "generated_at": "2026-07-02 18:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-03 17:57:05",
+        "active_cutoff": "2026-04-03 18:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_laps_and_penalties",
         "public_build": true,
@@ -14,8 +14,8 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 6,
-        "sessions_total": 453,
-        "sessions_last_7_days": 123,
+        "sessions_total": 457,
+        "sessions_last_7_days": 127,
         "new_drivers_last_7_days": 143,
         "lap_entries_total": 885,
         "cars_total": 27,
@@ -23,9 +23,9 @@
         "safety_penalties_total": 180,
         "trusted_drivers_total": 11,
         "risky_drivers_total": 107,
-        "last_activity": "2026-07-02 06:22:23",
+        "last_activity": "2026-07-02 18:26:28",
         "top_track": "spa",
-        "top_track_sessions": 214,
+        "top_track_sessions": 216,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 228
@@ -33,24 +33,24 @@
     "servers": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions_count": 214,
+            "sessions_count": 216,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 06:22:23"
+            "last_seen": "2026-07-02 18:25:11"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-            "sessions_count": 157,
+            "sessions_count": 158,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-02 00:15:43"
+            "last_seen": "2026-07-02 18:24:22"
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions_count": 59,
+            "sessions_count": 60,
             "tracks_count": 4,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-06-30 21:34:20"
+            "last_seen": "2026-07-02 18:26:28"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -69,9 +69,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 20,
+            "sessions_count": 21,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-06-30 21:34:20"
+            "last_seen": "2026-07-02 18:26:28"
         },
         {
             "track": "monza",
@@ -87,19 +87,19 @@
         },
         {
             "track": "spa",
-            "sessions_count": 214,
+            "sessions_count": 216,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 06:22:23"
+            "last_seen": "2026-07-02 18:25:11"
         },
         {
             "track": "zolder",
-            "sessions_count": 157,
+            "sessions_count": 158,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-02 00:15:43"
+            "last_seen": "2026-07-02 18:24:22"
         }
     ],
     "activity_summary": {
-        "sessions": 453,
+        "sessions": 457,
         "drivers": 95,
         "laps": 6806,
         "servers": 4,
@@ -364,44 +364,44 @@
         },
         {
             "date": "2026-07-02",
-            "sessions": 9,
+            "sessions": 13,
             "drivers": 20,
             "laps": 290,
-            "servers": 3,
-            "tracks": 3,
+            "servers": 4,
+            "tracks": 4,
             "entries": 21
         }
     ],
     "activity_by_server": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions": 214,
+            "sessions": 216,
             "drivers": 320,
             "laps": 3870,
             "tracks": 1,
             "entries": 522,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-02 06:22:23"
+            "last_seen": "2026-07-02 18:25:11"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-            "sessions": 157,
+            "sessions": 158,
             "drivers": 95,
             "laps": 1548,
             "tracks": 1,
             "entries": 199,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-02 00:15:43"
+            "last_seen": "2026-07-02 18:24:22"
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions": 59,
+            "sessions": 60,
             "drivers": 26,
             "laps": 318,
             "tracks": 4,
             "entries": 40,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-06-30 21:34:20"
+            "last_seen": "2026-07-02 18:26:28"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -417,25 +417,25 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 214,
+            "sessions": 216,
             "drivers": 320,
             "laps": 3870,
             "servers": 1,
             "entries": 522,
             "best_lap": 138487,
             "best_driver": "Anatoliy Rubtsevich",
-            "last_seen": "2026-07-02 06:22:23"
+            "last_seen": "2026-07-02 18:25:11"
         },
         {
             "track": "zolder",
-            "sessions": 157,
+            "sessions": 158,
             "drivers": 95,
             "laps": 1548,
             "servers": 1,
             "entries": 199,
             "best_lap": 88797,
             "best_driver": "Fernando Andrade",
-            "last_seen": "2026-07-02 00:15:43"
+            "last_seen": "2026-07-02 18:24:22"
         },
         {
             "track": "barcelona",
@@ -461,14 +461,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 20,
+            "sessions": 21,
             "drivers": 7,
             "laps": 86,
             "servers": 1,
             "entries": 8,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
-            "last_seen": "2026-06-30 21:34:20"
+            "last_seen": "2026-07-02 18:26:28"
         },
         {
             "track": "nurburgring_24h",
@@ -1211,9 +1211,9 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 18,
-            "sessions": 5,
-            "servers": 2,
-            "tracks": 2
+            "sessions": 9,
+            "servers": 3,
+            "tracks": 3
         },
         {
             "weekday_number": 5,
