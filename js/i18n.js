@@ -1,4 +1,4 @@
-console.log("ABOBA i18n loaded v1");
+console.log("ABOBA i18n loaded v4");
 
 (function () {
     const STORAGE_KEY = "aboba_analytics_language";
@@ -63,10 +63,10 @@ console.log("ABOBA i18n loaded v1");
         "Driver": "Пилот",
         "Drivers": "Пилоты",
         "Grade": "Класс",
-        "Safety": "Безопасность",
+        "Safety": "Safety",
         "Penalties": "Штрафы",
-        "Invalid / 100": "Невалид. / 100",
-        "Penalties / 100": "Штрафы / 100",
+        "Invalid / 100": "Inv. / 100",
+        "Penalties / 100": "Pen. / 100",
         "Track": "Трасса",
         "Car": "Машина",
         "Session": "Сессия",
@@ -78,11 +78,11 @@ console.log("ABOBA i18n loaded v1");
         "Entries": "Записи",
         "Server": "Сервер",
         "First Seen": "Первый раз",
-        "Last Seen": "Последний раз",
+        "Last Seen": "Last",
         "Date": "Дата",
         "Confidence": "Уверенность",
-        "Valid": "Валидные",
-        "Invalid": "Невалидные",
+        "Valid": "Valid",
+        "Invalid": "Invalid",
         "Favorite Car": "Любимая машина",
         "Favorite Track": "Любимая трасса",
         "Compare": "Сравнить",
