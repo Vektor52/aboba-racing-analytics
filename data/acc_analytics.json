@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-03 17:39:49",
+        "generated_at": "2026-07-03 17:57:05",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-04 17:39:49",
+        "active_cutoff": "2026-04-04 17:57:05",
         "data_source": "SQLite",
         "safety_model": "v1_1_laps_and_penalties_balanced",
         "excluded_server_name_parts": [
@@ -17,9 +17,9 @@
         "drivers_active": 513,
         "drivers_inactive": 0,
         "servers_total": 4,
-        "tracks_total": 6,
-        "sessions_total": 483,
-        "sessions_last_7_days": 144,
+        "tracks_total": 7,
+        "sessions_total": 484,
+        "sessions_last_7_days": 145,
         "new_drivers_last_7_days": 154,
         "lap_entries_total": 929,
         "cars_total": 27,
@@ -27,7 +27,7 @@
         "safety_penalties_total": 185,
         "trusted_drivers_total": 10,
         "risky_drivers_total": 109,
-        "last_activity": "2026-07-03 15:40:56",
+        "last_activity": "2026-07-03 17:49:30",
         "top_track": "spa",
         "top_track_sessions": 225,
         "top_car_model": 35,
@@ -51,10 +51,10 @@
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions_count": 61,
-            "tracks_count": 4,
+            "sessions_count": 62,
+            "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-03 15:40:56"
+            "last_seen": "2026-07-03 17:49:30"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -76,6 +76,12 @@
             "sessions_count": 22,
             "first_seen": "2026-06-21 20:49:40",
             "last_seen": "2026-07-03 15:40:56"
+        },
+        {
+            "track": "cota",
+            "sessions_count": 1,
+            "first_seen": "2026-07-03 17:49:30",
+            "last_seen": "2026-07-03 17:49:30"
         },
         {
             "track": "monza",
@@ -103,11 +109,11 @@
         }
     ],
     "activity_summary": {
-        "sessions": 483,
+        "sessions": 484,
         "drivers": 95,
         "laps": 7065,
         "servers": 4,
-        "tracks": 6,
+        "tracks": 7,
         "cars": 27,
         "active_days": 30,
         "first_activity": "2026-06-04",
@@ -377,11 +383,11 @@
         },
         {
             "date": "2026-07-03",
-            "sessions": 18,
+            "sessions": 19,
             "drivers": 18,
             "laps": 269,
             "servers": 3,
-            "tracks": 3,
+            "tracks": 4,
             "entries": 35
         }
     ],
@@ -408,13 +414,13 @@
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions": 61,
+            "sessions": 62,
             "drivers": 27,
             "laps": 264,
-            "tracks": 4,
+            "tracks": 5,
             "entries": 41,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-03 15:40:56"
+            "last_seen": "2026-07-03 17:49:30"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -493,6 +499,17 @@
             "best_lap": null,
             "best_driver": null,
             "last_seen": "2026-06-18 22:22:44"
+        },
+        {
+            "track": "cota",
+            "sessions": 1,
+            "drivers": 0,
+            "laps": 0,
+            "servers": 1,
+            "entries": 0,
+            "best_lap": null,
+            "best_driver": null,
+            "last_seen": "2026-07-03 17:49:30"
         }
     ],
     "activity_by_session_type": [
@@ -1208,9 +1225,9 @@
             "weekday_number": 5,
             "weekday": "Friday",
             "hour": 17,
-            "sessions": 1,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 2,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 6,
