@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-03 04:39:52",
+        "generated_at": "2026-07-03 04:57:05",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-04 04:39:52",
+        "active_cutoff": "2026-04-04 04:57:05",
         "data_source": "SQLite",
         "safety_model": "v1_1_laps_and_penalties_balanced",
         "excluded_server_name_parts": [
@@ -18,8 +18,8 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 6,
-        "sessions_total": 480,
-        "sessions_last_7_days": 144,
+        "sessions_total": 481,
+        "sessions_last_7_days": 145,
         "new_drivers_last_7_days": 156,
         "lap_entries_total": 928,
         "cars_total": 27,
@@ -27,7 +27,7 @@
         "safety_penalties_total": 185,
         "trusted_drivers_total": 11,
         "risky_drivers_total": 109,
-        "last_activity": "2026-07-03 03:15:56",
+        "last_activity": "2026-07-03 04:48:05",
         "top_track": "spa",
         "top_track_sessions": 224,
         "top_car_model": 35,
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
-            "sessions_count": 35,
+            "sessions_count": 36,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-03 03:15:56"
+            "last_seen": "2026-07-03 04:48:05"
         }
     ],
     "tracks": [
@@ -79,9 +79,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 39,
+            "sessions_count": 40,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-07-03 03:15:56"
+            "last_seen": "2026-07-03 04:48:05"
         },
         {
             "track": "nurburgring_24h",
@@ -103,7 +103,7 @@
         }
     ],
     "activity_summary": {
-        "sessions": 480,
+        "sessions": 481,
         "drivers": 95,
         "laps": 7060,
         "servers": 4,
@@ -377,7 +377,7 @@
         },
         {
             "date": "2026-07-03",
-            "sessions": 15,
+            "sessions": 16,
             "drivers": 17,
             "laps": 264,
             "servers": 2,
@@ -418,13 +418,13 @@
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
-            "sessions": 35,
+            "sessions": 36,
             "drivers": 92,
             "laps": 1323,
             "tracks": 1,
             "entries": 154,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-03 03:15:56"
+            "last_seen": "2026-07-03 04:48:05"
         }
     ],
     "activity_by_track": [
@@ -452,14 +452,14 @@
         },
         {
             "track": "monza",
-            "sessions": 39,
+            "sessions": 40,
             "drivers": 92,
             "laps": 1323,
             "servers": 2,
             "entries": 154,
             "best_lap": 107510,
             "best_driver": "Riccardo Chiesa",
-            "last_seen": "2026-07-03 03:15:56"
+            "last_seen": "2026-07-03 04:48:05"
         },
         {
             "track": "barcelona",
@@ -897,6 +897,14 @@
             "weekday": "Wednesday",
             "hour": 4,
             "sessions": 2,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 5,
+            "weekday": "Friday",
+            "hour": 4,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
