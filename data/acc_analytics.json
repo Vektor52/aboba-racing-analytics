@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-03 15:39:49",
+        "generated_at": "2026-07-03 15:57:05",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-04 15:39:49",
+        "active_cutoff": "2026-04-04 15:57:05",
         "data_source": "SQLite",
         "safety_model": "v1_1_laps_and_penalties_balanced",
         "excluded_server_name_parts": [
@@ -18,21 +18,21 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 6,
-        "sessions_total": 482,
-        "sessions_last_7_days": 143,
+        "sessions_total": 483,
+        "sessions_last_7_days": 144,
         "new_drivers_last_7_days": 154,
-        "lap_entries_total": 928,
+        "lap_entries_total": 929,
         "cars_total": 27,
-        "safety_laps_total": 7060,
+        "safety_laps_total": 7065,
         "safety_penalties_total": 185,
-        "trusted_drivers_total": 11,
+        "trusted_drivers_total": 10,
         "risky_drivers_total": 109,
-        "last_activity": "2026-07-03 15:02:46",
+        "last_activity": "2026-07-03 15:40:56",
         "top_track": "spa",
         "top_track_sessions": 225,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 229
+        "top_car_entries": 230
     },
     "servers": [
         {
@@ -51,10 +51,10 @@
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions_count": 60,
+            "sessions_count": 61,
             "tracks_count": 4,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-02 18:26:28"
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -73,9 +73,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 21,
+            "sessions_count": 22,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-07-02 18:26:28"
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "track": "monza",
@@ -103,9 +103,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 482,
+        "sessions": 483,
         "drivers": 95,
-        "laps": 7060,
+        "laps": 7065,
         "servers": 4,
         "tracks": 6,
         "cars": 27,
@@ -377,12 +377,12 @@
         },
         {
             "date": "2026-07-03",
-            "sessions": 17,
-            "drivers": 17,
-            "laps": 264,
-            "servers": 2,
-            "tracks": 2,
-            "entries": 34
+            "sessions": 18,
+            "drivers": 18,
+            "laps": 269,
+            "servers": 3,
+            "tracks": 3,
+            "entries": 35
         }
     ],
     "activity_by_server": [
@@ -408,13 +408,13 @@
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
-            "sessions": 60,
-            "drivers": 26,
-            "laps": 259,
+            "sessions": 61,
+            "drivers": 27,
+            "laps": 264,
             "tracks": 4,
-            "entries": 40,
+            "entries": 41,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-02 18:26:28"
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -474,14 +474,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 21,
-            "drivers": 7,
-            "laps": 27,
+            "sessions": 22,
+            "drivers": 8,
+            "laps": 32,
             "servers": 1,
-            "entries": 8,
+            "entries": 9,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
-            "last_seen": "2026-07-02 18:26:28"
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "track": "nurburgring_24h",
@@ -505,8 +505,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 130,
-            "entries": 372,
+            "sessions": 131,
+            "entries": 373,
             "drivers": 295,
             "best_lap": 89497
         },
@@ -522,8 +522,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 229,
-            "sessions": 137,
+            "entries": 230,
+            "sessions": 138,
             "drivers": 118,
             "tracks": 5,
             "best_lap": 87940
@@ -1112,9 +1112,9 @@
             "weekday_number": 5,
             "weekday": "Friday",
             "hour": 15,
-            "sessions": 1,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 2,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 6,
@@ -1526,6 +1526,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-07-03",
+            "server_name": "ABOBA RACING Brands Hatch /VOLGA-RUS/",
+            "track": "brands_hatch",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 5,
+            "best_lap": 93062,
+            "best_driver": "Maxim Silyutin"
+        },
         {
             "date": "2026-07-03",
             "server_name": "ABOBA RACING MONZA /VOLGA-RUS/",
@@ -6463,14 +6475,14 @@
         {
             "driver": "Maxim Silyutin",
             "first_seen": "2026-06-28 00:12:02",
-            "last_seen": "2026-06-28 00:33:35",
-            "days_since_last_seen": 5,
+            "last_seen": "2026-07-03 15:40:56",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
             "cars_count": 1,
-            "entries_count": 3
+            "entries_count": 4
         },
         {
             "driver": "Maxim Soska",
@@ -9747,6 +9759,26 @@
             "favorite_car_name": "Lexus RC F GT3"
         },
         {
+            "driver": "Maxim Silyutin",
+            "active": true,
+            "first_seen": "2026-06-28 00:12:02",
+            "last_seen": "2026-07-03 15:40:56",
+            "days_since_last_seen": 0,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "cars_count": 1,
+            "entries_count": 4,
+            "best_lap": 93062,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "zolder",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
+        {
             "driver": "Ekaterina Brysina",
             "active": true,
             "first_seen": "2026-06-04 21:24:23",
@@ -10925,26 +10957,6 @@
             "favorite_track": "zolder",
             "favorite_car_model": 0,
             "favorite_car_name": "Porsche 991 GT3 R"
-        },
-        {
-            "driver": "Maxim Silyutin",
-            "active": true,
-            "first_seen": "2026-06-28 00:12:02",
-            "last_seen": "2026-06-28 00:33:35",
-            "days_since_last_seen": 5,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 3,
-            "best_lap": 100030,
-            "best_track": "zolder",
-            "best_session": "Practice",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "zolder",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
             "driver": "Zhargal Aiurov",
@@ -38914,22 +38926,34 @@
             "driver": "Maxim Silyutin",
             "active": true,
             "first_seen": "2026-06-28 00:12:02",
-            "last_seen": "2026-06-28 00:33:35",
-            "days_since_last_seen": 5,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
+            "last_seen": "2026-07-03 15:40:56",
+            "days_since_last_seen": 0,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
             "cars_count": 1,
-            "entries_count": 3,
-            "total_laps": 21,
-            "valid_laps": 16,
-            "invalid_laps": 5,
-            "best_lap": 100030,
-            "best_track": "zolder",
-            "best_session": "Practice",
+            "entries_count": 4,
+            "total_laps": 26,
+            "valid_laps": 19,
+            "invalid_laps": 7,
+            "best_lap": 93062,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
             "best_car_model": 35,
             "best_car_name": "McLaren 720S GT3 Evo 2023",
             "track_bests": [
+                {
+                    "track": "brands_hatch",
+                    "best_lap": 93062,
+                    "sector1": 30127,
+                    "sector2": 23802,
+                    "sector3": 38982,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING Brands Hatch /VOLGA-RUS/",
+                    "session_date": "2026-07-03 15:40:56"
+                },
                 {
                     "track": "zolder",
                     "best_lap": 100030,
@@ -38947,10 +38971,10 @@
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 3,
-                    "tracks": 1,
-                    "best_lap": 100030,
-                    "best_track": "zolder"
+                    "entries": 4,
+                    "tracks": 2,
+                    "best_lap": 93062,
+                    "best_track": "brands_hatch"
                 }
             ],
             "server_usage": [
@@ -38959,6 +38983,12 @@
                     "entries": 3,
                     "tracks": 1,
                     "last_seen": "2026-06-28 00:33:35"
+                },
+                {
+                    "server_name": "ABOBA RACING Brands Hatch /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-03 15:40:56"
                 }
             ],
             "session_types": [
@@ -38969,8 +38999,8 @@
                 },
                 {
                     "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 101370
+                    "entries": 2,
+                    "best_lap": 93062
                 }
             ]
         },
@@ -51351,11 +51381,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 118,
-            "entries": 229,
+            "entries": 230,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
             "best_track": "brands_hatch",
-            "avg_lap": 128428
+            "avg_lap": 128274
         },
         {
             "car_model": 6,
@@ -51623,11 +51653,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 118,
-            "entries": 229,
+            "entries": 230,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
             "best_track": "brands_hatch",
-            "avg_lap": 128428
+            "avg_lap": 128274
         },
         {
             "car_model": 6,
@@ -52932,26 +52962,6 @@
             "last_seen": "2026-06-23 00:39:32"
         },
         {
-            "driver": "Maxim Silyutin",
-            "safety_score": 85.7,
-            "grade": "A",
-            "confidence": "medium",
-            "total_laps": 21,
-            "valid_laps": 16,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.762,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 23.81,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-28 00:12:02",
-            "last_seen": "2026-06-28 00:33:35"
-        },
-        {
             "driver": "Bram Holscher",
             "safety_score": 85.0,
             "grade": "A",
@@ -53190,6 +53200,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-13 20:19:56",
             "last_seen": "2026-06-13 20:43:50"
+        },
+        {
+            "driver": "Maxim Silyutin",
+            "safety_score": 83.8,
+            "grade": "B",
+            "confidence": "medium",
+            "total_laps": 26,
+            "valid_laps": 19,
+            "invalid_laps": 7,
+            "valid_lap_ratio": 0.731,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 26.92,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-06-28 00:12:02",
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "driver": "Lec H",
@@ -66034,26 +66064,6 @@
             "last_seen": "2026-06-23 00:39:32"
         },
         {
-            "driver": "Maxim Silyutin",
-            "safety_score": 85.7,
-            "grade": "A",
-            "confidence": "medium",
-            "total_laps": 21,
-            "valid_laps": 16,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.762,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 23.81,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-28 00:12:02",
-            "last_seen": "2026-06-28 00:33:35"
-        },
-        {
             "driver": "Bram Holscher",
             "safety_score": 85.0,
             "grade": "A",
@@ -66292,6 +66302,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-13 20:19:56",
             "last_seen": "2026-06-13 20:43:50"
+        },
+        {
+            "driver": "Maxim Silyutin",
+            "safety_score": 83.8,
+            "grade": "B",
+            "confidence": "medium",
+            "total_laps": 26,
+            "valid_laps": 19,
+            "invalid_laps": 7,
+            "valid_lap_ratio": 0.731,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 26.92,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-06-28 00:12:02",
+            "last_seen": "2026-07-03 15:40:56"
         },
         {
             "driver": "Lec H",
