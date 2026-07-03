@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-03 14:57:05",
+        "generated_at": "2026-07-03 15:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-04 14:57:05",
+        "active_cutoff": "2026-04-04 15:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_1_laps_and_penalties_balanced",
         "excluded_server_name_parts": [
@@ -18,8 +18,8 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 6,
-        "sessions_total": 481,
-        "sessions_last_7_days": 142,
+        "sessions_total": 482,
+        "sessions_last_7_days": 143,
         "new_drivers_last_7_days": 154,
         "lap_entries_total": 928,
         "cars_total": 27,
@@ -27,9 +27,9 @@
         "safety_penalties_total": 185,
         "trusted_drivers_total": 11,
         "risky_drivers_total": 109,
-        "last_activity": "2026-07-03 04:48:05",
+        "last_activity": "2026-07-03 15:02:46",
         "top_track": "spa",
-        "top_track_sessions": 224,
+        "top_track_sessions": 225,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 229
@@ -37,10 +37,10 @@
     "servers": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions_count": 224,
+            "sessions_count": 225,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-03 02:48:39"
+            "last_seen": "2026-07-03 15:02:46"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
@@ -91,9 +91,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 224,
+            "sessions_count": 225,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-03 02:48:39"
+            "last_seen": "2026-07-03 15:02:46"
         },
         {
             "track": "zolder",
@@ -103,7 +103,7 @@
         }
     ],
     "activity_summary": {
-        "sessions": 481,
+        "sessions": 482,
         "drivers": 95,
         "laps": 7060,
         "servers": 4,
@@ -377,7 +377,7 @@
         },
         {
             "date": "2026-07-03",
-            "sessions": 16,
+            "sessions": 17,
             "drivers": 17,
             "laps": 264,
             "servers": 2,
@@ -388,13 +388,13 @@
     "activity_by_server": [
         {
             "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
-            "sessions": 224,
+            "sessions": 225,
             "drivers": 326,
             "laps": 3923,
             "tracks": 1,
             "entries": 533,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-03 02:48:39"
+            "last_seen": "2026-07-03 15:02:46"
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
@@ -430,14 +430,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 224,
+            "sessions": 225,
             "drivers": 326,
             "laps": 3923,
             "servers": 1,
             "entries": 533,
             "best_lap": 138487,
             "best_driver": "Anatoliy Rubtsevich",
-            "last_seen": "2026-07-03 02:48:39"
+            "last_seen": "2026-07-03 15:02:46"
         },
         {
             "track": "zolder",
@@ -1105,6 +1105,14 @@
             "weekday": "Wednesday",
             "hour": 15,
             "sessions": 2,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 5,
+            "weekday": "Friday",
+            "hour": 15,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
