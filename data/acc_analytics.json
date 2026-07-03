@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-04 00:26:34",
+        "generated_at": "2026-07-04 00:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-05 00:26:34",
+        "active_cutoff": "2026-04-05 00:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_1_laps_and_penalties_balanced",
         "excluded_server_name_parts": [
@@ -18,21 +18,21 @@
         "drivers_inactive": 0,
         "servers_total": 4,
         "tracks_total": 7,
-        "sessions_total": 500,
-        "sessions_last_7_days": 161,
+        "sessions_total": 501,
+        "sessions_last_7_days": 162,
         "new_drivers_last_7_days": 173,
-        "lap_entries_total": 976,
+        "lap_entries_total": 978,
         "cars_total": 27,
-        "safety_laps_total": 7382,
-        "safety_penalties_total": 224,
+        "safety_laps_total": 7386,
+        "safety_penalties_total": 226,
         "trusted_drivers_total": 11,
         "risky_drivers_total": 114,
-        "last_activity": "2026-07-04 00:23:59",
+        "last_activity": "2026-07-04 00:31:03",
         "top_track": "spa",
         "top_track_sessions": 228,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 243
+        "top_car_entries": 244
     },
     "servers": [
         {
@@ -44,10 +44,10 @@
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-            "sessions_count": 166,
+            "sessions_count": 167,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-04 00:23:59"
+            "last_seen": "2026-07-04 00:31:03"
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
@@ -103,15 +103,15 @@
         },
         {
             "track": "zolder",
-            "sessions_count": 166,
+            "sessions_count": 167,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-04 00:23:59"
+            "last_seen": "2026-07-04 00:31:03"
         }
     ],
     "activity_summary": {
-        "sessions": 500,
+        "sessions": 501,
         "drivers": 95,
-        "laps": 7382,
+        "laps": 7386,
         "servers": 4,
         "tracks": 7,
         "cars": 27,
@@ -392,12 +392,12 @@
         },
         {
             "date": "2026-07-04",
-            "sessions": 2,
+            "sessions": 3,
             "drivers": 3,
-            "laps": 33,
+            "laps": 37,
             "servers": 1,
             "tracks": 1,
-            "entries": 5
+            "entries": 7
         }
     ],
     "activity_by_server": [
@@ -413,13 +413,13 @@
         },
         {
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-            "sessions": 166,
+            "sessions": 167,
             "drivers": 113,
-            "laps": 1821,
+            "laps": 1825,
             "tracks": 1,
-            "entries": 240,
+            "entries": 242,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-04 00:23:59"
+            "last_seen": "2026-07-04 00:31:03"
         },
         {
             "server_name": "ABOBA RACING NURBURGRING 24 /VOLGA-RUS/",
@@ -456,14 +456,14 @@
         },
         {
             "track": "zolder",
-            "sessions": 166,
+            "sessions": 167,
             "drivers": 113,
-            "laps": 1821,
+            "laps": 1825,
             "servers": 1,
-            "entries": 240,
+            "entries": 242,
             "best_lap": 88797,
             "best_driver": "Fernando Andrade",
-            "last_seen": "2026-07-04 00:23:59"
+            "last_seen": "2026-07-04 00:31:03"
         },
         {
             "track": "monza",
@@ -524,8 +524,8 @@
     "activity_by_session_type": [
         {
             "session_type": "Practice",
-            "sessions": 22,
-            "entries": 55,
+            "sessions": 23,
+            "entries": 57,
             "drivers": 31,
             "best_lap": 87940
         },
@@ -548,8 +548,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 243,
-            "sessions": 143,
+            "entries": 244,
+            "sessions": 144,
             "drivers": 121,
             "tracks": 5,
             "best_lap": 87940
@@ -575,8 +575,8 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 102,
-            "sessions": 61,
+            "entries": 103,
+            "sessions": 62,
             "drivers": 65,
             "tracks": 3,
             "best_lap": 89805
@@ -834,7 +834,7 @@
             "weekday_number": 6,
             "weekday": "Saturday",
             "hour": 0,
-            "sessions": 9,
+            "sessions": 10,
             "servers": 3,
             "tracks": 3
         },
@@ -1557,10 +1557,10 @@
             "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
             "track": "zolder",
             "session_type": "Practice",
-            "sessions": 1,
-            "entries": 3,
+            "sessions": 2,
+            "entries": 5,
             "drivers": 3,
-            "laps": 33,
+            "laps": 37,
             "best_lap": 90910,
             "best_driver": "Sergey Guk"
         },
@@ -1572,7 +1572,7 @@
             "sessions": 1,
             "entries": 2,
             "drivers": 2,
-            "laps": 33,
+            "laps": 37,
             "best_lap": 91402,
             "best_driver": "Sergey Guk"
         },
@@ -4101,14 +4101,14 @@
         {
             "driver": "Damiano Conti",
             "first_seen": "2026-07-04 00:14:03",
-            "last_seen": "2026-07-04 00:14:03",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Dan Valeanu",
@@ -4449,14 +4449,14 @@
         {
             "driver": "Ekaterina Brysina",
             "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-07-04 00:23:59",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 33,
+            "sessions_count": 34,
             "tracks_count": 3,
             "servers_count": 3,
             "cars_count": 7,
-            "entries_count": 35
+            "entries_count": 36
         },
         {
             "driver": "Elegant Kid",
@@ -9836,13 +9836,13 @@
             "driver": "Ekaterina Brysina",
             "active": true,
             "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-07-04 00:23:59",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
-            "sessions_count": 33,
+            "sessions_count": 34,
             "tracks_count": 3,
             "servers_count": 3,
             "cars_count": 7,
-            "entries_count": 35,
+            "entries_count": 36,
             "best_lap": 91222,
             "best_track": "zolder",
             "best_session": "Race",
@@ -10756,13 +10756,13 @@
             "driver": "Damiano Conti",
             "active": true,
             "first_seen": "2026-07-04 00:14:03",
-            "last_seen": "2026-07-04 00:14:03",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 94360,
             "best_track": "zolder",
             "best_session": "Practice",
@@ -26755,15 +26755,15 @@
             "driver": "Damiano Conti",
             "active": true,
             "first_seen": "2026-07-04 00:14:03",
-            "last_seen": "2026-07-04 00:14:03",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 6,
-            "valid_laps": 2,
+            "entries_count": 2,
+            "total_laps": 7,
+            "valid_laps": 3,
             "invalid_laps": 4,
             "best_lap": 94360,
             "best_track": "zolder",
@@ -26788,7 +26788,7 @@
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 94360,
                     "best_track": "zolder"
@@ -26797,15 +26797,15 @@
             "server_usage": [
                 {
                     "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-04 00:14:03"
+                    "last_seen": "2026-07-04 00:31:03"
                 }
             ],
             "session_types": [
                 {
                     "session": "Practice",
-                    "entries": 1,
+                    "entries": 2,
                     "best_lap": 94360
                 }
             ]
@@ -28575,16 +28575,16 @@
             "driver": "Ekaterina Brysina",
             "active": true,
             "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-07-04 00:23:59",
+            "last_seen": "2026-07-04 00:31:03",
             "days_since_last_seen": 0,
-            "sessions_count": 33,
+            "sessions_count": 34,
             "tracks_count": 3,
             "servers_count": 3,
             "cars_count": 7,
-            "entries_count": 35,
-            "total_laps": 208,
-            "valid_laps": 117,
-            "invalid_laps": 91,
+            "entries_count": 36,
+            "total_laps": 211,
+            "valid_laps": 118,
+            "invalid_laps": 93,
             "best_lap": 91222,
             "best_track": "zolder",
             "best_session": "Race",
@@ -28632,7 +28632,7 @@
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 18,
+                    "entries": 19,
                     "tracks": 2,
                     "best_lap": 91222,
                     "best_track": "zolder"
@@ -28689,9 +28689,9 @@
             "server_usage": [
                 {
                     "server_name": "ABOBA RACING ZOLDER /VOLGA-RUS/",
-                    "entries": 27,
+                    "entries": 28,
                     "tracks": 1,
-                    "last_seen": "2026-07-04 00:23:59"
+                    "last_seen": "2026-07-04 00:31:03"
                 },
                 {
                     "server_name": "ABOBA RACING SPA /VOLGA-RUS/",
@@ -28709,8 +28709,8 @@
             "session_types": [
                 {
                     "session": "Practice",
-                    "entries": 13,
-                    "best_lap": 91697
+                    "entries": 14,
+                    "best_lap": 91640
                 },
                 {
                     "session": "Qualifying",
@@ -53337,11 +53337,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 121,
-            "entries": 243,
+            "entries": 244,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
             "best_track": "brands_hatch",
-            "avg_lap": 126419
+            "avg_lap": 126277
         },
         {
             "car_model": 6,
@@ -53377,11 +53377,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 65,
-            "entries": 102,
+            "entries": 103,
             "best_lap": 89805,
             "best_driver": "Marc Poelenjee",
             "best_track": "zolder",
-            "avg_lap": 136897
+            "avg_lap": 136552
         },
         {
             "car_model": 33,
@@ -53609,11 +53609,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 121,
-            "entries": 243,
+            "entries": 244,
             "best_lap": 87940,
             "best_driver": "Andrew Barzykin",
             "best_track": "brands_hatch",
-            "avg_lap": 126419
+            "avg_lap": 126277
         },
         {
             "car_model": 6,
@@ -53649,11 +53649,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 65,
-            "entries": 102,
+            "entries": 103,
             "best_lap": 89805,
             "best_driver": "Marc Poelenjee",
             "best_track": "zolder",
-            "avg_lap": 136897
+            "avg_lap": 136552
         },
         {
             "car_model": 33,
@@ -57838,26 +57838,6 @@
             "last_seen": "2026-06-29 16:51:50"
         },
         {
-            "driver": "Ekaterina Brysina",
-            "safety_score": 67.5,
-            "grade": "C",
-            "confidence": "high",
-            "total_laps": 208,
-            "valid_laps": 117,
-            "invalid_laps": 91,
-            "valid_lap_ratio": 0.562,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 43.75,
-            "penalties_per_100": 0.96,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 36,
-            "tracks_count": 4,
-            "servers_count": 4,
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-07-04 00:23:59"
-        },
-        {
             "driver": "Artemiy Razmaev",
             "safety_score": 67.3,
             "grade": "C",
@@ -58336,6 +58316,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-18 17:24:05",
             "last_seen": "2026-06-18 17:46:13"
+        },
+        {
+            "driver": "Damiano Conti",
+            "safety_score": 65.7,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 7,
+            "valid_laps": 3,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.429,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 57.14,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-04 00:14:03",
+            "last_seen": "2026-07-04 00:31:03"
         },
         {
             "driver": "Spam Spam",
@@ -59338,6 +59338,26 @@
             "last_seen": "2026-06-04 22:35:11"
         },
         {
+            "driver": "Ekaterina Brysina",
+            "safety_score": 61.2,
+            "grade": "C",
+            "confidence": "high",
+            "total_laps": 211,
+            "valid_laps": 118,
+            "invalid_laps": 93,
+            "valid_lap_ratio": 0.559,
+            "penalties_count": 4,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 44.08,
+            "penalties_per_100": 1.9,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 37,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-07-04 00:31:03"
+        },
+        {
             "driver": "Kashir19 TOPRACING",
             "safety_score": 61.2,
             "grade": "C",
@@ -59736,26 +59756,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 17:38:52",
             "last_seen": "2026-06-29 17:38:52"
-        },
-        {
-            "driver": "Damiano Conti",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "low",
-            "total_laps": 6,
-            "valid_laps": 2,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-04 00:14:03",
-            "last_seen": "2026-07-04 00:14:03"
         },
         {
             "driver": "Greg Bolle",
@@ -71420,26 +71420,6 @@
             "last_seen": "2026-06-29 16:51:50"
         },
         {
-            "driver": "Ekaterina Brysina",
-            "safety_score": 67.5,
-            "grade": "C",
-            "confidence": "high",
-            "total_laps": 208,
-            "valid_laps": 117,
-            "invalid_laps": 91,
-            "valid_lap_ratio": 0.562,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 43.75,
-            "penalties_per_100": 0.96,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 36,
-            "tracks_count": 4,
-            "servers_count": 4,
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-07-04 00:23:59"
-        },
-        {
             "driver": "Artemiy Razmaev",
             "safety_score": 67.3,
             "grade": "C",
@@ -71918,6 +71898,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-18 17:24:05",
             "last_seen": "2026-06-18 17:46:13"
+        },
+        {
+            "driver": "Damiano Conti",
+            "safety_score": 65.7,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 7,
+            "valid_laps": 3,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.429,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 57.14,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-04 00:14:03",
+            "last_seen": "2026-07-04 00:31:03"
         },
         {
             "driver": "Spam Spam",
@@ -72920,6 +72920,26 @@
             "last_seen": "2026-06-04 22:35:11"
         },
         {
+            "driver": "Ekaterina Brysina",
+            "safety_score": 61.2,
+            "grade": "C",
+            "confidence": "high",
+            "total_laps": 211,
+            "valid_laps": 118,
+            "invalid_laps": 93,
+            "valid_lap_ratio": 0.559,
+            "penalties_count": 4,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 44.08,
+            "penalties_per_100": 1.9,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 37,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-07-04 00:31:03"
+        },
+        {
             "driver": "Kashir19 TOPRACING",
             "safety_score": 61.2,
             "grade": "C",
@@ -73318,26 +73338,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 17:38:52",
             "last_seen": "2026-06-29 17:38:52"
-        },
-        {
-            "driver": "Damiano Conti",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "low",
-            "total_laps": 6,
-            "valid_laps": 2,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-04 00:14:03",
-            "last_seen": "2026-07-04 00:14:03"
         },
         {
             "driver": "Greg Bolle",
