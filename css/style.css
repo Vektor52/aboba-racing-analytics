@@ -1797,3 +1797,113 @@ svg,
         font-size: 13px;
     }
 }
+
+/* ===== TABLE AUTO WIDTH + MOBILE SCROLL FIX ===== */
+/* Keep table content readable on mobile: tables may be wider than the screen,
+   but their own container scrolls horizontally instead of clipping the page. */
+.table-scroll,
+.home-table-scroll,
+.mini-table-scroll,
+.heatmap-scroll {
+    max-width: 100%;
+    overflow-x: auto !important;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+}
+
+.home-table-scroll {
+    margin: 10px 0 22px 0;
+    border-radius: 14px;
+    border: 1px solid #292929;
+    background: rgba(16, 16, 16, 0.72);
+}
+
+.home-table-scroll table,
+.table-scroll table,
+.mini-table-scroll table {
+    width: max-content !important;
+    min-width: 100% !important;
+    table-layout: auto !important;
+    margin: 0 !important;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.home-table-scroll th,
+.home-table-scroll td,
+.table-scroll th,
+.table-scroll td,
+.mini-table-scroll th,
+.mini-table-scroll td {
+    width: auto !important;
+    min-width: max-content;
+    max-width: none !important;
+    white-space: nowrap;
+    text-align: center !important;
+    vertical-align: middle;
+    overflow: visible !important;
+    text-overflow: clip !important;
+}
+
+/* Slightly more room for naturally long content columns. */
+.home-table-scroll td:first-child,
+.home-table-scroll th:first-child,
+.driver-table-scroll td:nth-child(3),
+.driver-table-scroll th:nth-child(3),
+.driver-table-scroll td:nth-child(9),
+.driver-table-scroll th:nth-child(9),
+.driver-table-scroll td:nth-child(10),
+.driver-table-scroll th:nth-child(10) {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Sticky header inside scroll containers. */
+.table-scroll thead th,
+.home-table-scroll thead th,
+.mini-table-scroll thead th {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: linear-gradient(180deg, #2d2d2d 0%, #202020 100%);
+}
+
+/* Main-page tables should never be clipped on phones. */
+@media (max-width: 900px) {
+    .home-table-scroll table,
+    #currentRecordsTable,
+    #carsTable,
+    #serversTable {
+        min-width: max-content !important;
+        width: max-content !important;
+    }
+
+    .home-table-scroll th,
+    .home-table-scroll td {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+}
+
+/* Driver Analytics: let columns fit content, and use horizontal scroll for the full table. */
+.driver-table-scroll table {
+    min-width: max-content !important;
+    width: max-content !important;
+}
+
+.driver-table-scroll th,
+.driver-table-scroll td {
+    min-width: max-content;
+}
+
+/* Safety page still needs enough width for all numeric columns, but without huge empty columns. */
+.safety-table-scroll table {
+    min-width: max-content !important;
+    width: max-content !important;
+}
+
+.safety-table-scroll th,
+.safety-table-scroll td {
+    min-width: max-content;
+}
