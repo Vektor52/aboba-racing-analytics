@@ -1,4 +1,4 @@
-console.log("ABOBA i18n loaded v5");
+console.log("ABOBA i18n loaded v8");
 
 (function () {
     const STORAGE_KEY = "aboba_analytics_language";
@@ -37,7 +37,7 @@ console.log("ABOBA i18n loaded v5");
         "+3 points for 15+ laps": "+3 балла за 15+ кругов",
         "Invalid laps are already included in the formula, so the bonus rewards clean participation without requiring every lap to be valid.": "Невалидные круги уже учтены в формуле, поэтому бонус награждает чистое участие без требования делать каждый круг валидным.",
         "Grades: S 95–100, A 85–94.9, B 75–84.9, C 60–74.9, D below 60.": "Классы: S 95–100, A 85–94.9, B 75–84.9, C 60–74.9, D ниже 60.",
-        "Confidence depends only on total laps: very low under 5, low under 15, medium under 50, high from 50 laps.": "Уверенность зависит только от количества кругов: very low меньше 5, low меньше 15, medium меньше 50, high от 50 кругов.",
+        "Confidence depends only on total laps: very low under 20, low from 20, medium from 50, high from 80, veteran from 150, legend from 285, Server Legend 🏆 from 375 laps.": "Уверенность зависит только от количества кругов: very low меньше 20, low от 20, medium от 50, high от 80, veteran от 150, legend от 285, Server Legend 🏆 от 375 кругов.",
         "Current rating uses ACC result files only. Contacts, damage events and live incidents are not included yet and are planned for v3-live.": "Текущий рейтинг использует только result-файлы ACC. Контакты, damage events и live-инциденты пока не учитываются и запланированы для v3-live.",
         "Activity Dashboard": "Панель активности",
         "Activity Details": "Детали активности",
