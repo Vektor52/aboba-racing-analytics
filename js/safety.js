@@ -1,333 +1,277 @@
-console.log("Safety Rating V1 loaded");
+console.log("ABOBA safety.js loaded v7");
 
-let analyticsData = null;
+let safetyData = null;
+let safetySource = "active";
+let safetyView = "all";
+let safetySort = "laps";
 
-let currentSafetyMode = "active";
-let currentViewMode = "trusted";
-let currentSortMode = "safety";
+const TRUSTED_CONFIDENCE = ["medium", "high", "veteran", "legend", "server_legend 🏆", "Server Legend 🏆"];
+const CONFIDENCE_RANK = {
+    "very_low": 0,
+    "very low": 0,
+    "low": 1,
+    "medium": 2,
+    "high": 3,
+    "veteran": 4,
+    "legend": 5,
+    "server_legend 🏆": 6,
+    "server legend 🏆": 6,
+    "Server Legend 🏆": 6
+};
 
-function formatDate(dateText)
-{
-    if (!dateText) return "-";
-    return dateText.substring(0, 10);
+function fmtNumber(value) {
+    if (value === null || value === undefined || value === "") return "-";
+    return Number(value).toLocaleString("en-US");
 }
 
-function confidenceWeight(confidence)
-{
-    if (confidence === "high") return 4;
-    if (confidence === "medium") return 3;
-    if (confidence === "low") return 2;
-    if (confidence === "very_low") return 1;
-    return 0;
+function fmtScore(value) {
+    if (value === null || value === undefined || value === "") return "-";
+    const number = Number(value);
+    if (!Number.isFinite(number)) return "-";
+    return Number.isInteger(number) ? String(number) : number.toFixed(1).replace(/\.0$/, "");
 }
 
-function confidenceLabel(confidence)
-{
-    if (confidence === "high") return "🟢 High";
-    if (confidence === "medium") return "🟡 Medium";
-    if (confidence === "low") return "🟠 Low";
-    if (confidence === "very_low") return "🔴 Very low";
-    return "-";
+function safeText(value) {
+    if (value === null || value === undefined || value === "") return "-";
+    return String(value);
 }
 
-function gradeClass(grade)
-{
-    if (grade === "S") return "grade-s";
-    if (grade === "A") return "grade-a";
-    if (grade === "B") return "grade-b";
-    if (grade === "C") return "grade-c";
-    return "grade-d";
+function normalizeConfidence(value) {
+    const raw = safeText(value);
+    const key = raw.toLowerCase();
+
+    if (key === "server_legend 🏆" || key === "server legend 🏆") return "Server Legend 🏆";
+    if (key === "very_low" || key === "very low") return "Very low";
+
+    return raw.charAt(0).toUpperCase() + raw.slice(1);
 }
 
-function getSafetySource()
-{
-    if (!analyticsData) return [];
+function confidenceRank(row) {
+    const key = String(row.confidence || "").toLowerCase();
+    return CONFIDENCE_RANK[key] ?? 0;
+}
 
-    if (currentSafetyMode === "lifetime")
-    {
-        return analyticsData.lifetime_safety_rating || [];
+function isTrusted(row) {
+    return TRUSTED_CONFIDENCE.includes(row.confidence) || confidenceRank(row) >= 2;
+}
+
+function isRisky(row) {
+    return isTrusted(row) && ["C", "D"].includes(row.grade);
+}
+
+function getRows() {
+    if (!safetyData) return [];
+
+    const rows = safetySource === "lifetime"
+        ? (safetyData.lifetime_safety_rating || [])
+        : (safetyData.active_safety_rating || []);
+
+    let result = [...rows];
+
+    if (safetyView === "trusted") {
+        result = result.filter(isTrusted);
     }
 
-    return analyticsData.active_safety_rating || [];
-}
+    const searchInput = document.getElementById("safetySearch");
+    const query = searchInput ? searchInput.value.trim().toLowerCase() : "";
 
-function getVisibleSafety()
-{
-    let rows = getSafetySource();
-
-    if (currentViewMode === "trusted")
-    {
-        rows = rows.filter(row => {
-            return row.confidence === "high" || row.confidence === "medium";
-        });
+    if (query) {
+        result = result.filter(row => String(row.driver || "").toLowerCase().includes(query));
     }
 
-    const search = document
-        .querySelector("#safetySearch")
-        .value
-        .trim()
-        .toLowerCase();
+    result.sort((a, b) => {
+        if (safetySort === "safety") {
+            return (b.safety_score || 0) - (a.safety_score || 0)
+                || (b.total_laps || 0) - (a.total_laps || 0)
+                || String(a.driver || "").localeCompare(String(b.driver || ""));
+        }
 
-    if (search.length > 0)
-    {
-        rows = rows.filter(row => {
-            return row.driver.toLowerCase().includes(search);
-        });
-    }
+        if (safetySort === "penalties") {
+            return (a.penalties_per_100 || 0) - (b.penalties_per_100 || 0)
+                || (a.penalties_count || 0) - (b.penalties_count || 0)
+                || (b.total_laps || 0) - (a.total_laps || 0)
+                || String(a.driver || "").localeCompare(String(b.driver || ""));
+        }
 
-    return rows;
-}
-
-function sortSafety(rows)
-{
-    let sorted = [...rows];
-
-    if (currentSortMode === "safety")
-    {
-        sorted.sort((a, b) => {
-            if (confidenceWeight(b.confidence) !== confidenceWeight(a.confidence))
-            {
-                return confidenceWeight(b.confidence) - confidenceWeight(a.confidence);
-            }
-
-            if (b.safety_score !== a.safety_score)
-            {
-                return b.safety_score - a.safety_score;
-            }
-
-            return b.total_laps - a.total_laps;
-        });
-    }
-
-    if (currentSortMode === "laps")
-    {
-        sorted.sort((a, b) => {
-            if (b.total_laps !== a.total_laps)
-            {
-                return b.total_laps - a.total_laps;
-            }
-
-            return b.safety_score - a.safety_score;
-        });
-    }
-
-    if (currentSortMode === "penalties")
-    {
-        sorted.sort((a, b) => {
-            if (a.penalties_per_100 !== b.penalties_per_100)
-            {
-                return a.penalties_per_100 - b.penalties_per_100;
-            }
-
-            if (a.invalid_laps_per_100 !== b.invalid_laps_per_100)
-            {
-                return a.invalid_laps_per_100 - b.invalid_laps_per_100;
-            }
-
-            return b.total_laps - a.total_laps;
-        });
-    }
-
-    return sorted;
-}
-
-function renderSafetyCards()
-{
-    const container = document.querySelector("#safetyCards");
-
-    const rows = analyticsData.active_safety_rating || [];
-
-    const trusted = rows.filter(row => {
-        return row.confidence === "high" || row.confidence === "medium";
+        return confidenceRank(b) - confidenceRank(a)
+            || (b.total_laps || 0) - (a.total_laps || 0)
+            || (b.safety_score || 0) - (a.safety_score || 0)
+            || String(a.driver || "").localeCompare(String(b.driver || ""));
     });
 
-    const sCount = trusted.filter(row => row.grade === "S").length;
-    const aCount = trusted.filter(row => row.grade === "A").length;
-    const riskyCount = trusted.filter(row => row.grade === "C" || row.grade === "D").length;
+    return result;
+}
 
-    const totalLaps = rows.reduce((sum, row) => sum + row.total_laps, 0);
-    const totalPenalties = rows.reduce((sum, row) => sum + row.penalties_count + row.post_race_penalties_count, 0);
-
-    container.innerHTML = `
-        <div class="dashboard-grid">
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Rated Drivers</div>
-                <div class="dashboard-card-value">${rows.length}</div>
-                <div class="dashboard-card-note">All safety entries</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Trusted</div>
-                <div class="dashboard-card-value">${trusted.length}</div>
-                <div class="dashboard-card-note">Medium / high confidence</div>
-            </div>
-
-            <div class="dashboard-card accent-card">
-                <div class="dashboard-card-title">S Grade</div>
-                <div class="dashboard-card-value">${sCount}</div>
-                <div class="dashboard-card-note">Clean drivers</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">A Grade</div>
-                <div class="dashboard-card-value">${aCount}</div>
-                <div class="dashboard-card-note">Safe drivers</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Risky</div>
-                <div class="dashboard-card-value">${riskyCount}</div>
-                <div class="dashboard-card-note">C / D grade</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Safety Laps</div>
-                <div class="dashboard-card-value">${totalLaps}</div>
-                <div class="dashboard-card-note">Analyzed laps</div>
-            </div>
-
-            <div class="dashboard-card">
-                <div class="dashboard-card-title">Penalties</div>
-                <div class="dashboard-card-value">${totalPenalties}</div>
-                <div class="dashboard-card-note">Normal + post-race</div>
-            </div>
-
+function card(title, value, subtitle, accent) {
+    return `
+        <div class="stat-card ${accent ? "accent" : ""}">
+            <div class="stat-title">${title}</div>
+            <div class="stat-value">${value}</div>
+            <div class="stat-subtitle">${subtitle}</div>
         </div>
     `;
 }
 
-function renderSafety()
-{
+function renderSafetyCards() {
+    const container = document.getElementById("safetyCards");
+    if (!container || !safetyData) return;
+
+    const rows = safetySource === "lifetime"
+        ? (safetyData.lifetime_safety_rating || [])
+        : (safetyData.active_safety_rating || []);
+
+    const trusted = rows.filter(isTrusted);
+    const sGrade = rows.filter(row => row.grade === "S").length;
+    const aGrade = rows.filter(row => row.grade === "A").length;
+    const risky = rows.filter(isRisky).length;
+    const safetyLaps = rows.reduce((sum, row) => sum + (Number(row.total_laps) || 0), 0);
+    const penalties = rows.reduce((sum, row) => sum + (Number(row.penalties_count) || 0) + (Number(row.post_race_penalties_count) || 0), 0);
+
+    container.className = "stats-grid";
+    container.innerHTML = [
+        card("Rated Drivers", fmtNumber(rows.length), "All safety entries", false),
+        card("Trusted", fmtNumber(trusted.length), "Medium+ confidence", false),
+        card("S Grade", fmtNumber(sGrade), "Clean drivers", true),
+        card("A Grade", fmtNumber(aGrade), "Safe drivers", false),
+        card("Risky", fmtNumber(risky), "C / D grade", false),
+        card("Safety Laps", fmtNumber(safetyLaps), "Analyzed laps", false),
+        card("Penalties", fmtNumber(penalties), "Normal + post-race", false)
+    ].join("");
+}
+
+function gradeBadge(grade) {
+    return `<span class="grade-badge grade-${safeText(grade).toLowerCase()}">${safeText(grade)}</span>`;
+}
+
+function confidenceBadge(row) {
+    const label = normalizeConfidence(row.confidence);
+    const rank = confidenceRank(row);
+    const className = rank >= 5 ? "confidence-high" : rank >= 2 ? "confidence-medium" : "confidence-low";
+    return `<span class="confidence-badge ${className}">${label}</span>`;
+}
+
+function renderSafetyTable(rows) {
     const tbody = document.querySelector("#safetyTable tbody");
-    const info = document.querySelector("#safetyInfo");
+    if (!tbody) return;
 
-    tbody.innerHTML = "";
-
-    let rows = getVisibleSafety();
-    rows = sortSafety(rows);
-
-    if (!rows || rows.length === 0)
-    {
+    if (!rows.length) {
         tbody.innerHTML = `
-        <tr>
-            <td colspan="14">No safety rating data found</td>
-        </tr>
+            <tr>
+                <td colspan="14">No safety data found</td>
+            </tr>
         `;
-
-        info.innerHTML = "No safety data found.";
         return;
     }
 
-    rows.forEach((row, index) => {
-        const totalPenalties = row.penalties_count + row.post_race_penalties_count;
-
-        tbody.innerHTML += `
+    tbody.innerHTML = rows.map((row, index) => `
         <tr>
             <td>${index + 1}</td>
-            <td>${row.driver}</td>
-            <td><span class="grade-badge ${gradeClass(row.grade)}">${row.grade}</span></td>
-            <td class="safety-score">${row.safety_score}</td>
-            <td>${confidenceLabel(row.confidence)}</td>
-            <td>${row.total_laps}</td>
-            <td>${row.valid_laps}</td>
-            <td>${row.invalid_laps}</td>
-            <td>${row.invalid_laps_per_100}</td>
-            <td>${totalPenalties}</td>
-            <td>${row.penalties_per_100}</td>
-            <td>${row.sessions_count}</td>
-            <td>${row.tracks_count}</td>
-            <td>${formatDate(row.last_seen)}</td>
+            <td class="table-name-cell">${safeText(row.driver)}</td>
+            <td>${gradeBadge(row.grade)}</td>
+            <td class="strong-value">${fmtScore(row.safety_score)}</td>
+            <td>${confidenceBadge(row)}</td>
+            <td>${fmtNumber(row.total_laps)}</td>
+            <td>${fmtNumber(row.valid_laps)}</td>
+            <td>${fmtNumber(row.invalid_laps)}</td>
+            <td>${fmtScore(row.invalid_laps_per_100)}</td>
+            <td>${fmtNumber(row.penalties_count)}</td>
+            <td>${fmtScore(row.penalties_per_100)}</td>
+            <td>${fmtNumber(row.sessions_count)}</td>
+            <td>${fmtNumber(row.tracks_count)}</td>
+            <td>${safeText(row.last_seen).slice(0, 10)}</td>
         </tr>
-        `;
-    });
+    `).join("");
+}
 
-    let sourceText = "Active 90-day window";
-    let viewText = "trusted drivers only";
-    let sortText = "safety score";
+function renderSafetyInfo(rows) {
+    const info = document.getElementById("safetyInfo");
+    if (!info || !safetyData) return;
 
-    if (currentSafetyMode === "lifetime")
-    {
-        sourceText = "Lifetime";
-    }
-
-    if (currentViewMode === "all")
-    {
-        viewText = "all drivers";
-    }
-
-    if (currentSortMode === "laps")
-    {
-        sortText = "laps count";
-    }
-
-    if (currentSortMode === "penalties")
-    {
-        sortText = "penalties per 100 laps";
-    }
+    const meta = safetyData.meta || {};
+    const sourceText = safetySource === "lifetime" ? "all-time data" : "active 90-day window";
+    const viewText = safetyView === "trusted" ? "trusted drivers only" : "all drivers";
+    const sortText = safetySort === "safety"
+        ? "safety score"
+        : safetySort === "penalties"
+            ? "penalties per 100 laps"
+            : "confidence / laps";
 
     info.innerHTML = `
         Source: <b>${sourceText}</b>.
         View: <b>${viewText}</b>.
         Sorted by: <b>${sortText}</b>.
-        Drivers shown: <b>${rows.length}</b>.
-        Model: <b>${analyticsData.meta.safety_model}</b>.
-        Data generated: <b>${analyticsData.meta.generated_at}</b>.
+        Drivers shown: <b>${fmtNumber(rows.length)}</b>.
+        Model: <b>${safeText(meta.safety_model)}</b>.
+        Data generated: <b>${safeText(meta.generated_at)}</b>.
     `;
 }
 
-function showTrusted()
-{
-    currentViewMode = "trusted";
-    renderSafety();
-}
-
-function showAll()
-{
-    currentViewMode = "all";
-    renderSafety();
-}
-
-function showLifetime()
-{
-    currentSafetyMode = "lifetime";
-    renderSafety();
-}
-
-function showActive()
-{
-    currentSafetyMode = "active";
-    renderSafety();
-}
-
-function sortBySafety()
-{
-    currentSortMode = "safety";
-    renderSafety();
-}
-
-function sortByLaps()
-{
-    currentSortMode = "laps";
-    renderSafety();
-}
-
-function sortByPenalties()
-{
-    currentSortMode = "penalties";
-    renderSafety();
-}
-
-fetch("data/acc_analytics.json?v=" + Date.now())
-.then(response => response.json())
-.then(data => {
-    analyticsData = data;
-
-    console.log("ACC Analytics loaded:", analyticsData);
-
+function renderSafety() {
+    const rows = getRows();
     renderSafetyCards();
+    renderSafetyInfo(rows);
+    renderSafetyTable(rows);
+
+    if (typeof window.applyI18n === "function") {
+        window.applyI18n();
+    }
+}
+
+function showTrusted() {
+    safetyView = "trusted";
     renderSafety();
-})
-.catch(error => {
-    console.error("ERROR loading acc_analytics.json:", error);
-});
+}
+
+function showAll() {
+    safetyView = "all";
+    renderSafety();
+}
+
+function showLifetime() {
+    safetySource = "lifetime";
+    renderSafety();
+}
+
+function showActive() {
+    safetySource = "active";
+    renderSafety();
+}
+
+function sortBySafety() {
+    safetySort = "safety";
+    renderSafety();
+}
+
+function sortByLaps() {
+    safetySort = "laps";
+    renderSafety();
+}
+
+function sortByPenalties() {
+    safetySort = "penalties";
+    renderSafety();
+}
+
+window.renderSafety = renderSafety;
+window.showTrusted = showTrusted;
+window.showAll = showAll;
+window.showLifetime = showLifetime;
+window.showActive = showActive;
+window.sortBySafety = sortBySafety;
+window.sortByLaps = sortByLaps;
+window.sortByPenalties = sortByPenalties;
+
+fetch("data/acc_analytics.json")
+    .then(response => response.json())
+    .then(data => {
+        safetyData = data;
+        safetySource = "active";
+        safetyView = "all";
+        safetySort = "laps";
+        renderSafety();
+    })
+    .catch(error => {
+        console.error(error);
+        const info = document.getElementById("safetyInfo");
+        if (info) info.textContent = "Failed to load acc_analytics.json";
+    });
