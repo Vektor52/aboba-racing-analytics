@@ -1,4 +1,4 @@
-console.log("ABOBA i18n loaded v4");
+console.log("ABOBA i18n loaded v5");
 
 (function () {
     const STORAGE_KEY = "aboba_analytics_language";
@@ -29,6 +29,16 @@ console.log("ABOBA i18n loaded v4");
         "Cars Overview": "Обзор машин",
         "Drivers Overview": "Обзор пилотов",
         "Safety Overview": "Обзор безопасности",
+        "How Safety Rating works": "Как считается рейтинг безопасности",
+        "Safety Rating v1.2 starts from 100 points and subtracts points for invalid laps, penalties and post-race penalties.": "Safety Rating v1.2 начинается со 100 очков и снижает рейтинг за невалидные круги, штрафы и post-race штрафы.",
+        "Clean driving bonus is added when a driver has no penalties or post-race penalties:": "Бонус за чистую езду добавляется, если у пилота нет штрафов и post-race штрафов:",
+        "+1 point for 5+ laps": "+1 балл за 5+ кругов",
+        "+2 points for 10+ laps": "+2 балла за 10+ кругов",
+        "+3 points for 15+ laps": "+3 балла за 15+ кругов",
+        "Invalid laps are already included in the formula, so the bonus rewards clean participation without requiring every lap to be valid.": "Невалидные круги уже учтены в формуле, поэтому бонус награждает чистое участие без требования делать каждый круг валидным.",
+        "Grades: S 95–100, A 85–94.9, B 75–84.9, C 60–74.9, D below 60.": "Классы: S 95–100, A 85–94.9, B 75–84.9, C 60–74.9, D ниже 60.",
+        "Confidence depends only on total laps: very low under 5, low under 15, medium under 50, high from 50 laps.": "Уверенность зависит только от количества кругов: very low меньше 5, low меньше 15, medium меньше 50, high от 50 кругов.",
+        "Current rating uses ACC result files only. Contacts, damage events and live incidents are not included yet and are planned for v3-live.": "Текущий рейтинг использует только result-файлы ACC. Контакты, damage events и live-инциденты пока не учитываются и запланированы для v3-live.",
         "Activity Dashboard": "Панель активности",
         "Activity Details": "Детали активности",
 
