@@ -2081,3 +2081,447 @@ svg,
         min-width: 720px !important;
     }
 }
+
+
+/* ===== FINAL LAYOUT POLISH v20 ===== */
+
+/* Keep page content visually centered and avoid left-biased table cards. */
+.section {
+    width: 100%;
+}
+
+.section > h2,
+.section > .updated-info,
+.section > #recordsInfo,
+.section > #carsInfo,
+.section > #driversInfo,
+.section > #safetyInfo,
+.section > #activityInfo {
+    max-width: 100%;
+}
+
+/* All scrollable table windows are centered by default.
+   On desktop the card follows the table width; on mobile it keeps full scroll behavior. */
+.table-scroll,
+.home-table-scroll,
+.records-table-scroll,
+.cars-table-scroll,
+.driver-table-scroll,
+.safety-table-scroll,
+.activity-table-scroll,
+.compare-table-scroll,
+.mini-table-scroll {
+    display: block !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow-x: auto !important;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 14px;
+}
+
+/* Tables size by content instead of leaving a large empty right side. */
+.table-scroll > table,
+.home-table-scroll > table,
+.records-table-scroll > table,
+.cars-table-scroll > table,
+.driver-table-scroll > table,
+.safety-table-scroll > table,
+.activity-table-scroll > table,
+.compare-table-scroll > table,
+.mini-table-scroll > table {
+    table-layout: auto !important;
+    width: max-content !important;
+    min-width: max-content !important;
+    max-width: none !important;
+    margin: 0 !important;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Keep cells clean, centered and wide enough for headers/content. */
+.table-scroll th,
+.table-scroll td,
+.home-table-scroll th,
+.home-table-scroll td,
+.records-table-scroll th,
+.records-table-scroll td,
+.cars-table-scroll th,
+.cars-table-scroll td,
+.driver-table-scroll th,
+.driver-table-scroll td,
+.safety-table-scroll th,
+.safety-table-scroll td,
+.activity-table-scroll th,
+.activity-table-scroll td,
+.compare-table-scroll th,
+.compare-table-scroll td,
+.mini-table-scroll th,
+.mini-table-scroll td {
+    width: auto !important;
+    min-width: max-content !important;
+    max-width: none !important;
+    text-align: center !important;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* Name/content columns can stay readable while the rest remains compact. */
+.table-name-cell,
+.driver-name-cell,
+#recordsTable td:nth-child(1),
+#recordsTable td:nth-child(2),
+#recordsTable td:nth-child(3),
+#recordsTable td:nth-child(5),
+#carsTable td:nth-child(2),
+#driversTable td:nth-child(3),
+#driversTable td:nth-child(9),
+#driversTable td:nth-child(10),
+#currentRecordsTable td:nth-child(1),
+#currentRecordsTable td:nth-child(2),
+#currentRecordsTable td:nth-child(3),
+#serversTable td:nth-child(1),
+#activityDetailTable td:nth-child(2),
+#activityDetailTable td:nth-child(3),
+#activityDetailTable td:nth-child(9) {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+/* Sticky headers stay aligned with the body inside each scroll window. */
+.table-scroll thead th,
+.home-table-scroll thead th,
+.records-table-scroll thead th,
+.cars-table-scroll thead th,
+.driver-table-scroll thead th,
+.safety-table-scroll thead th,
+.activity-table-scroll thead th,
+.compare-table-scroll thead th,
+.mini-table-scroll thead th {
+    position: sticky;
+    top: 0;
+    z-index: 25;
+    background: linear-gradient(180deg, #2d2d2d 0%, #202020 100%);
+}
+
+/* Center the main cards/graphs consistently. */
+.panel-box,
+.info-accordion,
+.compare-panel,
+.activity-panel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Home snapshot panels should keep their own internal width and align cleanly. */
+.split-grid {
+    align-items: start;
+}
+
+.panel-box table {
+    width: max-content !important;
+    min-width: 100% !important;
+}
+
+/* Track Records page polish: make it feel like the newer pages. */
+#recordsTable th,
+#recordsTable td {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.records-table-scroll {
+    box-shadow: 0 0 18px rgba(0,0,0,0.18);
+}
+
+#recordsInfo {
+    text-align: center;
+}
+
+/* Safety confidence badges restored. */
+.confidence-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 86px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.confidence-low {
+    background: linear-gradient(180deg, #4a4a4a, #262626);
+    color: #d8d8d8;
+}
+
+.confidence-medium {
+    background: linear-gradient(180deg, #e0b400, #8a6b00);
+    color: #101010;
+}
+
+.confidence-high {
+    background: linear-gradient(180deg, #00a86b, #006b45);
+}
+
+.confidence-veteran {
+    background: linear-gradient(180deg, #0078d7, #004f92);
+}
+
+.confidence-legend {
+    background: linear-gradient(180deg, #9b59ff, #5e2fb0);
+}
+
+.confidence-server-legend {
+    background: linear-gradient(180deg, #ffb000, #a46200);
+    color: #111111;
+    min-width: 140px;
+}
+
+/* Safety table can be content-sized now, not hard-coded wider than needed. */
+.safety-table-scroll table {
+    min-width: max-content !important;
+    width: max-content !important;
+}
+
+.safety-table-scroll th:nth-child(5),
+.safety-table-scroll td:nth-child(5) {
+    min-width: max-content !important;
+}
+
+/* Desktop: visually center narrower table sections with their headings. */
+@media (min-width: 901px) {
+    .section:has(> .home-table-scroll),
+    .section:has(> .records-table-scroll),
+    .section:has(> .cars-table-scroll),
+    .section:has(> .safety-table-scroll),
+    .section:has(> .driver-table-scroll),
+    .section:has(> .activity-table-scroll) {
+        text-align: left;
+    }
+
+    .section:has(> .home-table-scroll) > h2,
+    .section:has(> .records-table-scroll) > h2,
+    .section:has(> .cars-table-scroll) > h2 {
+        width: fit-content;
+        min-width: min(100%, 720px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile/tablet: use the available width and keep horizontal scrolling. */
+@media (max-width: 900px) {
+    .table-scroll,
+    .home-table-scroll,
+    .records-table-scroll,
+    .cars-table-scroll,
+    .driver-table-scroll,
+    .safety-table-scroll,
+    .activity-table-scroll,
+    .compare-table-scroll,
+    .mini-table-scroll {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .table-scroll > table,
+    .home-table-scroll > table,
+    .records-table-scroll > table,
+    .cars-table-scroll > table,
+    .driver-table-scroll > table,
+    .safety-table-scroll > table,
+    .activity-table-scroll > table,
+    .compare-table-scroll > table,
+    .mini-table-scroll > table {
+        min-width: max-content !important;
+        width: max-content !important;
+    }
+
+    .confidence-badge {
+        min-width: 78px;
+    }
+
+    .confidence-server-legend {
+        min-width: 132px;
+    }
+}
+
+/* ===== PRESENTATION SIZE POLISH v21 ===== */
+/* Keep the compact/centered style for data tables, but restore presentation-sized
+   cards on Home and Server Activity. */
+
+/* Server Activity must stay wide and dashboard-like, not shrink to content. */
+.activity-chart-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    gap: 18px !important;
+    align-items: stretch !important;
+    justify-items: stretch !important;
+}
+
+.activity-chart-grid > .activity-panel,
+.activity-chart-grid > .panel-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.activity-chart-grid > .activity-panel-wide {
+    grid-column: 1 / -1 !important;
+}
+
+.activity-panel {
+    min-height: 320px !important;
+}
+
+.svg-chart-box,
+#activityDateChart,
+#activityHeatmap,
+.heatmap-scroll {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.activity-svg {
+    width: 100% !important;
+}
+
+/* Bar-chart panels should use the full card width. */
+.bar-chart,
+#activityServerChart,
+#activityTrackChart,
+#activitySessionTypeChart,
+#activityCarChart {
+    width: 100% !important;
+}
+
+@media (max-width: 1100px) {
+    .activity-chart-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Home page: make summary panels/tables look like cards again, not tiny islands. */
+.split-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-items: stretch !important;
+}
+
+.split-grid > .panel-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.home-table-scroll {
+    width: min(100%, 980px) !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow-x: auto !important;
+}
+
+.home-table-scroll:has(#currentRecordsTable) {
+    width: min(100%, 1040px) !important;
+}
+
+.home-table-scroll:has(#carsTable) {
+    width: min(100%, 940px) !important;
+}
+
+.home-table-scroll:has(#serversTable) {
+    width: min(100%, 760px) !important;
+}
+
+.home-table-scroll > table {
+    width: 100% !important;
+    min-width: 720px !important;
+    table-layout: fixed !important;
+}
+
+.home-table-scroll:has(#serversTable) > table {
+    min-width: 640px !important;
+}
+
+#currentRecordsTable th,
+#currentRecordsTable td,
+#carsTable th,
+#carsTable td,
+#serversTable th,
+#serversTable td {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+/* Restore readable proportional widths for home tables. */
+#currentRecordsTable th:nth-child(1),
+#currentRecordsTable td:nth-child(1) { width: 18% !important; text-align: center !important; }
+#currentRecordsTable th:nth-child(2),
+#currentRecordsTable td:nth-child(2) { width: 23% !important; text-align: center !important; }
+#currentRecordsTable th:nth-child(3),
+#currentRecordsTable td:nth-child(3) { width: 30% !important; text-align: center !important; }
+#currentRecordsTable th:nth-child(4),
+#currentRecordsTable td:nth-child(4) { width: 12% !important; text-align: center !important; }
+#currentRecordsTable th:nth-child(5),
+#currentRecordsTable td:nth-child(5) { width: 17% !important; text-align: center !important; }
+
+#carsTable th:nth-child(1),
+#carsTable td:nth-child(1) { width: 38% !important; text-align: center !important; }
+#carsTable th:nth-child(2),
+#carsTable td:nth-child(2),
+#carsTable th:nth-child(3),
+#carsTable td:nth-child(3),
+#carsTable th:nth-child(4),
+#carsTable td:nth-child(4) { width: 14% !important; text-align: center !important; }
+#carsTable th:nth-child(5),
+#carsTable td:nth-child(5) { width: 20% !important; text-align: center !important; }
+
+#serversTable th:nth-child(1),
+#serversTable td:nth-child(1) { width: 32% !important; text-align: center !important; }
+#serversTable th:nth-child(2),
+#serversTable td:nth-child(2),
+#serversTable th:nth-child(3),
+#serversTable td:nth-child(3) { width: 16% !important; text-align: center !important; }
+#serversTable th:nth-child(4),
+#serversTable td:nth-child(4),
+#serversTable th:nth-child(5),
+#serversTable td:nth-child(5) { width: 18% !important; text-align: center !important; }
+
+/* Keep page headings centered above their table cards. */
+.section:has(.home-table-scroll) > h2,
+.section:has(.records-table-scroll) > h2,
+.section:has(.cars-table-scroll) > h2 {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .home-table-scroll {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .home-table-scroll > table {
+        width: max-content !important;
+        min-width: 720px !important;
+        table-layout: auto !important;
+    }
+}

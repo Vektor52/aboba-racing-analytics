@@ -1,4 +1,4 @@
-console.log("ABOBA safety.js loaded v7");
+console.log("ABOBA safety.js loaded v8");
 
 let safetyData = null;
 let safetySource = "active";
@@ -146,7 +146,20 @@ function gradeBadge(grade) {
 function confidenceBadge(row) {
     const label = normalizeConfidence(row.confidence);
     const rank = confidenceRank(row);
-    const className = rank >= 5 ? "confidence-high" : rank >= 2 ? "confidence-medium" : "confidence-low";
+
+    let className = "confidence-low";
+    if (rank >= 6) {
+        className = "confidence-server-legend";
+    } else if (rank >= 5) {
+        className = "confidence-legend";
+    } else if (rank >= 4) {
+        className = "confidence-veteran";
+    } else if (rank >= 3) {
+        className = "confidence-high";
+    } else if (rank >= 2) {
+        className = "confidence-medium";
+    }
+
     return `<span class="confidence-badge ${className}">${label}</span>`;
 }
 

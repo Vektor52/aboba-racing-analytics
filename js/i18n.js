@@ -1,4 +1,4 @@
-console.log("ABOBA i18n loaded v11");
+console.log("ABOBA i18n loaded v12");
 
 (function () {
     const STORAGE_KEY = "aboba_analytics_language";
@@ -11,6 +11,14 @@ console.log("ABOBA i18n loaded v11");
         "Driver Analytics": "Аналитика пилотов",
         "Safety Rating": "Рейтинг безопасности",
         "Server Activity": "Активность серверов",
+        "Very low": "Very low",
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High",
+        "Veteran": "Veteran",
+        "Legend": "Legend",
+        "Server Legend 🏆": "Server Legend 🏆",
+
 
         "ABOBA Racing Analytics": "ABOBA Racing Analytics",
         "ACC server statistics, records and safety rating": "Статистика серверов ACC, рекорды и рейтинг безопасности",
