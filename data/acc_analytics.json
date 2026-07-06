@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-06 21:39:53",
+        "generated_at": "2026-07-06 21:57:06",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-07 21:39:53",
+        "active_cutoff": "2026-04-07 21:57:06",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -20,34 +20,34 @@
         "privacy": "steam_id_server_id_and_local_paths_removed"
     },
     "site_stats": {
-        "drivers_total": 679,
-        "drivers_active": 679,
+        "drivers_total": 683,
+        "drivers_active": 683,
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 577,
-        "sessions_last_7_days": 183,
-        "new_drivers_last_7_days": 241,
-        "lap_entries_total": 1244,
+        "sessions_total": 578,
+        "sessions_last_7_days": 184,
+        "new_drivers_last_7_days": 245,
+        "lap_entries_total": 1259,
         "cars_total": 28,
-        "safety_laps_total": 9269,
-        "safety_penalties_total": 281,
+        "safety_laps_total": 9394,
+        "safety_penalties_total": 284,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 8,
-        "last_activity": "2026-07-06 21:38:55",
+        "last_activity": "2026-07-06 21:50:31",
         "top_track": "spa",
-        "top_track_sessions": 241,
+        "top_track_sessions": 242,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 307
+        "top_car_entries": 310
     },
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 241,
+            "sessions_count": 242,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-06 21:20:54"
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "server_name": "ZOLDER",
@@ -111,9 +111,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 241,
+            "sessions_count": 242,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-06 21:20:54"
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "track": "zolder",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 577,
-        "drivers": 97,
-        "laps": 9269,
+        "sessions": 578,
+        "drivers": 101,
+        "laps": 9394,
         "servers": 5,
         "tracks": 7,
         "cars": 28,
@@ -424,24 +424,24 @@
         },
         {
             "date": "2026-07-06",
-            "sessions": 21,
-            "drivers": 97,
-            "laps": 953,
+            "sessions": 22,
+            "drivers": 101,
+            "laps": 1078,
             "servers": 4,
             "tracks": 4,
-            "entries": 148
+            "entries": 163
         }
     ],
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 241,
-            "drivers": 396,
-            "laps": 4616,
+            "sessions": 242,
+            "drivers": 400,
+            "laps": 4741,
             "tracks": 1,
-            "entries": 646,
+            "entries": 661,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-06 21:20:54"
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "server_name": "ZOLDER",
@@ -487,14 +487,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 241,
-            "drivers": 396,
-            "laps": 4616,
+            "sessions": 242,
+            "drivers": 400,
+            "laps": 4741,
             "servers": 1,
-            "entries": 646,
+            "entries": 661,
             "best_lap": 138487,
             "best_driver": "Anatoliy Rubtsevich",
-            "last_seen": "2026-07-06 21:20:54"
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "track": "zolder",
@@ -580,9 +580,9 @@
         },
         {
             "session_type": "Race",
-            "sessions": 105,
-            "entries": 648,
-            "drivers": 514,
+            "sessions": 106,
+            "entries": 663,
+            "drivers": 527,
             "best_lap": 85520
         }
     ],
@@ -590,8 +590,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 307,
-            "sessions": 172,
+            "entries": 310,
+            "sessions": 173,
             "drivers": 155,
             "tracks": 5,
             "best_lap": 85520
@@ -599,9 +599,9 @@
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "entries": 206,
-            "sessions": 124,
-            "drivers": 109,
+            "entries": 210,
+            "sessions": 125,
+            "drivers": 111,
             "tracks": 4,
             "best_lap": 90682
         },
@@ -617,8 +617,8 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 123,
-            "sessions": 74,
+            "entries": 126,
+            "sessions": 75,
             "drivers": 79,
             "tracks": 4,
             "best_lap": 88465
@@ -635,8 +635,8 @@
         {
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
-            "entries": 52,
-            "sessions": 45,
+            "entries": 54,
+            "sessions": 46,
             "drivers": 26,
             "tracks": 4,
             "best_lap": 90247
@@ -651,6 +651,15 @@
             "best_lap": 93940
         },
         {
+            "car_model": 25,
+            "car_name": "Mercedes-AMG GT3 2020",
+            "entries": 35,
+            "sessions": 32,
+            "drivers": 22,
+            "tracks": 3,
+            "best_lap": 90895
+        },
+        {
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
             "entries": 34,
@@ -658,15 +667,6 @@
             "drivers": 22,
             "tracks": 4,
             "best_lap": 90137
-        },
-        {
-            "car_model": 25,
-            "car_name": "Mercedes-AMG GT3 2020",
-            "entries": 34,
-            "sessions": 31,
-            "drivers": 21,
-            "tracks": 3,
-            "best_lap": 90895
         },
         {
             "car_model": 6,
@@ -680,9 +680,9 @@
         {
             "car_model": 20,
             "car_name": "AMR V8 Vantage (2019)",
-            "entries": 28,
-            "sessions": 23,
-            "drivers": 15,
+            "entries": 29,
+            "sessions": 24,
+            "drivers": 16,
             "tracks": 4,
             "best_lap": 88045
         },
@@ -743,8 +743,8 @@
         {
             "car_model": 3,
             "car_name": "Audi R8 LMS",
-            "entries": 7,
-            "sessions": 7,
+            "entries": 8,
+            "sessions": 8,
             "drivers": 6,
             "tracks": 2,
             "best_lap": 113225
@@ -1493,7 +1493,7 @@
             "weekday_number": 1,
             "weekday": "Monday",
             "hour": 21,
-            "sessions": 13,
+            "sessions": 14,
             "servers": 3,
             "tracks": 3
         },
@@ -1715,7 +1715,7 @@
             "sessions": 4,
             "entries": 55,
             "drivers": 50,
-            "laps": 615,
+            "laps": 740,
             "best_lap": 138610,
             "best_driver": "Emil Ljungberg"
         },
@@ -1724,10 +1724,10 @@
             "server_name": "SPA",
             "track": "spa",
             "session_type": "Race",
-            "sessions": 3,
-            "entries": 44,
-            "drivers": 39,
-            "laps": 615,
+            "sessions": 4,
+            "entries": 59,
+            "drivers": 52,
+            "laps": 740,
             "best_lap": 138980,
             "best_driver": "Emil Ljungberg"
         },
@@ -3380,14 +3380,14 @@
         {
             "driver": "Alecx Games",
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Aleks Mashinist",
@@ -3536,14 +3536,14 @@
         {
             "driver": "Alex Sienkiewicz",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "alex stallone",
@@ -4076,14 +4076,14 @@
         {
             "driver": "Arthur Kaus",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Asif Guseynov",
@@ -4952,14 +4952,14 @@
         {
             "driver": "David Herrnegger",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "David Marko",
@@ -6464,14 +6464,14 @@
         {
             "driver": "Jaap Veltman",
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Jakob Persson",
@@ -7136,14 +7136,14 @@
         {
             "driver": "KxK _Project",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "L B",
@@ -7446,6 +7446,18 @@
             "entries_count": 1
         },
         {
+            "driver": "Logofoji Lamur",
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "LorD K",
             "first_seen": "2026-06-28 22:14:20",
             "last_seen": "2026-06-28 22:58:24",
@@ -7508,14 +7520,14 @@
         {
             "driver": "Lukas Amann",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Lukas Scholz",
@@ -8264,14 +8276,14 @@
         {
             "driver": "Mikoto Suou",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "mikser q-cold",
@@ -8564,14 +8576,14 @@
         {
             "driver": "Nikhil Jugthaw",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Niki Tos",
@@ -9244,6 +9256,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 3
+        },
+        {
+            "driver": "Ronald McDonald",
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
         },
         {
             "driver": "Rookie mascot",
@@ -10038,6 +10062,18 @@
             "entries_count": 2
         },
         {
+            "driver": "Tudor LOZAN",
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "Ture Petersson",
             "first_seen": "2026-06-13 21:18:53",
             "last_seen": "2026-06-13 21:30:01",
@@ -10112,14 +10148,14 @@
         {
             "driver": "Undis 123",
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Unknown Driver",
@@ -10448,14 +10484,14 @@
         {
             "driver": "Vladislav Obidin",
             "first_seen": "2026-07-06 20:34:51",
-            "last_seen": "2026-07-06 20:34:51",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Vladyslav Zhuravel",
@@ -10948,6 +10984,18 @@
             "servers_count": 2,
             "cars_count": 1,
             "entries_count": 3
+        },
+        {
+            "driver": "Денис Давыдов",
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
         },
         {
             "driver": "Денис Сидельников",
@@ -17831,13 +17879,13 @@
             "driver": "Alex Sienkiewicz",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 139270,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -18431,7 +18479,27 @@
             "driver": "Jaap Veltman",
             "active": true,
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 140377,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
+        },
+        {
+            "driver": "Lukas Amann",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
             "sessions_count": 2,
             "tracks_count": 1,
@@ -18441,11 +18509,11 @@
             "best_lap": 140377,
             "best_track": "spa",
             "best_session": "Race",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
             "favorite_track": "spa",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3"
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "Julen rodriii",
@@ -18588,6 +18656,26 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
+            "driver": "Ronald McDonald",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 140765,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
+        },
+        {
             "driver": "Harry Arkenzo",
             "active": true,
             "first_seen": "2026-06-08 21:58:53",
@@ -18626,26 +18714,6 @@
             "favorite_track": "spa",
             "favorite_car_model": 36,
             "favorite_car_name": "Ford Mustang GT3"
-        },
-        {
-            "driver": "Lukas Amann",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 140832,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 34,
-            "best_car_name": "Porsche 992 GT3 R",
-            "favorite_track": "spa",
-            "favorite_car_model": 34,
-            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "Ivan Rybakov",
@@ -18706,6 +18774,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
+            "driver": "David Herrnegger",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 140927,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "spa",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
             "driver": "Rares Muha",
@@ -18928,26 +19016,6 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
-            "driver": "David Herrnegger",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 141252,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "spa",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
-        },
-        {
             "driver": "Rush R",
             "active": true,
             "first_seen": "2026-06-18 22:44:07",
@@ -18991,13 +19059,13 @@
             "driver": "Vladislav Obidin",
             "active": true,
             "first_seen": "2026-07-06 20:34:51",
-            "last_seen": "2026-07-06 20:34:51",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 141307,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -19586,6 +19654,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 20,
             "favorite_car_name": "AMR V8 Vantage (2019)"
+        },
+        {
+            "driver": "Logofoji Lamur",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 141972,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 25,
+            "best_car_name": "Mercedes-AMG GT3 2020",
+            "favorite_track": "spa",
+            "favorite_car_model": 25,
+            "favorite_car_name": "Mercedes-AMG GT3 2020"
         },
         {
             "driver": "ENES ZEKI",
@@ -21808,6 +21896,26 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
+            "driver": "Tudor LOZAN",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 144412,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
+        },
+        {
             "driver": "Ryosuke Takahashi",
             "active": true,
             "first_seen": "2026-06-16 21:21:34",
@@ -21846,6 +21954,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 32,
             "favorite_car_name": "Ferrari 296 GT3"
+        },
+        {
+            "driver": "Nikhil Jugthaw",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 144475,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 36,
+            "best_car_name": "Ford Mustang GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 36,
+            "favorite_car_name": "Ford Mustang GT3"
         },
         {
             "driver": "marc detaille",
@@ -22808,6 +22936,26 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
+            "driver": "Arthur Kaus",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 145587,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 3,
+            "best_car_name": "Audi R8 LMS",
+            "favorite_track": "spa",
+            "favorite_car_model": 3,
+            "favorite_car_name": "Audi R8 LMS"
+        },
+        {
             "driver": "Donovan Lewis",
             "active": true,
             "first_seen": "2026-06-18 22:18:16",
@@ -22866,6 +23014,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
+            "driver": "Денис Давыдов",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 145670,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 20,
+            "best_car_name": "AMR V8 Vantage (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 20,
+            "favorite_car_name": "AMR V8 Vantage (2019)"
         },
         {
             "driver": "mikser q-cold",
@@ -23108,6 +23276,26 @@
             "favorite_car_name": "BMW M4 GT3"
         },
         {
+            "driver": "KxK _Project",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 146267,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "spa",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
             "driver": "lEO KAMPOTICHYAN",
             "active": true,
             "first_seen": "2026-06-30 19:03:19",
@@ -23288,26 +23476,6 @@
             "favorite_car_name": "BMW M4 GT3"
         },
         {
-            "driver": "KxK _Project",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 146612,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 34,
-            "best_car_name": "Porsche 992 GT3 R",
-            "favorite_track": "spa",
-            "favorite_car_model": 34,
-            "favorite_car_name": "Porsche 992 GT3 R"
-        },
-        {
             "driver": "Tom Vaz",
             "active": true,
             "first_seen": "2026-07-06 19:48:31",
@@ -23348,26 +23516,6 @@
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
         },
         {
-            "driver": "Arthur Kaus",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 146682,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 3,
-            "best_car_name": "Audi R8 LMS",
-            "favorite_track": "spa",
-            "favorite_car_model": 3,
-            "favorite_car_name": "Audi R8 LMS"
-        },
-        {
             "driver": "Top Racing",
             "active": true,
             "first_seen": "2026-06-06 21:49:14",
@@ -23386,6 +23534,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 23,
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
+        },
+        {
+            "driver": "Mikoto Suou",
+            "active": true,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 146787,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
         },
         {
             "driver": "Tyrique Remley",
@@ -23968,46 +24136,6 @@
             "favorite_car_name": "Audi R8 LMS"
         },
         {
-            "driver": "Mikoto Suou",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 148095,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3"
-        },
-        {
-            "driver": "Nikhil Jugthaw",
-            "active": true,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
-            "days_since_last_seen": 0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 148102,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 36,
-            "best_car_name": "Ford Mustang GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 36,
-            "favorite_car_name": "Ford Mustang GT3"
-        },
-        {
             "driver": "Thiago Lima",
             "active": true,
             "first_seen": "2026-06-04 23:36:23",
@@ -24131,13 +24259,13 @@
             "driver": "Undis 123",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 148527,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -24251,13 +24379,13 @@
             "driver": "Alecx Games",
             "active": true,
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 149055,
             "best_track": "spa",
             "best_session": "Race",
@@ -26440,16 +26568,16 @@
             "driver": "Alecx Games",
             "active": true,
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 8,
-            "valid_laps": 1,
-            "invalid_laps": 7,
+            "entries_count": 2,
+            "total_laps": 11,
+            "valid_laps": 2,
+            "invalid_laps": 9,
             "best_lap": 149055,
             "best_track": "spa",
             "best_session": "Race",
@@ -26476,7 +26604,7 @@
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 149055,
                     "best_track": "spa"
@@ -26485,15 +26613,15 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:04:05"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
                 {
                     "session": "Race",
-                    "entries": 1,
+                    "entries": 2,
                     "best_lap": 149055
                 }
             ]
@@ -27297,16 +27425,16 @@
             "driver": "Alex Sienkiewicz",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 4,
-            "valid_laps": 2,
-            "invalid_laps": 2,
+            "entries_count": 2,
+            "total_laps": 6,
+            "valid_laps": 3,
+            "invalid_laps": 3,
             "best_lap": 139270,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -27333,7 +27461,7 @@
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 139270,
                     "best_track": "spa"
@@ -27342,9 +27470,9 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -27352,6 +27480,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 139270
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 257570
                 }
             ]
         },
@@ -30282,19 +30415,19 @@
             "driver": "Arthur Kaus",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "best_lap": 146682,
+            "entries_count": 2,
+            "total_laps": 13,
+            "valid_laps": 4,
+            "invalid_laps": 9,
+            "best_lap": 145587,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 3,
             "best_car_name": "Audi R8 LMS",
             "favorite_track": "spa",
@@ -30303,33 +30436,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 146682,
-                    "sector1": 43280,
-                    "sector2": 64775,
-                    "sector3": 38627,
+                    "best_lap": 145587,
+                    "sector1": 42347,
+                    "sector2": 64447,
+                    "sector3": 38412,
                     "car_model": 3,
                     "car_name": "Audi R8 LMS",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 3,
                     "car_name": "Audi R8 LMS",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 146682,
+                    "best_lap": 145587,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -30337,6 +30470,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 146682
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 145587
                 }
             ]
         },
@@ -32277,9 +32415,9 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1,
-            "total_laps": 5,
+            "total_laps": 12,
             "valid_laps": 1,
-            "invalid_laps": 4,
+            "invalid_laps": 11,
             "best_lap": 148040,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -33771,9 +33909,9 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1,
-            "total_laps": 2,
+            "total_laps": 3,
             "valid_laps": 1,
-            "invalid_laps": 1,
+            "invalid_laps": 2,
             "best_lap": 150720,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -35010,19 +35148,19 @@
             "driver": "David Herrnegger",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 7,
-            "valid_laps": 3,
-            "invalid_laps": 4,
-            "best_lap": 141252,
+            "entries_count": 2,
+            "total_laps": 17,
+            "valid_laps": 6,
+            "invalid_laps": 11,
+            "best_lap": 140927,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 35,
             "best_car_name": "McLaren 720S GT3 Evo 2023",
             "favorite_track": "spa",
@@ -35031,33 +35169,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 141252,
-                    "sector1": 41390,
-                    "sector2": 62435,
-                    "sector3": 37427,
+                    "best_lap": 140927,
+                    "sector1": 41582,
+                    "sector2": 62072,
+                    "sector3": 37177,
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 141252,
+                    "best_lap": 140927,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -35065,6 +35203,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 141252
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 140927
                 }
             ]
         },
@@ -43417,16 +43560,16 @@
             "driver": "Jaap Veltman",
             "active": true,
             "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 9,
-            "valid_laps": 4,
-            "invalid_laps": 5,
+            "entries_count": 3,
+            "total_laps": 20,
+            "valid_laps": 10,
+            "invalid_laps": 10,
             "best_lap": 140377,
             "best_track": "spa",
             "best_session": "Race",
@@ -43453,7 +43596,7 @@
                 {
                     "car_model": 30,
                     "car_name": "BMW M4 GT3",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
                     "best_lap": 140377,
                     "best_track": "spa"
@@ -43462,21 +43605,21 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
                 {
+                    "session": "Race",
+                    "entries": 2,
+                    "best_lap": 140377
+                },
+                {
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 141065
-                },
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 140377
                 }
             ]
         },
@@ -43677,9 +43820,9 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1,
-            "total_laps": 12,
+            "total_laps": 13,
             "valid_laps": 2,
-            "invalid_laps": 10,
+            "invalid_laps": 11,
             "best_lap": 151590,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -45003,9 +45146,9 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1,
-            "total_laps": 5,
+            "total_laps": 6,
             "valid_laps": 1,
-            "invalid_laps": 4,
+            "invalid_laps": 5,
             "best_lap": 148207,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -47141,19 +47284,19 @@
             "driver": "KxK _Project",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "best_lap": 146612,
+            "entries_count": 2,
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
+            "best_lap": 146267,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 34,
             "best_car_name": "Porsche 992 GT3 R",
             "favorite_track": "spa",
@@ -47162,33 +47305,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 146612,
-                    "sector1": 43077,
-                    "sector2": 65752,
-                    "sector3": 37782,
+                    "best_lap": 146267,
+                    "sector1": 42360,
+                    "sector2": 64817,
+                    "sector3": 38580,
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 146612,
+                    "best_lap": 146267,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -47196,6 +47339,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 146612
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 146267
                 }
             ]
         },
@@ -48865,6 +49013,68 @@
             ]
         },
         {
+            "driver": "Logofoji Lamur",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 4,
+            "valid_laps": 2,
+            "invalid_laps": 2,
+            "best_lap": 141972,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 25,
+            "best_car_name": "Mercedes-AMG GT3 2020",
+            "favorite_track": "spa",
+            "favorite_car_model": 25,
+            "favorite_car_name": "Mercedes-AMG GT3 2020",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 141972,
+                    "sector1": 41647,
+                    "sector2": 62715,
+                    "sector3": 37610,
+                    "car_model": 25,
+                    "car_name": "Mercedes-AMG GT3 2020",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-07-06 21:50:31"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 25,
+                    "car_name": "Mercedes-AMG GT3 2020",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 141972,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-06 21:50:31"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 141972
+                }
+            ]
+        },
+        {
             "driver": "LorD K",
             "active": true,
             "first_seen": "2026-06-28 22:14:20",
@@ -49198,19 +49408,19 @@
             "driver": "Lukas Amann",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "best_lap": 140832,
+            "entries_count": 2,
+            "total_laps": 13,
+            "valid_laps": 8,
+            "invalid_laps": 5,
+            "best_lap": 140377,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 34,
             "best_car_name": "Porsche 992 GT3 R",
             "favorite_track": "spa",
@@ -49219,33 +49429,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 140832,
-                    "sector1": 41310,
-                    "sector2": 62227,
-                    "sector3": 37295,
+                    "best_lap": 140377,
+                    "sector1": 41260,
+                    "sector2": 61897,
+                    "sector3": 37025,
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 140832,
+                    "best_lap": 140377,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -49253,6 +49463,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 140832
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 140377
                 }
             ]
         },
@@ -53279,19 +53494,19 @@
             "driver": "Mikoto Suou",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 6,
-            "valid_laps": 1,
-            "invalid_laps": 5,
-            "best_lap": 148095,
+            "entries_count": 2,
+            "total_laps": 16,
+            "valid_laps": 4,
+            "invalid_laps": 12,
+            "best_lap": 146787,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 30,
             "best_car_name": "BMW M4 GT3",
             "favorite_track": "spa",
@@ -53300,33 +53515,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 148095,
-                    "sector1": 43307,
-                    "sector2": 65605,
-                    "sector3": 39182,
+                    "best_lap": 146787,
+                    "sector1": 42887,
+                    "sector2": 64792,
+                    "sector3": 38470,
                     "car_model": 30,
                     "car_name": "BMW M4 GT3",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 30,
                     "car_name": "BMW M4 GT3",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 148095,
+                    "best_lap": 146787,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -53334,6 +53549,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 148095
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 146787
                 }
             ]
         },
@@ -54923,19 +55143,19 @@
             "driver": "Nikhil Jugthaw",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "best_lap": 148102,
+            "entries_count": 2,
+            "total_laps": 13,
+            "valid_laps": 7,
+            "invalid_laps": 6,
+            "best_lap": 144475,
             "best_track": "spa",
-            "best_session": "Qualifying",
+            "best_session": "Race",
             "best_car_model": 36,
             "best_car_name": "Ford Mustang GT3",
             "favorite_track": "spa",
@@ -54944,33 +55164,33 @@
             "track_bests": [
                 {
                     "track": "spa",
-                    "best_lap": 148102,
-                    "sector1": 44142,
-                    "sector2": 64477,
-                    "sector3": 39482,
+                    "best_lap": 144475,
+                    "sector1": 42640,
+                    "sector2": 63635,
+                    "sector3": 37955,
                     "car_model": 36,
                     "car_name": "Ford Mustang GT3",
-                    "session": "Qualifying",
+                    "session": "Race",
                     "server_name": "SPA",
-                    "session_date": "2026-07-06 21:20:54"
+                    "session_date": "2026-07-06 21:50:31"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 36,
                     "car_name": "Ford Mustang GT3",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "best_lap": 148102,
+                    "best_lap": 144475,
                     "best_track": "spa"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -54978,6 +55198,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 148102
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 144475
                 }
             ]
         },
@@ -58683,6 +58908,68 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 110312
+                }
+            ]
+        },
+        {
+            "driver": "Ronald McDonald",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 5,
+            "valid_laps": 2,
+            "invalid_laps": 3,
+            "best_lap": 140765,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 140765,
+                    "sector1": 40835,
+                    "sector2": 62182,
+                    "sector3": 36807,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-07-06 21:50:31"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 140765,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-06 21:50:31"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 140765
                 }
             ]
         },
@@ -63014,6 +63301,68 @@
             ]
         },
         {
+            "driver": "Tudor LOZAN",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "best_lap": 144412,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 144412,
+                    "sector1": 42140,
+                    "sector2": 64720,
+                    "sector3": 37552,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-07-06 21:50:31"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 144412,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-06 21:50:31"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 144412
+                }
+            ]
+        },
+        {
             "driver": "Ture Petersson",
             "active": true,
             "first_seen": "2026-06-13 21:18:53",
@@ -63404,16 +63753,16 @@
             "driver": "Undis 123",
             "active": true,
             "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 4,
-            "valid_laps": 1,
-            "invalid_laps": 3,
+            "entries_count": 2,
+            "total_laps": 15,
+            "valid_laps": 2,
+            "invalid_laps": 13,
             "best_lap": 148527,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -63440,7 +63789,7 @@
                 {
                     "car_model": 36,
                     "car_name": "Ford Mustang GT3",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 148527,
                     "best_track": "spa"
@@ -63449,9 +63798,9 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 21:20:54"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -63459,6 +63808,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 148527
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 396872
                 }
             ]
         },
@@ -65240,16 +65594,16 @@
             "driver": "Vladislav Obidin",
             "active": true,
             "first_seen": "2026-07-06 20:34:51",
-            "last_seen": "2026-07-06 20:34:51",
+            "last_seen": "2026-07-06 21:50:31",
             "days_since_last_seen": 0,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 5,
-            "valid_laps": 2,
-            "invalid_laps": 3,
+            "entries_count": 2,
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
             "best_lap": 141307,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -65276,7 +65630,7 @@
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 141307,
                     "best_track": "spa"
@@ -65285,9 +65639,9 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-07-06 20:34:51"
+                    "last_seen": "2026-07-06 21:50:31"
                 }
             ],
             "session_types": [
@@ -65295,6 +65649,11 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 141307
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 142150
                 }
             ]
         },
@@ -67988,6 +68347,68 @@
             ]
         },
         {
+            "driver": "Денис Давыдов",
+            "active": true,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 9,
+            "valid_laps": 2,
+            "invalid_laps": 7,
+            "best_lap": 145670,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 20,
+            "best_car_name": "AMR V8 Vantage (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 20,
+            "favorite_car_name": "AMR V8 Vantage (2019)",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 145670,
+                    "sector1": 42252,
+                    "sector2": 65227,
+                    "sector3": 38190,
+                    "car_model": 20,
+                    "car_name": "AMR V8 Vantage (2019)",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-07-06 21:50:31"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 20,
+                    "car_name": "AMR V8 Vantage (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 145670,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-06 21:50:31"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 145670
+                }
+            ]
+        },
+        {
             "driver": "Денис Сидельников",
             "active": true,
             "first_seen": "2026-06-28 21:11:31",
@@ -69640,11 +70061,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 155,
-            "entries": 307,
+            "entries": 310,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 124958
+            "avg_lap": 126401
         },
         {
             "car_model": 32,
@@ -69669,22 +70090,22 @@
         {
             "car_model": 20,
             "car_name": "AMR V8 Vantage (2019)",
-            "drivers": 15,
-            "entries": 28,
+            "drivers": 16,
+            "entries": 29,
             "best_lap": 88045,
             "best_driver": "Ertan Tuncay",
             "best_track": "brands_hatch",
-            "avg_lap": 121587
+            "avg_lap": 122418
         },
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 79,
-            "entries": 123,
+            "entries": 126,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 134937
+            "avg_lap": 135127
         },
         {
             "car_model": 6,
@@ -69720,31 +70141,31 @@
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
             "drivers": 26,
-            "entries": 52,
+            "entries": 54,
             "best_lap": 90247,
             "best_driver": "Mex Drift",
             "best_track": "zolder",
-            "avg_lap": 117282
+            "avg_lap": 122963
         },
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "drivers": 109,
-            "entries": 206,
+            "drivers": 111,
+            "entries": 210,
             "best_lap": 90682,
             "best_driver": "Александр Романов",
             "best_track": "zolder",
-            "avg_lap": 138598
+            "avg_lap": 138690
         },
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "drivers": 21,
-            "entries": 34,
+            "drivers": 22,
+            "entries": 35,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 140243
+            "avg_lap": 140292
         },
         {
             "car_model": 22,
@@ -69850,11 +70271,11 @@
             "car_model": 3,
             "car_name": "Audi R8 LMS",
             "drivers": 6,
-            "entries": 7,
+            "entries": 8,
             "best_lap": 113225,
             "best_driver": "Саня Сундуков",
             "best_track": "monza",
-            "avg_lap": 145301
+            "avg_lap": 145336
         },
         {
             "car_model": 11,
@@ -69922,11 +70343,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 155,
-            "entries": 307,
+            "entries": 310,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 124958
+            "avg_lap": 126401
         },
         {
             "car_model": 32,
@@ -69951,22 +70372,22 @@
         {
             "car_model": 20,
             "car_name": "AMR V8 Vantage (2019)",
-            "drivers": 15,
-            "entries": 28,
+            "drivers": 16,
+            "entries": 29,
             "best_lap": 88045,
             "best_driver": "Ertan Tuncay",
             "best_track": "brands_hatch",
-            "avg_lap": 121587
+            "avg_lap": 122418
         },
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 79,
-            "entries": 123,
+            "entries": 126,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 134937
+            "avg_lap": 135127
         },
         {
             "car_model": 6,
@@ -70002,31 +70423,31 @@
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
             "drivers": 26,
-            "entries": 52,
+            "entries": 54,
             "best_lap": 90247,
             "best_driver": "Mex Drift",
             "best_track": "zolder",
-            "avg_lap": 117282
+            "avg_lap": 122963
         },
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "drivers": 109,
-            "entries": 206,
+            "drivers": 111,
+            "entries": 210,
             "best_lap": 90682,
             "best_driver": "Александр Романов",
             "best_track": "zolder",
-            "avg_lap": 138598
+            "avg_lap": 138690
         },
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "drivers": 21,
-            "entries": 34,
+            "drivers": 22,
+            "entries": 35,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 140243
+            "avg_lap": 140292
         },
         {
             "car_model": 22,
@@ -70132,11 +70553,11 @@
             "car_model": 3,
             "car_name": "Audi R8 LMS",
             "drivers": 6,
-            "entries": 7,
+            "entries": 8,
             "best_lap": 113225,
             "best_driver": "Саня Сундуков",
             "best_track": "monza",
-            "avg_lap": 145301
+            "avg_lap": 145336
         },
         {
             "car_model": 11,
@@ -72941,6 +73362,26 @@
             "last_seen": "2026-07-03 23:47:50"
         },
         {
+            "driver": "Lukas Amann",
+            "safety_score": 78.9,
+            "grade": "B",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 8,
+            "invalid_laps": 5,
+            "valid_lap_ratio": 0.615,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 38.46,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Mortis Skouros",
             "safety_score": 78.9,
             "grade": "B",
@@ -73921,6 +74362,26 @@
             "last_seen": "2026-07-06 18:52:20"
         },
         {
+            "driver": "Nikhil Jugthaw",
+            "safety_score": 74.3,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 7,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.538,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 46.15,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Дмитрий Шипулин",
             "safety_score": 74.3,
             "grade": "C",
@@ -74059,6 +74520,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 22:22:26",
             "last_seen": "2026-06-22 23:08:12"
+        },
+        {
+            "driver": "Jaap Veltman",
+            "safety_score": 73.0,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 20,
+            "valid_laps": 10,
+            "invalid_laps": 10,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Nico Frost",
@@ -74441,6 +74922,26 @@
             "last_seen": "2026-07-04 16:43:59"
         },
         {
+            "driver": "Alex Sienkiewicz",
+            "safety_score": 71.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 6,
+            "valid_laps": 3,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Eleonora Litvinova",
             "safety_score": 71.0,
             "grade": "C",
@@ -74599,26 +75100,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-05 20:15:57",
             "last_seen": "2026-07-05 20:15:57"
-        },
-        {
-            "driver": "Alex Sienkiewicz",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 4,
-            "valid_laps": 2,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Athar LEcLair",
@@ -74941,26 +75422,6 @@
             "last_seen": "2026-06-22 23:53:26"
         },
         {
-            "driver": "D DOMRNX",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "David Marko",
             "safety_score": 70.0,
             "grade": "C",
@@ -75161,26 +75622,6 @@
             "last_seen": "2026-06-19 22:53:44"
         },
         {
-            "driver": "KxK _Project",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Lawrence Cecilia",
             "safety_score": 70.0,
             "grade": "C",
@@ -75199,26 +75640,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-19 20:01:15",
             "last_seen": "2026-06-19 20:01:15"
-        },
-        {
-            "driver": "Lukas Amann",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Mana Manee",
@@ -76021,26 +76442,6 @@
             "last_seen": "2026-06-20 18:05:56"
         },
         {
-            "driver": "Jaap Veltman",
-            "safety_score": 67.7,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 9,
-            "valid_laps": 4,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.444,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 55.56,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Kirill klfir",
             "safety_score": 67.7,
             "grade": "C",
@@ -76339,26 +76740,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-04 00:14:03",
             "last_seen": "2026-07-04 00:31:03"
-        },
-        {
-            "driver": "David Herrnegger",
-            "safety_score": 66.7,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 7,
-            "valid_laps": 3,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.429,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 57.14,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "never late",
@@ -76861,6 +77242,26 @@
             "last_seen": "2026-06-29 16:51:50"
         },
         {
+            "driver": "Ronald McDonald",
+            "safety_score": 65.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 5,
+            "valid_laps": 2,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.4,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 60.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Toprak Kılıç",
             "safety_score": 65.0,
             "grade": "C",
@@ -76901,24 +77302,24 @@
             "last_seen": "2026-06-16 21:47:37"
         },
         {
-            "driver": "Vladislav Obidin",
-            "safety_score": 65.0,
+            "driver": "David Herrnegger",
+            "safety_score": 64.2,
             "grade": "C",
             "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 2,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.4,
+            "total_laps": 17,
+            "valid_laps": 6,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.353,
             "penalties_count": 0,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 60.0,
+            "invalid_laps_per_100": 64.71,
             "penalties_per_100": 0.0,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
-            "first_seen": "2026-07-06 20:18:01",
-            "last_seen": "2026-07-06 20:34:51"
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Kashir19 TOPRACING",
@@ -78101,6 +78502,26 @@
             "last_seen": "2026-06-20 18:05:56"
         },
         {
+            "driver": "Arthur Kaus",
+            "safety_score": 60.5,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 4,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.308,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 69.23,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Green Light",
             "safety_score": 60.5,
             "grade": "C",
@@ -78361,26 +78782,6 @@
             "last_seen": "2026-06-18 22:44:07"
         },
         {
-            "driver": "Arthur Kaus",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Brando Midvichi",
             "safety_score": 60.0,
             "grade": "C",
@@ -78419,6 +78820,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-19 23:37:50",
             "last_seen": "2026-06-19 23:37:50"
+        },
+        {
+            "driver": "D DOMRNX",
+            "safety_score": 60.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Dennis Fischbach",
@@ -78561,26 +78982,6 @@
             "last_seen": "2026-06-22 21:53:06"
         },
         {
-            "driver": "Nikhil Jugthaw",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Rubben Bapin",
             "safety_score": 60.0,
             "grade": "C",
@@ -78679,6 +79080,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-06 19:48:31",
             "last_seen": "2026-07-06 20:18:01"
+        },
+        {
+            "driver": "Tudor LOZAN",
+            "safety_score": 60.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Tyrique Remley",
@@ -78859,6 +79280,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 23:53:26",
             "last_seen": "2026-06-23 00:39:32"
+        },
+        {
+            "driver": "Vladislav Obidin",
+            "safety_score": 58.4,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
+            "valid_lap_ratio": 0.273,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 72.73,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 20:18:01",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": ". darksoul",
@@ -79099,6 +79540,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-01 17:58:29",
             "last_seen": "2026-07-01 18:28:30"
+        },
+        {
+            "driver": "Mikoto Suou",
+            "safety_score": 58.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 16,
+            "valid_laps": 4,
+            "invalid_laps": 12,
+            "valid_lap_ratio": 0.25,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 75.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Andrey VinogradoFF",
@@ -79841,26 +80302,6 @@
             "last_seen": "2026-06-20 17:33:25"
         },
         {
-            "driver": "Undis 123",
-            "safety_score": 55.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 4,
-            "valid_laps": 1,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Zhifeng Liang",
             "safety_score": 55.0,
             "grade": "D",
@@ -80081,6 +80522,26 @@
             "last_seen": "2026-06-29 16:04:26"
         },
         {
+            "driver": "Денис Давыдов",
+            "safety_score": 54.3,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 9,
+            "valid_laps": 2,
+            "invalid_laps": 7,
+            "valid_lap_ratio": 0.222,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 77.78,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "kevin looij",
             "safety_score": 54.2,
             "grade": "D",
@@ -80219,26 +80680,6 @@
             "servers_count": 2,
             "first_seen": "2026-06-20 14:48:15",
             "last_seen": "2026-07-04 11:57:29"
-        },
-        {
-            "driver": "carlos rodriguez",
-            "safety_score": 53.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 1,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.2,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Ivan Rybakov",
@@ -80439,6 +80880,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-05 00:01:28",
             "last_seen": "2026-06-05 00:44:37"
+        },
+        {
+            "driver": "Alecx Games",
+            "safety_score": 52.9,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 2,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.182,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 81.82,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Bartosz Mądry",
@@ -80661,26 +81122,6 @@
             "last_seen": "2026-06-22 23:08:12"
         },
         {
-            "driver": "Jan Kapa",
-            "safety_score": 52.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 12,
-            "valid_laps": 2,
-            "invalid_laps": 10,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "minetik tractor",
             "safety_score": 51.5,
             "grade": "D",
@@ -80721,6 +81162,26 @@
             "last_seen": "2026-06-05 00:44:37"
         },
         {
+            "driver": "Jan Kapa",
+            "safety_score": 51.2,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 2,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.154,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 84.62,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "N JAPAN",
             "safety_score": 51.2,
             "grade": "D",
@@ -80759,6 +81220,26 @@
             "servers_count": 2,
             "first_seen": "2026-07-03 23:03:21",
             "last_seen": "2026-07-06 19:02:18"
+        },
+        {
+            "driver": "Undis 123",
+            "safety_score": 51.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 15,
+            "valid_laps": 2,
+            "invalid_laps": 13,
+            "valid_lap_ratio": 0.133,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 86.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Марк Веретенников",
@@ -80839,26 +81320,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-30 19:22:41",
             "last_seen": "2026-06-30 19:22:41"
-        },
-        {
-            "driver": "Mikoto Suou",
-            "safety_score": 51.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 6,
-            "valid_laps": 1,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Paco B",
@@ -81139,26 +81600,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-08 21:58:53",
             "last_seen": "2026-06-08 23:06:35"
-        },
-        {
-            "driver": "Alecx Games",
-            "safety_score": 48.5,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 1,
-            "invalid_laps": 7,
-            "valid_lap_ratio": 0.125,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 87.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "H T",
@@ -81519,6 +81960,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 21:51:56",
             "last_seen": "2026-06-04 22:35:11"
+        },
+        {
+            "driver": "carlos rodriguez",
+            "safety_score": 47.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 12,
+            "valid_laps": 1,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.083,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 91.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Erik Miclos",
@@ -83821,6 +84282,26 @@
             "last_seen": "2026-07-03 00:53:18"
         },
         {
+            "driver": "Danny Sicilia",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Davide Campese",
             "safety_score": 40.0,
             "grade": "D",
@@ -85881,6 +86362,26 @@
             "last_seen": "2026-07-01 18:28:30"
         },
         {
+            "driver": "KxK _Project",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
+            "valid_lap_ratio": 0.273,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 72.73,
+            "penalties_per_100": 18.18,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "MAX EXEE",
             "safety_score": 0.0,
             "grade": "D",
@@ -86441,6 +86942,26 @@
             "last_seen": "2026-06-15 22:27:50"
         },
         {
+            "driver": "Jusi boipro",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 6,
+            "valid_laps": 1,
+            "invalid_laps": 5,
+            "valid_lap_ratio": 0.167,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 83.33,
+            "penalties_per_100": 33.33,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Linus Kastengren",
             "safety_score": 0.0,
             "grade": "D",
@@ -86581,26 +87102,6 @@
             "last_seen": "2026-06-13 21:18:53"
         },
         {
-            "driver": "Jusi boipro",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 1,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.2,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.0,
-            "penalties_per_100": 20.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "King Fat",
             "safety_score": 0.0,
             "grade": "D",
@@ -86719,6 +87220,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-30 23:22:24",
             "last_seen": "2026-06-30 23:51:04"
+        },
+        {
+            "driver": "Logofoji Lamur",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 2,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 25.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "max max",
@@ -90003,6 +90524,26 @@
             "last_seen": "2026-07-03 23:47:50"
         },
         {
+            "driver": "Lukas Amann",
+            "safety_score": 78.9,
+            "grade": "B",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 8,
+            "invalid_laps": 5,
+            "valid_lap_ratio": 0.615,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 38.46,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Mortis Skouros",
             "safety_score": 78.9,
             "grade": "B",
@@ -90983,6 +91524,26 @@
             "last_seen": "2026-07-06 18:52:20"
         },
         {
+            "driver": "Nikhil Jugthaw",
+            "safety_score": 74.3,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 7,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.538,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 46.15,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Дмитрий Шипулин",
             "safety_score": 74.3,
             "grade": "C",
@@ -91121,6 +91682,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 22:22:26",
             "last_seen": "2026-06-22 23:08:12"
+        },
+        {
+            "driver": "Jaap Veltman",
+            "safety_score": 73.0,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 20,
+            "valid_laps": 10,
+            "invalid_laps": 10,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Nico Frost",
@@ -91503,6 +92084,26 @@
             "last_seen": "2026-07-04 16:43:59"
         },
         {
+            "driver": "Alex Sienkiewicz",
+            "safety_score": 71.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 6,
+            "valid_laps": 3,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Eleonora Litvinova",
             "safety_score": 71.0,
             "grade": "C",
@@ -91661,26 +92262,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-05 20:15:57",
             "last_seen": "2026-07-05 20:15:57"
-        },
-        {
-            "driver": "Alex Sienkiewicz",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 4,
-            "valid_laps": 2,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Athar LEcLair",
@@ -92003,26 +92584,6 @@
             "last_seen": "2026-06-22 23:53:26"
         },
         {
-            "driver": "D DOMRNX",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "David Marko",
             "safety_score": 70.0,
             "grade": "C",
@@ -92223,26 +92784,6 @@
             "last_seen": "2026-06-19 22:53:44"
         },
         {
-            "driver": "KxK _Project",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Lawrence Cecilia",
             "safety_score": 70.0,
             "grade": "C",
@@ -92261,26 +92802,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-19 20:01:15",
             "last_seen": "2026-06-19 20:01:15"
-        },
-        {
-            "driver": "Lukas Amann",
-            "safety_score": 70.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Mana Manee",
@@ -93083,26 +93604,6 @@
             "last_seen": "2026-06-20 18:05:56"
         },
         {
-            "driver": "Jaap Veltman",
-            "safety_score": 67.7,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 9,
-            "valid_laps": 4,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.444,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 55.56,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Kirill klfir",
             "safety_score": 67.7,
             "grade": "C",
@@ -93401,26 +93902,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-04 00:14:03",
             "last_seen": "2026-07-04 00:31:03"
-        },
-        {
-            "driver": "David Herrnegger",
-            "safety_score": 66.7,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 7,
-            "valid_laps": 3,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.429,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 57.14,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "never late",
@@ -93923,6 +94404,26 @@
             "last_seen": "2026-06-29 16:51:50"
         },
         {
+            "driver": "Ronald McDonald",
+            "safety_score": 65.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 5,
+            "valid_laps": 2,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.4,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 60.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Toprak Kılıç",
             "safety_score": 65.0,
             "grade": "C",
@@ -93963,24 +94464,24 @@
             "last_seen": "2026-06-16 21:47:37"
         },
         {
-            "driver": "Vladislav Obidin",
-            "safety_score": 65.0,
+            "driver": "David Herrnegger",
+            "safety_score": 64.2,
             "grade": "C",
             "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 2,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.4,
+            "total_laps": 17,
+            "valid_laps": 6,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.353,
             "penalties_count": 0,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 60.0,
+            "invalid_laps_per_100": 64.71,
             "penalties_per_100": 0.0,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
-            "first_seen": "2026-07-06 20:18:01",
-            "last_seen": "2026-07-06 20:34:51"
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Kashir19 TOPRACING",
@@ -95163,6 +95664,26 @@
             "last_seen": "2026-06-20 18:05:56"
         },
         {
+            "driver": "Arthur Kaus",
+            "safety_score": 60.5,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 4,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.308,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 69.23,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Green Light",
             "safety_score": 60.5,
             "grade": "C",
@@ -95423,26 +95944,6 @@
             "last_seen": "2026-06-18 22:44:07"
         },
         {
-            "driver": "Arthur Kaus",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Brando Midvichi",
             "safety_score": 60.0,
             "grade": "C",
@@ -95481,6 +95982,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-19 23:37:50",
             "last_seen": "2026-06-19 23:37:50"
+        },
+        {
+            "driver": "D DOMRNX",
+            "safety_score": 60.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Dennis Fischbach",
@@ -95623,26 +96144,6 @@
             "last_seen": "2026-06-22 21:53:06"
         },
         {
-            "driver": "Nikhil Jugthaw",
-            "safety_score": 60.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 3,
-            "valid_laps": 1,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Rubben Bapin",
             "safety_score": 60.0,
             "grade": "C",
@@ -95741,6 +96242,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-06 19:48:31",
             "last_seen": "2026-07-06 20:18:01"
+        },
+        {
+            "driver": "Tudor LOZAN",
+            "safety_score": 60.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Tyrique Remley",
@@ -95921,6 +96442,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 23:53:26",
             "last_seen": "2026-06-23 00:39:32"
+        },
+        {
+            "driver": "Vladislav Obidin",
+            "safety_score": 58.4,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
+            "valid_lap_ratio": 0.273,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 72.73,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 20:18:01",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": ". darksoul",
@@ -96161,6 +96702,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-01 17:58:29",
             "last_seen": "2026-07-01 18:28:30"
+        },
+        {
+            "driver": "Mikoto Suou",
+            "safety_score": 58.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 16,
+            "valid_laps": 4,
+            "invalid_laps": 12,
+            "valid_lap_ratio": 0.25,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 75.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Andrey VinogradoFF",
@@ -96903,26 +97464,6 @@
             "last_seen": "2026-06-20 17:33:25"
         },
         {
-            "driver": "Undis 123",
-            "safety_score": 55.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 4,
-            "valid_laps": 1,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "Zhifeng Liang",
             "safety_score": 55.0,
             "grade": "D",
@@ -97143,6 +97684,26 @@
             "last_seen": "2026-06-29 16:04:26"
         },
         {
+            "driver": "Денис Давыдов",
+            "safety_score": 54.3,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 9,
+            "valid_laps": 2,
+            "invalid_laps": 7,
+            "valid_lap_ratio": 0.222,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 77.78,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "kevin looij",
             "safety_score": 54.2,
             "grade": "D",
@@ -97281,26 +97842,6 @@
             "servers_count": 2,
             "first_seen": "2026-06-20 14:48:15",
             "last_seen": "2026-07-04 11:57:29"
-        },
-        {
-            "driver": "carlos rodriguez",
-            "safety_score": 53.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 1,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.2,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:20:54",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Ivan Rybakov",
@@ -97501,6 +98042,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-05 00:01:28",
             "last_seen": "2026-06-05 00:44:37"
+        },
+        {
+            "driver": "Alecx Games",
+            "safety_score": 52.9,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 2,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.182,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 81.82,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Bartosz Mądry",
@@ -97723,26 +98284,6 @@
             "last_seen": "2026-06-22 23:08:12"
         },
         {
-            "driver": "Jan Kapa",
-            "safety_score": 52.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 12,
-            "valid_laps": 2,
-            "invalid_laps": 10,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "minetik tractor",
             "safety_score": 51.5,
             "grade": "D",
@@ -97783,6 +98324,26 @@
             "last_seen": "2026-06-05 00:44:37"
         },
         {
+            "driver": "Jan Kapa",
+            "safety_score": 51.2,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 2,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.154,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 84.62,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "N JAPAN",
             "safety_score": 51.2,
             "grade": "D",
@@ -97821,6 +98382,26 @@
             "servers_count": 2,
             "first_seen": "2026-07-03 23:03:21",
             "last_seen": "2026-07-06 19:02:18"
+        },
+        {
+            "driver": "Undis 123",
+            "safety_score": 51.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 15,
+            "valid_laps": 2,
+            "invalid_laps": 13,
+            "valid_lap_ratio": 0.133,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 86.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Марк Веретенников",
@@ -97901,26 +98482,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-30 19:22:41",
             "last_seen": "2026-06-30 19:22:41"
-        },
-        {
-            "driver": "Mikoto Suou",
-            "safety_score": 51.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 6,
-            "valid_laps": 1,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "Paco B",
@@ -98201,26 +98762,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-08 21:58:53",
             "last_seen": "2026-06-08 23:06:35"
-        },
-        {
-            "driver": "Alecx Games",
-            "safety_score": 48.5,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 1,
-            "invalid_laps": 7,
-            "valid_lap_ratio": 0.125,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 87.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
         },
         {
             "driver": "H T",
@@ -98581,6 +99122,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 21:51:56",
             "last_seen": "2026-06-04 22:35:11"
+        },
+        {
+            "driver": "carlos rodriguez",
+            "safety_score": 47.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 12,
+            "valid_laps": 1,
+            "invalid_laps": 11,
+            "valid_lap_ratio": 0.083,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 91.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "Erik Miclos",
@@ -100883,6 +101444,26 @@
             "last_seen": "2026-07-03 00:53:18"
         },
         {
+            "driver": "Danny Sicilia",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Davide Campese",
             "safety_score": 40.0,
             "grade": "D",
@@ -102943,6 +103524,26 @@
             "last_seen": "2026-07-01 18:28:30"
         },
         {
+            "driver": "KxK _Project",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 3,
+            "invalid_laps": 8,
+            "valid_lap_ratio": 0.273,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 72.73,
+            "penalties_per_100": 18.18,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:20:54",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "MAX EXEE",
             "safety_score": 0.0,
             "grade": "D",
@@ -103503,6 +104104,26 @@
             "last_seen": "2026-06-15 22:27:50"
         },
         {
+            "driver": "Jusi boipro",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 6,
+            "valid_laps": 1,
+            "invalid_laps": 5,
+            "valid_lap_ratio": 0.167,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 83.33,
+            "penalties_per_100": 33.33,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:04:05",
+            "last_seen": "2026-07-06 21:50:31"
+        },
+        {
             "driver": "Linus Kastengren",
             "safety_score": 0.0,
             "grade": "D",
@@ -103643,26 +104264,6 @@
             "last_seen": "2026-06-13 21:18:53"
         },
         {
-            "driver": "Jusi boipro",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 5,
-            "valid_laps": 1,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.2,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 80.0,
-            "penalties_per_100": 20.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-06 21:04:05",
-            "last_seen": "2026-07-06 21:20:54"
-        },
-        {
             "driver": "King Fat",
             "safety_score": 0.0,
             "grade": "D",
@@ -103781,6 +104382,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-30 23:22:24",
             "last_seen": "2026-06-30 23:51:04"
+        },
+        {
+            "driver": "Logofoji Lamur",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 2,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 25.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-06 21:50:31",
+            "last_seen": "2026-07-06 21:50:31"
         },
         {
             "driver": "max max",
