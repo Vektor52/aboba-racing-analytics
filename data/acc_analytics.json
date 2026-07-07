@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-07 02:57:05",
+        "generated_at": "2026-07-07 03:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-08 02:57:05",
+        "active_cutoff": "2026-04-08 03:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,18 +25,18 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 592,
-        "sessions_last_7_days": 194,
+        "sessions_total": 593,
+        "sessions_last_7_days": 195,
         "new_drivers_last_7_days": 257,
         "lap_entries_total": 1299,
         "cars_total": 28,
-        "safety_laps_total": 9657,
+        "safety_laps_total": 9660,
         "safety_penalties_total": 291,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 8,
-        "last_activity": "2026-07-07 00:29:25",
+        "last_activity": "2026-07-07 03:36:30",
         "top_track": "spa",
-        "top_track_sessions": 249,
+        "top_track_sessions": 250,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 319
@@ -44,10 +44,10 @@
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 249,
+            "sessions_count": 250,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-07 00:29:25"
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "server_name": "ZOLDER",
@@ -111,9 +111,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 249,
+            "sessions_count": 250,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-07 00:29:25"
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "track": "zolder",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 592,
+        "sessions": 593,
         "drivers": 116,
-        "laps": 9657,
+        "laps": 9660,
         "servers": 5,
         "tracks": 7,
         "cars": 28,
@@ -433,9 +433,9 @@
         },
         {
             "date": "2026-07-07",
-            "sessions": 2,
+            "sessions": 3,
             "drivers": 2,
-            "laps": 24,
+            "laps": 27,
             "servers": 1,
             "tracks": 1,
             "entries": 2
@@ -444,13 +444,13 @@
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 249,
+            "sessions": 250,
             "drivers": 412,
-            "laps": 4963,
+            "laps": 4966,
             "tracks": 1,
             "entries": 696,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-07-07 00:29:25"
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "server_name": "ZOLDER",
@@ -496,14 +496,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 249,
+            "sessions": 250,
             "drivers": 412,
-            "laps": 4963,
+            "laps": 4966,
             "servers": 1,
             "entries": 696,
             "best_lap": 138115,
             "best_driver": "Ronald McDonald",
-            "last_seen": "2026-07-07 00:29:25"
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "track": "zolder",
@@ -961,6 +961,14 @@
             "sessions": 6,
             "servers": 3,
             "tracks": 3
+        },
+        {
+            "weekday_number": 2,
+            "weekday": "Tuesday",
+            "hour": 3,
+            "sessions": 1,
+            "servers": 1,
+            "tracks": 1
         },
         {
             "weekday_number": 3,
@@ -1676,7 +1684,7 @@
             "sessions": 1,
             "entries": 2,
             "drivers": 2,
-            "laps": 24,
+            "laps": 27,
             "best_lap": 143545,
             "best_driver": "Ekaterina Brysina"
         },
@@ -85958,6 +85966,26 @@
             "last_seen": "2026-07-04 11:28:47"
         },
         {
+            "driver": "Ignacy Kołodziejczyk",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
+        },
+        {
             "driver": "James Babyshark",
             "safety_score": 40.0,
             "grade": "D",
@@ -86036,6 +86064,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-06 19:48:31",
             "last_seen": "2026-07-06 19:48:31"
+        },
+        {
+            "driver": "Matias Tufiño",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "driver": "Max Maavi",
@@ -86316,6 +86364,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-02 23:13:48",
             "last_seen": "2026-07-02 23:13:48"
+        },
+        {
+            "driver": "Roman Likhilov",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "driver": "Salomon Carl Maria Schielke",
@@ -103400,6 +103468,26 @@
             "last_seen": "2026-07-04 11:28:47"
         },
         {
+            "driver": "Ignacy Kołodziejczyk",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
+        },
+        {
             "driver": "James Babyshark",
             "safety_score": 40.0,
             "grade": "D",
@@ -103478,6 +103566,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-06 19:48:31",
             "last_seen": "2026-07-06 19:48:31"
+        },
+        {
+            "driver": "Matias Tufiño",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "driver": "Max Maavi",
@@ -103758,6 +103866,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-02 23:13:48",
             "last_seen": "2026-07-02 23:13:48"
+        },
+        {
+            "driver": "Roman Likhilov",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-07 03:36:30",
+            "last_seen": "2026-07-07 03:36:30"
         },
         {
             "driver": "Salomon Carl Maria Schielke",
