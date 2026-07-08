@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-08 10:57:08",
+        "generated_at": "2026-07-08 11:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-09 10:57:08",
+        "active_cutoff": "2026-04-09 11:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 615,
-        "sessions_last_7_days": 188,
+        "sessions_total": 616,
+        "sessions_last_7_days": 189,
         "new_drivers_last_7_days": 243,
         "lap_entries_total": 1316,
         "cars_total": 28,
-        "safety_laps_total": 9778,
+        "safety_laps_total": 9782,
         "safety_penalties_total": 296,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 8,
-        "last_activity": "2026-07-08 09:19:51",
+        "last_activity": "2026-07-08 10:59:37",
         "top_track": "spa",
         "top_track_sessions": 263,
         "top_car_model": 35,
@@ -51,10 +51,10 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions_count": 189,
+            "sessions_count": 190,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-07 21:46:12"
+            "last_seen": "2026-07-08 10:59:37"
         },
         {
             "server_name": "Brands Hatch",
@@ -117,15 +117,15 @@
         },
         {
             "track": "zolder",
-            "sessions_count": 189,
+            "sessions_count": 190,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-07 21:46:12"
+            "last_seen": "2026-07-08 10:59:37"
         }
     ],
     "activity_summary": {
-        "sessions": 615,
+        "sessions": 616,
         "drivers": 116,
-        "laps": 9778,
+        "laps": 9782,
         "servers": 5,
         "tracks": 7,
         "cars": 28,
@@ -442,11 +442,11 @@
         },
         {
             "date": "2026-07-08",
-            "sessions": 1,
+            "sessions": 2,
             "drivers": 0,
-            "laps": 0,
-            "servers": 1,
-            "tracks": 1,
+            "laps": 4,
+            "servers": 2,
+            "tracks": 2,
             "entries": 0
         }
     ],
@@ -463,13 +463,13 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions": 189,
+            "sessions": 190,
             "drivers": 142,
-            "laps": 2162,
+            "laps": 2166,
             "tracks": 1,
             "entries": 289,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-07 21:46:12"
+            "last_seen": "2026-07-08 10:59:37"
         },
         {
             "server_name": "Brands Hatch",
@@ -516,14 +516,14 @@
         },
         {
             "track": "zolder",
-            "sessions": 189,
+            "sessions": 190,
             "drivers": 142,
-            "laps": 2162,
+            "laps": 2166,
             "servers": 1,
             "entries": 289,
             "best_lap": 88797,
             "best_driver": "Fernando Andrade",
-            "last_seen": "2026-07-07 21:46:12"
+            "last_seen": "2026-07-08 10:59:37"
         },
         {
             "track": "monza",
@@ -1134,6 +1134,14 @@
         {
             "weekday_number": 2,
             "weekday": "Tuesday",
+            "hour": 10,
+            "sessions": 1,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 3,
+            "weekday": "Wednesday",
             "hour": 10,
             "sessions": 1,
             "servers": 1,
@@ -85490,6 +85498,26 @@
             "last_seen": "2026-06-20 15:47:14"
         },
         {
+            "driver": "Eugene K",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 0,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-08 10:59:37",
+            "last_seen": "2026-07-08 10:59:37"
+        },
+        {
             "driver": "Gregory House",
             "safety_score": 40.0,
             "grade": "D",
@@ -103230,6 +103258,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-20 15:47:14",
             "last_seen": "2026-06-20 15:47:14"
+        },
+        {
+            "driver": "Eugene K",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 0,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-08 10:59:37",
+            "last_seen": "2026-07-08 10:59:37"
         },
         {
             "driver": "Gregory House",
