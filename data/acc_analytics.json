@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-08 12:57:06",
+        "generated_at": "2026-07-08 13:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-09 12:57:06",
+        "active_cutoff": "2026-04-09 13:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 616,
-        "sessions_last_7_days": 189,
+        "sessions_total": 617,
+        "sessions_last_7_days": 190,
         "new_drivers_last_7_days": 243,
         "lap_entries_total": 1316,
         "cars_total": 28,
@@ -34,7 +34,7 @@
         "safety_penalties_total": 296,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 8,
-        "last_activity": "2026-07-08 10:59:37",
+        "last_activity": "2026-07-08 12:57:54",
         "top_track": "spa",
         "top_track_sessions": 263,
         "top_car_model": 35,
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 79,
+            "sessions_count": 80,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-07 22:37:16"
+            "last_seen": "2026-07-08 12:57:54"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 83,
+            "sessions_count": 84,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-07-07 22:37:16"
+            "last_seen": "2026-07-08 12:57:54"
         },
         {
             "track": "nurburgring_24h",
@@ -123,7 +123,7 @@
         }
     ],
     "activity_summary": {
-        "sessions": 616,
+        "sessions": 617,
         "drivers": 116,
         "laps": 9782,
         "servers": 5,
@@ -442,11 +442,11 @@
         },
         {
             "date": "2026-07-08",
-            "sessions": 2,
+            "sessions": 3,
             "drivers": 0,
             "laps": 4,
-            "servers": 2,
-            "tracks": 2,
+            "servers": 3,
+            "tracks": 3,
             "entries": 0
         }
     ],
@@ -483,13 +483,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 79,
+            "sessions": 80,
             "drivers": 143,
             "laps": 1969,
             "tracks": 1,
             "entries": 243,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-07 22:37:16"
+            "last_seen": "2026-07-08 12:57:54"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -527,14 +527,14 @@
         },
         {
             "track": "monza",
-            "sessions": 83,
+            "sessions": 84,
             "drivers": 143,
             "laps": 1969,
             "servers": 2,
             "entries": 243,
             "best_lap": 107510,
             "best_driver": "Riccardo Chiesa",
-            "last_seen": "2026-07-07 22:37:16"
+            "last_seen": "2026-07-08 12:57:54"
         },
         {
             "track": "brands_hatch",
@@ -1176,6 +1176,14 @@
             "weekday": "Sunday",
             "hour": 11,
             "sessions": 3,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 3,
+            "weekday": "Wednesday",
+            "hour": 12,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
