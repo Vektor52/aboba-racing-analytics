@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090d12">
+<title>Live Servers</title>
+<link rel="stylesheet" href="css/style.css?v=21">
+<link rel="stylesheet" href="css/live.css?v=2">
+</head>
+
+<body class="live-v3-body">
+<div class="live-v3-shell">
+    <header class="live-topbar">
+        <a class="live-brand" href="index.html" aria-label="ABOBA Racing Analytics home">
+            <span class="live-brand-mark">A</span>
+            <span class="live-brand-copy">
+                <b>ABOBA RACING</b>
+                <span>ANALYTICS <em>v3-live</em></span>
+            </span>
+        </a>
+
+        <nav class="live-main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="live.html" class="active">Live</a>
+            <a href="records.html">Track Records</a>
+            <a href="cars.html">Cars Analytics</a>
+            <a href="driver_stats.html">Driver Analytics</a>
+            <a href="safety.html">Safety Rating</a>
+            <a href="server_activity.html">Server Activity</a>
+        </nav>
+
+        <div class="live-topbar-actions">
+            <div class="live-language-switcher" aria-label="Language">
+                <button type="button" data-lang-option="en" onclick="setSiteLanguage('en')">EN</button>
+                <button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')">RU</button>
+            </div>
+            <div id="globalLiveStatus" class="live-global-state loading">
+                <span class="live-state-dot"></span>
+                <span>Loading</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="live-content">
+        <section class="live-hero">
+            <div>
+                <p class="live-kicker">ACC Analytics · v3-live</p>
+                <h1>Live Servers</h1>
+                <p class="live-lead">Current live state of ABOBA Racing ACC servers</p>
+            </div>
+
+            <div class="live-summary-grid" aria-label="Live summary">
+                <article class="live-summary-card">
+                    <span>Online Servers</span>
+                    <strong id="onlineServers">—</strong>
+                </article>
+                <article class="live-summary-card">
+                    <span>Offline Servers</span>
+                    <strong id="offlineServers">—</strong>
+                </article>
+                <article class="live-summary-card">
+                    <span>Players Online</span>
+                    <strong id="playersOnline">—</strong>
+                </article>
+                <article class="live-summary-card live-summary-time">
+                    <span>Last Refresh</span>
+                    <strong id="lastRefresh">—</strong>
+                    <small id="lastRefreshDate">—</small>
+                </article>
+            </div>
+        </section>
+
+        <section class="live-server-section">
+            <div class="live-section-heading">
+                <div>
+                    <h2>Server Status</h2>
+                    <p>Session, players and remaining time update automatically.</p>
+                </div>
+                <div id="collectorInfo" class="collector-info">Collector snapshot: —</div>
+            </div>
+
+            <div id="liveServerGrid" class="live-server-grid" aria-live="polite"></div>
+
+            <div id="liveEmptyState" class="live-empty-state" hidden>
+                <strong>No live server data found</strong>
+                <span>Run the live exporter and refresh this page.</span>
+            </div>
+        </section>
+
+        <section class="live-legend-panel" aria-label="Live page legend">
+            <div class="live-legend-item">
+                <span class="legend-icon">●</span>
+                <div><b>Players</b><small>Current player count on the server</small></div>
+            </div>
+            <div class="live-legend-item">
+                <span class="legend-icon">⚑</span>
+                <div><b>Session</b><small>Current session type</small></div>
+            </div>
+            <div class="live-legend-item">
+                <span class="legend-icon">◉</span>
+                <div><b>Session Phase</b><small>Current phase of the session</small></div>
+            </div>
+            <div class="live-legend-item">
+                <span class="legend-icon">◷</span>
+                <div><b>Time Remaining</b><small>Time until the current session ends</small></div>
+            </div>
+            <div class="live-legend-item">
+                <span class="legend-icon">↻</span>
+                <div><b>Data Freshness</b><small>Live data updates every 10 seconds</small></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="live-footer">
+        ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b>
+    </footer>
+</div>
+
+<script src="js/live.js?v=2"></script>
+<script src="js/i18n.js?v=13"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-console.log("ABOBA i18n loaded v12");
+console.log("ABOBA i18n loaded v13");
 
 (function () {
     const STORAGE_KEY = "aboba_analytics_language";
@@ -11,6 +11,39 @@ console.log("ABOBA i18n loaded v12");
         "Driver Analytics": "Аналитика пилотов",
         "Safety Rating": "Рейтинг безопасности",
         "Server Activity": "Активность серверов",
+        "Live": "Live",
+        "Live Servers": "Live-серверы",
+        "Current live state of ABOBA Racing ACC servers": "Текущее состояние серверов ACC ABOBA Racing",
+        "Online Servers": "Серверов онлайн",
+        "Offline Servers": "Серверов офлайн",
+        "Players Online": "Игроков онлайн",
+        "Last Refresh": "Последнее обновление",
+        "Server Status": "Состояние серверов",
+        "Session, players and remaining time update automatically.": "Сессия, игроки и оставшееся время обновляются автоматически.",
+        "Collector snapshot:": "Снимок коллектора:",
+        "Online": "Онлайн",
+        "Offline": "Офлайн",
+        "Stale": "Данные устарели",
+        "Loading": "Загрузка",
+        "Session Phase": "Фаза сессии",
+        "Players": "Игроки",
+        "Time Remaining": "Осталось времени",
+        "Updated:": "Обновлено:",
+        "Waiting for drivers": "Ожидание игроков",
+        "Pre session": "Перед сессией",
+        "Post session": "После сессии",
+        "Result": "Результаты",
+        "Unknown": "Неизвестно",
+        "Current player count on the server": "Текущее количество игроков на сервере",
+        "Current session type": "Текущий тип сессии",
+        "Current phase of the session": "Текущая фаза сессии",
+        "Time until the current session ends": "Время до завершения текущей сессии",
+        "Data Freshness": "Актуальность данных",
+        "Live data updates every 10 seconds": "Live-данные обновляются каждые 10 секунд",
+        "No live server data found": "Live-данные серверов не найдены",
+        "Run the live exporter and refresh this page.": "Запустите live-экспорт и обновите страницу.",
+        "Failed to load live server data": "Не удалось загрузить live-данные серверов",
+        "Check that live_servers.json exists and the local web server is running.": "Проверьте наличие live_servers.json и запуск локального веб-сервера.",
         "Very low": "Very low",
         "Low": "Low",
         "Medium": "Medium",
@@ -271,6 +304,9 @@ console.log("ABOBA i18n loaded v12");
     function translatePatterns(text, lang) {
         if (lang === "ru") {
             return text
+                .replace(/^Collector snapshot:\s*(.+)$/i, "Снимок коллектора: $1")
+                .replace(/^Updated:\s*(.+?)\s*·\s*Stale$/i, "Обновлено: $1 · данные устарели")
+                .replace(/^Updated:\s*(.+)$/i, "Обновлено: $1")
                 .replace(/^Total:\s*(\d+)$/i, "Всего: $1")
                 .replace(/^(\d+)\s+sessions$/i, "$1 сессий")
                 .replace(/^(\d+)\s+entries$/i, "$1 записей")
@@ -287,6 +323,9 @@ console.log("ABOBA i18n loaded v12");
         }
 
         return text
+            .replace(/^Снимок коллектора:\s*(.+)$/i, "Collector snapshot: $1")
+            .replace(/^Обновлено:\s*(.+?)\s*·\s*данные устарели$/i, "Updated: $1 · Stale")
+            .replace(/^Обновлено:\s*(.+)$/i, "Updated: $1")
             .replace(/^Всего:\s*(\d+)$/i, "Total: $1")
             .replace(/^(\d+)\s+сессий$/i, "$1 sessions")
             .replace(/^(\d+)\s+записей$/i, "$1 entries")

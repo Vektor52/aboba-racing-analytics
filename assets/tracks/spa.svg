@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" role="img" aria-label="SPA abstract race track graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#122438"/>
+      <stop offset="1" stop-color="#080c11"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fd6b10" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#fd6b10" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fd6b10" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="580" height="300" fill="url(#bg)"/>
+  <rect width="580" height="300" fill="url(#grid)"/>
+  <path d="M0 225 L580 150 L580 300 L0 300Z" fill="#070b0f" fill-opacity="0.68"/>
+  <path d="M0 245 L580 170" stroke="#fd6b10" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M45 95 C120 35 180 145 260 70 S420 40 515 105" fill="none" stroke="#fd6b10" stroke-opacity="0.36" stroke-width="28" filter="url(#blur)"/>
+  <path d="M45 95 C120 35 180 145 260 70 S420 40 515 105" fill="none" stroke="#eef5fb" stroke-opacity="0.86" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45 95 C120 35 180 145 260 70 S420 40 515 105" fill="none" stroke="#fd6b10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="0" y="15" width="580" height="6" fill="url(#glow)"/>
+  <text x="34" y="54" fill="#ffffff" fill-opacity="0.20" font-family="Arial, sans-serif" font-size="35" font-weight="900" letter-spacing="5">SPA</text>
+  <g transform="translate(470 225)" opacity="0.2">
+    <rect width="22" height="22" fill="#fff"/><rect x="22" y="22" width="22" height="22" fill="#fff"/>
+    <rect x="22" width="22" height="22" fill="#111"/><rect y="22" width="22" height="22" fill="#111"/>
+  </g>
+</svg>
