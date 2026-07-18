@@ -3,155 +3,118 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090d12">
 <title>ABOBA Racing Analytics</title>
 <link rel="stylesheet" href="css/style.css?v=21">
+<link rel="stylesheet" href="css/live.css?v=3">
+<link rel="stylesheet" href="css/v3.css?v=1">
 </head>
-
-<body>
-
-<div class="page">
-
-    <header class="site-header">
-        <div>
-            <h1>ABOBA Racing Analytics</h1>
-            <p class="subtitle">ACC server statistics, records and safety rating</p>
+<body class="live-v3-body v3-page-body">
+<div class="v3-shell">
+    <header class="live-topbar">
+        <a class="live-brand" href="index.html" aria-label="ABOBA Racing Analytics home">
+            <span class="live-brand-mark">A</span>
+            <span class="live-brand-copy"><b>ABOBA RACING</b><span>ANALYTICS <em>v3</em></span></span>
+        </a>
+        <nav class="live-main-nav" aria-label="Main navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="live.html">Live</a>
+            <a href="records.html">Track Records</a>
+            <a href="cars.html">Cars Analytics</a>
+            <a href="driver_stats.html">Driver Analytics</a>
+            <a href="safety.html">Safety Rating</a>
+            <a href="server_activity.html">Server Activity</a>
+        </nav>
+        <div class="live-topbar-actions">
+            <div class="live-language-switcher" aria-label="Language">
+                <button type="button" data-lang-option="en" onclick="setSiteLanguage('en')">EN</button>
+                <button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')">RU</button>
+            </div>
+            <span class="v3-build-badge">V3 UI</span>
         </div>
     </header>
 
-    <div class="language-switcher" aria-label="Language">
-        <button type="button" data-lang-option="en" onclick="setSiteLanguage('en')" title="English">EN</button>
-        <button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')" title="Русский">RU</button>
-    </div>
+    <main class="v3-content">
+        <section class="v3-hero">
+            <div>
+                <p class="v3-kicker">ACC Analytics · v3</p>
+                <h1>ABOBA Racing Analytics</h1>
+                <p class="subtitle">ACC server statistics, records and safety rating</p>
+            </div>
+            <div class="v3-hero-code" aria-hidden="true">ABR</div>
+        </section>
 
+        <section class="v3-panel">
+            <div class="v3-panel-head">
+                <div>
+                    <h2>Server Dashboard</h2>
+                    <p>ACC servers, drivers, sessions and the latest imported statistics.</p>
+                </div>
+            </div>
+            <div id="dashboardCards"></div>
+        </section>
 
-    <nav class="menu">
-    <a href="index.html">Home</a>
-    <a href="live.html">Live</a>
-    <a href="records.html">Track Records</a>
-    <a href="cars.html">Cars Analytics</a>
-    <a href="driver_stats.html">Driver Analytics</a>
-    <a href="safety.html">Safety Rating</a>
-    <a href="server_activity.html">Server Activity</a>
-</nav>
+        <section class="v3-panel">
+            <div class="v3-panel-head">
+                <div>
+                    <h2>Safety Snapshot</h2>
+                    <p>Trusted leaders and drivers whose recent statistics require attention.</p>
+                </div>
+            </div>
+            <div class="split-grid">
+                <div class="panel-box">
+                    <h3>Top Safe Drivers</h3>
+                    <table id="topSafetyTable">
+                        <thead><tr><th>Rank</th><th>Driver</th><th>Grade</th><th>Safety</th><th>Laps</th><th>Penalties</th></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="panel-box">
+                    <h3>Needs Attention</h3>
+                    <table id="riskySafetyTable">
+                        <thead><tr><th>Rank</th><th>Driver</th><th>Grade</th><th>Safety</th><th>Invalid / 100</th><th>Penalties / 100</th></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Server Dashboard</h2>
-        <div id="dashboardCards"></div>
-    </section>
-
-    <section class="section">
-        <h2>Safety Snapshot</h2>
-
-        <div class="split-grid">
-
-            <div class="panel-box">
-                <h3>Top Safe Drivers</h3>
-
-                <table id="topSafetyTable">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Driver</th>
-                            <th>Grade</th>
-                            <th>Safety</th>
-                            <th>Laps</th>
-                            <th>Penalties</th>
-                        </tr>
-                    </thead>
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Current Track Records</h2><p>Fastest currently active laps across ABOBA Racing servers.</p></div></div>
+            <div class="table-scroll home-table-scroll">
+                <table id="currentRecordsTable">
+                    <thead><tr><th>Track</th><th>Driver</th><th>Car</th><th>Session</th><th>Lap Time</th></tr></thead>
                     <tbody></tbody>
                 </table>
             </div>
+        </section>
 
-            <div class="panel-box">
-                <h3>Needs Attention</h3>
-
-                <table id="riskySafetyTable">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Driver</th>
-                            <th>Grade</th>
-                            <th>Safety</th>
-                            <th>Invalid / 100</th>
-                            <th>Penalties / 100</th>
-                        </tr>
-                    </thead>
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Most Used Cars</h2><p>Popular car models and their best recorded pace.</p></div></div>
+            <div class="table-scroll home-table-scroll">
+                <table id="carsTable">
+                    <thead><tr><th>Car</th><th>Drivers</th><th>Entries</th><th>Best Lap</th><th>Best Driver</th></tr></thead>
                     <tbody></tbody>
                 </table>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Servers</h2><p>Imported sessions and history for each server.</p></div></div>
+            <div class="table-scroll home-table-scroll">
+                <table id="serversTable">
+                    <thead><tr><th>Server</th><th>Sessions</th><th>Tracks</th><th>First Seen</th><th>Last Seen</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <p id="updatedInfo" class="updated-info"></p>
+        </section>
+    </main>
 
-    <section class="section">
-        <h2>Current Track Records</h2>
-
-        <div class="table-scroll home-table-scroll">
-        <table id="currentRecordsTable">
-            <thead>
-                <tr>
-                    <th>Track</th>
-                    <th>Driver</th>
-                    <th>Car</th>
-                    <th>Session</th>
-                    <th>Lap Time</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Most Used Cars</h2>
-
-        <div class="table-scroll home-table-scroll">
-        <table id="carsTable">
-            <thead>
-                <tr>
-                    <th>Car</th>
-                    <th>Drivers</th>
-                    <th>Entries</th>
-                    <th>Best Lap</th>
-                    <th>Best Driver</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Servers</h2>
-
-        <div class="table-scroll home-table-scroll">
-        <table id="serversTable">
-            <thead>
-                <tr>
-                    <th>Server</th>
-                    <th>Sessions</th>
-                    <th>Tracks</th>
-                    <th>First Seen</th>
-                    <th>Last Seen</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        </div>
-    </section>
-
-    <p id="updatedInfo" class="updated-info"></p>
-
-    <footer class="site-footer">
-        ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b>
-    </footer>
-
+    <footer class="v3-footer">ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b></footer>
 </div>
-
 <script src="js/cars.js?v=8"></script>
 <script src="js/index.js?v=9"></script>
-
-<script src="js/i18n.js?v=13"></script>
-
+<script src="js/i18n.js?v=14"></script>
 </body>
 </html>

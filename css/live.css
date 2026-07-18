@@ -588,3 +588,158 @@ body.live-v3-body {
     .live-summary-time strong { font-size: 21px; }
     .live-card-details { padding-left: 13px; padding-right: 13px; }
 }
+
+/* v1.2 — clearer track identity banners and roomier cards */
+@media (min-width: 1101px) {
+    .live-server-grid {
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        gap: 18px;
+    }
+}
+
+.live-track-visual {
+    min-height: 220px;
+    isolation: isolate;
+    overflow: hidden;
+    background-image: none !important;
+    background-color: #0b1118;
+}
+
+.live-track-visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -3;
+    background:
+        radial-gradient(circle at 76% 22%, rgba(255,255,255,0.16), transparent 31%),
+        linear-gradient(135deg, rgba(255,255,255,0.07), transparent 46%),
+        var(--track-background, linear-gradient(135deg, #24384a, #0b1118 68%));
+}
+
+.live-track-visual::after {
+    z-index: -1;
+    background:
+        linear-gradient(90deg, rgba(6,9,13,0.05), rgba(6,9,13,0.2) 50%, rgba(6,9,13,0.48)),
+        linear-gradient(180deg, rgba(5,8,11,0.02), rgba(5,8,11,0.08) 42%, rgba(7,11,15,0.97) 100%);
+}
+
+.live-track-grid-pattern {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    opacity: 0.16;
+    background-image:
+        linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px);
+    background-size: 34px 34px;
+    mask-image: linear-gradient(90deg, transparent, #000 28%, #000 100%);
+    transform: perspective(500px) rotateX(55deg) scale(1.5) translateY(20%);
+    transform-origin: center bottom;
+}
+
+.live-track-country {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    border: 1px solid rgba(255,255,255,0.13);
+    border-radius: 999px;
+    color: #d7dee6;
+    background: rgba(6,10,14,0.52);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.live-track-country span {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.live-track-country b {
+    font-size: 10px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+
+.live-track-monogram {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    z-index: -1;
+    color: rgba(255,255,255,0.13);
+    font-size: clamp(76px, 7vw, 126px);
+    font-weight: 1000;
+    font-style: italic;
+    line-height: 0.82;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    text-shadow: 0 18px 40px rgba(0,0,0,0.34);
+    transform: skewX(-9deg);
+}
+
+.live-track-overlay {
+    padding: 25px 20px 19px;
+}
+
+.live-track-overlay h3 {
+    max-width: 92%;
+    font-size: clamp(25px, 2vw, 34px);
+}
+
+.live-track-overlay p {
+    font-size: 14px;
+}
+
+.track-spa {
+    --track-background:
+        radial-gradient(circle at 22% 30%, rgba(255,142,67,0.42), transparent 24%),
+        linear-gradient(145deg, #313b33 0%, #152c38 45%, #0a1118 100%);
+}
+
+.track-zolder {
+    --track-background:
+        radial-gradient(circle at 28% 24%, rgba(255,183,55,0.42), transparent 25%),
+        linear-gradient(145deg, #4a3a1f 0%, #18303a 48%, #091117 100%);
+}
+
+.track-brands {
+    --track-background:
+        radial-gradient(circle at 28% 24%, rgba(255,91,91,0.38), transparent 24%),
+        linear-gradient(145deg, #3c2429 0%, #17332d 50%, #091117 100%);
+}
+
+.track-monza {
+    --track-background:
+        radial-gradient(circle at 28% 24%, rgba(255,72,91,0.42), transparent 24%),
+        linear-gradient(145deg, #3f2229 0%, #20313a 48%, #091117 100%);
+}
+
+.track-nordschleife {
+    --track-background:
+        radial-gradient(circle at 28% 24%, rgba(165,226,96,0.38), transparent 24%),
+        linear-gradient(145deg, #283a25 0%, #1d2d36 48%, #091117 100%);
+}
+
+.track-generic {
+    --track-background: linear-gradient(145deg, #293643 0%, #17242e 50%, #091117 100%);
+}
+
+.live-detail-row strong {
+    max-width: 220px;
+}
+
+@media (max-width: 1100px) {
+    .live-track-visual { min-height: 205px; }
+    .live-track-monogram { font-size: clamp(72px, 14vw, 110px); }
+}
+
+@media (max-width: 760px) {
+    .live-track-visual { min-height: 190px; }
+    .live-track-country { top: 14px; left: 14px; }
+    .live-track-monogram { top: 26px; right: 12px; font-size: 82px; }
+    .live-track-overlay { padding: 22px 16px 16px; }
+}

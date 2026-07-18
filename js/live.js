@@ -1,16 +1,16 @@
-console.log("ABOBA Live Servers loaded v1.1");
+console.log("ABOBA Live Servers loaded v1.2");
 
 (function () {
     const DATA_URL = "data/live_servers.json";
     const DEFAULT_REFRESH_MS = 10_000;
     const STALE_AFTER_MS = 90_000;
 
-    const TRACK_ASSETS = {
-        spa: "assets/tracks/spa.svg",
-        zolder: "assets/tracks/zolder.svg",
-        brands_hatch: "assets/tracks/brands-hatch.svg",
-        monza: "assets/tracks/monza.svg",
-        nurburgring_24h: "assets/tracks/nordschleife.svg"
+    const TRACK_META = {
+        spa: { code: "SPA", flag: "🇧🇪", country: "Belgium", className: "track-spa" },
+        zolder: { code: "ZOL", flag: "🇧🇪", country: "Belgium", className: "track-zolder" },
+        brands_hatch: { code: "BRH", flag: "🇬🇧", country: "United Kingdom", className: "track-brands" },
+        monza: { code: "MNZ", flag: "🇮🇹", country: "Italy", className: "track-monza" },
+        nurburgring_24h: { code: "N24", flag: "🇩🇪", country: "Germany", className: "track-nordschleife" }
     };
 
     const PHASE_LABELS = {
@@ -103,7 +103,7 @@ console.log("ABOBA Live Servers loaded v1.1");
     function renderCard(server) {
         const state = statusFor(server);
         const stale = isStale(server.source_updated_at);
-        const asset = TRACK_ASSETS[server.track_key] || "assets/tracks/generic.svg";
+        const trackMeta = TRACK_META[server.track_key] || { code: "ACC", flag: "🏁", country: "Racing", className: "track-generic" };
         const updated = parseDate(server.source_updated_at);
         const sessionType = server.session_type || "Unknown";
         const phase = phaseLabel(server.session_phase);
@@ -118,7 +118,13 @@ console.log("ABOBA Live Servers loaded v1.1");
                     <span class="live-card-id">ACC</span>
                 </div>
 
-                <div class="live-track-visual" style="background-image:url('${asset}')">
+                <div class="live-track-visual ${escapeHtml(trackMeta.className)}">
+                    <div class="live-track-grid-pattern" aria-hidden="true"></div>
+                    <div class="live-track-country">
+                        <span>${escapeHtml(trackMeta.flag)}</span>
+                        <b>${escapeHtml(trackMeta.country)}</b>
+                    </div>
+                    <div class="live-track-monogram" aria-hidden="true">${escapeHtml(trackMeta.code)}</div>
                     <div class="live-track-overlay">
                         <h3>${escapeHtml(server.name)}</h3>
                         <p>${escapeHtml(server.track_name)}</p>

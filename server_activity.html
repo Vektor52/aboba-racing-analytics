@@ -1,149 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#090d12">
 <title>Server Activity</title>
-<link rel="stylesheet" href="css/style.css?v=21">
+<link rel="stylesheet" href="css/style.css?v=21"><link rel="stylesheet" href="css/live.css?v=3"><link rel="stylesheet" href="css/v3.css?v=1">
 </head>
-
-<body>
-
-<div class="page">
-
-    <header class="site-header">
-        <div>
-            <h1>Server Activity</h1>
-            <p class="subtitle">Historical server activity from ACC result files</p>
-        </div>
+<body class="live-v3-body v3-page-body">
+<div class="v3-shell">
+    <header class="live-topbar">
+        <a class="live-brand" href="index.html"><span class="live-brand-mark">A</span><span class="live-brand-copy"><b>ABOBA RACING</b><span>ANALYTICS <em>v3</em></span></span></a>
+        <nav class="live-main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="live.html">Live</a><a href="records.html">Track Records</a><a href="cars.html">Cars Analytics</a><a href="driver_stats.html">Driver Analytics</a><a href="safety.html">Safety Rating</a><a href="server_activity.html" class="active">Server Activity</a></nav>
+        <div class="live-topbar-actions"><div class="live-language-switcher" aria-label="Language"><button type="button" data-lang-option="en" onclick="setSiteLanguage('en')">EN</button><button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')">RU</button></div><span class="v3-build-badge">V3 UI</span></div>
     </header>
+    <main class="v3-content">
+        <section class="v3-hero"><div><p class="v3-kicker">ACC Analytics · activity</p><h1>Server Activity</h1><p class="subtitle">Historical server activity from ACC result files</p></div><div class="v3-hero-code" aria-hidden="true">ACT</div></section>
 
-    <div class="language-switcher" aria-label="Language">
-        <button type="button" data-lang-option="en" onclick="setSiteLanguage('en')" title="English">EN</button>
-        <button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')" title="Русский">RU</button>
-    </div>
-
-
-    <nav class="menu">
-        <a href="index.html">Home</a>
-    <a href="live.html">Live</a>
-        <a href="records.html">Track Records</a>
-        <a href="cars.html">Cars Analytics</a>
-        <a href="driver_stats.html">Driver Analytics</a>
-        <a href="safety.html">Safety Rating</a>
-        <a href="server_activity.html">Server Activity</a>
-    </nav>
-
-    <section class="section">
-        <h2>Activity Dashboard</h2>
-
-        <div class="activity-controls">
-            <div class="activity-filter-group">
-                <span>Period</span>
-                <button onclick="setActivityPeriod(7)">7 days</button>
-                <button onclick="setActivityPeriod(30)">30 days</button>
-                <button onclick="setActivityPeriod(90)">90 days</button>
-                <button onclick="setActivityPeriod('all')">All</button>
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Activity Dashboard</h2><p>Filter the history by period, server and track.</p></div></div>
+            <div class="activity-controls">
+                <div class="activity-filter-group"><span>Period</span><button onclick="setActivityPeriod(7)">7 days</button><button onclick="setActivityPeriod(30)">30 days</button><button onclick="setActivityPeriod(90)">90 days</button><button onclick="setActivityPeriod('all')">All</button></div>
+                <div class="activity-filter-group"><span>Server</span><select id="serverFilter" onchange="renderActivityPage()"><option value="">All servers</option></select></div>
+                <div class="activity-filter-group"><span>Track</span><select id="trackFilter" onchange="renderActivityPage()"><option value="">All tracks</option></select></div>
+                <div class="activity-filter-group"><span>Mode</span><button onclick="resetActivityFilters()">Reset</button></div>
             </div>
+            <p id="activityInfo" class="updated-info"></p>
+            <div id="activityCards" class="dashboard-grid"></div>
+        </section>
 
-            <div class="activity-filter-group">
-                <span>Server</span>
-                <select id="serverFilter" onchange="renderActivityPage()">
-                    <option value="">All servers</option>
-                </select>
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Activity Analysis</h2><p>Sessions, drivers, tracks, cars and activity distribution.</p></div></div>
+            <div class="activity-chart-grid">
+                <div class="panel-box activity-panel activity-panel-wide"><h3>Activity by Date</h3><p class="chart-note">Sessions, unique drivers and laps by day, grouped as bars</p><div id="activityDateChart" class="svg-chart-box"></div></div>
+                <div class="panel-box activity-panel"><h3>Activity by Server</h3><p class="chart-note">Top servers by selected period</p><div id="activityServerChart"></div></div>
+                <div class="panel-box activity-panel"><h3>Activity by Track</h3><p class="chart-note">Most active tracks</p><div id="activityTrackChart"></div></div>
+                <div class="panel-box activity-panel"><h3>Session Types</h3><p class="chart-note">Practice / Qualifying / Race activity</p><div id="activitySessionTypeChart"></div></div>
+                <div class="panel-box activity-panel"><h3>Most Used Cars</h3><p class="chart-note">Top 20 cars by entries</p><div id="activityCarChart"></div></div>
+                <div class="panel-box activity-panel activity-panel-wide"><h3>Activity Heatmap</h3><p class="chart-note">Sessions by weekday and hour. Darker cells mean more activity.</p><div id="activityHeatmap"></div></div>
             </div>
+        </section>
 
-            <div class="activity-filter-group">
-                <span>Track</span>
-                <select id="trackFilter" onchange="renderActivityPage()">
-                    <option value="">All tracks</option>
-                </select>
-            </div>
-
-            <div class="activity-filter-group">
-                <span>Mode</span>
-                <button onclick="resetActivityFilters()">Reset</button>
-            </div>
-        </div>
-
-        <p id="activityInfo" class="updated-info"></p>
-
-        <div id="activityCards" class="dashboard-grid"></div>
-    </section>
-
-    <section class="section">
-        <div class="activity-chart-grid">
-            <div class="panel-box activity-panel activity-panel-wide">
-                <h3>Activity by Date</h3>
-                <p class="chart-note">Sessions, unique drivers and laps by day, grouped as bars</p>
-                <div id="activityDateChart" class="svg-chart-box"></div>
-            </div>
-
-            <div class="panel-box activity-panel">
-                <h3>Activity by Server</h3>
-                <p class="chart-note">Top servers by selected period</p>
-                <div id="activityServerChart"></div>
-            </div>
-
-            <div class="panel-box activity-panel">
-                <h3>Activity by Track</h3>
-                <p class="chart-note">Most active tracks</p>
-                <div id="activityTrackChart"></div>
-            </div>
-
-            <div class="panel-box activity-panel">
-                <h3>Session Types</h3>
-                <p class="chart-note">Practice / Qualifying / Race activity</p>
-                <div id="activitySessionTypeChart"></div>
-            </div>
-
-            <div class="panel-box activity-panel">
-                <h3>Most Used Cars</h3>
-                <p class="chart-note">Top 20 cars by entries</p>
-                <div id="activityCarChart"></div>
-            </div>
-
-            <div class="panel-box activity-panel activity-panel-wide">
-                <h3>Activity Heatmap</h3>
-                <p class="chart-note">Sessions by weekday and hour. Darker cells mean more activity.</p>
-                <div id="activityHeatmap"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Activity Details</h2>
-
-        <div class="table-scroll activity-table-scroll">
-            <table id="activityTable">
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Server</th>
-                        <th>Track</th>
-                        <th>Session</th>
-                        <th>Sessions</th>
-                        <th>Drivers</th>
-                        <th>Laps</th>
-                        <th>Best Lap</th>
-                        <th>Best Driver</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </section>
-
-    <footer class="site-footer">
-        ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b>
-    </footer>
-
+        <section class="v3-panel">
+            <div class="v3-panel-head"><div><h2>Activity Details</h2><p>Detailed daily activity for the selected filters.</p></div></div>
+            <div class="table-scroll activity-table-scroll"><table id="activityTable"><thead><tr><th>Date</th><th>Server</th><th>Track</th><th>Session</th><th>Sessions</th><th>Drivers</th><th>Laps</th><th>Best Lap</th><th>Best Driver</th></tr></thead><tbody></tbody></table></div>
+        </section>
+    </main>
+    <footer class="v3-footer">ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b></footer>
 </div>
-
-<script src="js/cars.js?v=8"></script>
-<script src="js/server_activity.js?v=2"></script>
-
-<script src="js/i18n.js?v=13"></script>
-
+<script src="js/cars.js?v=8"></script><script src="js/server_activity.js?v=2"></script><script src="js/i18n.js?v=14"></script>
 </body>
 </html>

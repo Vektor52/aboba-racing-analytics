@@ -3,76 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090d12">
 <title>Track Records</title>
 <link rel="stylesheet" href="css/style.css?v=21">
+<link rel="stylesheet" href="css/live.css?v=3">
+<link rel="stylesheet" href="css/v3.css?v=1">
 </head>
-
-<body>
-
-<div class="page">
-
-    <header class="site-header">
-        <div>
-            <h1>Track Records</h1>
-            <p class="subtitle">Best laps, sectors and records by track</p>
-        </div>
+<body class="live-v3-body v3-page-body">
+<div class="v3-shell">
+    <header class="live-topbar">
+        <a class="live-brand" href="index.html"><span class="live-brand-mark">A</span><span class="live-brand-copy"><b>ABOBA RACING</b><span>ANALYTICS <em>v3</em></span></span></a>
+        <nav class="live-main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a><a href="live.html">Live</a><a href="records.html" class="active">Track Records</a><a href="cars.html">Cars Analytics</a><a href="driver_stats.html">Driver Analytics</a><a href="safety.html">Safety Rating</a><a href="server_activity.html">Server Activity</a>
+        </nav>
+        <div class="live-topbar-actions"><div class="live-language-switcher" aria-label="Language"><button type="button" data-lang-option="en" onclick="setSiteLanguage('en')">EN</button><button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')">RU</button></div><span class="v3-build-badge">V3 UI</span></div>
     </header>
 
-    <div class="language-switcher" aria-label="Language">
-        <button type="button" data-lang-option="en" onclick="setSiteLanguage('en')" title="English">EN</button>
-        <button type="button" data-lang-option="ru" onclick="setSiteLanguage('ru')" title="Русский">RU</button>
-    </div>
+    <main class="v3-content">
+        <section class="v3-hero">
+            <div><p class="v3-kicker">ACC Analytics · records</p><h1>Track Records</h1><p class="subtitle">Best laps, sectors and records by track</p></div>
+            <div class="v3-hero-code" aria-hidden="true">REC</div>
+        </section>
 
-
-<nav class="menu">
-    <a href="index.html">Home</a>
-    <a href="live.html">Live</a>
-    <a href="records.html">Track Records</a>
-    <a href="cars.html">Cars Analytics</a>
-    <a href="driver_stats.html">Driver Analytics</a>
-    <a href="safety.html">Safety Rating</a>
-    <a href="server_activity.html">Server Activity</a>
-</nav>
-
-<div class="menu">
-    <button onclick="showCurrentRecords()">Current Records</button>
-    <button onclick="showAllTimeRecords()">All-Time Records</button>
+        <section class="v3-panel">
+            <div class="v3-panel-head">
+                <div><h2>Track Records</h2><p>Switch between currently active records and the full historical archive.</p></div>
+                <div class="v3-toolbar"><button onclick="showCurrentRecords()">Current Records</button><button onclick="showAllTimeRecords()">All-Time Records</button></div>
+            </div>
+            <p id="recordsInfo" class="v3-status-line"></p>
+            <div class="table-scroll records-table-scroll">
+                <table id="recordsTable">
+                    <thead><tr><th>Track</th><th>Driver</th><th>Car</th><th>Session</th><th>Server</th><th>S1</th><th>S2</th><th>S3</th><th>Lap Time</th><th>Last Seen</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="v3-footer">ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b></footer>
 </div>
-
-<p id="recordsInfo"></p>
-
-<div class="table-scroll records-table-scroll">
-<table id="recordsTable">
-<thead>
-<tr>
-    <th>Track</th>
-    <th>Driver</th>
-    <th>Car</th>
-    <th>Session</th>
-    <th>Server</th>
-    <th>S1</th>
-    <th>S2</th>
-    <th>S3</th>
-    <th>Lap Time</th>
-    <th>Last Seen</th>
-</tr>
-</thead>
-
-<tbody>
-</tbody>
-</table>
-</div>
-
-    <footer class="site-footer">
-        ABOBA Racing Analytics · Built by <b>Vektor52</b> with help from <b>ChatGPT GPT-5.5 Thinking</b>
-    </footer>
-
-</div>
-
-<script src="js/cars.js?v=8"></script>
-<script src="js/records.js?v=4"></script>
-
-<script src="js/i18n.js?v=13"></script>
-
+<script src="js/cars.js?v=8"></script><script src="js/records.js?v=4"></script><script src="js/i18n.js?v=14"></script>
 </body>
 </html>
