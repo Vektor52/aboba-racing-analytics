@@ -1,13 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T18:39:55Z",
+    "generated_at": "2026-07-21T18:44:36Z",
     "refresh_seconds": 10,
     "source": "ACC Race Control live snapshots",
-    "server_count": 5,
-    "online_count": 5,
+    "server_count": 4,
+    "online_count": 4,
     "offline_count": 0,
-    "total_players": 20,
-    "warnings": []
+    "total_players": 4,
+    "warnings": [
+      "live_1780323950.raw.json: root JSON value is not an object"
+    ]
   },
   "servers": [
     {
@@ -18,23 +20,10 @@
       "online": true,
       "server_state": "online",
       "session_type": "Race",
-      "session_phase": "session",
-      "session_remaining_minutes": 0.0,
-      "players": 20,
-      "source_updated_at": "2026-07-21T18:39:51.901389Z"
-    },
-    {
-      "key": "1780323950",
-      "name": "ZOLDER",
-      "track_key": "zolder",
-      "track_name": "Zolder",
-      "online": true,
-      "server_state": "online",
-      "session_type": "Practice",
-      "session_phase": "waiting for drivers",
-      "session_remaining_minutes": 0.0,
-      "players": 0,
-      "source_updated_at": "2026-07-21T17:08:15.1161976Z"
+      "session_phase": "pre session",
+      "session_remaining_minutes": 25.0,
+      "players": 4,
+      "source_updated_at": "2026-07-21T18:43:36.9645432Z"
     },
     {
       "key": "1781810063",
