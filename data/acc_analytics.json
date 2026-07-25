@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-25 10:39:55",
+        "generated_at": "2026-07-25 10:44:36",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-26 10:39:55",
+        "active_cutoff": "2026-04-26 10:44:36",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1049,
-        "sessions_last_7_days": 141,
+        "sessions_total": 1050,
+        "sessions_last_7_days": 142,
         "new_drivers_last_7_days": 152,
         "lap_entries_total": 2430,
         "cars_total": 31,
-        "safety_laps_total": 18363,
+        "safety_laps_total": 18365,
         "safety_penalties_total": 556,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-24 22:33:08",
+        "last_activity": "2026-07-25 10:40:17",
         "top_track": "spa",
         "top_track_sessions": 417,
         "top_car_model": 35,
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 134,
+            "sessions_count": 135,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-24 19:48:30"
+            "last_seen": "2026-07-25 10:40:17"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 94,
+            "sessions_count": 95,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-07-24 19:48:30"
+            "last_seen": "2026-07-25 10:40:17"
         },
         {
             "track": "cota",
@@ -123,15 +123,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1049,
+        "sessions": 1050,
         "drivers": 226,
-        "laps": 18363,
+        "laps": 18365,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
-        "active_days": 51,
+        "active_days": 52,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-07-24"
+        "last_activity": "2026-07-25"
     },
     "activity_by_date": [
         {
@@ -592,6 +592,15 @@
             "servers": 5,
             "tracks": 5,
             "entries": 9
+        },
+        {
+            "date": "2026-07-25",
+            "sessions": 1,
+            "drivers": 0,
+            "laps": 2,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -627,13 +636,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 134,
+            "sessions": 135,
             "drivers": 64,
-            "laps": 979,
+            "laps": 981,
             "tracks": 5,
             "entries": 118,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-24 19:48:30"
+            "last_seen": "2026-07-25 10:40:17"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -682,14 +691,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 94,
+            "sessions": 95,
             "drivers": 45,
-            "laps": 747,
+            "laps": 749,
             "servers": 1,
             "entries": 86,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
-            "last_seen": "2026-07-24 19:48:30"
+            "last_seen": "2026-07-25 10:40:17"
         },
         {
             "track": "nurburgring_24h",
@@ -1432,9 +1441,9 @@
             "weekday_number": 6,
             "weekday": "Saturday",
             "hour": 10,
-            "sessions": 2,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 3,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 2,
@@ -150320,6 +150329,26 @@
             "last_seen": "2026-06-16 22:26:09"
         },
         {
+            "driver": "Jeremy Croft",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 0,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-25 10:40:17",
+            "last_seen": "2026-07-25 10:40:17"
+        },
+        {
             "driver": "Jhon Diaz",
             "safety_score": 40.0,
             "grade": "D",
@@ -181980,6 +182009,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-16 22:26:09",
             "last_seen": "2026-06-16 22:26:09"
+        },
+        {
+            "driver": "Jeremy Croft",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 0,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-25 10:40:17",
+            "last_seen": "2026-07-25 10:40:17"
         },
         {
             "driver": "Jhon Diaz",
