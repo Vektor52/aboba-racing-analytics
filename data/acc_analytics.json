@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-26 10:39:49",
+        "generated_at": "2026-07-26 10:44:36",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-27 10:39:49",
+        "active_cutoff": "2026-04-27 10:44:36",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1064,
-        "sessions_last_7_days": 152,
+        "sessions_total": 1066,
+        "sessions_last_7_days": 154,
         "new_drivers_last_7_days": 172,
-        "lap_entries_total": 2462,
+        "lap_entries_total": 2464,
         "cars_total": 31,
-        "safety_laps_total": 18627,
+        "safety_laps_total": 18658,
         "safety_penalties_total": 559,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-26 10:11:08",
+        "last_activity": "2026-07-26 10:40:37",
         "top_track": "spa",
         "top_track_sessions": 425,
         "top_car_model": 35,
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 138,
+            "sessions_count": 140,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-26 10:11:08"
+            "last_seen": "2026-07-26 10:40:37"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 98,
+            "sessions_count": 100,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-07-26 10:11:08"
+            "last_seen": "2026-07-26 10:40:37"
         },
         {
             "track": "cota",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1064,
+        "sessions": 1066,
         "drivers": 226,
-        "laps": 18627,
+        "laps": 18658,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
@@ -604,12 +604,12 @@
         },
         {
             "date": "2026-07-26",
-            "sessions": 2,
+            "sessions": 4,
             "drivers": 6,
-            "laps": 84,
+            "laps": 115,
             "servers": 1,
             "tracks": 1,
-            "entries": 10
+            "entries": 12
         }
     ],
     "activity_by_server": [
@@ -645,13 +645,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 138,
+            "sessions": 140,
             "drivers": 71,
-            "laps": 1073,
+            "laps": 1104,
             "tracks": 5,
-            "entries": 129,
+            "entries": 131,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-26 10:11:08"
+            "last_seen": "2026-07-26 10:40:37"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -700,14 +700,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 98,
+            "sessions": 100,
             "drivers": 52,
-            "laps": 841,
+            "laps": 872,
             "servers": 1,
-            "entries": 97,
+            "entries": 99,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
-            "last_seen": "2026-07-26 10:11:08"
+            "last_seen": "2026-07-26 10:40:37"
         },
         {
             "track": "nurburgring_24h",
@@ -774,10 +774,10 @@
         },
         {
             "session_type": "R2",
-            "sessions": 14,
-            "entries": 92,
-            "drivers": 86,
-            "best_lap": 89882
+            "sessions": 15,
+            "entries": 94,
+            "drivers": 88,
+            "best_lap": 86172
         }
     ],
     "activity_by_car": [
@@ -811,8 +811,8 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 198,
-            "sessions": 134,
+            "entries": 199,
+            "sessions": 135,
             "drivers": 120,
             "tracks": 5,
             "best_lap": 88465
@@ -820,11 +820,11 @@
         {
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
-            "entries": 140,
-            "sessions": 112,
+            "entries": 141,
+            "sessions": 113,
             "drivers": 60,
             "tracks": 5,
-            "best_lap": 86392
+            "best_lap": 86172
         },
         {
             "car_model": 23,
@@ -1458,7 +1458,7 @@
             "weekday_number": 0,
             "weekday": "Sunday",
             "hour": 10,
-            "sessions": 1,
+            "sessions": 3,
             "servers": 1,
             "tracks": 1
         },
@@ -2160,7 +2160,7 @@
             "sessions": 1,
             "entries": 4,
             "drivers": 4,
-            "laps": 84,
+            "laps": 115,
             "best_lap": 87200,
             "best_driver": "Jordan Oakley"
         },
@@ -2172,9 +2172,21 @@
             "sessions": 1,
             "entries": 6,
             "drivers": 6,
-            "laps": 84,
+            "laps": 115,
             "best_lap": 85230,
             "best_driver": "Raf Rigor"
+        },
+        {
+            "date": "2026-07-26",
+            "server_name": "Brands Hatch",
+            "track": "brands_hatch",
+            "session_type": "R2",
+            "sessions": 1,
+            "entries": 2,
+            "drivers": 2,
+            "laps": 115,
+            "best_lap": 86172,
+            "best_driver": "Jordan Oakley"
         },
         {
             "date": "2026-07-25",
@@ -6981,14 +6993,14 @@
         {
             "driver": "Brodie Purchase",
             "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
+            "last_seen": "2026-07-26 10:40:19",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Brondex Brondexsov",
@@ -11337,14 +11349,14 @@
         {
             "driver": "Jordan Oakley",
             "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
+            "last_seen": "2026-07-26 10:40:19",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Jordan Townsend",
@@ -20208,16 +20220,16 @@
             "driver": "Jordan Oakley",
             "active": true,
             "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
+            "last_seen": "2026-07-26 10:40:19",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 86392,
+            "entries_count": 3,
+            "best_lap": 86172,
             "best_track": "brands_hatch",
-            "best_session": "R1",
+            "best_session": "R2",
             "best_car_model": 36,
             "best_car_name": "Ford Mustang GT3",
             "favorite_track": "brands_hatch",
@@ -20645,6 +20657,26 @@
             "favorite_car_name": "Audi R8 LMS Evo (2019)"
         },
         {
+            "driver": "Brodie Purchase",
+            "active": true,
+            "first_seen": "2026-07-26 09:42:45",
+            "last_seen": "2026-07-26 10:40:19",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 89102,
+            "best_track": "brands_hatch",
+            "best_session": "R2",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "brands_hatch",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
             "driver": "Danil Borisov",
             "active": true,
             "first_seen": "2026-07-05 14:21:48",
@@ -20703,26 +20735,6 @@
             "favorite_track": "zolder",
             "favorite_car_model": 32,
             "favorite_car_name": "Ferrari 296 GT3"
-        },
-        {
-            "driver": "Brodie Purchase",
-            "active": true,
-            "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
-            "days_since_last_seen": 0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 89422,
-            "best_track": "brands_hatch",
-            "best_session": "Qualifying",
-            "best_car_model": 34,
-            "best_car_name": "Porsche 992 GT3 R",
-            "favorite_track": "brands_hatch",
-            "favorite_car_model": 34,
-            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "yatti 27",
@@ -56957,19 +56969,19 @@
             "driver": "Brodie Purchase",
             "active": true,
             "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
+            "last_seen": "2026-07-26 10:40:19",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 20,
-            "valid_laps": 5,
-            "invalid_laps": 15,
-            "best_lap": 89422,
+            "entries_count": 3,
+            "total_laps": 34,
+            "valid_laps": 7,
+            "invalid_laps": 27,
+            "best_lap": 89102,
             "best_track": "brands_hatch",
-            "best_session": "Qualifying",
+            "best_session": "R2",
             "best_car_model": 34,
             "best_car_name": "Porsche 992 GT3 R",
             "favorite_track": "brands_hatch",
@@ -56978,33 +56990,33 @@
             "track_bests": [
                 {
                     "track": "brands_hatch",
-                    "best_lap": 89422,
-                    "sector1": 29067,
-                    "sector2": 22805,
-                    "sector3": 36997,
+                    "best_lap": 89102,
+                    "sector1": 29107,
+                    "sector2": 22900,
+                    "sector3": 37095,
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "session": "Qualifying",
+                    "session": "R2",
                     "server_name": "Brands Hatch",
-                    "session_date": "2026-07-26 09:42:45"
+                    "session_date": "2026-07-26 10:40:19"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "best_lap": 89422,
+                    "best_lap": 89102,
                     "best_track": "brands_hatch"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "Brands Hatch",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-07-26 10:11:08"
+                    "last_seen": "2026-07-26 10:40:19"
                 }
             ],
             "session_types": [
@@ -57017,6 +57029,11 @@
                     "session": "R1",
                     "entries": 1,
                     "best_lap": 90817
+                },
+                {
+                    "session": "R2",
+                    "entries": 1,
+                    "best_lap": 89102
                 }
             ]
         },
@@ -81074,19 +81091,19 @@
             "driver": "Jordan Oakley",
             "active": true,
             "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08",
+            "last_seen": "2026-07-26 10:40:19",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 24,
-            "valid_laps": 15,
-            "invalid_laps": 9,
-            "best_lap": 86392,
+            "entries_count": 3,
+            "total_laps": 41,
+            "valid_laps": 26,
+            "invalid_laps": 15,
+            "best_lap": 86172,
             "best_track": "brands_hatch",
-            "best_session": "R1",
+            "best_session": "R2",
             "best_car_model": 36,
             "best_car_name": "Ford Mustang GT3",
             "favorite_track": "brands_hatch",
@@ -81095,33 +81112,33 @@
             "track_bests": [
                 {
                     "track": "brands_hatch",
-                    "best_lap": 86392,
-                    "sector1": 27812,
-                    "sector2": 22162,
-                    "sector3": 35882,
+                    "best_lap": 86172,
+                    "sector1": 27622,
+                    "sector2": 22350,
+                    "sector3": 35897,
                     "car_model": 36,
                     "car_name": "Ford Mustang GT3",
-                    "session": "R1",
+                    "session": "R2",
                     "server_name": "Brands Hatch",
-                    "session_date": "2026-07-26 10:11:08"
+                    "session_date": "2026-07-26 10:40:19"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 36,
                     "car_name": "Ford Mustang GT3",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "best_lap": 86392,
+                    "best_lap": 86172,
                     "best_track": "brands_hatch"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "Brands Hatch",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-07-26 10:11:08"
+                    "last_seen": "2026-07-26 10:40:19"
                 }
             ],
             "session_types": [
@@ -81134,6 +81151,11 @@
                     "session": "R1",
                     "entries": 1,
                     "best_lap": 86392
+                },
+                {
+                    "session": "R2",
+                    "entries": 1,
+                    "best_lap": 86172
                 }
             ]
         },
@@ -128400,11 +128422,11 @@
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
             "drivers": 60,
-            "entries": 140,
-            "best_lap": 86392,
+            "entries": 141,
+            "best_lap": 86172,
             "best_driver": "Jordan Oakley",
             "best_track": "brands_hatch",
-            "avg_lap": 132936
+            "avg_lap": 132604
         },
         {
             "car_model": 20,
@@ -128460,11 +128482,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 120,
-            "entries": 198,
+            "entries": 199,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 141803
+            "avg_lap": 141538
         },
         {
             "car_model": 6,
@@ -128712,11 +128734,11 @@
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
             "drivers": 60,
-            "entries": 140,
-            "best_lap": 86392,
+            "entries": 141,
+            "best_lap": 86172,
             "best_driver": "Jordan Oakley",
             "best_track": "brands_hatch",
-            "avg_lap": 132936
+            "avg_lap": 132604
         },
         {
             "car_model": 20,
@@ -128772,11 +128794,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 120,
-            "entries": 198,
+            "entries": 199,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 141803
+            "avg_lap": 141538
         },
         {
             "car_model": 6,
@@ -133091,6 +133113,26 @@
             "last_seen": "2026-07-21 17:47:44"
         },
         {
+            "driver": "Jordan Oakley",
+            "safety_score": 81.0,
+            "grade": "B",
+            "confidence": "low",
+            "total_laps": 41,
+            "valid_laps": 26,
+            "invalid_laps": 15,
+            "valid_lap_ratio": 0.634,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 36.59,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-26 09:42:45",
+            "last_seen": "2026-07-26 10:40:19"
+        },
+        {
             "driver": "David Martin",
             "safety_score": 81.0,
             "grade": "B",
@@ -133329,26 +133371,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 15:16:56",
             "last_seen": "2026-06-29 15:16:56"
-        },
-        {
-            "driver": "Jordan Oakley",
-            "safety_score": 80.5,
-            "grade": "B",
-            "confidence": "low",
-            "total_laps": 24,
-            "valid_laps": 15,
-            "invalid_laps": 9,
-            "valid_lap_ratio": 0.625,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 37.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08"
         },
         {
             "driver": "Ali Pekşen",
@@ -145091,26 +145113,6 @@
             "last_seen": "2026-07-09 00:04:32"
         },
         {
-            "driver": "Brodie Purchase",
-            "safety_score": 58.0,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 20,
-            "valid_laps": 5,
-            "invalid_laps": 15,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08"
-        },
-        {
             "driver": "constantinos hasapakos",
             "safety_score": 58.0,
             "grade": "D",
@@ -145889,6 +145891,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 21:09:09",
             "last_seen": "2026-06-24 16:05:50"
+        },
+        {
+            "driver": "Brodie Purchase",
+            "safety_score": 55.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 34,
+            "valid_laps": 7,
+            "invalid_laps": 27,
+            "valid_lap_ratio": 0.206,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 79.41,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-26 09:42:45",
+            "last_seen": "2026-07-26 10:40:19"
         },
         {
             "driver": "Undis 123",
@@ -165273,6 +165295,26 @@
             "last_seen": "2026-07-21 17:47:44"
         },
         {
+            "driver": "Jordan Oakley",
+            "safety_score": 81.0,
+            "grade": "B",
+            "confidence": "low",
+            "total_laps": 41,
+            "valid_laps": 26,
+            "invalid_laps": 15,
+            "valid_lap_ratio": 0.634,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 36.59,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-26 09:42:45",
+            "last_seen": "2026-07-26 10:40:19"
+        },
+        {
             "driver": "David Martin",
             "safety_score": 81.0,
             "grade": "B",
@@ -165511,26 +165553,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 15:16:56",
             "last_seen": "2026-06-29 15:16:56"
-        },
-        {
-            "driver": "Jordan Oakley",
-            "safety_score": 80.5,
-            "grade": "B",
-            "confidence": "low",
-            "total_laps": 24,
-            "valid_laps": 15,
-            "invalid_laps": 9,
-            "valid_lap_ratio": 0.625,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 37.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08"
         },
         {
             "driver": "Ali Pekşen",
@@ -177273,26 +177295,6 @@
             "last_seen": "2026-07-09 00:04:32"
         },
         {
-            "driver": "Brodie Purchase",
-            "safety_score": 58.0,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 20,
-            "valid_laps": 5,
-            "invalid_laps": 15,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-26 09:42:45",
-            "last_seen": "2026-07-26 10:11:08"
-        },
-        {
             "driver": "constantinos hasapakos",
             "safety_score": 58.0,
             "grade": "D",
@@ -178071,6 +178073,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 21:09:09",
             "last_seen": "2026-06-24 16:05:50"
+        },
+        {
+            "driver": "Brodie Purchase",
+            "safety_score": 55.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 34,
+            "valid_laps": 7,
+            "invalid_laps": 27,
+            "valid_lap_ratio": 0.206,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 79.41,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-26 09:42:45",
+            "last_seen": "2026-07-26 10:40:19"
         },
         {
             "driver": "Undis 123",
