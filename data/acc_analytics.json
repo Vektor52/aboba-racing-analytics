@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-27 00:44:36",
+        "generated_at": "2026-07-27 01:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-28 00:44:36",
+        "active_cutoff": "2026-04-28 01:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1072,
-        "sessions_last_7_days": 139,
+        "sessions_total": 1074,
+        "sessions_last_7_days": 141,
         "new_drivers_last_7_days": 175,
         "lap_entries_total": 2477,
         "cars_total": 31,
@@ -34,7 +34,7 @@
         "safety_penalties_total": 565,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-26 12:38:54",
+        "last_activity": "2026-07-27 01:36:57",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -72,10 +72,10 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions_count": 85,
+            "sessions_count": 87,
             "tracks_count": 1,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-25 16:53:50"
+            "last_seen": "2026-07-27 01:36:57"
         }
     ],
     "tracks": [
@@ -105,9 +105,9 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions_count": 92,
+            "sessions_count": 94,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-25 16:53:50"
+            "last_seen": "2026-07-27 01:36:57"
         },
         {
             "track": "spa",
@@ -123,15 +123,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1072,
+        "sessions": 1074,
         "drivers": 226,
         "laps": 18786,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
-        "active_days": 53,
+        "active_days": 54,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-07-26"
+        "last_activity": "2026-07-27"
     },
     "activity_by_date": [
         {
@@ -610,6 +610,15 @@
             "servers": 3,
             "tracks": 3,
             "entries": 25
+        },
+        {
+            "date": "2026-07-27",
+            "sessions": 2,
+            "drivers": 0,
+            "laps": 0,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -655,13 +664,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions": 85,
+            "sessions": 87,
             "drivers": 37,
             "laps": 287,
             "tracks": 1,
             "entries": 44,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-25 16:53:50"
+            "last_seen": "2026-07-27 01:36:57"
         }
     ],
     "activity_by_track": [
@@ -711,14 +720,14 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions": 92,
+            "sessions": 94,
             "drivers": 37,
             "laps": 287,
             "servers": 2,
             "entries": 44,
             "best_lap": 491997,
             "best_driver": "Christian Haugom",
-            "last_seen": "2026-07-25 16:53:50"
+            "last_seen": "2026-07-27 01:36:57"
         },
         {
             "track": "barcelona",
@@ -1117,6 +1126,14 @@
             "sessions": 12,
             "servers": 4,
             "tracks": 4
+        },
+        {
+            "weekday_number": 1,
+            "weekday": "Monday",
+            "hour": 1,
+            "sessions": 2,
+            "servers": 1,
+            "tracks": 1
         },
         {
             "weekday_number": 2,
