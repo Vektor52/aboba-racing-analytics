@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-28 11:44:36",
+        "generated_at": "2026-07-28 12:39:53",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-29 11:44:36",
+        "active_cutoff": "2026-04-29 12:39:53",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1083,
-        "sessions_last_7_days": 116,
+        "sessions_total": 1085,
+        "sessions_last_7_days": 118,
         "new_drivers_last_7_days": 110,
         "lap_entries_total": 2483,
         "cars_total": 31,
@@ -34,7 +34,7 @@
         "safety_penalties_total": 565,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-27 23:20:21",
+        "last_activity": "2026-07-28 12:03:22",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -51,10 +51,10 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions_count": 255,
+            "sessions_count": 257,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-27 22:30:03"
+            "last_seen": "2026-07-28 12:03:22"
         },
         {
             "server_name": "Brands Hatch",
@@ -117,21 +117,21 @@
         },
         {
             "track": "zolder",
-            "sessions_count": 255,
+            "sessions_count": 257,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-27 22:30:03"
+            "last_seen": "2026-07-28 12:03:22"
         }
     ],
     "activity_summary": {
-        "sessions": 1083,
+        "sessions": 1085,
         "drivers": 226,
         "laps": 18826,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
-        "active_days": 54,
+        "active_days": 55,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-07-27"
+        "last_activity": "2026-07-28"
     },
     "activity_by_date": [
         {
@@ -619,6 +619,15 @@
             "servers": 3,
             "tracks": 3,
             "entries": 6
+        },
+        {
+            "date": "2026-07-28",
+            "sessions": 2,
+            "drivers": 0,
+            "laps": 0,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -634,13 +643,13 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions": 255,
+            "sessions": 257,
             "drivers": 183,
             "laps": 3090,
             "tracks": 1,
             "entries": 403,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-27 22:30:03"
+            "last_seen": "2026-07-28 12:03:22"
         },
         {
             "server_name": "MONZA",
@@ -687,14 +696,14 @@
         },
         {
             "track": "zolder",
-            "sessions": 255,
+            "sessions": 257,
             "drivers": 183,
             "laps": 3090,
             "servers": 1,
             "entries": 403,
             "best_lap": 88797,
             "best_driver": "Fernando Andrade",
-            "last_seen": "2026-07-27 22:30:03"
+            "last_seen": "2026-07-28 12:03:22"
         },
         {
             "track": "monza",
@@ -1518,6 +1527,14 @@
             "sessions": 6,
             "servers": 3,
             "tracks": 3
+        },
+        {
+            "weekday_number": 2,
+            "weekday": "Tuesday",
+            "hour": 12,
+            "sessions": 2,
+            "servers": 1,
+            "tracks": 1
         },
         {
             "weekday_number": 3,
