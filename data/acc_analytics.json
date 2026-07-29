@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-30 01:44:36",
+        "generated_at": "2026-07-30 02:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-01 01:44:36",
+        "active_cutoff": "2026-05-01 02:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -20,21 +20,21 @@
         "privacy": "steam_id_server_id_and_local_paths_removed"
     },
     "site_stats": {
-        "drivers_total": 1270,
-        "drivers_active": 1270,
+        "drivers_total": 1272,
+        "drivers_active": 1272,
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1092,
-        "sessions_last_7_days": 76,
-        "new_drivers_last_7_days": 55,
-        "lap_entries_total": 2490,
+        "sessions_total": 1096,
+        "sessions_last_7_days": 80,
+        "new_drivers_last_7_days": 57,
+        "lap_entries_total": 2494,
         "cars_total": 31,
-        "safety_laps_total": 18856,
+        "safety_laps_total": 18881,
         "safety_penalties_total": 565,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-29 18:21:40",
+        "last_activity": "2026-07-30 02:36:14",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -51,10 +51,10 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions_count": 257,
+            "sessions_count": 261,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-28 12:03:22"
+            "last_seen": "2026-07-30 02:36:14"
         },
         {
             "server_name": "Brands Hatch",
@@ -117,21 +117,21 @@
         },
         {
             "track": "zolder",
-            "sessions_count": 257,
+            "sessions_count": 261,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-28 12:03:22"
+            "last_seen": "2026-07-30 02:36:14"
         }
     ],
     "activity_summary": {
-        "sessions": 1092,
+        "sessions": 1096,
         "drivers": 226,
-        "laps": 18856,
+        "laps": 18881,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
-        "active_days": 56,
+        "active_days": 57,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-07-29"
+        "last_activity": "2026-07-30"
     },
     "activity_by_date": [
         {
@@ -637,6 +637,15 @@
             "servers": 2,
             "tracks": 2,
             "entries": 4
+        },
+        {
+            "date": "2026-07-30",
+            "sessions": 4,
+            "drivers": 2,
+            "laps": 25,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 4
         }
     ],
     "activity_by_server": [
@@ -652,13 +661,13 @@
         },
         {
             "server_name": "ZOLDER",
-            "sessions": 257,
-            "drivers": 183,
-            "laps": 3090,
+            "sessions": 261,
+            "drivers": 185,
+            "laps": 3115,
             "tracks": 1,
-            "entries": 403,
+            "entries": 407,
             "first_seen": "2026-06-04 20:12:34",
-            "last_seen": "2026-07-28 12:03:22"
+            "last_seen": "2026-07-30 02:36:14"
         },
         {
             "server_name": "MONZA",
@@ -705,14 +714,14 @@
         },
         {
             "track": "zolder",
-            "sessions": 257,
-            "drivers": 183,
-            "laps": 3090,
+            "sessions": 261,
+            "drivers": 185,
+            "laps": 3115,
             "servers": 1,
-            "entries": 403,
+            "entries": 407,
             "best_lap": 88797,
             "best_driver": "Fernando Andrade",
-            "last_seen": "2026-07-28 12:03:22"
+            "last_seen": "2026-07-30 02:36:14"
         },
         {
             "track": "monza",
@@ -773,16 +782,16 @@
     "activity_by_session_type": [
         {
             "session_type": "Practice",
-            "sessions": 43,
-            "entries": 101,
-            "drivers": 57,
+            "sessions": 44,
+            "entries": 102,
+            "drivers": 58,
             "best_lap": 87940
         },
         {
             "session_type": "Qualifying",
-            "sessions": 298,
-            "entries": 1040,
-            "drivers": 775,
+            "sessions": 299,
+            "entries": 1042,
+            "drivers": 777,
             "best_lap": 86440
         },
         {
@@ -794,9 +803,9 @@
         },
         {
             "session_type": "R1",
-            "sessions": 31,
-            "entries": 179,
-            "drivers": 164,
+            "sessions": 32,
+            "entries": 180,
+            "drivers": 165,
             "best_lap": 85230
         },
         {
@@ -838,9 +847,9 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 202,
-            "sessions": 138,
-            "drivers": 121,
+            "entries": 203,
+            "sessions": 139,
+            "drivers": 122,
             "tracks": 5,
             "best_lap": 88465
         },
@@ -865,9 +874,9 @@
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "entries": 88,
-            "sessions": 73,
-            "drivers": 47,
+            "entries": 91,
+            "sessions": 76,
+            "drivers": 48,
             "tracks": 4,
             "best_lap": 90895
         },
@@ -1165,9 +1174,9 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 1,
-            "sessions": 1,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 2,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 5,
@@ -1205,9 +1214,9 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 2,
-            "sessions": 1,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 4,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 5,
@@ -2203,6 +2212,42 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-07-30",
+            "server_name": "ZOLDER",
+            "track": "zolder",
+            "session_type": "Practice",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 25,
+            "best_lap": 91715,
+            "best_driver": "Ilya Grishkin"
+        },
+        {
+            "date": "2026-07-30",
+            "server_name": "ZOLDER",
+            "track": "zolder",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 2,
+            "drivers": 2,
+            "laps": 25,
+            "best_lap": 92420,
+            "best_driver": "Ilya Grishkin"
+        },
+        {
+            "date": "2026-07-30",
+            "server_name": "ZOLDER",
+            "track": "zolder",
+            "session_type": "R1",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 25,
+            "best_lap": 91697,
+            "best_driver": "Ilya Grishkin"
+        },
         {
             "date": "2026-07-29",
             "server_name": "Brands Hatch",
@@ -9082,6 +9127,18 @@
             "entries_count": 2
         },
         {
+            "driver": "Emilio Flores",
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:02:29",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "Emilis Marcinkevičius",
             "first_seen": "2026-07-06 20:34:51",
             "last_seen": "2026-07-06 21:04:05",
@@ -10814,6 +10871,18 @@
             "first_seen": "2026-06-20 15:47:14",
             "last_seen": "2026-06-20 16:33:35",
             "days_since_last_seen": 40,
+            "active": true,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3
+        },
+        {
+            "driver": "Ilya Grishkin",
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:36:14",
+            "days_since_last_seen": 0,
             "active": true,
             "sessions_count": 3,
             "tracks_count": 1,
@@ -22072,6 +22141,26 @@
             "favorite_car_name": "Lamborghini Huracan Evo (2019)"
         },
         {
+            "driver": "Ilya Grishkin",
+            "active": true,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:36:14",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 91697,
+            "best_track": "zolder",
+            "best_session": "R1",
+            "best_car_model": 25,
+            "best_car_name": "Mercedes-AMG GT3 2020",
+            "favorite_track": "zolder",
+            "favorite_car_model": 25,
+            "favorite_car_name": "Mercedes-AMG GT3 2020"
+        },
+        {
             "driver": "ahmet arda çağdaş",
             "active": true,
             "first_seen": "2026-07-03 23:13:37",
@@ -24730,6 +24819,26 @@
             "favorite_track": "zolder",
             "favorite_car_model": 16,
             "favorite_car_name": "Lamborghini Huracan Evo (2019)"
+        },
+        {
+            "driver": "Emilio Flores",
+            "active": true,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:02:29",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 99385,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "zolder",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "DANIEL Rivas",
@@ -68502,6 +68611,68 @@
             ]
         },
         {
+            "driver": "Emilio Flores",
+            "active": true,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:02:29",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 2,
+            "valid_laps": 2,
+            "invalid_laps": 0,
+            "best_lap": 99385,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "zolder",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R",
+            "track_bests": [
+                {
+                    "track": "zolder",
+                    "best_lap": 99385,
+                    "sector1": 33445,
+                    "sector2": 33770,
+                    "sector3": 32170,
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "session": "Qualifying",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-07-30 02:02:29"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 99385,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-07-30 02:02:29"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 99385
+                }
+            ]
+        },
+        {
             "driver": "Emilis Marcinkevičius",
             "active": true,
             "first_seen": "2026-07-06 20:34:51",
@@ -78123,6 +78294,78 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 139420
+                }
+            ]
+        },
+        {
+            "driver": "Ilya Grishkin",
+            "active": true,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:36:14",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "total_laps": 23,
+            "valid_laps": 20,
+            "invalid_laps": 3,
+            "best_lap": 91697,
+            "best_track": "zolder",
+            "best_session": "R1",
+            "best_car_model": 25,
+            "best_car_name": "Mercedes-AMG GT3 2020",
+            "favorite_track": "zolder",
+            "favorite_car_model": 25,
+            "favorite_car_name": "Mercedes-AMG GT3 2020",
+            "track_bests": [
+                {
+                    "track": "zolder",
+                    "best_lap": 91697,
+                    "sector1": 31065,
+                    "sector2": 30245,
+                    "sector3": 30380,
+                    "car_model": 25,
+                    "car_name": "Mercedes-AMG GT3 2020",
+                    "session": "R1",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-07-30 02:25:33"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 25,
+                    "car_name": "Mercedes-AMG GT3 2020",
+                    "entries": 3,
+                    "tracks": 1,
+                    "best_lap": 91697,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 3,
+                    "tracks": 1,
+                    "last_seen": "2026-07-30 02:36:14"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Practice",
+                    "entries": 1,
+                    "best_lap": 91715
+                },
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 92420
+                },
+                {
+                    "session": "R1",
+                    "entries": 1,
+                    "best_lap": 91697
                 }
             ]
         },
@@ -130072,12 +130315,12 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "drivers": 121,
-            "entries": 202,
+            "drivers": 122,
+            "entries": 203,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 141362
+            "avg_lap": 141155
         },
         {
             "car_model": 6,
@@ -130132,12 +130375,12 @@
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "drivers": 47,
-            "entries": 88,
+            "drivers": 48,
+            "entries": 91,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 148012
+            "avg_lap": 146164
         },
         {
             "car_model": 2,
@@ -130384,12 +130627,12 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "drivers": 121,
-            "entries": 202,
+            "drivers": 122,
+            "entries": 203,
             "best_lap": 88465,
             "best_driver": "Hao",
             "best_track": "brands_hatch",
-            "avg_lap": 141362
+            "avg_lap": 141155
         },
         {
             "car_model": 6,
@@ -130444,12 +130687,12 @@
         {
             "car_model": 25,
             "car_name": "Mercedes-AMG GT3 2020",
-            "drivers": 47,
-            "entries": 88,
+            "drivers": 48,
+            "entries": 91,
             "best_lap": 90895,
             "best_driver": "Mr Kumo",
             "best_track": "zolder",
-            "avg_lap": 148012
+            "avg_lap": 146164
         },
         {
             "car_model": 2,
@@ -130862,6 +131105,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 21:33:45",
             "last_seen": "2026-07-08 21:33:45"
+        },
+        {
+            "driver": "Emilio Flores",
+            "safety_score": 100.0,
+            "grade": "S",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 2,
+            "invalid_laps": 0,
+            "valid_lap_ratio": 1.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 0.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:02:29"
         },
         {
             "driver": "FUT  Emir",
@@ -132002,6 +132265,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-20 21:06:49",
             "last_seen": "2026-07-20 21:34:51"
+        },
+        {
+            "driver": "Ilya Grishkin",
+            "safety_score": 95.2,
+            "grade": "S",
+            "confidence": "low",
+            "total_laps": 23,
+            "valid_laps": 20,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.87,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 13.04,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:36:14"
         },
         {
             "driver": "yandel vazquez",
@@ -163486,6 +163769,26 @@
             "last_seen": "2026-07-08 21:33:45"
         },
         {
+            "driver": "Emilio Flores",
+            "safety_score": 100.0,
+            "grade": "S",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 2,
+            "invalid_laps": 0,
+            "valid_lap_ratio": 1.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 0.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:02:29"
+        },
+        {
             "driver": "FUT  Emir",
             "safety_score": 100.0,
             "grade": "S",
@@ -164624,6 +164927,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-20 21:06:49",
             "last_seen": "2026-07-20 21:34:51"
+        },
+        {
+            "driver": "Ilya Grishkin",
+            "safety_score": 95.2,
+            "grade": "S",
+            "confidence": "low",
+            "total_laps": 23,
+            "valid_laps": 20,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.87,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 13.04,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-30 02:02:29",
+            "last_seen": "2026-07-30 02:36:14"
         },
         {
             "driver": "yandel vazquez",
