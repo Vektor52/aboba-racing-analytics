@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-29 11:44:36",
+        "generated_at": "2026-07-29 12:39:53",
         "activity_window_days": 90,
-        "active_cutoff": "2026-04-30 11:44:36",
+        "active_cutoff": "2026-04-30 12:39:53",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1089,
-        "sessions_last_7_days": 86,
+        "sessions_total": 1090,
+        "sessions_last_7_days": 87,
         "new_drivers_last_7_days": 57,
         "lap_entries_total": 2486,
         "cars_total": 31,
@@ -34,7 +34,7 @@
         "safety_penalties_total": 565,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-28 18:28:58",
+        "last_activity": "2026-07-29 11:45:37",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 167,
+            "sessions_count": 168,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-28 18:28:58"
+            "last_seen": "2026-07-29 11:45:37"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 171,
+            "sessions_count": 172,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-07-28 18:28:58"
+            "last_seen": "2026-07-29 11:45:37"
         },
         {
             "track": "nurburgring_24h",
@@ -123,15 +123,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1089,
+        "sessions": 1090,
         "drivers": 226,
         "laps": 18836,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
-        "active_days": 55,
+        "active_days": 56,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-07-28"
+        "last_activity": "2026-07-29"
     },
     "activity_by_date": [
         {
@@ -628,6 +628,15 @@
             "servers": 3,
             "tracks": 3,
             "entries": 3
+        },
+        {
+            "date": "2026-07-29",
+            "sessions": 1,
+            "drivers": 0,
+            "laps": 0,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -653,13 +662,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 167,
+            "sessions": 168,
             "drivers": 294,
             "laps": 4427,
             "tracks": 1,
             "entries": 542,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-07-28 18:28:58"
+            "last_seen": "2026-07-29 11:45:37"
         },
         {
             "server_name": "Brands Hatch",
@@ -707,14 +716,14 @@
         },
         {
             "track": "monza",
-            "sessions": 171,
+            "sessions": 172,
             "drivers": 294,
             "laps": 4427,
             "servers": 2,
             "entries": 542,
             "best_lap": 107402,
             "best_driver": "wolfgang STRAUB (GER)",
-            "last_seen": "2026-07-28 18:28:58"
+            "last_seen": "2026-07-29 11:45:37"
         },
         {
             "track": "brands_hatch",
@@ -1493,6 +1502,14 @@
             "weekday": "Tuesday",
             "hour": 11,
             "sessions": 3,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 3,
+            "weekday": "Wednesday",
+            "hour": 11,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
