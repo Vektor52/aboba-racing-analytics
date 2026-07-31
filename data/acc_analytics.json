@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-31 14:44:36",
+        "generated_at": "2026-07-31 15:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-02 14:44:36",
+        "active_cutoff": "2026-05-02 15:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1106,
-        "sessions_last_7_days": 69,
+        "sessions_total": 1108,
+        "sessions_last_7_days": 71,
         "new_drivers_last_7_days": 53,
         "lap_entries_total": 2508,
         "cars_total": 31,
-        "safety_laps_total": 18966,
-        "safety_penalties_total": 567,
+        "safety_laps_total": 18968,
+        "safety_penalties_total": 568,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-31 13:47:16",
+        "last_activity": "2026-07-31 15:37:19",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -72,10 +72,10 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions_count": 91,
+            "sessions_count": 93,
             "tracks_count": 1,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-28 15:28:24"
+            "last_seen": "2026-07-31 15:37:19"
         }
     ],
     "tracks": [
@@ -105,9 +105,9 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions_count": 98,
+            "sessions_count": 100,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-28 15:28:24"
+            "last_seen": "2026-07-31 15:37:19"
         },
         {
             "track": "spa",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1106,
+        "sessions": 1108,
         "drivers": 226,
-        "laps": 18966,
+        "laps": 18968,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
@@ -649,11 +649,11 @@
         },
         {
             "date": "2026-07-31",
-            "sessions": 5,
+            "sessions": 7,
             "drivers": 8,
-            "laps": 73,
-            "servers": 1,
-            "tracks": 1,
+            "laps": 75,
+            "servers": 2,
+            "tracks": 2,
             "entries": 12
         }
     ],
@@ -700,13 +700,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions": 91,
+            "sessions": 93,
             "drivers": 38,
-            "laps": 290,
+            "laps": 292,
             "tracks": 1,
             "entries": 45,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-28 15:28:24"
+            "last_seen": "2026-07-31 15:37:19"
         }
     ],
     "activity_by_track": [
@@ -756,14 +756,14 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions": 98,
+            "sessions": 100,
             "drivers": 38,
-            "laps": 290,
+            "laps": 292,
             "servers": 2,
             "entries": 45,
             "best_lap": 491997,
             "best_driver": "Christian Haugom",
-            "last_seen": "2026-07-28 15:28:24"
+            "last_seen": "2026-07-31 15:37:19"
         },
         {
             "track": "barcelona",
@@ -1759,9 +1759,9 @@
             "weekday_number": 5,
             "weekday": "Friday",
             "hour": 15,
-            "sessions": 3,
-            "servers": 2,
-            "tracks": 2
+            "sessions": 5,
+            "servers": 3,
+            "tracks": 3
         },
         {
             "weekday_number": 6,
@@ -158277,6 +158277,26 @@
             "last_seen": "2026-07-18 01:12:29"
         },
         {
+            "driver": "Oliver Martin",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 15:37:19",
+            "last_seen": "2026-07-31 15:37:19"
+        },
+        {
             "driver": "Oliwier Phelinne",
             "safety_score": 40.0,
             "grade": "D",
@@ -164255,6 +164275,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 23:44:02",
             "last_seen": "2026-07-08 23:44:02"
+        },
+        {
+            "driver": "julien lol",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 100.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 15:37:19",
+            "last_seen": "2026-07-31 15:37:19"
         },
         {
             "driver": "Kashir21 TOPRACING",
@@ -191099,6 +191139,26 @@
             "last_seen": "2026-07-18 01:12:29"
         },
         {
+            "driver": "Oliver Martin",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 15:37:19",
+            "last_seen": "2026-07-31 15:37:19"
+        },
+        {
             "driver": "Oliwier Phelinne",
             "safety_score": 40.0,
             "grade": "D",
@@ -197077,6 +197137,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 23:44:02",
             "last_seen": "2026-07-08 23:44:02"
+        },
+        {
+            "driver": "julien lol",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 100.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 15:37:19",
+            "last_seen": "2026-07-31 15:37:19"
         },
         {
             "driver": "Kashir21 TOPRACING",
