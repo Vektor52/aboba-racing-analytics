@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-07-31 19:39:49",
+        "generated_at": "2026-07-31 19:44:36",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-02 19:39:49",
+        "active_cutoff": "2026-05-02 19:44:36",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1109,
-        "sessions_last_7_days": 66,
+        "sessions_total": 1110,
+        "sessions_last_7_days": 67,
         "new_drivers_last_7_days": 48,
         "lap_entries_total": 2508,
         "cars_total": 31,
-        "safety_laps_total": 18970,
+        "safety_laps_total": 18971,
         "safety_penalties_total": 569,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 20,
-        "last_activity": "2026-07-31 19:30:37",
+        "last_activity": "2026-07-31 19:44:29",
         "top_track": "spa",
         "top_track_sessions": 430,
         "top_car_model": 35,
@@ -72,10 +72,10 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions_count": 94,
+            "sessions_count": 95,
             "tracks_count": 1,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-31 19:30:37"
+            "last_seen": "2026-07-31 19:44:29"
         }
     ],
     "tracks": [
@@ -105,9 +105,9 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions_count": 101,
+            "sessions_count": 102,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-07-31 19:30:37"
+            "last_seen": "2026-07-31 19:44:29"
         },
         {
             "track": "spa",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1109,
+        "sessions": 1110,
         "drivers": 226,
-        "laps": 18970,
+        "laps": 18971,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
@@ -649,9 +649,9 @@
         },
         {
             "date": "2026-07-31",
-            "sessions": 8,
+            "sessions": 9,
             "drivers": 8,
-            "laps": 77,
+            "laps": 78,
             "servers": 2,
             "tracks": 2,
             "entries": 12
@@ -700,13 +700,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
-            "sessions": 94,
+            "sessions": 95,
             "drivers": 38,
-            "laps": 294,
+            "laps": 295,
             "tracks": 1,
             "entries": 45,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-07-31 19:30:37"
+            "last_seen": "2026-07-31 19:44:29"
         }
     ],
     "activity_by_track": [
@@ -756,14 +756,14 @@
         },
         {
             "track": "nurburgring_24h",
-            "sessions": 101,
+            "sessions": 102,
             "drivers": 38,
-            "laps": 294,
+            "laps": 295,
             "servers": 2,
             "entries": 45,
             "best_lap": 491997,
             "best_driver": "Christian Haugom",
-            "last_seen": "2026-07-31 19:30:37"
+            "last_seen": "2026-07-31 19:44:29"
         },
         {
             "track": "barcelona",
@@ -1983,7 +1983,7 @@
             "weekday_number": 5,
             "weekday": "Friday",
             "hour": 19,
-            "sessions": 15,
+            "sessions": 16,
             "servers": 5,
             "tracks": 6
         },
@@ -163657,6 +163657,26 @@
             "last_seen": "2026-07-13 23:39:40"
         },
         {
+            "driver": "Адель Cosmos",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 0,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 33.33,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 19:30:37",
+            "last_seen": "2026-07-31 19:44:29"
+        },
+        {
             "driver": "ALO MAX",
             "safety_score": 0.0,
             "grade": "D",
@@ -164155,26 +164175,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-09 20:34:15",
             "last_seen": "2026-07-09 20:34:15"
-        },
-        {
-            "driver": "Адель Cosmos",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 0,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.0,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 100.0,
-            "penalties_per_100": 50.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-31 19:30:37",
-            "last_seen": "2026-07-31 19:30:37"
         },
         {
             "driver": "a wipe",
@@ -196539,6 +196539,26 @@
             "last_seen": "2026-07-13 23:39:40"
         },
         {
+            "driver": "Адель Cosmos",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 0,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 33.33,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-07-31 19:30:37",
+            "last_seen": "2026-07-31 19:44:29"
+        },
+        {
             "driver": "ALO MAX",
             "safety_score": 0.0,
             "grade": "D",
@@ -197037,26 +197057,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-09 20:34:15",
             "last_seen": "2026-07-09 20:34:15"
-        },
-        {
-            "driver": "Адель Cosmos",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 0,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.0,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 100.0,
-            "penalties_per_100": 50.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-07-31 19:30:37",
-            "last_seen": "2026-07-31 19:30:37"
         },
         {
             "driver": "a wipe",
