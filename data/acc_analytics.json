@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-02 20:44:36",
+        "generated_at": "2026-08-02 21:39:55",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-04 20:44:36",
+        "active_cutoff": "2026-05-04 21:39:55",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1130,
-        "sessions_last_7_days": 58,
+        "sessions_total": 1134,
+        "sessions_last_7_days": 62,
         "new_drivers_last_7_days": 37,
         "lap_entries_total": 2548,
         "cars_total": 31,
@@ -34,9 +34,9 @@
         "safety_penalties_total": 581,
         "trusted_drivers_total": 2,
         "risky_drivers_total": 21,
-        "last_activity": "2026-08-02 20:34:15",
+        "last_activity": "2026-08-02 21:14:15",
         "top_track": "spa",
-        "top_track_sessions": 431,
+        "top_track_sessions": 434,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 607
@@ -44,10 +44,10 @@
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 431,
+            "sessions_count": 434,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-01 11:23:10"
+            "last_seen": "2026-08-02 21:14:15"
         },
         {
             "server_name": "ZOLDER",
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 183,
+            "sessions_count": 184,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-02 20:34:15"
+            "last_seen": "2026-08-02 21:12:28"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 187,
+            "sessions_count": 188,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-08-02 20:34:15"
+            "last_seen": "2026-08-02 21:12:28"
         },
         {
             "track": "nurburgring_24h",
@@ -111,9 +111,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 431,
+            "sessions_count": 434,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-01 11:23:10"
+            "last_seen": "2026-08-02 21:14:15"
         },
         {
             "track": "zolder",
@@ -123,7 +123,7 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1130,
+        "sessions": 1134,
         "drivers": 226,
         "laps": 19386,
         "servers": 5,
@@ -667,24 +667,24 @@
         },
         {
             "date": "2026-08-02",
-            "sessions": 10,
+            "sessions": 14,
             "drivers": 21,
             "laps": 373,
-            "servers": 3,
-            "tracks": 3,
+            "servers": 4,
+            "tracks": 4,
             "entries": 34
         }
     ],
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 431,
+            "sessions": 434,
             "drivers": 765,
             "laps": 9889,
             "tracks": 1,
             "entries": 1361,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-01 11:23:10"
+            "last_seen": "2026-08-02 21:14:15"
         },
         {
             "server_name": "ZOLDER",
@@ -698,13 +698,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 183,
+            "sessions": 184,
             "drivers": 318,
             "laps": 4799,
             "tracks": 1,
             "entries": 582,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-02 20:34:15"
+            "last_seen": "2026-08-02 21:12:28"
         },
         {
             "server_name": "Brands Hatch",
@@ -730,14 +730,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 431,
+            "sessions": 434,
             "drivers": 765,
             "laps": 9889,
             "servers": 1,
             "entries": 1361,
             "best_lap": 137570,
             "best_driver": "Alex Power",
-            "last_seen": "2026-08-01 11:23:10"
+            "last_seen": "2026-08-02 21:14:15"
         },
         {
             "track": "zolder",
@@ -752,14 +752,14 @@
         },
         {
             "track": "monza",
-            "sessions": 187,
+            "sessions": 188,
             "drivers": 318,
             "laps": 4799,
             "servers": 2,
             "entries": 582,
             "best_lap": 107127,
             "best_driver": "Wolfgang Straub",
-            "last_seen": "2026-08-02 20:34:15"
+            "last_seen": "2026-08-02 21:12:28"
         },
         {
             "track": "brands_hatch",
@@ -2129,7 +2129,7 @@
             "weekday_number": 0,
             "weekday": "Sunday",
             "hour": 21,
-            "sessions": 13,
+            "sessions": 17,
             "servers": 3,
             "tracks": 3
         },
