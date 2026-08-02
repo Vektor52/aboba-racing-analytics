@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-02 03:44:36",
+        "generated_at": "2026-08-02 04:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-04 03:44:36",
+        "active_cutoff": "2026-05-04 04:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,21 +25,21 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 7,
-        "sessions_total": 1122,
-        "sessions_last_7_days": 60,
+        "sessions_total": 1124,
+        "sessions_last_7_days": 62,
         "new_drivers_last_7_days": 38,
-        "lap_entries_total": 2521,
+        "lap_entries_total": 2522,
         "cars_total": 31,
-        "safety_laps_total": 19082,
-        "safety_penalties_total": 570,
+        "safety_laps_total": 19099,
+        "safety_penalties_total": 572,
         "trusted_drivers_total": 1,
         "risky_drivers_total": 21,
-        "last_activity": "2026-08-02 03:35:00",
+        "last_activity": "2026-08-02 04:02:36",
         "top_track": "spa",
         "top_track_sessions": 431,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 603
+        "top_car_entries": 604
     },
     "servers": [
         {
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 152,
+            "sessions_count": 154,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-08-02 03:35:00"
+            "last_seen": "2026-08-02 04:02:36"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 112,
+            "sessions_count": 114,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-08-02 03:35:00"
+            "last_seen": "2026-08-02 04:02:36"
         },
         {
             "track": "cota",
@@ -123,9 +123,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1122,
+        "sessions": 1124,
         "drivers": 226,
-        "laps": 19082,
+        "laps": 19099,
         "servers": 5,
         "tracks": 7,
         "cars": 31,
@@ -667,12 +667,12 @@
         },
         {
             "date": "2026-08-02",
-            "sessions": 2,
+            "sessions": 4,
             "drivers": 4,
-            "laps": 69,
+            "laps": 86,
             "servers": 1,
             "tracks": 1,
-            "entries": 7
+            "entries": 8
         }
     ],
     "activity_by_server": [
@@ -708,13 +708,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 152,
+            "sessions": 154,
             "drivers": 81,
-            "laps": 1265,
+            "laps": 1282,
             "tracks": 5,
-            "entries": 150,
+            "entries": 151,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-08-02 03:35:00"
+            "last_seen": "2026-08-02 04:02:36"
         },
         {
             "server_name": "ABOBA RACING Nordschleife 24 /VOLGA-RUS/",
@@ -763,14 +763,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 112,
+            "sessions": 114,
             "drivers": 62,
-            "laps": 1033,
+            "laps": 1050,
             "servers": 1,
-            "entries": 118,
+            "entries": 119,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
-            "last_seen": "2026-08-02 03:35:00"
+            "last_seen": "2026-08-02 04:02:36"
         },
         {
             "track": "nurburgring_24h",
@@ -837,9 +837,9 @@
         },
         {
             "session_type": "R2",
-            "sessions": 16,
-            "entries": 96,
-            "drivers": 90,
+            "sessions": 17,
+            "entries": 97,
+            "drivers": 91,
             "best_lap": 86172
         }
     ],
@@ -847,8 +847,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 603,
-            "sessions": 322,
+            "entries": 604,
+            "sessions": 323,
             "drivers": 303,
             "tracks": 6,
             "best_lap": 85520
@@ -1345,7 +1345,7 @@
             "weekday_number": 0,
             "weekday": "Sunday",
             "hour": 4,
-            "sessions": 5,
+            "sessions": 7,
             "servers": 2,
             "tracks": 2
         },
@@ -2255,7 +2255,7 @@
             "sessions": 1,
             "entries": 3,
             "drivers": 3,
-            "laps": 69,
+            "laps": 86,
             "best_lap": 87650,
             "best_driver": "Richard Kozik"
         },
@@ -2267,9 +2267,21 @@
             "sessions": 1,
             "entries": 4,
             "drivers": 4,
-            "laps": 69,
+            "laps": 86,
             "best_lap": 87100,
             "best_driver": "Richard Kozik"
+        },
+        {
+            "date": "2026-08-02",
+            "server_name": "Brands Hatch",
+            "track": "brands_hatch",
+            "session_type": "R2",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 86,
+            "best_lap": 87232,
+            "best_driver": "parsa nohtani"
         },
         {
             "date": "2026-08-01",
@@ -15908,14 +15920,14 @@
         {
             "driver": "parsa nohtani",
             "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00",
+            "last_seen": "2026-08-02 04:02:18",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "pascal SPARCAL",
@@ -21116,6 +21128,26 @@
             "favorite_car_name": "Bentley Continental GT3 2018"
         },
         {
+            "driver": "parsa nohtani",
+            "active": true,
+            "first_seen": "2026-08-02 03:05:34",
+            "last_seen": "2026-08-02 04:02:18",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 87232,
+            "best_track": "brands_hatch",
+            "best_session": "R2",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "brands_hatch",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
+        {
             "driver": "- Piinu",
             "active": true,
             "first_seen": "2026-07-14 22:40:17",
@@ -21354,26 +21386,6 @@
             "favorite_track": "brands_hatch",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
-        },
-        {
-            "driver": "parsa nohtani",
-            "active": true,
-            "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00",
-            "days_since_last_seen": 0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 88472,
-            "best_track": "brands_hatch",
-            "best_session": "R1",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "brands_hatch",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
             "driver": "anton schuhmann",
@@ -95402,9 +95414,9 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2,
-            "total_laps": 18,
+            "total_laps": 22,
             "valid_laps": 3,
-            "invalid_laps": 15,
+            "invalid_laps": 19,
             "best_lap": 88162,
             "best_track": "brands_hatch",
             "best_session": "R1",
@@ -105802,19 +105814,19 @@
             "driver": "parsa nohtani",
             "active": true,
             "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00",
+            "last_seen": "2026-08-02 04:02:18",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 24,
-            "valid_laps": 6,
-            "invalid_laps": 18,
-            "best_lap": 88472,
+            "entries_count": 3,
+            "total_laps": 37,
+            "valid_laps": 11,
+            "invalid_laps": 26,
+            "best_lap": 87232,
             "best_track": "brands_hatch",
-            "best_session": "R1",
+            "best_session": "R2",
             "best_car_model": 35,
             "best_car_name": "McLaren 720S GT3 Evo 2023",
             "favorite_track": "brands_hatch",
@@ -105823,33 +105835,33 @@
             "track_bests": [
                 {
                     "track": "brands_hatch",
-                    "best_lap": 88472,
-                    "sector1": 28347,
-                    "sector2": 22705,
-                    "sector3": 37037,
+                    "best_lap": 87232,
+                    "sector1": 27770,
+                    "sector2": 22315,
+                    "sector3": 36797,
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "R1",
+                    "session": "R2",
                     "server_name": "Brands Hatch",
-                    "session_date": "2026-08-02 03:35:00"
+                    "session_date": "2026-08-02 04:02:18"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "best_lap": 88472,
+                    "best_lap": 87232,
                     "best_track": "brands_hatch"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "Brands Hatch",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-08-02 03:35:00"
+                    "last_seen": "2026-08-02 04:02:18"
                 }
             ],
             "session_types": [
@@ -105862,6 +105874,11 @@
                     "session": "R1",
                     "entries": 1,
                     "best_lap": 88472
+                },
+                {
+                    "session": "R2",
+                    "entries": 1,
+                    "best_lap": 87232
                 }
             ]
         },
@@ -131911,11 +131928,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 303,
-            "entries": 603,
+            "entries": 604,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 130918
+            "avg_lap": 130845
         },
         {
             "car_model": 33,
@@ -132223,11 +132240,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 303,
-            "entries": 603,
+            "entries": 604,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 130918
+            "avg_lap": 130845
         },
         {
             "car_model": 33,
@@ -149082,26 +149099,6 @@
             "last_seen": "2026-07-20 15:51:26"
         },
         {
-            "driver": "parsa nohtani",
-            "safety_score": 58.0,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 24,
-            "valid_laps": 6,
-            "invalid_laps": 18,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00"
-        },
-        {
             "driver": "SERG AMOSR",
             "safety_score": 58.0,
             "grade": "D",
@@ -151202,26 +151199,6 @@
             "last_seen": "2026-06-22 23:08:12"
         },
         {
-            "driver": "Matias ESPINDOLA",
-            "safety_score": 53.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 3,
-            "invalid_laps": 15,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00"
-        },
-        {
             "driver": "Oleg Silyutin",
             "safety_score": 53.0,
             "grade": "D",
@@ -152080,6 +152057,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 15:30:34",
             "last_seen": "2026-06-29 16:51:50"
+        },
+        {
+            "driver": "Matias ESPINDOLA",
+            "safety_score": 51.2,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 22,
+            "valid_laps": 3,
+            "invalid_laps": 19,
+            "valid_lap_ratio": 0.136,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 86.36,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-02 03:05:34",
+            "last_seen": "2026-08-02 04:02:18"
         },
         {
             "driver": "almir civelek",
@@ -160440,6 +160437,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 18:09:20",
             "last_seen": "2026-07-08 21:20:08"
+        },
+        {
+            "driver": "parsa nohtani",
+            "safety_score": 22.7,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 37,
+            "valid_laps": 11,
+            "invalid_laps": 26,
+            "valid_lap_ratio": 0.297,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 70.27,
+            "penalties_per_100": 5.41,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-02 03:05:34",
+            "last_seen": "2026-08-02 04:02:18"
         },
         {
             "driver": "Unknown Driver",
@@ -182164,26 +182181,6 @@
             "last_seen": "2026-07-20 15:51:26"
         },
         {
-            "driver": "parsa nohtani",
-            "safety_score": 58.0,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 24,
-            "valid_laps": 6,
-            "invalid_laps": 18,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00"
-        },
-        {
             "driver": "SERG AMOSR",
             "safety_score": 58.0,
             "grade": "D",
@@ -184284,26 +184281,6 @@
             "last_seen": "2026-06-22 23:08:12"
         },
         {
-            "driver": "Matias ESPINDOLA",
-            "safety_score": 53.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 3,
-            "invalid_laps": 15,
-            "valid_lap_ratio": 0.167,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 83.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-02 03:05:34",
-            "last_seen": "2026-08-02 03:35:00"
-        },
-        {
             "driver": "Oleg Silyutin",
             "safety_score": 53.0,
             "grade": "D",
@@ -185162,6 +185139,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-29 15:30:34",
             "last_seen": "2026-06-29 16:51:50"
+        },
+        {
+            "driver": "Matias ESPINDOLA",
+            "safety_score": 51.2,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 22,
+            "valid_laps": 3,
+            "invalid_laps": 19,
+            "valid_lap_ratio": 0.136,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 86.36,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-02 03:05:34",
+            "last_seen": "2026-08-02 04:02:18"
         },
         {
             "driver": "almir civelek",
@@ -193522,6 +193519,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 18:09:20",
             "last_seen": "2026-07-08 21:20:08"
+        },
+        {
+            "driver": "parsa nohtani",
+            "safety_score": 22.7,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 37,
+            "valid_laps": 11,
+            "invalid_laps": 26,
+            "valid_lap_ratio": 0.297,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 70.27,
+            "penalties_per_100": 5.41,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-02 03:05:34",
+            "last_seen": "2026-08-02 04:02:18"
         },
         {
             "driver": "Unknown Driver",
