@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-11 11:44:36",
+        "generated_at": "2026-08-11 12:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-13 11:44:36",
+        "active_cutoff": "2026-05-13 12:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1320,
-        "sessions_last_7_days": 142,
+        "sessions_total": 1321,
+        "sessions_last_7_days": 143,
         "new_drivers_last_7_days": 109,
-        "lap_entries_total": 2875,
+        "lap_entries_total": 2876,
         "cars_total": 31,
-        "safety_laps_total": 22050,
+        "safety_laps_total": 22054,
         "safety_penalties_total": 662,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 21,
-        "last_activity": "2026-08-10 21:13:43",
+        "last_activity": "2026-08-11 11:51:57",
         "top_track": "spa",
         "top_track_sessions": 511,
         "top_car_model": 35,
@@ -72,10 +72,10 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions_count": 124,
+            "sessions_count": 125,
             "tracks_count": 2,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-09 11:51:23"
+            "last_seen": "2026-08-11 11:51:57"
         }
     ],
     "tracks": [
@@ -105,9 +105,9 @@
         },
         {
             "track": "nurburgring",
-            "sessions_count": 16,
+            "sessions_count": 17,
             "first_seen": "2026-08-07 23:06:08",
-            "last_seen": "2026-08-09 11:51:23"
+            "last_seen": "2026-08-11 11:51:57"
         },
         {
             "track": "nurburgring_24h",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1320,
+        "sessions": 1321,
         "drivers": 226,
-        "laps": 22050,
+        "laps": 22054,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 68,
+        "active_days": 69,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-08-10"
+        "last_activity": "2026-08-11"
     },
     "activity_by_date": [
         {
@@ -751,6 +751,15 @@
             "servers": 3,
             "tracks": 3,
             "entries": 8
+        },
+        {
+            "date": "2026-08-11",
+            "sessions": 1,
+            "drivers": 1,
+            "laps": 4,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
@@ -796,13 +805,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions": 124,
+            "sessions": 125,
             "drivers": 67,
-            "laps": 696,
+            "laps": 700,
             "tracks": 2,
-            "entries": 91,
+            "entries": 92,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-09 11:51:23"
+            "last_seen": "2026-08-11 11:51:57"
         }
     ],
     "activity_by_track": [
@@ -874,14 +883,14 @@
         },
         {
             "track": "nurburgring",
-            "sessions": 16,
+            "sessions": 17,
             "drivers": 27,
-            "laps": 391,
+            "laps": 395,
             "servers": 1,
-            "entries": 44,
+            "entries": 45,
             "best_lap": 116130,
             "best_driver": "Batuhan Tehneldere",
-            "last_seen": "2026-08-09 11:51:23"
+            "last_seen": "2026-08-11 11:51:57"
         },
         {
             "track": "cota",
@@ -905,8 +914,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 357,
-            "entries": 1200,
+            "sessions": 358,
+            "entries": 1201,
             "drivers": 885,
             "best_lap": 85547
         },
@@ -963,8 +972,8 @@
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 220,
-            "sessions": 155,
+            "entries": 221,
+            "sessions": 156,
             "drivers": 135,
             "tracks": 6,
             "best_lap": 86917
@@ -1658,9 +1667,9 @@
             "weekday_number": 2,
             "weekday": "Tuesday",
             "hour": 11,
-            "sessions": 3,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 4,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 3,
@@ -2376,6 +2385,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-08-11",
+            "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
+            "track": "nurburgring",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 4,
+            "best_lap": 120727,
+            "best_driver": "GLEB KOZLOV"
+        },
         {
             "date": "2026-08-10",
             "server_name": "Brands Hatch",
@@ -11717,14 +11738,14 @@
         {
             "driver": "GLEB KOZLOV",
             "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 2,
+            "last_seen": "2026-08-11 11:51:57",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Gleb Markeloff",
@@ -35573,6 +35594,26 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
+            "driver": "GLEB KOZLOV",
+            "active": true,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-11 11:51:57",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 120727,
+            "best_track": "nurburgring",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "nurburgring",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
             "driver": "JHONNY VANTI",
             "active": true,
             "first_seen": "2026-08-08 00:15:34",
@@ -35609,26 +35650,6 @@
             "best_car_model": 34,
             "best_car_name": "Porsche 992 GT3 R",
             "favorite_track": "monza",
-            "favorite_car_model": 34,
-            "favorite_car_name": "Porsche 992 GT3 R"
-        },
-        {
-            "driver": "GLEB KOZLOV",
-            "active": true,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 2,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 121372,
-            "best_track": "nurburgring",
-            "best_session": "Qualifying",
-            "best_car_model": 34,
-            "best_car_name": "Porsche 992 GT3 R",
-            "favorite_track": "nurburgring",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
         },
@@ -84663,17 +84684,17 @@
             "driver": "GLEB KOZLOV",
             "active": true,
             "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 2,
-            "sessions_count": 2,
+            "last_seen": "2026-08-11 11:51:57",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 21,
-            "valid_laps": 9,
-            "invalid_laps": 12,
-            "best_lap": 121372,
+            "entries_count": 3,
+            "total_laps": 25,
+            "valid_laps": 11,
+            "invalid_laps": 14,
+            "best_lap": 120727,
             "best_track": "nurburgring",
             "best_session": "Qualifying",
             "best_car_model": 34,
@@ -84684,40 +84705,40 @@
             "track_bests": [
                 {
                     "track": "nurburgring",
-                    "best_lap": 121372,
-                    "sector1": 57792,
-                    "sector2": 45290,
-                    "sector3": 18290,
+                    "best_lap": 120727,
+                    "sector1": 57492,
+                    "sector2": 45010,
+                    "sector3": 18225,
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
                     "session": "Qualifying",
                     "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-                    "session_date": "2026-08-09 11:17:22"
+                    "session_date": "2026-08-11 11:51:57"
                 }
             ],
             "car_usage": [
                 {
                     "car_model": 34,
                     "car_name": "Porsche 992 GT3 R",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "best_lap": 121372,
+                    "best_lap": 120727,
                     "best_track": "nurburgring"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-08-09 11:50:39"
+                    "last_seen": "2026-08-11 11:51:57"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 121372
+                    "entries": 2,
+                    "best_lap": 120727
                 },
                 {
                     "session": "Race",
@@ -148055,11 +148076,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 135,
-            "entries": 220,
+            "entries": 221,
             "best_lap": 86917,
             "best_driver": "DEVIN HAYES",
             "best_track": "brands_hatch",
-            "avg_lap": 140315
+            "avg_lap": 140226
         },
         {
             "car_model": 20,
@@ -148367,11 +148388,11 @@
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 135,
-            "entries": 220,
+            "entries": 221,
             "best_lap": 86917,
             "best_driver": "DEVIN HAYES",
             "best_track": "brands_hatch",
-            "avg_lap": 140315
+            "avg_lap": 140226
         },
         {
             "car_model": 20,
@@ -173726,6 +173747,26 @@
             "last_seen": "2026-06-19 23:37:50"
         },
         {
+            "driver": "GLEB KOZLOV",
+            "safety_score": 40.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 25,
+            "valid_laps": 11,
+            "invalid_laps": 14,
+            "valid_lap_ratio": 0.44,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 56.0,
+            "penalties_per_100": 4.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-11 11:51:57"
+        },
+        {
             "driver": "Martynas Vilčiauskas",
             "safety_score": 40.0,
             "grade": "D",
@@ -179004,26 +179045,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 22:53:14",
             "last_seen": "2026-07-20 17:52:28"
-        },
-        {
-            "driver": "GLEB KOZLOV",
-            "safety_score": 34.8,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 21,
-            "valid_laps": 9,
-            "invalid_laps": 12,
-            "valid_lap_ratio": 0.429,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 57.14,
-            "penalties_per_100": 4.76,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39"
         },
         {
             "driver": "Рустем Курносов",
@@ -210308,6 +210329,26 @@
             "last_seen": "2026-06-19 23:37:50"
         },
         {
+            "driver": "GLEB KOZLOV",
+            "safety_score": 40.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 25,
+            "valid_laps": 11,
+            "invalid_laps": 14,
+            "valid_lap_ratio": 0.44,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 56.0,
+            "penalties_per_100": 4.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-11 11:51:57"
+        },
+        {
             "driver": "Martynas Vilčiauskas",
             "safety_score": 40.0,
             "grade": "D",
@@ -215586,26 +215627,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 22:53:14",
             "last_seen": "2026-07-20 17:52:28"
-        },
-        {
-            "driver": "GLEB KOZLOV",
-            "safety_score": 34.8,
-            "grade": "D",
-            "confidence": "low",
-            "total_laps": 21,
-            "valid_laps": 9,
-            "invalid_laps": 12,
-            "valid_lap_ratio": 0.429,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 57.14,
-            "penalties_per_100": 4.76,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39"
         },
         {
             "driver": "Рустем Курносов",
