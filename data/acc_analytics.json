@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-11 22:44:36",
+        "generated_at": "2026-08-11 23:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-13 22:44:36",
+        "active_cutoff": "2026-05-13 23:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,18 +25,18 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1322,
-        "sessions_last_7_days": 137,
-        "new_drivers_last_7_days": 105,
+        "sessions_total": 1325,
+        "sessions_last_7_days": 138,
+        "new_drivers_last_7_days": 102,
         "lap_entries_total": 2876,
         "cars_total": 31,
         "safety_laps_total": 22054,
         "safety_penalties_total": 662,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 21,
-        "last_activity": "2026-08-11 20:12:45",
+        "last_activity": "2026-08-11 23:25:12",
         "top_track": "spa",
-        "top_track_sessions": 511,
+        "top_track_sessions": 514,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 735
@@ -44,10 +44,10 @@
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 511,
+            "sessions_count": 514,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-10 11:47:02"
+            "last_seen": "2026-08-11 23:25:12"
         },
         {
             "server_name": "ZOLDER",
@@ -117,9 +117,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 511,
+            "sessions_count": 514,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-10 11:47:02"
+            "last_seen": "2026-08-11 23:25:12"
         },
         {
             "track": "zolder",
@@ -129,7 +129,7 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1322,
+        "sessions": 1325,
         "drivers": 226,
         "laps": 22054,
         "servers": 5,
@@ -754,24 +754,24 @@
         },
         {
             "date": "2026-08-11",
-            "sessions": 2,
+            "sessions": 5,
             "drivers": 1,
             "laps": 4,
-            "servers": 2,
-            "tracks": 2,
+            "servers": 3,
+            "tracks": 3,
             "entries": 1
         }
     ],
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 511,
+            "sessions": 514,
             "drivers": 852,
             "laps": 11351,
             "tracks": 1,
             "entries": 1542,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-10 11:47:02"
+            "last_seen": "2026-08-11 23:25:12"
         },
         {
             "server_name": "ZOLDER",
@@ -817,14 +817,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 511,
+            "sessions": 514,
             "drivers": 852,
             "laps": 11351,
             "servers": 1,
             "entries": 1542,
             "best_lap": 136667,
             "best_driver": "Herbert Rikka | RMS",
-            "last_seen": "2026-08-10 11:47:02"
+            "last_seen": "2026-08-11 23:25:12"
         },
         {
             "track": "zolder",
@@ -2339,7 +2339,7 @@
             "weekday_number": 2,
             "weekday": "Tuesday",
             "hour": 23,
-            "sessions": 23,
+            "sessions": 26,
             "servers": 4,
             "tracks": 4
         },
