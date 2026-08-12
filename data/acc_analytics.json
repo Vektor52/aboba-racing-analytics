@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-12 22:44:36",
+        "generated_at": "2026-08-12 23:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-14 22:44:36",
+        "active_cutoff": "2026-05-14 23:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,18 +25,18 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1348,
-        "sessions_last_7_days": 139,
+        "sessions_total": 1349,
+        "sessions_last_7_days": 140,
         "new_drivers_last_7_days": 107,
         "lap_entries_total": 2905,
         "cars_total": 31,
-        "safety_laps_total": 22273,
+        "safety_laps_total": 22276,
         "safety_penalties_total": 664,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 22,
-        "last_activity": "2026-08-12 22:20:51",
+        "last_activity": "2026-08-12 23:24:05",
         "top_track": "spa",
-        "top_track_sessions": 530,
+        "top_track_sessions": 531,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
         "top_car_entries": 747
@@ -44,10 +44,10 @@
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 530,
+            "sessions_count": 531,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-12 22:20:51"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "server_name": "ZOLDER",
@@ -117,9 +117,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 530,
+            "sessions_count": 531,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-12 22:20:51"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "track": "zolder",
@@ -129,9 +129,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1348,
+        "sessions": 1349,
         "drivers": 226,
-        "laps": 22273,
+        "laps": 22276,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
@@ -763,9 +763,9 @@
         },
         {
             "date": "2026-08-12",
-            "sessions": 22,
+            "sessions": 23,
             "drivers": 12,
-            "laps": 215,
+            "laps": 218,
             "servers": 4,
             "tracks": 4,
             "entries": 28
@@ -774,13 +774,13 @@
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 530,
+            "sessions": 531,
             "drivers": 860,
-            "laps": 11538,
+            "laps": 11541,
             "tracks": 1,
             "entries": 1566,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-12 22:20:51"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "server_name": "ZOLDER",
@@ -826,14 +826,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 530,
+            "sessions": 531,
             "drivers": 860,
-            "laps": 11538,
+            "laps": 11541,
             "servers": 1,
             "entries": 1566,
             "best_lap": 136667,
             "best_driver": "Herbert Rikka | RMS",
-            "last_seen": "2026-08-12 22:20:51"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "track": "zolder",
@@ -2364,7 +2364,7 @@
             "weekday_number": 3,
             "weekday": "Wednesday",
             "hour": 23,
-            "sessions": 24,
+            "sessions": 25,
             "servers": 4,
             "tracks": 4
         },
@@ -2434,7 +2434,7 @@
             "sessions": 4,
             "entries": 7,
             "drivers": 6,
-            "laps": 183,
+            "laps": 186,
             "best_lap": 140895,
             "best_driver": "Ekaterina Brysina"
         },
@@ -2446,7 +2446,7 @@
             "sessions": 2,
             "entries": 10,
             "drivers": 10,
-            "laps": 183,
+            "laps": 186,
             "best_lap": 138175,
             "best_driver": "Harry Tuttle"
         },
@@ -2458,7 +2458,7 @@
             "sessions": 2,
             "entries": 6,
             "drivers": 6,
-            "laps": 183,
+            "laps": 186,
             "best_lap": 139770,
             "best_driver": "Tom King"
         },
@@ -78048,9 +78048,9 @@
             "servers_count": 5,
             "cars_count": 8,
             "entries_count": 122,
-            "total_laps": 877,
+            "total_laps": 878,
             "valid_laps": 406,
-            "invalid_laps": 471,
+            "invalid_laps": 472,
             "best_lap": 86212,
             "best_track": "brands_hatch",
             "best_session": "R1",
@@ -127873,9 +127873,9 @@
             "servers_count": 5,
             "cars_count": 6,
             "entries_count": 113,
-            "total_laps": 963,
+            "total_laps": 964,
             "valid_laps": 412,
-            "invalid_laps": 551,
+            "invalid_laps": 552,
             "best_lap": 85687,
             "best_track": "brands_hatch",
             "best_session": "R1",
@@ -173437,20 +173437,20 @@
             "safety_score": 46.3,
             "grade": "D",
             "confidence": "server_legend 🏆",
-            "total_laps": 877,
+            "total_laps": 878,
             "valid_laps": 406,
-            "invalid_laps": 471,
-            "valid_lap_ratio": 0.463,
+            "invalid_laps": 472,
+            "valid_lap_ratio": 0.462,
             "penalties_count": 29,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 53.71,
-            "penalties_per_100": 3.31,
+            "invalid_laps_per_100": 53.76,
+            "penalties_per_100": 3.3,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 140,
+            "sessions_count": 141,
             "tracks_count": 5,
             "servers_count": 5,
             "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-12 01:40:22"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "driver": "Stanisław Gawliczek",
@@ -178153,6 +178153,26 @@
             "last_seen": "2026-06-20 17:36:28"
         },
         {
+            "driver": "Anton Sosinovsky",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-12 23:24:05",
+            "last_seen": "2026-08-12 23:24:05"
+        },
+        {
             "driver": "Artem S",
             "safety_score": 40.0,
             "grade": "D",
@@ -180517,20 +180537,20 @@
             "safety_score": 26.1,
             "grade": "D",
             "confidence": "server_legend 🏆",
-            "total_laps": 963,
+            "total_laps": 964,
             "valid_laps": 412,
-            "invalid_laps": 551,
-            "valid_lap_ratio": 0.428,
+            "invalid_laps": 552,
+            "valid_lap_ratio": 0.427,
             "penalties_count": 55,
             "post_race_penalties_count": 3,
-            "invalid_laps_per_100": 57.22,
+            "invalid_laps_per_100": 57.26,
             "penalties_per_100": 5.71,
             "post_race_penalties_per_100": 0.31,
-            "sessions_count": 145,
+            "sessions_count": 146,
             "tracks_count": 7,
             "servers_count": 5,
             "first_seen": "2026-06-14 23:12:32",
-            "last_seen": "2026-08-10 00:23:26"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "driver": "Wojciech Spychała",
@@ -210259,20 +210279,20 @@
             "safety_score": 46.3,
             "grade": "D",
             "confidence": "server_legend 🏆",
-            "total_laps": 877,
+            "total_laps": 878,
             "valid_laps": 406,
-            "invalid_laps": 471,
-            "valid_lap_ratio": 0.463,
+            "invalid_laps": 472,
+            "valid_lap_ratio": 0.462,
             "penalties_count": 29,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 53.71,
-            "penalties_per_100": 3.31,
+            "invalid_laps_per_100": 53.76,
+            "penalties_per_100": 3.3,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 140,
+            "sessions_count": 141,
             "tracks_count": 5,
             "servers_count": 5,
             "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-12 01:40:22"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "driver": "Stanisław Gawliczek",
@@ -214975,6 +214995,26 @@
             "last_seen": "2026-06-20 17:36:28"
         },
         {
+            "driver": "Anton Sosinovsky",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-12 23:24:05",
+            "last_seen": "2026-08-12 23:24:05"
+        },
+        {
             "driver": "Artem S",
             "safety_score": 40.0,
             "grade": "D",
@@ -217339,20 +217379,20 @@
             "safety_score": 26.1,
             "grade": "D",
             "confidence": "server_legend 🏆",
-            "total_laps": 963,
+            "total_laps": 964,
             "valid_laps": 412,
-            "invalid_laps": 551,
-            "valid_lap_ratio": 0.428,
+            "invalid_laps": 552,
+            "valid_lap_ratio": 0.427,
             "penalties_count": 55,
             "post_race_penalties_count": 3,
-            "invalid_laps_per_100": 57.22,
+            "invalid_laps_per_100": 57.26,
             "penalties_per_100": 5.71,
             "post_race_penalties_per_100": 0.31,
-            "sessions_count": 145,
+            "sessions_count": 146,
             "tracks_count": 7,
             "servers_count": 5,
             "first_seen": "2026-06-14 23:12:32",
-            "last_seen": "2026-08-10 00:23:26"
+            "last_seen": "2026-08-12 23:24:05"
         },
         {
             "driver": "Wojciech Spychała",
