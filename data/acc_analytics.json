@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-12 16:44:36",
+        "generated_at": "2026-08-12 17:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-14 16:44:36",
+        "active_cutoff": "2026-05-14 17:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1334,
-        "sessions_last_7_days": 132,
+        "sessions_total": 1335,
+        "sessions_last_7_days": 131,
         "new_drivers_last_7_days": 107,
-        "lap_entries_total": 2892,
+        "lap_entries_total": 2893,
         "cars_total": 31,
-        "safety_laps_total": 22165,
+        "safety_laps_total": 22170,
         "safety_penalties_total": 664,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 21,
-        "last_activity": "2026-08-12 02:23:27",
+        "last_activity": "2026-08-12 17:07:59",
         "top_track": "spa",
         "top_track_sessions": 523,
         "top_car_model": 35,
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 168,
+            "sessions_count": 169,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-08-10 21:13:43"
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 128,
+            "sessions_count": 129,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-08-10 21:13:43"
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "track": "cota",
@@ -129,9 +129,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1334,
+        "sessions": 1335,
         "drivers": 226,
-        "laps": 22165,
+        "laps": 22170,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
@@ -763,12 +763,12 @@
         },
         {
             "date": "2026-08-12",
-            "sessions": 8,
-            "drivers": 7,
-            "laps": 107,
-            "servers": 1,
-            "tracks": 1,
-            "entries": 15
+            "sessions": 9,
+            "drivers": 8,
+            "laps": 112,
+            "servers": 2,
+            "tracks": 2,
+            "entries": 16
         }
     ],
     "activity_by_server": [
@@ -804,13 +804,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 168,
-            "drivers": 87,
-            "laps": 1447,
+            "sessions": 169,
+            "drivers": 88,
+            "laps": 1452,
             "tracks": 5,
-            "entries": 169,
+            "entries": 170,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-08-10 21:13:43"
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -859,14 +859,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 128,
-            "drivers": 68,
-            "laps": 1215,
+            "sessions": 129,
+            "drivers": 69,
+            "laps": 1220,
             "servers": 1,
-            "entries": 137,
+            "entries": 138,
             "best_lap": 84762,
             "best_driver": "dec",
-            "last_seen": "2026-08-10 21:13:43"
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "track": "nurburgring_24h",
@@ -923,8 +923,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 362,
-            "entries": 1207,
+            "sessions": 363,
+            "entries": 1208,
             "drivers": 888,
             "best_lap": 85547
         },
@@ -1017,10 +1017,10 @@
         {
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
-            "entries": 88,
-            "sessions": 82,
+            "entries": 89,
+            "sessions": 83,
             "drivers": 44,
-            "tracks": 5,
+            "tracks": 6,
             "best_lap": 89947
         },
         {
@@ -2028,9 +2028,9 @@
             "weekday_number": 3,
             "weekday": "Wednesday",
             "hour": 17,
-            "sessions": 5,
-            "servers": 2,
-            "tracks": 2
+            "sessions": 6,
+            "servers": 3,
+            "tracks": 3
         },
         {
             "weekday_number": 4,
@@ -2402,6 +2402,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-08-12",
+            "server_name": "Brands Hatch",
+            "track": "brands_hatch",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 5,
+            "best_lap": 91282,
+            "best_driver": "Soge King"
+        },
         {
             "date": "2026-08-12",
             "server_name": "SPA",
@@ -19927,14 +19939,14 @@
         {
             "driver": "Soge King",
             "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 3,
+            "last_seen": "2026-08-12 17:07:59",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
+            "sessions_count": 3,
+            "tracks_count": 2,
+            "servers_count": 2,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Sota Fukui",
@@ -25337,6 +25349,26 @@
             "favorite_track": "zolder",
             "favorite_car_model": 30,
             "favorite_car_name": "BMW M4 GT3"
+        },
+        {
+            "driver": "Soge King",
+            "active": true,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-12 17:07:59",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 91282,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 15,
+            "best_car_name": "Lexus RC F GT3",
+            "favorite_track": "nurburgring",
+            "favorite_car_model": 15,
+            "favorite_car_name": "Lexus RC F GT3"
         },
         {
             "driver": "rotdaria gonzaga",
@@ -35657,26 +35689,6 @@
             "favorite_track": "spa",
             "favorite_car_model": 30,
             "favorite_car_name": "BMW M4 GT3"
-        },
-        {
-            "driver": "Soge King",
-            "active": true,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 3,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 120105,
-            "best_track": "nurburgring",
-            "best_session": "Race",
-            "best_car_model": 15,
-            "best_car_name": "Lexus RC F GT3",
-            "favorite_track": "nurburgring",
-            "favorite_car_model": 15,
-            "favorite_car_name": "Lexus RC F GT3"
         },
         {
             "driver": "YaGena Pidofil",
@@ -129597,25 +129609,37 @@
             "driver": "Soge King",
             "active": true,
             "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39",
-            "days_since_last_seen": 3,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
+            "last_seen": "2026-08-12 17:07:59",
+            "days_since_last_seen": 0,
+            "sessions_count": 3,
+            "tracks_count": 2,
+            "servers_count": 2,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
-            "best_lap": 120105,
-            "best_track": "nurburgring",
-            "best_session": "Race",
+            "entries_count": 3,
+            "total_laps": 23,
+            "valid_laps": 5,
+            "invalid_laps": 18,
+            "best_lap": 91282,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
             "best_car_model": 15,
             "best_car_name": "Lexus RC F GT3",
             "favorite_track": "nurburgring",
             "favorite_car_model": 15,
             "favorite_car_name": "Lexus RC F GT3",
             "track_bests": [
+                {
+                    "track": "brands_hatch",
+                    "best_lap": 91282,
+                    "sector1": 29062,
+                    "sector2": 24337,
+                    "sector3": 37882,
+                    "car_model": 15,
+                    "car_name": "Lexus RC F GT3",
+                    "session": "Qualifying",
+                    "server_name": "Brands Hatch",
+                    "session_date": "2026-08-12 17:07:59"
+                },
                 {
                     "track": "nurburgring",
                     "best_lap": 120105,
@@ -129633,10 +129657,10 @@
                 {
                     "car_model": 15,
                     "car_name": "Lexus RC F GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 120105,
-                    "best_track": "nurburgring"
+                    "entries": 3,
+                    "tracks": 2,
+                    "best_lap": 91282,
+                    "best_track": "brands_hatch"
                 }
             ],
             "server_usage": [
@@ -129645,13 +129669,19 @@
                     "entries": 2,
                     "tracks": 1,
                     "last_seen": "2026-08-09 11:50:39"
+                },
+                {
+                    "server_name": "Brands Hatch",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-08-12 17:07:59"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 121575
+                    "entries": 2,
+                    "best_lap": 91282
                 },
                 {
                     "session": "Race",
@@ -148756,11 +148786,11 @@
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
             "drivers": 44,
-            "entries": 88,
+            "entries": 89,
             "best_lap": 89947,
             "best_driver": "Kevin Staes",
             "best_track": "zolder",
-            "avg_lap": 133737
+            "avg_lap": 133260
         },
         {
             "car_model": 25,
@@ -149068,11 +149098,11 @@
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
             "drivers": 44,
-            "entries": 88,
+            "entries": 89,
             "best_lap": 89947,
             "best_driver": "Kevin Staes",
             "best_track": "zolder",
-            "avg_lap": 133737
+            "avg_lap": 133260
         },
         {
             "car_model": 25,
@@ -168017,26 +168047,6 @@
             "last_seen": "2026-07-06 22:07:20"
         },
         {
-            "driver": "Soge King",
-            "safety_score": 56.3,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
-            "valid_lap_ratio": 0.222,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 77.78,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39"
-        },
-        {
             "driver": "DZOLO DZOLOSKI",
             "safety_score": 56.0,
             "grade": "D",
@@ -168055,6 +168065,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 19:12:06",
             "last_seen": "2026-07-08 19:58:10"
+        },
+        {
+            "driver": "Soge King",
+            "safety_score": 56.0,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 23,
+            "valid_laps": 5,
+            "invalid_laps": 18,
+            "valid_lap_ratio": 0.217,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 78.26,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "driver": "2 0",
@@ -204759,26 +204789,6 @@
             "last_seen": "2026-07-06 22:07:20"
         },
         {
-            "driver": "Soge King",
-            "safety_score": 56.3,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
-            "valid_lap_ratio": 0.222,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 77.78,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-09 11:17:22",
-            "last_seen": "2026-08-09 11:50:39"
-        },
-        {
             "driver": "DZOLO DZOLOSKI",
             "safety_score": 56.0,
             "grade": "D",
@@ -204797,6 +204807,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 19:12:06",
             "last_seen": "2026-07-08 19:58:10"
+        },
+        {
+            "driver": "Soge King",
+            "safety_score": 56.0,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 23,
+            "valid_laps": 5,
+            "invalid_laps": 18,
+            "valid_lap_ratio": 0.217,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 78.26,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-08-09 11:17:22",
+            "last_seen": "2026-08-12 17:07:59"
         },
         {
             "driver": "2 0",
