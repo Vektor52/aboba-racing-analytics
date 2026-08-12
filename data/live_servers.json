@@ -1,18 +1,30 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T21:39:50Z",
+    "generated_at": "2026-08-12T21:44:37Z",
     "refresh_seconds": 10,
     "source": "ACC Race Control live snapshots",
-    "server_count": 3,
-    "online_count": 3,
+    "server_count": 4,
+    "online_count": 4,
     "offline_count": 0,
-    "total_players": 1,
+    "total_players": 4,
     "warnings": [
-      "live_1780300391.raw.json: root JSON value is not an object",
       "live_1780323950.raw.json: root JSON value is not an object"
     ]
   },
   "servers": [
+    {
+      "key": "1780300391",
+      "name": "SPA",
+      "track_key": "spa",
+      "track_name": "Spa-Francorchamps",
+      "online": true,
+      "server_state": "online",
+      "session_type": "Race",
+      "session_phase": "session",
+      "session_remaining_minutes": 17.0,
+      "players": 3,
+      "source_updated_at": "2026-08-12T21:40:41.9397724Z"
+    },
     {
       "key": "1781810063",
       "name": "Brands Hatch",

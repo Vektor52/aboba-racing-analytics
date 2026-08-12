@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-13 00:39:49",
+        "generated_at": "2026-08-13 00:44:36",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-15 00:39:49",
+        "active_cutoff": "2026-05-15 00:44:36",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,29 +25,29 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1352,
-        "sessions_last_7_days": 143,
+        "sessions_total": 1353,
+        "sessions_last_7_days": 144,
         "new_drivers_last_7_days": 108,
-        "lap_entries_total": 2912,
+        "lap_entries_total": 2913,
         "cars_total": 31,
-        "safety_laps_total": 22324,
+        "safety_laps_total": 22325,
         "safety_penalties_total": 667,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 22,
-        "last_activity": "2026-08-13 00:31:38",
+        "last_activity": "2026-08-13 00:41:52",
         "top_track": "spa",
-        "top_track_sessions": 534,
+        "top_track_sessions": 535,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 753
+        "top_car_entries": 754
     },
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 534,
+            "sessions_count": 535,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-13 00:31:38"
+            "last_seen": "2026-08-13 00:41:52"
         },
         {
             "server_name": "ZOLDER",
@@ -117,9 +117,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 534,
+            "sessions_count": 535,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-13 00:31:38"
+            "last_seen": "2026-08-13 00:41:52"
         },
         {
             "track": "zolder",
@@ -129,9 +129,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1352,
+        "sessions": 1353,
         "drivers": 226,
-        "laps": 22324,
+        "laps": 22325,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
@@ -772,24 +772,24 @@
         },
         {
             "date": "2026-08-13",
-            "sessions": 2,
+            "sessions": 3,
             "drivers": 3,
-            "laps": 31,
+            "laps": 32,
             "servers": 1,
             "tracks": 1,
-            "entries": 4
+            "entries": 5
         }
     ],
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 534,
+            "sessions": 535,
             "drivers": 861,
-            "laps": 11589,
+            "laps": 11590,
             "tracks": 1,
-            "entries": 1573,
+            "entries": 1574,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-08-13 00:31:38"
+            "last_seen": "2026-08-13 00:41:52"
         },
         {
             "server_name": "ZOLDER",
@@ -835,14 +835,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 534,
+            "sessions": 535,
             "drivers": 861,
-            "laps": 11589,
+            "laps": 11590,
             "servers": 1,
-            "entries": 1573,
+            "entries": 1574,
             "best_lap": 136667,
             "best_driver": "Herbert Rikka | RMS",
-            "last_seen": "2026-08-13 00:31:38"
+            "last_seen": "2026-08-13 00:41:52"
         },
         {
             "track": "zolder",
@@ -932,8 +932,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 367,
-            "entries": 1217,
+            "sessions": 368,
+            "entries": 1218,
             "drivers": 891,
             "best_lap": 85547
         },
@@ -963,8 +963,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 753,
-            "sessions": 397,
+            "entries": 754,
+            "sessions": 398,
             "drivers": 356,
             "tracks": 7,
             "best_lap": 85520
@@ -1269,7 +1269,7 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 0,
-            "sessions": 9,
+            "sessions": 10,
             "servers": 3,
             "tracks": 3
         },
@@ -2416,10 +2416,10 @@
             "server_name": "SPA",
             "track": "spa",
             "session_type": "Qualifying",
-            "sessions": 1,
-            "entries": 3,
+            "sessions": 2,
+            "entries": 4,
             "drivers": 3,
-            "laps": 31,
+            "laps": 32,
             "best_lap": 138690,
             "best_driver": "LEOPOLDO SOUZA"
         },
@@ -2431,7 +2431,7 @@
             "sessions": 1,
             "entries": 1,
             "drivers": 1,
-            "laps": 31,
+            "laps": 32,
             "best_lap": 142890,
             "best_driver": "Sergey Guk"
         },
@@ -14992,14 +14992,14 @@
         {
             "driver": "LEOPOLDO SOUZA",
             "first_seen": "2026-08-12 19:48:36",
-            "last_seen": "2026-08-13 00:31:38",
+            "last_seen": "2026-08-13 00:41:52",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2
+            "entries_count": 3
         },
         {
             "driver": "Leta Skotodinh",
@@ -36467,13 +36467,13 @@
             "driver": "LEOPOLDO SOUZA",
             "active": true,
             "first_seen": "2026-08-12 19:48:36",
-            "last_seen": "2026-08-13 00:31:38",
+            "last_seen": "2026-08-13 00:41:52",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
+            "entries_count": 3,
             "best_lap": 138690,
             "best_track": "spa",
             "best_session": "Qualifying",
@@ -102246,15 +102246,15 @@
             "driver": "LEOPOLDO SOUZA",
             "active": true,
             "first_seen": "2026-08-12 19:48:36",
-            "last_seen": "2026-08-13 00:31:38",
+            "last_seen": "2026-08-13 00:41:52",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 3,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 15,
-            "valid_laps": 9,
+            "entries_count": 3,
+            "total_laps": 16,
+            "valid_laps": 10,
             "invalid_laps": 6,
             "best_lap": 138690,
             "best_track": "spa",
@@ -102282,7 +102282,7 @@
                 {
                     "car_model": 35,
                     "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
                     "best_lap": 138690,
                     "best_track": "spa"
@@ -102291,15 +102291,15 @@
             "server_usage": [
                 {
                     "server_name": "SPA",
-                    "entries": 2,
+                    "entries": 3,
                     "tracks": 1,
-                    "last_seen": "2026-08-13 00:31:38"
+                    "last_seen": "2026-08-13 00:41:52"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
+                    "entries": 2,
                     "best_lap": 138690
                 },
                 {
@@ -149144,11 +149144,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 356,
-            "entries": 753,
+            "entries": 754,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 131392
+            "avg_lap": 131560
         },
         {
             "car_model": 33,
@@ -149456,11 +149456,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 356,
-            "entries": 753,
+            "entries": 754,
             "best_lap": 85520,
             "best_driver": "Timur Miftakhov",
             "best_track": "brands_hatch",
-            "avg_lap": 131392
+            "avg_lap": 131560
         },
         {
             "car_model": 33,
@@ -154765,6 +154765,26 @@
             "last_seen": "2026-07-06 21:38:36"
         },
         {
+            "driver": "LEOPOLDO SOUZA",
+            "safety_score": 80.5,
+            "grade": "B",
+            "confidence": "very_low",
+            "total_laps": 16,
+            "valid_laps": 10,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.625,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 37.5,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-12 19:48:36",
+            "last_seen": "2026-08-13 00:41:52"
+        },
+        {
             "driver": "Pradsky R",
             "safety_score": 80.5,
             "grade": "B",
@@ -155783,26 +155803,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-12 03:19:11",
             "last_seen": "2026-07-12 03:48:18"
-        },
-        {
-            "driver": "LEOPOLDO SOUZA",
-            "safety_score": 79.0,
-            "grade": "B",
-            "confidence": "very_low",
-            "total_laps": 15,
-            "valid_laps": 9,
-            "invalid_laps": 6,
-            "valid_lap_ratio": 0.6,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 40.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-12 19:48:36",
-            "last_seen": "2026-08-13 00:31:38"
         },
         {
             "driver": "AE 007",
@@ -191607,6 +191607,26 @@
             "last_seen": "2026-07-06 21:38:36"
         },
         {
+            "driver": "LEOPOLDO SOUZA",
+            "safety_score": 80.5,
+            "grade": "B",
+            "confidence": "very_low",
+            "total_laps": 16,
+            "valid_laps": 10,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.625,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 37.5,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-12 19:48:36",
+            "last_seen": "2026-08-13 00:41:52"
+        },
+        {
             "driver": "Pradsky R",
             "safety_score": 80.5,
             "grade": "B",
@@ -192625,26 +192645,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-12 03:19:11",
             "last_seen": "2026-07-12 03:48:18"
-        },
-        {
-            "driver": "LEOPOLDO SOUZA",
-            "safety_score": 79.0,
-            "grade": "B",
-            "confidence": "very_low",
-            "total_laps": 15,
-            "valid_laps": 9,
-            "invalid_laps": 6,
-            "valid_lap_ratio": 0.6,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 40.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-12 19:48:36",
-            "last_seen": "2026-08-13 00:31:38"
         },
         {
             "driver": "AE 007",
