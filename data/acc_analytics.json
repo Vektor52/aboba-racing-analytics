@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-15 09:39:50",
+        "generated_at": "2026-08-15 10:39:50",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-17 09:39:50",
+        "active_cutoff": "2026-05-17 10:39:50",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1375,
-        "sessions_last_7_days": 105,
+        "sessions_total": 1377,
+        "sessions_last_7_days": 106,
         "new_drivers_last_7_days": 31,
         "lap_entries_total": 2926,
         "cars_total": 31,
-        "safety_laps_total": 22410,
+        "safety_laps_total": 22414,
         "safety_penalties_total": 669,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 22,
-        "last_activity": "2026-08-14 14:32:05",
+        "last_activity": "2026-08-15 10:32:19",
         "top_track": "spa",
         "top_track_sessions": 544,
         "top_car_model": 35,
@@ -72,10 +72,10 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions_count": 126,
+            "sessions_count": 128,
             "tracks_count": 2,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-13 21:26:06"
+            "last_seen": "2026-08-15 10:32:19"
         }
     ],
     "tracks": [
@@ -105,9 +105,9 @@
         },
         {
             "track": "nurburgring",
-            "sessions_count": 18,
+            "sessions_count": 20,
             "first_seen": "2026-08-07 23:06:08",
-            "last_seen": "2026-08-13 21:26:06"
+            "last_seen": "2026-08-15 10:32:19"
         },
         {
             "track": "nurburgring_24h",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1375,
+        "sessions": 1377,
         "drivers": 226,
-        "laps": 22410,
+        "laps": 22414,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 72,
+        "active_days": 73,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-08-14"
+        "last_activity": "2026-08-15"
     },
     "activity_by_date": [
         {
@@ -787,6 +787,15 @@
             "servers": 1,
             "tracks": 1,
             "entries": 4
+        },
+        {
+            "date": "2026-08-15",
+            "sessions": 2,
+            "drivers": 0,
+            "laps": 4,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -832,13 +841,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions": 126,
+            "sessions": 128,
             "drivers": 67,
-            "laps": 700,
+            "laps": 704,
             "tracks": 2,
             "entries": 92,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-13 21:26:06"
+            "last_seen": "2026-08-15 10:32:19"
         }
     ],
     "activity_by_track": [
@@ -910,14 +919,14 @@
         },
         {
             "track": "nurburgring",
-            "sessions": 18,
+            "sessions": 20,
             "drivers": 27,
-            "laps": 395,
+            "laps": 399,
             "servers": 1,
             "entries": 45,
             "best_lap": 116130,
             "best_driver": "Batuhan Tehneldere",
-            "last_seen": "2026-08-13 21:26:06"
+            "last_seen": "2026-08-15 10:32:19"
         },
         {
             "track": "cota",
@@ -1678,9 +1687,9 @@
             "weekday_number": 6,
             "weekday": "Saturday",
             "hour": 10,
-            "sessions": 3,
-            "servers": 2,
-            "tracks": 2
+            "sessions": 5,
+            "servers": 3,
+            "tracks": 3
         },
         {
             "weekday_number": 0,
@@ -175715,6 +175724,26 @@
             "last_seen": "2026-08-02 22:15:37"
         },
         {
+            "driver": "Valeriy Fedorov",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 0,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-15 10:32:19",
+            "last_seen": "2026-08-15 10:32:19"
+        },
+        {
             "driver": "Vincenzo Sostegno",
             "safety_score": 40.0,
             "grade": "D",
@@ -212575,6 +212604,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-02 21:46:11",
             "last_seen": "2026-08-02 22:15:37"
+        },
+        {
+            "driver": "Valeriy Fedorov",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 0,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-15 10:32:19",
+            "last_seen": "2026-08-15 10:32:19"
         },
         {
             "driver": "Vincenzo Sostegno",
