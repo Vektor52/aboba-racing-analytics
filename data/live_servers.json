@@ -1,13 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-08-16T19:39:51Z",
+    "generated_at": "2026-08-16T20:39:51Z",
     "refresh_seconds": 10,
     "source": "ACC Race Control live snapshots",
-    "server_count": 5,
-    "online_count": 4,
+    "server_count": 4,
+    "online_count": 3,
     "offline_count": 1,
     "total_players": 2,
-    "warnings": []
+    "warnings": [
+      "live_1783207500.raw.json: root JSON value is not an object"
+    ]
   },
   "servers": [
     {
@@ -61,19 +63,6 @@
       "session_remaining_minutes": 30.0,
       "players": 0,
       "source_updated_at": "2026-08-16T14:31:03.4290345Z"
-    },
-    {
-      "key": "1783207500",
-      "name": "Nordschleife 24",
-      "track_key": "nurburgring",
-      "track_name": "Nurburgring",
-      "online": true,
-      "server_state": "online",
-      "session_type": "Qualifying",
-      "session_phase": "waiting for drivers",
-      "session_remaining_minutes": 0.0,
-      "players": 0,
-      "source_updated_at": "2026-08-16T19:09:23.9388617Z"
     }
   ]
 }
