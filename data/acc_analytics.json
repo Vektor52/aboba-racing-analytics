@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-17 12:39:56",
+        "generated_at": "2026-08-17 13:39:50",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-19 12:39:56",
+        "active_cutoff": "2026-05-19 13:39:50",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -20,21 +20,21 @@
         "privacy": "steam_id_server_id_and_local_paths_removed"
     },
     "site_stats": {
-        "drivers_total": 1459,
-        "drivers_active": 1459,
+        "drivers_total": 1460,
+        "drivers_active": 1460,
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1405,
-        "sessions_last_7_days": 86,
-        "new_drivers_last_7_days": 18,
-        "lap_entries_total": 2939,
+        "sessions_total": 1406,
+        "sessions_last_7_days": 87,
+        "new_drivers_last_7_days": 19,
+        "lap_entries_total": 2940,
         "cars_total": 31,
-        "safety_laps_total": 22542,
+        "safety_laps_total": 22543,
         "safety_penalties_total": 678,
         "trusted_drivers_total": 3,
         "risky_drivers_total": 22,
-        "last_activity": "2026-08-16 22:15:31",
+        "last_activity": "2026-08-17 13:16:55",
         "top_track": "spa",
         "top_track_sessions": 557,
         "top_car_model": 35,
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 235,
+            "sessions_count": 236,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-16 20:42:29"
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 239,
+            "sessions_count": 240,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-08-16 20:42:29"
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "track": "nurburgring",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1405,
+        "sessions": 1406,
         "drivers": 226,
-        "laps": 22542,
+        "laps": 22543,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 74,
+        "active_days": 75,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-08-16"
+        "last_activity": "2026-08-17"
     },
     "activity_by_date": [
         {
@@ -805,6 +805,15 @@
             "servers": 5,
             "tracks": 5,
             "entries": 12
+        },
+        {
+            "date": "2026-08-17",
+            "sessions": 1,
+            "drivers": 1,
+            "laps": 1,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
@@ -830,13 +839,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 235,
-            "drivers": 346,
-            "laps": 5271,
+            "sessions": 236,
+            "drivers": 347,
+            "laps": 5272,
             "tracks": 1,
-            "entries": 646,
+            "entries": 647,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-16 20:42:29"
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "server_name": "Brands Hatch",
@@ -884,14 +893,14 @@
         },
         {
             "track": "monza",
-            "sessions": 239,
-            "drivers": 346,
-            "laps": 5271,
+            "sessions": 240,
+            "drivers": 347,
+            "laps": 5272,
             "servers": 2,
-            "entries": 646,
+            "entries": 647,
             "best_lap": 107127,
             "best_driver": "Wolfgang Straub",
-            "last_seen": "2026-08-16 20:42:29"
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "track": "brands_hatch",
@@ -959,9 +968,9 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 376,
-            "entries": 1233,
-            "drivers": 895,
+            "sessions": 377,
+            "entries": 1234,
+            "drivers": 896,
             "best_lap": 84975
         },
         {
@@ -1008,9 +1017,9 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "entries": 425,
-            "sessions": 272,
-            "drivers": 245,
+            "entries": 426,
+            "sessions": 273,
+            "drivers": 246,
             "tracks": 7,
             "best_lap": 85230
         },
@@ -1824,7 +1833,7 @@
             "weekday_number": 1,
             "weekday": "Monday",
             "hour": 13,
-            "sessions": 3,
+            "sessions": 4,
             "servers": 3,
             "tracks": 3
         },
@@ -2438,6 +2447,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-08-17",
+            "server_name": "MONZA",
+            "track": "monza",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 1,
+            "best_lap": 115692,
+            "best_driver": "Nibz Nibz"
+        },
         {
             "date": "2026-08-16",
             "server_name": "MONZA",
@@ -17601,6 +17622,18 @@
             "first_seen": "2026-07-01 00:22:30",
             "last_seen": "2026-07-01 00:22:30",
             "days_since_last_seen": 47,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Nibz Nibz",
+            "first_seen": "2026-08-17 13:16:55",
+            "last_seen": "2026-08-17 13:16:55",
+            "days_since_last_seen": 0,
             "active": true,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -35421,6 +35454,26 @@
             "favorite_track": "monza",
             "favorite_car_model": 36,
             "favorite_car_name": "Ford Mustang GT3"
+        },
+        {
+            "driver": "Nibz Nibz",
+            "active": true,
+            "first_seen": "2026-08-17 13:16:55",
+            "last_seen": "2026-08-17 13:16:55",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 115692,
+            "best_track": "monza",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "monza",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3"
         },
         {
             "driver": "COTHEFUC ER",
@@ -116390,6 +116443,68 @@
             ]
         },
         {
+            "driver": "Nibz Nibz",
+            "active": true,
+            "first_seen": "2026-08-17 13:16:55",
+            "last_seen": "2026-08-17 13:16:55",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "best_lap": 115692,
+            "best_track": "monza",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "monza",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3",
+            "track_bests": [
+                {
+                    "track": "monza",
+                    "best_lap": 115692,
+                    "sector1": 36935,
+                    "sector2": 40672,
+                    "sector3": 38085,
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "session": "Qualifying",
+                    "server_name": "MONZA",
+                    "session_date": "2026-08-17 13:16:55"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 115692,
+                    "best_track": "monza"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "MONZA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-08-17 13:16:55"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 115692
+                }
+            ]
+        },
+        {
             "driver": "NICCOLO CIVELLO",
             "active": true,
             "first_seen": "2026-06-05 00:19:31",
@@ -150067,12 +150182,12 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 245,
-            "entries": 425,
+            "drivers": 246,
+            "entries": 426,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 139208
+            "avg_lap": 139153
         },
         {
             "car_model": 33,
@@ -150379,12 +150494,12 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 245,
-            "entries": 425,
+            "drivers": 246,
+            "entries": 426,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 139208
+            "avg_lap": 139153
         },
         {
             "car_model": 33,
@@ -151787,6 +151902,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-14 16:21:00",
             "last_seen": "2026-06-14 16:21:00"
+        },
+        {
+            "driver": "Nibz Nibz",
+            "safety_score": 100.0,
+            "grade": "S",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "valid_lap_ratio": 1.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 0.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-17 13:16:55",
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "driver": "Nihuya Lexus",
@@ -188849,6 +188984,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-14 16:21:00",
             "last_seen": "2026-06-14 16:21:00"
+        },
+        {
+            "driver": "Nibz Nibz",
+            "safety_score": 100.0,
+            "grade": "S",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "valid_lap_ratio": 1.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 0.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-17 13:16:55",
+            "last_seen": "2026-08-17 13:16:55"
         },
         {
             "driver": "Nihuya Lexus",
