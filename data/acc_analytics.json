@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-20 07:39:49",
+        "generated_at": "2026-08-20 08:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-22 07:39:49",
+        "active_cutoff": "2026-05-22 08:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1472,
-        "sessions_last_7_days": 119,
+        "sessions_total": 1475,
+        "sessions_last_7_days": 122,
         "new_drivers_last_7_days": 39,
-        "lap_entries_total": 3059,
+        "lap_entries_total": 3064,
         "cars_total": 31,
-        "safety_laps_total": 23612,
-        "safety_penalties_total": 694,
+        "safety_laps_total": 23651,
+        "safety_penalties_total": 696,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 25,
-        "last_activity": "2026-08-20 06:40:09",
+        "last_activity": "2026-08-20 08:26:53",
         "top_track": "spa",
         "top_track_sessions": 592,
         "top_car_model": 35,
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 245,
+            "sessions_count": 248,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-20 06:40:09"
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 249,
+            "sessions_count": 252,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-08-20 06:40:09"
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "track": "nurburgring",
@@ -129,9 +129,9 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1472,
+        "sessions": 1475,
         "drivers": 226,
-        "laps": 23612,
+        "laps": 23651,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
@@ -835,12 +835,12 @@
         },
         {
             "date": "2026-08-20",
-            "sessions": 5,
+            "sessions": 8,
             "drivers": 6,
-            "laps": 74,
+            "laps": 113,
             "servers": 1,
             "tracks": 1,
-            "entries": 12
+            "entries": 17
         }
     ],
     "activity_by_server": [
@@ -866,13 +866,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 245,
+            "sessions": 248,
             "drivers": 355,
-            "laps": 5409,
+            "laps": 5448,
             "tracks": 1,
-            "entries": 665,
+            "entries": 670,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-20 06:40:09"
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "server_name": "Brands Hatch",
@@ -920,14 +920,14 @@
         },
         {
             "track": "monza",
-            "sessions": 249,
+            "sessions": 252,
             "drivers": 355,
-            "laps": 5409,
+            "laps": 5448,
             "servers": 2,
-            "entries": 665,
+            "entries": 670,
             "best_lap": 107127,
             "best_driver": "Wolfgang Straub",
-            "last_seen": "2026-08-20 06:40:09"
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "track": "brands_hatch",
@@ -995,8 +995,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 397,
-            "entries": 1283,
+            "sessions": 400,
+            "entries": 1288,
             "drivers": 911,
             "best_lap": 84185
         },
@@ -1062,18 +1062,18 @@
         {
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
-            "entries": 166,
-            "sessions": 134,
-            "drivers": 66,
+            "entries": 170,
+            "sessions": 136,
+            "drivers": 68,
             "tracks": 5,
             "best_lap": 86172
         },
         {
             "car_model": 23,
             "car_name": "Porsche 911 II GT3 R (2019)",
-            "entries": 122,
-            "sessions": 106,
-            "drivers": 70,
+            "entries": 123,
+            "sessions": 107,
+            "drivers": 71,
             "tracks": 7,
             "best_lap": 87347
         },
@@ -1620,7 +1620,7 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 7,
-            "sessions": 4,
+            "sessions": 5,
             "servers": 1,
             "tracks": 1
         },
@@ -1643,6 +1643,14 @@
         {
             "weekday_number": 2,
             "weekday": "Tuesday",
+            "hour": 8,
+            "sessions": 2,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 4,
+            "weekday": "Thursday",
             "hour": 8,
             "sessions": 2,
             "servers": 1,
@@ -2487,10 +2495,10 @@
             "server_name": "MONZA",
             "track": "monza",
             "session_type": "Qualifying",
-            "sessions": 2,
-            "entries": 5,
+            "sessions": 5,
+            "entries": 10,
             "drivers": 5,
-            "laps": 74,
+            "laps": 113,
             "best_lap": 110200,
             "best_driver": "PETROVICH HERO"
         },
@@ -2502,7 +2510,7 @@
             "sessions": 1,
             "entries": 6,
             "drivers": 6,
-            "laps": 74,
+            "laps": 113,
             "best_lap": 110235,
             "best_driver": "Victor Von Doom"
         },
@@ -2514,7 +2522,7 @@
             "sessions": 1,
             "entries": 1,
             "drivers": 1,
-            "laps": 74,
+            "laps": 113,
             "best_lap": 110315,
             "best_driver": "A Le"
         },
@@ -19179,14 +19187,14 @@
         {
             "driver": "PETROVICH HERO",
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:26:53",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 5,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2
+            "cars_count": 3,
+            "entries_count": 5
         },
         {
             "driver": "Phanarin Phanurat",
@@ -22227,14 +22235,14 @@
         {
             "driver": "Valeriy Fedorov",
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:01:37",
             "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 2,
+            "sessions_count": 4,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2
+            "cars_count": 2,
+            "entries_count": 4
         },
         {
             "driver": "Valeriy Likhachev",
@@ -31518,13 +31526,13 @@
             "driver": "PETROVICH HERO",
             "active": true,
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:26:53",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 5,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
+            "cars_count": 3,
+            "entries_count": 5,
             "best_lap": 110200,
             "best_track": "monza",
             "best_session": "Qualifying",
@@ -32318,13 +32326,13 @@
             "driver": "Valeriy Fedorov",
             "active": true,
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:01:37",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 4,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
+            "cars_count": 2,
+            "entries_count": 4,
             "best_lap": 110745,
             "best_track": "monza",
             "best_session": "Qualifying",
@@ -124786,16 +124794,16 @@
             "driver": "PETROVICH HERO",
             "active": true,
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:26:53",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 5,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 11,
-            "valid_laps": 5,
-            "invalid_laps": 6,
+            "cars_count": 3,
+            "entries_count": 5,
+            "total_laps": 30,
+            "valid_laps": 10,
+            "invalid_laps": 20,
             "best_lap": 110200,
             "best_track": "monza",
             "best_session": "Qualifying",
@@ -124826,20 +124834,36 @@
                     "tracks": 1,
                     "best_lap": 110200,
                     "best_track": "monza"
+                },
+                {
+                    "car_model": 36,
+                    "car_name": "Ford Mustang GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 116610,
+                    "best_track": "monza"
+                },
+                {
+                    "car_model": 23,
+                    "car_name": "Porsche 911 II GT3 R (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 114860,
+                    "best_track": "monza"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "MONZA",
-                    "entries": 2,
+                    "entries": 5,
                     "tracks": 1,
-                    "last_seen": "2026-08-20 05:36:28"
+                    "last_seen": "2026-08-20 08:26:53"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
+                    "entries": 4,
                     "best_lap": 110200
                 },
                 {
@@ -141614,16 +141638,16 @@
             "driver": "Valeriy Fedorov",
             "active": true,
             "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28",
+            "last_seen": "2026-08-20 08:01:37",
             "days_since_last_seen": 0,
-            "sessions_count": 2,
+            "sessions_count": 4,
             "tracks_count": 1,
             "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
+            "cars_count": 2,
+            "entries_count": 4,
+            "total_laps": 38,
+            "valid_laps": 9,
+            "invalid_laps": 29,
             "best_lap": 110745,
             "best_track": "monza",
             "best_session": "Qualifying",
@@ -141654,20 +141678,28 @@
                     "tracks": 1,
                     "best_lap": 110745,
                     "best_track": "monza"
+                },
+                {
+                    "car_model": 36,
+                    "car_name": "Ford Mustang GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 116300,
+                    "best_track": "monza"
                 }
             ],
             "server_usage": [
                 {
                     "server_name": "MONZA",
-                    "entries": 2,
+                    "entries": 4,
                     "tracks": 1,
-                    "last_seen": "2026-08-20 05:36:28"
+                    "last_seen": "2026-08-20 08:01:37"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
+                    "entries": 3,
                     "best_lap": 110745
                 },
                 {
@@ -153717,12 +153749,12 @@
         {
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
-            "drivers": 66,
-            "entries": 166,
+            "drivers": 68,
+            "entries": 170,
             "best_lap": 86172,
             "best_driver": "Jordan Oakley",
             "best_track": "brands_hatch",
-            "avg_lap": 132626
+            "avg_lap": 132614
         },
         {
             "car_model": 34,
@@ -153757,12 +153789,12 @@
         {
             "car_model": 23,
             "car_name": "Porsche 911 II GT3 R (2019)",
-            "drivers": 70,
-            "entries": 122,
+            "drivers": 71,
+            "entries": 123,
             "best_lap": 87347,
             "best_driver": "Ekaterina Brysina",
             "best_track": "brands_hatch",
-            "avg_lap": 135034
+            "avg_lap": 134870
         },
         {
             "car_model": 17,
@@ -154029,12 +154061,12 @@
         {
             "car_model": 36,
             "car_name": "Ford Mustang GT3",
-            "drivers": 66,
-            "entries": 166,
+            "drivers": 68,
+            "entries": 170,
             "best_lap": 86172,
             "best_driver": "Jordan Oakley",
             "best_track": "brands_hatch",
-            "avg_lap": 132626
+            "avg_lap": 132614
         },
         {
             "car_model": 34,
@@ -154069,12 +154101,12 @@
         {
             "car_model": 23,
             "car_name": "Porsche 911 II GT3 R (2019)",
-            "drivers": 70,
-            "entries": 122,
+            "drivers": 71,
+            "entries": 123,
             "best_lap": 87347,
             "best_driver": "Ekaterina Brysina",
             "best_track": "brands_hatch",
-            "avg_lap": 135034
+            "avg_lap": 134870
         },
         {
             "car_model": 17,
@@ -166249,26 +166281,6 @@
             "last_seen": "2026-06-16 21:47:37"
         },
         {
-            "driver": "PETROVICH HERO",
-            "safety_score": 69.3,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 11,
-            "valid_laps": 5,
-            "invalid_laps": 6,
-            "valid_lap_ratio": 0.455,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 54.55,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28"
-        },
-        {
             "driver": "richie dpe",
             "safety_score": 69.3,
             "grade": "C",
@@ -169647,6 +169659,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 21:51:56",
             "last_seen": "2026-06-04 22:35:11"
+        },
+        {
+            "driver": "PETROVICH HERO",
+            "safety_score": 63.0,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 30,
+            "valid_laps": 10,
+            "invalid_laps": 20,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 5,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-20 05:02:40",
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "driver": "Marco Behrendt",
@@ -187529,6 +187561,26 @@
             "last_seen": "2026-07-08 22:07:43"
         },
         {
+            "driver": "Valeriy Fedorov",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 38,
+            "valid_laps": 9,
+            "invalid_laps": 29,
+            "valid_lap_ratio": 0.237,
+            "penalties_count": 4,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.32,
+            "penalties_per_100": 10.53,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 6,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-08-15 10:32:19",
+            "last_seen": "2026-08-20 08:26:53"
+        },
+        {
             "driver": "LEVEN E",
             "safety_score": 0.0,
             "grade": "D",
@@ -188127,26 +188179,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-02 19:23:48",
             "last_seen": "2026-08-02 19:58:30"
-        },
-        {
-            "driver": "Valeriy Fedorov",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
-            "valid_lap_ratio": 0.222,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 77.78,
-            "penalties_per_100": 11.11,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 3,
-            "tracks_count": 2,
-            "servers_count": 2,
-            "first_seen": "2026-08-15 10:32:19",
-            "last_seen": "2026-08-20 05:36:28"
         },
         {
             "driver": "Digzi Pups",
@@ -204231,26 +204263,6 @@
             "last_seen": "2026-06-16 21:47:37"
         },
         {
-            "driver": "PETROVICH HERO",
-            "safety_score": 69.3,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 11,
-            "valid_laps": 5,
-            "invalid_laps": 6,
-            "valid_lap_ratio": 0.455,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 54.55,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-20 05:02:40",
-            "last_seen": "2026-08-20 05:36:28"
-        },
-        {
             "driver": "richie dpe",
             "safety_score": 69.3,
             "grade": "C",
@@ -207629,6 +207641,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-04 21:51:56",
             "last_seen": "2026-06-04 22:35:11"
+        },
+        {
+            "driver": "PETROVICH HERO",
+            "safety_score": 63.0,
+            "grade": "C",
+            "confidence": "low",
+            "total_laps": 30,
+            "valid_laps": 10,
+            "invalid_laps": 20,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 5,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-20 05:02:40",
+            "last_seen": "2026-08-20 08:26:53"
         },
         {
             "driver": "Marco Behrendt",
@@ -225511,6 +225543,26 @@
             "last_seen": "2026-07-08 22:07:43"
         },
         {
+            "driver": "Valeriy Fedorov",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 38,
+            "valid_laps": 9,
+            "invalid_laps": 29,
+            "valid_lap_ratio": 0.237,
+            "penalties_count": 4,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.32,
+            "penalties_per_100": 10.53,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 6,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-08-15 10:32:19",
+            "last_seen": "2026-08-20 08:26:53"
+        },
+        {
             "driver": "LEVEN E",
             "safety_score": 0.0,
             "grade": "D",
@@ -226109,26 +226161,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-02 19:23:48",
             "last_seen": "2026-08-02 19:58:30"
-        },
-        {
-            "driver": "Valeriy Fedorov",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 18,
-            "valid_laps": 4,
-            "invalid_laps": 14,
-            "valid_lap_ratio": 0.222,
-            "penalties_count": 2,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 77.78,
-            "penalties_per_100": 11.11,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 3,
-            "tracks_count": 2,
-            "servers_count": 2,
-            "first_seen": "2026-08-15 10:32:19",
-            "last_seen": "2026-08-20 05:36:28"
         },
         {
             "driver": "Digzi Pups",
