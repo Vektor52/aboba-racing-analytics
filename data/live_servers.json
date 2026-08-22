@@ -1,28 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-08-22T20:50:57Z",
+    "generated_at": "2026-08-22T21:39:50Z",
     "refresh_seconds": 10,
     "source": "ACC Race Control live snapshots",
-    "server_count": 5,
-    "online_count": 5,
+    "server_count": 4,
+    "online_count": 4,
     "offline_count": 0,
-    "total_players": 2,
-    "warnings": []
+    "total_players": 0,
+    "warnings": [
+      "live_1780300391.raw.json: root JSON value is not an object"
+    ]
   },
   "servers": [
-    {
-      "key": "1780300391",
-      "name": "SPA",
-      "track_key": "spa",
-      "track_name": "Spa-Francorchamps",
-      "online": true,
-      "server_state": "online",
-      "session_type": "Qualifying",
-      "session_phase": "session",
-      "session_remaining_minutes": 10.0,
-      "players": 2,
-      "source_updated_at": "2026-08-19T20:39:27.7652998Z"
-    },
     {
       "key": "1780323950",
       "name": "ZOLDER",
@@ -34,7 +23,7 @@
       "session_phase": "waiting for drivers",
       "session_remaining_minutes": 0.0,
       "players": 0,
-      "source_updated_at": "2026-08-17T18:43:27.9349283Z"
+      "source_updated_at": "2026-08-22T13:51:32.8230065Z"
     },
     {
       "key": "1781810063",
@@ -45,9 +34,9 @@
       "server_state": "online",
       "session_type": "Qualifying",
       "session_phase": "waiting for drivers",
-      "session_remaining_minutes": 20.0,
+      "session_remaining_minutes": 0.0,
       "players": 0,
-      "source_updated_at": "2026-08-18T23:54:41.5146819Z"
+      "source_updated_at": "2026-08-22T17:13:33.438262Z"
     },
     {
       "key": "1782666925",
@@ -58,9 +47,9 @@
       "server_state": "online",
       "session_type": "Qualifying",
       "session_phase": "waiting for drivers",
-      "session_remaining_minutes": 30.0,
+      "session_remaining_minutes": 0.0,
       "players": 0,
-      "source_updated_at": "2026-08-18T22:24:47.9711948Z"
+      "source_updated_at": "2026-08-22T20:22:19.6986617Z"
     },
     {
       "key": "1783207500",
@@ -73,7 +62,7 @@
       "session_phase": "waiting for drivers",
       "session_remaining_minutes": 0.0,
       "players": 0,
-      "source_updated_at": "2026-08-18T19:18:09.5271148Z"
+      "source_updated_at": "2026-08-22T08:21:16.9033444Z"
     }
   ]
 }
