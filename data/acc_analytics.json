@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-23 17:50:56",
+        "generated_at": "2026-08-23 18:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-05-25 17:50:56",
+        "active_cutoff": "2026-05-25 18:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1486,
-        "sessions_last_7_days": 95,
+        "sessions_total": 1487,
+        "sessions_last_7_days": 96,
         "new_drivers_last_7_days": 36,
         "lap_entries_total": 3076,
         "cars_total": 31,
-        "safety_laps_total": 23762,
+        "safety_laps_total": 23763,
         "safety_penalties_total": 699,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 26,
-        "last_activity": "2026-08-21 21:50:26",
+        "last_activity": "2026-08-23 18:15:15",
         "top_track": "spa",
         "top_track_sessions": 593,
         "top_car_model": 35,
@@ -65,10 +65,10 @@
         },
         {
             "server_name": "MONZA",
-            "sessions_count": 255,
+            "sessions_count": 256,
             "tracks_count": 1,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-21 21:50:26"
+            "last_seen": "2026-08-23 18:15:15"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -99,9 +99,9 @@
         },
         {
             "track": "monza",
-            "sessions_count": 259,
+            "sessions_count": 260,
             "first_seen": "2026-06-21 20:38:53",
-            "last_seen": "2026-08-21 21:50:26"
+            "last_seen": "2026-08-23 18:15:15"
         },
         {
             "track": "nurburgring",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1486,
+        "sessions": 1487,
         "drivers": 226,
-        "laps": 23762,
+        "laps": 23763,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 79,
+        "active_days": 80,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-08-21"
+        "last_activity": "2026-08-23"
     },
     "activity_by_date": [
         {
@@ -850,6 +850,15 @@
             "servers": 5,
             "tracks": 5,
             "entries": 0
+        },
+        {
+            "date": "2026-08-23",
+            "sessions": 1,
+            "drivers": 0,
+            "laps": 1,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -875,13 +884,13 @@
         },
         {
             "server_name": "MONZA",
-            "sessions": 255,
+            "sessions": 256,
             "drivers": 359,
-            "laps": 5559,
+            "laps": 5560,
             "tracks": 1,
             "entries": 682,
             "first_seen": "2026-06-28 20:19:37",
-            "last_seen": "2026-08-21 21:50:26"
+            "last_seen": "2026-08-23 18:15:15"
         },
         {
             "server_name": "Brands Hatch",
@@ -929,14 +938,14 @@
         },
         {
             "track": "monza",
-            "sessions": 259,
+            "sessions": 260,
             "drivers": 359,
-            "laps": 5559,
+            "laps": 5560,
             "servers": 2,
             "entries": 682,
             "best_lap": 107127,
             "best_driver": "Wolfgang Straub",
-            "last_seen": "2026-08-21 21:50:26"
+            "last_seen": "2026-08-23 18:15:15"
         },
         {
             "track": "brands_hatch",
@@ -2221,7 +2230,7 @@
             "weekday_number": 0,
             "weekday": "Sunday",
             "hour": 18,
-            "sessions": 4,
+            "sessions": 5,
             "servers": 2,
             "tracks": 2
         },
@@ -185859,6 +185868,26 @@
             "last_seen": "2026-06-18 17:24:05"
         },
         {
+            "driver": "Tarik Alić",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-23 18:15:15",
+            "last_seen": "2026-08-23 18:15:15"
+        },
+        {
             "driver": "Tomáš Maryška",
             "safety_score": 40.0,
             "grade": "D",
@@ -223899,6 +223928,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-18 17:24:05",
             "last_seen": "2026-06-18 17:24:05"
+        },
+        {
+            "driver": "Tarik Alić",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-08-23 18:15:15",
+            "last_seen": "2026-08-23 18:15:15"
         },
         {
             "driver": "Tomáš Maryška",
