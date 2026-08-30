@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-08-31 01:50:56",
+        "generated_at": "2026-08-31 02:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-02 01:50:56",
+        "active_cutoff": "2026-06-02 02:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,8 +25,8 @@
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1525,
-        "sessions_last_7_days": 34,
+        "sessions_total": 1526,
+        "sessions_last_7_days": 35,
         "new_drivers_last_7_days": 29,
         "lap_entries_total": 3129,
         "cars_total": 31,
@@ -34,7 +34,7 @@
         "safety_penalties_total": 705,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 26,
-        "last_activity": "2026-08-30 21:48:34",
+        "last_activity": "2026-08-31 02:16:28",
         "top_track": "spa",
         "top_track_sessions": 604,
         "top_car_model": 35,
@@ -72,18 +72,18 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions_count": 146,
+            "sessions_count": 147,
             "tracks_count": 3,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-28 17:01:30"
+            "last_seen": "2026-08-31 02:16:28"
         }
     ],
     "tracks": [
         {
             "track": "barcelona",
-            "sessions_count": 41,
+            "sessions_count": 42,
             "first_seen": "2026-06-18 22:25:30",
-            "last_seen": "2026-08-28 17:01:30"
+            "last_seen": "2026-08-31 02:16:28"
         },
         {
             "track": "brands_hatch",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1525,
+        "sessions": 1526,
         "drivers": 226,
         "laps": 24157,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 87,
+        "active_days": 88,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-08-30"
+        "last_activity": "2026-08-31"
     },
     "activity_by_date": [
         {
@@ -922,6 +922,15 @@
             "servers": 2,
             "tracks": 2,
             "entries": 1
+        },
+        {
+            "date": "2026-08-31",
+            "sessions": 1,
+            "drivers": 0,
+            "laps": 0,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 0
         }
     ],
     "activity_by_server": [
@@ -967,13 +976,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions": 146,
+            "sessions": 147,
             "drivers": 81,
             "laps": 907,
             "tracks": 3,
             "entries": 117,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-28 17:01:30"
+            "last_seen": "2026-08-31 02:16:28"
         }
     ],
     "activity_by_track": [
@@ -1034,14 +1043,14 @@
         },
         {
             "track": "barcelona",
-            "sessions": 41,
+            "sessions": 42,
             "drivers": 35,
             "laps": 434,
             "servers": 2,
             "entries": 57,
             "best_lap": 105380,
             "best_driver": "Jakub Piskulla",
-            "last_seen": "2026-08-28 17:01:30"
+            "last_seen": "2026-08-31 02:16:28"
         },
         {
             "track": "nurburgring",
@@ -1496,6 +1505,14 @@
             "sessions": 19,
             "servers": 5,
             "tracks": 6
+        },
+        {
+            "weekday_number": 1,
+            "weekday": "Monday",
+            "hour": 2,
+            "sessions": 1,
+            "servers": 1,
+            "tracks": 1
         },
         {
             "weekday_number": 2,
