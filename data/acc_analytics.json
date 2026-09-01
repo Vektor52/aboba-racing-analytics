@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-02 00:50:56",
+        "generated_at": "2026-09-02 01:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-04 00:50:56",
+        "active_cutoff": "2026-06-04 01:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -20,21 +20,21 @@
         "privacy": "steam_id_server_id_and_local_paths_removed"
     },
     "site_stats": {
-        "drivers_total": 1526,
-        "drivers_active": 1526,
+        "drivers_total": 1530,
+        "drivers_active": 1530,
         "drivers_inactive": 0,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1529,
-        "sessions_last_7_days": 23,
-        "new_drivers_last_7_days": 13,
-        "lap_entries_total": 3129,
+        "sessions_total": 1531,
+        "sessions_last_7_days": 25,
+        "new_drivers_last_7_days": 17,
+        "lap_entries_total": 3135,
         "cars_total": 31,
-        "safety_laps_total": 24157,
-        "safety_penalties_total": 705,
+        "safety_laps_total": 24230,
+        "safety_penalties_total": 707,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 26,
-        "last_activity": "2026-09-01 12:39:48",
+        "last_activity": "2026-09-02 01:38:12",
         "top_track": "spa",
         "top_track_sessions": 606,
         "top_car_model": 35,
@@ -72,18 +72,18 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions_count": 147,
+            "sessions_count": 149,
             "tracks_count": 3,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-31 02:16:28"
+            "last_seen": "2026-09-02 01:38:12"
         }
     ],
     "tracks": [
         {
             "track": "barcelona",
-            "sessions_count": 42,
+            "sessions_count": 44,
             "first_seen": "2026-06-18 22:25:30",
-            "last_seen": "2026-08-31 02:16:28"
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "track": "brands_hatch",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1529,
+        "sessions": 1531,
         "drivers": 226,
-        "laps": 24157,
+        "laps": 24230,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 89,
+        "active_days": 90,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-09-01"
+        "last_activity": "2026-09-02"
     },
     "activity_by_date": [
         {
@@ -940,6 +940,15 @@
             "servers": 1,
             "tracks": 1,
             "entries": 0
+        },
+        {
+            "date": "2026-09-02",
+            "sessions": 2,
+            "drivers": 4,
+            "laps": 73,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 6
         }
     ],
     "activity_by_server": [
@@ -985,13 +994,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions": 147,
-            "drivers": 81,
-            "laps": 907,
+            "sessions": 149,
+            "drivers": 85,
+            "laps": 980,
             "tracks": 3,
-            "entries": 117,
+            "entries": 123,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-08-31 02:16:28"
+            "last_seen": "2026-09-02 01:38:12"
         }
     ],
     "activity_by_track": [
@@ -1052,14 +1061,14 @@
         },
         {
             "track": "barcelona",
-            "sessions": 42,
-            "drivers": 35,
-            "laps": 434,
+            "sessions": 44,
+            "drivers": 39,
+            "laps": 507,
             "servers": 2,
-            "entries": 57,
+            "entries": 63,
             "best_lap": 105380,
             "best_driver": "Jakub Piskulla",
-            "last_seen": "2026-08-31 02:16:28"
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "track": "nurburgring",
@@ -1094,16 +1103,16 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 416,
-            "entries": 1325,
-            "drivers": 942,
+            "sessions": 417,
+            "entries": 1328,
+            "drivers": 945,
             "best_lap": 84185
         },
         {
             "session_type": "Race",
-            "sessions": 169,
-            "entries": 1103,
-            "drivers": 837,
+            "sessions": 170,
+            "entries": 1106,
+            "drivers": 840,
             "best_lap": 85520
         },
         {
@@ -1143,18 +1152,18 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "entries": 451,
-            "sessions": 293,
-            "drivers": 259,
+            "entries": 453,
+            "sessions": 295,
+            "drivers": 261,
             "tracks": 7,
             "best_lap": 85230
         },
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "entries": 235,
-            "sessions": 168,
-            "drivers": 144,
+            "entries": 239,
+            "sessions": 170,
+            "drivers": 146,
             "tracks": 7,
             "best_lap": 85422
         },
@@ -1479,9 +1488,9 @@
             "weekday_number": 3,
             "weekday": "Wednesday",
             "hour": 1,
-            "sessions": 4,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 6,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 4,
@@ -2613,6 +2622,30 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-09-02",
+            "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+            "track": "barcelona",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 3,
+            "drivers": 3,
+            "laps": 73,
+            "best_lap": 107417,
+            "best_driver": "moska cojonera"
+        },
+        {
+            "date": "2026-09-02",
+            "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+            "track": "barcelona",
+            "session_type": "Race",
+            "sessions": 1,
+            "entries": 3,
+            "drivers": 3,
+            "laps": 73,
+            "best_lap": 107217,
+            "best_driver": "Vitor NINAS"
+        },
         {
             "date": "2026-08-30",
             "server_name": "MONZA",
@@ -9108,6 +9141,18 @@
             "entries_count": 1
         },
         {
+            "driver": "Benito Camela",
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2
+        },
+        {
             "driver": "Benjamin Netanyahu",
             "first_seen": "2026-07-10 23:37:50",
             "last_seen": "2026-07-10 23:37:50",
@@ -9412,6 +9457,18 @@
             "first_seen": "2026-06-17 23:15:49",
             "last_seen": "2026-06-17 23:15:49",
             "days_since_last_seen": 77,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Brando Màlato",
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:05:02",
+            "days_since_last_seen": 0,
             "active": true,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -18516,6 +18573,18 @@
             "entries_count": 2
         },
         {
+            "driver": "moska cojonera",
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2
+        },
+        {
             "driver": "Mr ilya",
             "first_seen": "2026-07-01 23:27:23",
             "last_seen": "2026-07-01 23:27:23",
@@ -23194,6 +23263,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2
+        },
+        {
+            "driver": "Vitor NINAS",
+            "first_seen": "2026-09-02 01:38:12",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
         },
         {
             "driver": "vivaldo vilela",
@@ -30970,6 +31051,26 @@
             "favorite_car_name": "Ferrari 296 GT3"
         },
         {
+            "driver": "Vitor NINAS",
+            "active": true,
+            "first_seen": "2026-09-02 01:38:12",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 107217,
+            "best_track": "barcelona",
+            "best_session": "Race",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3"
+        },
+        {
             "driver": "Kirill Yakovlev",
             "active": true,
             "first_seen": "2026-08-25 21:37:13",
@@ -30988,6 +31089,26 @@
             "favorite_track": "barcelona",
             "favorite_car_model": 30,
             "favorite_car_name": "BMW M4 GT3"
+        },
+        {
+            "driver": "moska cojonera",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 107417,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "Riccardo Chiesa",
@@ -31108,6 +31229,26 @@
             "favorite_track": "monza",
             "favorite_car_model": 32,
             "favorite_car_name": "Ferrari 296 GT3"
+        },
+        {
+            "driver": "Benito Camela",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 108132,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
             "driver": "H K",
@@ -32748,6 +32889,26 @@
             "favorite_track": "monza",
             "favorite_car_model": 35,
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
+        {
+            "driver": "Brando Màlato",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:05:02",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 110205,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3"
         },
         {
             "driver": "Sergey BY",
@@ -68569,6 +68730,73 @@
             ]
         },
         {
+            "driver": "Benito Camela",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "total_laps": 25,
+            "valid_laps": 6,
+            "invalid_laps": 19,
+            "best_lap": 108132,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R",
+            "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 108132,
+                    "sector1": 30260,
+                    "sector2": 41157,
+                    "sector3": 36490,
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-09-02 01:05:02"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 108132,
+                    "best_track": "barcelona"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 2,
+                    "tracks": 1,
+                    "last_seen": "2026-09-02 01:38:12"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 108132
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 108485
+                }
+            ]
+        },
+        {
             "driver": "Benjamin Netanyahu",
             "active": true,
             "first_seen": "2026-07-10 23:37:50",
@@ -70261,6 +70489,68 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 94260
+                }
+            ]
+        },
+        {
+            "driver": "Brando Màlato",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:05:02",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 2,
+            "valid_laps": 1,
+            "invalid_laps": 1,
+            "best_lap": 110205,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3",
+            "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 110205,
+                    "sector1": 30627,
+                    "sector2": 41750,
+                    "sector3": 37827,
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-09-02 01:05:02"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 110205,
+                    "best_track": "barcelona"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-09-02 01:05:02"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 110205
                 }
             ]
         },
@@ -120787,6 +121077,73 @@
             ]
         },
         {
+            "driver": "moska cojonera",
+            "active": true,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "total_laps": 27,
+            "valid_laps": 13,
+            "invalid_laps": 14,
+            "best_lap": 107417,
+            "best_track": "barcelona",
+            "best_session": "Qualifying",
+            "best_car_model": 34,
+            "best_car_name": "Porsche 992 GT3 R",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 34,
+            "favorite_car_name": "Porsche 992 GT3 R",
+            "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 107417,
+                    "sector1": 30232,
+                    "sector2": 41310,
+                    "sector3": 35772,
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-09-02 01:05:02"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 34,
+                    "car_name": "Porsche 992 GT3 R",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 107417,
+                    "best_track": "barcelona"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 2,
+                    "tracks": 1,
+                    "last_seen": "2026-09-02 01:38:12"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 107417
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 107580
+                }
+            ]
+        },
+        {
             "driver": "Mr ilya",
             "active": true,
             "first_seen": "2026-07-01 23:27:23",
@@ -146729,6 +147086,68 @@
             ]
         },
         {
+            "driver": "Vitor NINAS",
+            "active": true,
+            "first_seen": "2026-09-02 01:38:12",
+            "last_seen": "2026-09-02 01:38:12",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 19,
+            "valid_laps": 10,
+            "invalid_laps": 9,
+            "best_lap": 107217,
+            "best_track": "barcelona",
+            "best_session": "Race",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "barcelona",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3",
+            "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 107217,
+                    "sector1": 29662,
+                    "sector2": 41402,
+                    "sector3": 35635,
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "session": "Race",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-09-02 01:38:12"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 107217,
+                    "best_track": "barcelona"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-09-02 01:38:12"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 107217
+                }
+            ]
+        },
+        {
             "driver": "vivaldo vilela",
             "active": true,
             "first_seen": "2026-08-07 23:40:09",
@@ -157604,22 +158023,22 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 259,
-            "entries": 451,
+            "drivers": 261,
+            "entries": 453,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 139021
+            "avg_lap": 138887
         },
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "drivers": 144,
-            "entries": 235,
+            "drivers": 146,
+            "entries": 239,
             "best_lap": 85422,
             "best_driver": "Luca Cavalli",
             "best_track": "brands_hatch",
-            "avg_lap": 138332
+            "avg_lap": 137823
         },
         {
             "car_model": 25,
@@ -157916,22 +158335,22 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 259,
-            "entries": 451,
+            "drivers": 261,
+            "entries": 453,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 139021
+            "avg_lap": 138887
         },
         {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
-            "drivers": 144,
-            "entries": 235,
+            "drivers": 146,
+            "entries": 239,
             "best_lap": 85422,
             "best_driver": "Luca Cavalli",
             "best_track": "brands_hatch",
-            "avg_lap": 138332
+            "avg_lap": 137823
         },
         {
             "car_model": 25,
@@ -166736,6 +167155,26 @@
             "last_seen": "2026-07-08 22:07:43"
         },
         {
+            "driver": "Vitor NINAS",
+            "safety_score": 74.6,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 19,
+            "valid_laps": 10,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.526,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 47.37,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
+        },
+        {
             "driver": "XAVIER MOREAU",
             "safety_score": 74.6,
             "grade": "C",
@@ -169134,6 +169573,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 23:53:26",
             "last_seen": "2026-06-22 23:53:26"
+        },
+        {
+            "driver": "Brando Màlato",
+            "safety_score": 70.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 1,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:05:02"
         },
         {
             "driver": "Christian Haugom",
@@ -177754,6 +178213,26 @@
             "servers_count": 2,
             "first_seen": "2026-07-21 16:39:26",
             "last_seen": "2026-08-07 21:05:24"
+        },
+        {
+            "driver": "Benito Camela",
+            "safety_score": 57.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 25,
+            "valid_laps": 6,
+            "invalid_laps": 19,
+            "valid_lap_ratio": 0.24,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "driver": "Nikita Sidorchuk",
@@ -191034,6 +191513,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-04 23:06:12",
             "last_seen": "2026-08-04 23:39:12"
+        },
+        {
+            "driver": "moska cojonera",
+            "safety_score": 20.7,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 27,
+            "valid_laps": 13,
+            "invalid_laps": 14,
+            "valid_lap_ratio": 0.481,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 51.85,
+            "penalties_per_100": 7.41,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "driver": "Vlad V",
@@ -205438,6 +205937,26 @@
             "last_seen": "2026-07-08 22:07:43"
         },
         {
+            "driver": "Vitor NINAS",
+            "safety_score": 74.6,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 19,
+            "valid_laps": 10,
+            "invalid_laps": 9,
+            "valid_lap_ratio": 0.526,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 47.37,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
+        },
+        {
             "driver": "XAVIER MOREAU",
             "safety_score": 74.6,
             "grade": "C",
@@ -207836,6 +208355,26 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 23:53:26",
             "last_seen": "2026-06-22 23:53:26"
+        },
+        {
+            "driver": "Brando Màlato",
+            "safety_score": 70.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 1,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:05:02"
         },
         {
             "driver": "Christian Haugom",
@@ -216456,6 +216995,26 @@
             "servers_count": 2,
             "first_seen": "2026-07-21 16:39:26",
             "last_seen": "2026-08-07 21:05:24"
+        },
+        {
+            "driver": "Benito Camela",
+            "safety_score": 57.4,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 25,
+            "valid_laps": 6,
+            "invalid_laps": 19,
+            "valid_lap_ratio": 0.24,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 76.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "driver": "Nikita Sidorchuk",
@@ -229736,6 +230295,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-04 23:06:12",
             "last_seen": "2026-08-04 23:39:12"
+        },
+        {
+            "driver": "moska cojonera",
+            "safety_score": 20.7,
+            "grade": "D",
+            "confidence": "low",
+            "total_laps": 27,
+            "valid_laps": 13,
+            "invalid_laps": 14,
+            "valid_lap_ratio": 0.481,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 51.85,
+            "penalties_per_100": 7.41,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-02 01:05:02",
+            "last_seen": "2026-09-02 01:38:12"
         },
         {
             "driver": "Vlad V",
