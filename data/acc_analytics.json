@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-03 00:50:56",
+        "generated_at": "2026-09-03 01:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-05 00:50:56",
+        "active_cutoff": "2026-06-05 01:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1531,
-        "drivers_active": 1488,
-        "drivers_inactive": 43,
+        "drivers_active": 1487,
+        "drivers_inactive": 44,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1535,
@@ -7843,18 +7843,6 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 4
-        },
-        {
-            "driver": "alexei vinokurov",
-            "first_seen": "2026-06-05 01:23:37",
-            "last_seen": "2026-06-05 01:23:37",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
         },
         {
             "driver": "Alexey Dniwe",
@@ -24751,6 +24739,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2
+        },
+        {
+            "driver": "alexei vinokurov",
+            "first_seen": "2026-06-05 01:23:37",
+            "last_seen": "2026-06-05 01:23:37",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
         },
         {
             "driver": "Anatoliy Rubtsevich",
@@ -46335,26 +46335,6 @@
             "favorite_car_name": "Audi R8 LMS GT3 Evo II"
         },
         {
-            "driver": "alexei vinokurov",
-            "active": true,
-            "first_seen": "2026-06-05 01:23:37",
-            "last_seen": "2026-06-05 01:23:37",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 143415,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 32,
-            "best_car_name": "Ferrari 296 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 32,
-            "favorite_car_name": "Ferrari 296 GT3"
-        },
-        {
             "driver": "Georgy Chebanov",
             "active": true,
             "first_seen": "2026-08-18 23:36:16",
@@ -55655,6 +55635,26 @@
             "favorite_car_name": "Mercedes-AMG GT3"
         },
         {
+            "driver": "alexei vinokurov",
+            "active": false,
+            "first_seen": "2026-06-05 01:23:37",
+            "last_seen": "2026-06-05 01:23:37",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 143415,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3"
+        },
+        {
             "driver": "Alex Fony",
             "active": false,
             "first_seen": "2026-06-04 21:51:56",
@@ -61517,68 +61517,6 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 113482
-                }
-            ]
-        },
-        {
-            "driver": "alexei vinokurov",
-            "active": true,
-            "first_seen": "2026-06-05 01:23:37",
-            "last_seen": "2026-06-05 01:23:37",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "best_lap": 143415,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 32,
-            "best_car_name": "Ferrari 296 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 32,
-            "favorite_car_name": "Ferrari 296 GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 143415,
-                    "sector1": 41777,
-                    "sector2": 63237,
-                    "sector3": 38400,
-                    "car_model": 32,
-                    "car_name": "Ferrari 296 GT3",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-05 01:23:37"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 32,
-                    "car_name": "Ferrari 296 GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 143415,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-05 01:23:37"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 143415
                 }
             ]
         },
@@ -155516,6 +155454,68 @@
             ]
         },
         {
+            "driver": "alexei vinokurov",
+            "active": false,
+            "first_seen": "2026-06-05 01:23:37",
+            "last_seen": "2026-06-05 01:23:37",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "best_lap": 143415,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 143415,
+                    "sector1": 41777,
+                    "sector2": 63237,
+                    "sector3": 38400,
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-05 01:23:37"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 143415,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-05 01:23:37"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 143415
+                }
+            ]
+        },
+        {
             "driver": "Anatoliy Rubtsevich",
             "active": false,
             "first_seen": "2026-06-05 00:19:31",
@@ -158145,12 +158145,12 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 257,
-            "entries": 448,
+            "drivers": 256,
+            "entries": 447,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 138686
+            "avg_lap": 138676
         },
         {
             "car_model": 34,
@@ -159255,26 +159255,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 20:45:41",
             "last_seen": "2026-07-08 20:45:41"
-        },
-        {
-            "driver": "alexei vinokurov",
-            "safety_score": 100.0,
-            "grade": "S",
-            "confidence": "very_low",
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "valid_lap_ratio": 1.0,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 0.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-05 01:23:37",
-            "last_seen": "2026-06-05 01:23:37"
         },
         {
             "driver": "Antoha Tanan",
