@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-04 22:39:49",
+        "generated_at": "2026-09-04 22:50:56",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-06 22:39:49",
+        "active_cutoff": "2026-06-06 22:50:56",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1532,
-        "drivers_active": 1480,
-        "drivers_inactive": 52,
+        "drivers_active": 1479,
+        "drivers_inactive": 53,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1537,
@@ -22455,18 +22455,6 @@
             "entries_count": 2
         },
         {
-            "driver": "Vadim Yurasov",
-            "first_seen": "2026-06-06 22:50:31",
-            "last_seen": "2026-06-06 22:50:31",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "VADIMKA KADROV",
             "first_seen": "2026-08-02 19:23:48",
             "last_seen": "2026-08-02 19:58:30",
@@ -25171,6 +25159,18 @@
             "first_seen": "2026-06-04 23:18:20",
             "last_seen": "2026-06-04 23:18:20",
             "days_since_last_seen": 92,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Vadim Yurasov",
+            "first_seen": "2026-06-06 22:50:31",
+            "last_seen": "2026-06-06 22:50:31",
+            "days_since_last_seen": 90,
             "active": false,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -54177,26 +54177,6 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
-            "driver": "Vadim Yurasov",
-            "active": true,
-            "first_seen": "2026-06-06 22:50:31",
-            "last_seen": "2026-06-06 22:50:31",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 328427,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 22,
-            "best_car_name": "McLaren 720S GT3 (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 22,
-            "favorite_car_name": "McLaren 720S GT3 (2019)"
-        },
-        {
             "driver": "kafimaru intarima",
             "active": true,
             "first_seen": "2026-08-03 20:17:00",
@@ -56135,6 +56115,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 23,
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
+        },
+        {
+            "driver": "Vadim Yurasov",
+            "active": false,
+            "first_seen": "2026-06-06 22:50:31",
+            "last_seen": "2026-06-06 22:50:31",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 328427,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 22,
+            "best_car_name": "McLaren 720S GT3 (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 22,
+            "favorite_car_name": "McLaren 720S GT3 (2019)"
         },
         {
             "driver": "speed demons",
@@ -142602,68 +142602,6 @@
             ]
         },
         {
-            "driver": "Vadim Yurasov",
-            "active": true,
-            "first_seen": "2026-06-06 22:50:31",
-            "last_seen": "2026-06-06 22:50:31",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 5,
-            "valid_laps": 1,
-            "invalid_laps": 4,
-            "best_lap": 328427,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 22,
-            "best_car_name": "McLaren 720S GT3 (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 22,
-            "favorite_car_name": "McLaren 720S GT3 (2019)",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 328427,
-                    "sector1": 220167,
-                    "sector2": 68470,
-                    "sector3": 39790,
-                    "car_model": 22,
-                    "car_name": "McLaren 720S GT3 (2019)",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-06 22:50:31"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 22,
-                    "car_name": "McLaren 720S GT3 (2019)",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 328427,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-06 22:50:31"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 328427
-                }
-            ]
-        },
-        {
             "driver": "VADIMKA KADROV",
             "active": true,
             "first_seen": "2026-08-02 19:23:48",
@@ -157672,6 +157610,68 @@
             ]
         },
         {
+            "driver": "Vadim Yurasov",
+            "active": false,
+            "first_seen": "2026-06-06 22:50:31",
+            "last_seen": "2026-06-06 22:50:31",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 5,
+            "valid_laps": 1,
+            "invalid_laps": 4,
+            "best_lap": 328427,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 22,
+            "best_car_name": "McLaren 720S GT3 (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 22,
+            "favorite_car_name": "McLaren 720S GT3 (2019)",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 328427,
+                    "sector1": 220167,
+                    "sector2": 68470,
+                    "sector3": 39790,
+                    "car_model": 22,
+                    "car_name": "McLaren 720S GT3 (2019)",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-06 22:50:31"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 22,
+                    "car_name": "McLaren 720S GT3 (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 328427,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-06 22:50:31"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 328427
+                }
+            ]
+        },
+        {
             "driver": "Vadim Zakharov",
             "active": false,
             "first_seen": "2026-06-05 00:19:31",
@@ -158399,12 +158399,12 @@
         {
             "car_model": 22,
             "car_name": "McLaren 720S GT3 (2019)",
-            "drivers": 23,
-            "entries": 40,
+            "drivers": 22,
+            "entries": 39,
             "best_lap": 89040,
             "best_driver": "DingKai Li",
             "best_track": "brands_hatch",
-            "avg_lap": 126058
+            "avg_lap": 120869
         },
         {
             "car_model": 19,
@@ -195099,26 +195099,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 19:12:06",
             "last_seen": "2026-07-08 19:12:06"
-        },
-        {
-            "driver": "Vadim Yurasov",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 4,
-            "valid_laps": 1,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.25,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 75.0,
-            "penalties_per_100": 25.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-06 22:50:31",
-            "last_seen": "2026-06-06 22:50:31"
         },
         {
             "driver": "Vega Ross",
