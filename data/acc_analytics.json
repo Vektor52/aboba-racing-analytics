@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-06 08:50:56",
+        "generated_at": "2026-09-06 09:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-08 08:50:56",
+        "active_cutoff": "2026-06-08 09:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1532,
-        "drivers_active": 1472,
-        "drivers_inactive": 60,
+        "drivers_active": 1471,
+        "drivers_inactive": 61,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1537,
@@ -17007,18 +17007,6 @@
             "entries_count": 1
         },
         {
-            "driver": "Matheus Cardoso",
-            "first_seen": "2026-06-08 09:18:50",
-            "last_seen": "2026-06-08 09:18:50",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "Matheus Ferreira",
             "first_seen": "2026-08-18 00:51:28",
             "last_seen": "2026-08-18 01:17:10",
@@ -24919,6 +24907,18 @@
             "first_seen": "2026-06-07 14:39:21",
             "last_seen": "2026-06-07 14:39:21",
             "days_since_last_seen": 91,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Matheus Cardoso",
+            "first_seen": "2026-06-08 09:18:50",
+            "last_seen": "2026-06-08 09:18:50",
+            "days_since_last_seen": 90,
             "active": false,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -51237,26 +51237,6 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
-            "driver": "Matheus Cardoso",
-            "active": true,
-            "first_seen": "2026-06-08 09:18:50",
-            "last_seen": "2026-06-08 09:18:50",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 147120,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 16,
-            "best_car_name": "Lamborghini Huracan Evo (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 16,
-            "favorite_car_name": "Lamborghini Huracan Evo (2019)"
-        },
-        {
             "driver": "zak larens",
             "active": true,
             "first_seen": "2026-06-22 23:08:12",
@@ -56035,6 +56015,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
+            "driver": "Matheus Cardoso",
+            "active": false,
+            "first_seen": "2026-06-08 09:18:50",
+            "last_seen": "2026-06-08 09:18:50",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 147120,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 16,
+            "best_car_name": "Lamborghini Huracan Evo (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 16,
+            "favorite_car_name": "Lamborghini Huracan Evo (2019)"
         },
         {
             "driver": "Christoforos Charalambous",
@@ -112429,68 +112429,6 @@
             ]
         },
         {
-            "driver": "Matheus Cardoso",
-            "active": true,
-            "first_seen": "2026-06-08 09:18:50",
-            "last_seen": "2026-06-08 09:18:50",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "best_lap": 147120,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 16,
-            "best_car_name": "Lamborghini Huracan Evo (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 16,
-            "favorite_car_name": "Lamborghini Huracan Evo (2019)",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 147120,
-                    "sector1": 42857,
-                    "sector2": 64792,
-                    "sector3": 39470,
-                    "car_model": 16,
-                    "car_name": "Lamborghini Huracan Evo (2019)",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-08 09:18:50"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 16,
-                    "car_name": "Lamborghini Huracan Evo (2019)",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 147120,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-08 09:18:50"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 147120
-                }
-            ]
-        },
-        {
             "driver": "Matheus Ferreira",
             "active": true,
             "first_seen": "2026-08-18 00:51:28",
@@ -156332,6 +156270,68 @@
             ]
         },
         {
+            "driver": "Matheus Cardoso",
+            "active": false,
+            "first_seen": "2026-06-08 09:18:50",
+            "last_seen": "2026-06-08 09:18:50",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "best_lap": 147120,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 16,
+            "best_car_name": "Lamborghini Huracan Evo (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 16,
+            "favorite_car_name": "Lamborghini Huracan Evo (2019)",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 147120,
+                    "sector1": 42857,
+                    "sector2": 64792,
+                    "sector3": 39470,
+                    "car_model": 16,
+                    "car_name": "Lamborghini Huracan Evo (2019)",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-08 09:18:50"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 16,
+                    "car_name": "Lamborghini Huracan Evo (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 147120,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-08 09:18:50"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 147120
+                }
+            ]
+        },
+        {
             "driver": "Matvei Palamarchuk",
             "active": false,
             "first_seen": "2026-06-04 21:26:50",
@@ -158419,12 +158419,12 @@
         {
             "car_model": 16,
             "car_name": "Lamborghini Huracan Evo (2019)",
-            "drivers": 24,
-            "entries": 35,
+            "drivers": 23,
+            "entries": 34,
             "best_lap": 89130,
             "best_driver": "Danil Borisov",
             "best_track": "brands_hatch",
-            "avg_lap": 119695
+            "avg_lap": 118888
         },
         {
             "car_model": 2,
@@ -159919,26 +159919,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-07 22:43:20",
             "last_seen": "2026-08-07 22:43:20"
-        },
-        {
-            "driver": "Matheus Cardoso",
-            "safety_score": 100.0,
-            "grade": "S",
-            "confidence": "very_low",
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "valid_lap_ratio": 1.0,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 0.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-08 09:18:50",
-            "last_seen": "2026-06-08 09:18:50"
         },
         {
             "driver": "maxim weber",
@@ -190042,22 +190022,22 @@
         },
         {
             "driver": "danis chen",
-            "safety_score": 29.6,
+            "safety_score": 29.3,
             "grade": "D",
             "confidence": "low",
-            "total_laps": 28,
+            "total_laps": 27,
             "valid_laps": 6,
-            "invalid_laps": 22,
-            "valid_lap_ratio": 0.214,
+            "invalid_laps": 21,
+            "valid_lap_ratio": 0.222,
             "penalties_count": 1,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 78.57,
-            "penalties_per_100": 3.57,
+            "invalid_laps_per_100": 77.78,
+            "penalties_per_100": 3.7,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 7,
+            "sessions_count": 6,
             "tracks_count": 1,
             "servers_count": 1,
-            "first_seen": "2026-06-08 09:18:50",
+            "first_seen": "2026-07-20 14:35:20",
             "last_seen": "2026-07-20 17:52:28"
         },
         {
