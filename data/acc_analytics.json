@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-06 22:50:56",
+        "generated_at": "2026-09-06 23:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-08 22:50:56",
+        "active_cutoff": "2026-06-08 23:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1532,
-        "drivers_active": 1469,
-        "drivers_inactive": 63,
+        "drivers_active": 1466,
+        "drivers_inactive": 66,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1537,
@@ -39,7 +39,7 @@
         "top_track_sessions": 607,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 810
+        "top_car_entries": 809
     },
     "servers": [
         {
@@ -7191,18 +7191,6 @@
             "entries_count": 1
         },
         {
-            "driver": "Abel Zyderis",
-            "first_seen": "2026-06-08 22:23:57",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2
-        },
-        {
             "driver": "Adamek Bananek",
             "first_seen": "2026-08-18 23:36:16",
             "last_seen": "2026-08-18 23:36:16",
@@ -12027,18 +12015,6 @@
             "entries_count": 3
         },
         {
-            "driver": "Eugene Post",
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "Evgeniy Doneckiy",
             "first_seen": "2026-07-21 16:39:26",
             "last_seen": "2026-07-21 17:47:44",
@@ -13309,18 +13285,6 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1
-        },
-        {
-            "driver": "Harry Arkenzo",
-            "first_seen": "2026-06-08 21:58:53",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 3
         },
         {
             "driver": "Harry Rodriguez",
@@ -24531,6 +24495,18 @@
             "entries_count": 2
         },
         {
+            "driver": "Abel Zyderis",
+            "first_seen": "2026-06-08 22:23:57",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2
+        },
+        {
             "driver": "Adam Feldy",
             "first_seen": "2026-06-07 14:39:21",
             "last_seen": "2026-06-07 14:39:21",
@@ -24663,6 +24639,18 @@
             "entries_count": 1
         },
         {
+            "driver": "Eugene Post",
+            "first_seen": "2026-06-08 23:06:35",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "Fernando Acebedo",
             "first_seen": "2026-06-04 23:18:20",
             "last_seen": "2026-06-04 23:18:20",
@@ -24709,6 +24697,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2
+        },
+        {
+            "driver": "Harry Arkenzo",
+            "first_seen": "2026-06-08 21:58:53",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3
         },
         {
             "driver": "I Laiko",
@@ -41537,26 +41537,6 @@
             "favorite_car_name": "Ferrari 296 GT3"
         },
         {
-            "driver": "Harry Arkenzo",
-            "active": true,
-            "first_seen": "2026-06-08 21:58:53",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 3,
-            "best_lap": 140767,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 1,
-            "best_car_name": "Mercedes-AMG GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 1,
-            "favorite_car_name": "Mercedes-AMG GT3"
-        },
-        {
             "driver": "Y YK",
             "active": true,
             "first_seen": "2026-07-08 22:32:06",
@@ -46895,26 +46875,6 @@
             "favorite_track": "spa",
             "favorite_car_model": 20,
             "favorite_car_name": "AMR V8 Vantage (2019)"
-        },
-        {
-            "driver": "Eugene Post",
-            "active": true,
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 143825,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "spa",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
             "driver": "Kevin Aribowo",
@@ -52797,26 +52757,6 @@
             "favorite_car_name": "Porsche 991 GT3 R"
         },
         {
-            "driver": "Abel Zyderis",
-            "active": true,
-            "first_seen": "2026-06-08 22:23:57",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 149800,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 1,
-            "best_car_name": "Mercedes-AMG GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 1,
-            "favorite_car_name": "Mercedes-AMG GT3"
-        },
-        {
             "driver": "Paulo Henrique",
             "active": true,
             "first_seen": "2026-06-20 16:04:02",
@@ -55257,6 +55197,26 @@
             "favorite_car_name": "Porsche 992 GT3 R"
         },
         {
+            "driver": "Harry Arkenzo",
+            "active": false,
+            "first_seen": "2026-06-08 21:58:53",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "best_lap": 140767,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 1,
+            "best_car_name": "Mercedes-AMG GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 1,
+            "favorite_car_name": "Mercedes-AMG GT3"
+        },
+        {
             "driver": "Guillaume Bourhis",
             "active": false,
             "first_seen": "2026-06-05 00:01:28",
@@ -55737,6 +55697,26 @@
             "favorite_car_name": "Ferrari 296 GT3"
         },
         {
+            "driver": "Eugene Post",
+            "active": false,
+            "first_seen": "2026-06-08 23:06:35",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 143825,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "spa",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
+        {
             "driver": "Crystal Crystal",
             "active": false,
             "first_seen": "2026-06-06 22:31:52",
@@ -56095,6 +56075,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 2,
             "favorite_car_name": "Ferrari 488 GT3"
+        },
+        {
+            "driver": "Abel Zyderis",
+            "active": false,
+            "first_seen": "2026-06-08 22:23:57",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 149800,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 1,
+            "best_car_name": "Mercedes-AMG GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 1,
+            "favorite_car_name": "Mercedes-AMG GT3"
         },
         {
             "driver": "ROWAN MONTGOMERY",
@@ -57788,68 +57788,6 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 146417
-                }
-            ]
-        },
-        {
-            "driver": "Abel Zyderis",
-            "active": true,
-            "first_seen": "2026-06-08 22:23:57",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 19,
-            "valid_laps": 2,
-            "invalid_laps": 17,
-            "best_lap": 149800,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 1,
-            "best_car_name": "Mercedes-AMG GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 1,
-            "favorite_car_name": "Mercedes-AMG GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 149800,
-                    "sector1": 45405,
-                    "sector2": 66227,
-                    "sector3": 38167,
-                    "car_model": 1,
-                    "car_name": "Mercedes-AMG GT3",
-                    "session": "Race",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-08 22:23:57"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 1,
-                    "car_name": "Mercedes-AMG GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 149800,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 2,
-                    "tracks": 1,
-                    "last_seen": "2026-06-08 23:06:35"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 2,
-                    "best_lap": 149800
                 }
             ]
         },
@@ -84979,68 +84917,6 @@
             ]
         },
         {
-            "driver": "Eugene Post",
-            "active": true,
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 9,
-            "valid_laps": 4,
-            "invalid_laps": 5,
-            "best_lap": 143825,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "spa",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 143825,
-                    "sector1": 41932,
-                    "sector2": 63625,
-                    "sector3": 38040,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Race",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-08 23:06:35"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 143825,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-08 23:06:35"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 143825
-                }
-            ]
-        },
-        {
             "driver": "Evgeniy Doneckiy",
             "active": true,
             "first_seen": "2026-07-21 16:39:26",
@@ -92068,73 +91944,6 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 88465
-                }
-            ]
-        },
-        {
-            "driver": "Harry Arkenzo",
-            "active": true,
-            "first_seen": "2026-06-08 21:58:53",
-            "last_seen": "2026-06-08 23:06:35",
-            "days_since_last_seen": 90,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 3,
-            "total_laps": 19,
-            "valid_laps": 3,
-            "invalid_laps": 16,
-            "best_lap": 140767,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 1,
-            "best_car_name": "Mercedes-AMG GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 1,
-            "favorite_car_name": "Mercedes-AMG GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 140767,
-                    "sector1": 41225,
-                    "sector2": 62280,
-                    "sector3": 37262,
-                    "car_model": 1,
-                    "car_name": "Mercedes-AMG GT3",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-08 21:58:53"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 1,
-                    "car_name": "Mercedes-AMG GT3",
-                    "entries": 3,
-                    "tracks": 1,
-                    "best_lap": 140767,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 3,
-                    "tracks": 1,
-                    "last_seen": "2026-06-08 23:06:35"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 2,
-                    "best_lap": 140767
-                },
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 515127
                 }
             ]
         },
@@ -154246,6 +154055,68 @@
             ]
         },
         {
+            "driver": "Abel Zyderis",
+            "active": false,
+            "first_seen": "2026-06-08 22:23:57",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "total_laps": 19,
+            "valid_laps": 2,
+            "invalid_laps": 17,
+            "best_lap": 149800,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 1,
+            "best_car_name": "Mercedes-AMG GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 1,
+            "favorite_car_name": "Mercedes-AMG GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 149800,
+                    "sector1": 45405,
+                    "sector2": 66227,
+                    "sector3": 38167,
+                    "car_model": 1,
+                    "car_name": "Mercedes-AMG GT3",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-08 22:23:57"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 1,
+                    "car_name": "Mercedes-AMG GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 149800,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 2,
+                    "tracks": 1,
+                    "last_seen": "2026-06-08 23:06:35"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 2,
+                    "best_lap": 149800
+                }
+            ]
+        },
+        {
             "driver": "Adam Feldy",
             "active": false,
             "first_seen": "2026-06-07 14:39:21",
@@ -154948,6 +154819,68 @@
             ]
         },
         {
+            "driver": "Eugene Post",
+            "active": false,
+            "first_seen": "2026-06-08 23:06:35",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 9,
+            "valid_laps": 4,
+            "invalid_laps": 5,
+            "best_lap": 143825,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "spa",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 143825,
+                    "sector1": 41932,
+                    "sector2": 63625,
+                    "sector3": 38040,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-08 23:06:35"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 143825,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-08 23:06:35"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 143825
+                }
+            ]
+        },
+        {
             "driver": "Fernando Acebedo",
             "active": false,
             "first_seen": "2026-06-04 23:18:20",
@@ -155192,6 +155125,73 @@
                     "session": "Race",
                     "entries": 2,
                     "best_lap": 140975
+                }
+            ]
+        },
+        {
+            "driver": "Harry Arkenzo",
+            "active": false,
+            "first_seen": "2026-06-08 21:58:53",
+            "last_seen": "2026-06-08 23:06:35",
+            "days_since_last_seen": 90,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 3,
+            "total_laps": 19,
+            "valid_laps": 3,
+            "invalid_laps": 16,
+            "best_lap": 140767,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 1,
+            "best_car_name": "Mercedes-AMG GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 1,
+            "favorite_car_name": "Mercedes-AMG GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 140767,
+                    "sector1": 41225,
+                    "sector2": 62280,
+                    "sector3": 37262,
+                    "car_model": 1,
+                    "car_name": "Mercedes-AMG GT3",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-08 21:58:53"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 1,
+                    "car_name": "Mercedes-AMG GT3",
+                    "entries": 3,
+                    "tracks": 1,
+                    "best_lap": 140767,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 3,
+                    "tracks": 1,
+                    "last_seen": "2026-06-08 23:06:35"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 2,
+                    "best_lap": 140767
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 515127
                 }
             ]
         },
@@ -158239,12 +158239,12 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "drivers": 360,
-            "entries": 810,
+            "drivers": 359,
+            "entries": 809,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
             "best_track": "brands_hatch",
-            "avg_lap": 130555
+            "avg_lap": 130538
         },
         {
             "car_model": 21,
@@ -158369,12 +158369,12 @@
         {
             "car_model": 1,
             "car_name": "Mercedes-AMG GT3",
-            "drivers": 45,
-            "entries": 75,
+            "drivers": 43,
+            "entries": 70,
             "best_lap": 88275,
             "best_driver": "Cтас Gotculyak",
             "best_track": "brands_hatch",
-            "avg_lap": 136087
+            "avg_lap": 127821
         },
         {
             "car_model": 6,
@@ -168479,26 +168479,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-07 16:01:48",
             "last_seen": "2026-08-07 16:01:48"
-        },
-        {
-            "driver": "Eugene Post",
-            "safety_score": 71.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 4,
-            "invalid_laps": 4,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35"
         },
         {
             "driver": "Jaime Maziarz",
@@ -181841,26 +181821,6 @@
             "last_seen": "2026-08-05 14:20:41"
         },
         {
-            "driver": "Abel Zyderis",
-            "safety_score": 48.5,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 1,
-            "invalid_laps": 7,
-            "valid_lap_ratio": 0.125,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 87.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35"
-        },
-        {
             "driver": "D AlphaKid",
             "safety_score": 48.5,
             "grade": "D",
@@ -181919,26 +181879,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-22 23:53:26",
             "last_seen": "2026-06-22 23:53:26"
-        },
-        {
-            "driver": "Harry Arkenzo",
-            "safety_score": 48.5,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 1,
-            "invalid_laps": 7,
-            "valid_lap_ratio": 0.125,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 87.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-08 23:06:35",
-            "last_seen": "2026-06-08 23:06:35"
         },
         {
             "driver": "Harry Rodriguez",
