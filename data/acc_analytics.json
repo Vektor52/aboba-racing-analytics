@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-11 18:50:56",
+        "generated_at": "2026-09-11 19:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-13 18:50:56",
+        "active_cutoff": "2026-06-13 19:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1534,
-        "drivers_active": 1452,
-        "drivers_inactive": 82,
+        "drivers_active": 1449,
+        "drivers_inactive": 85,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1544,
@@ -7261,18 +7261,6 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1
-        },
-        {
-            "driver": "Adolf Gitler",
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2
         },
         {
             "driver": "Adrian Fætten",
@@ -15699,18 +15687,6 @@
             "entries_count": 2
         },
         {
-            "driver": "Lars Vegas [DR]",
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "Laucha IT",
             "first_seen": "2026-07-03 00:19:06",
             "last_seen": "2026-07-03 00:53:18",
@@ -17119,18 +17095,6 @@
             "first_seen": "2026-08-03 19:17:48",
             "last_seen": "2026-08-03 19:47:17",
             "days_since_last_seen": 39,
-            "active": true,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2
-        },
-        {
-            "driver": "Matthew Nazarkin",
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
             "active": true,
             "sessions_count": 2,
             "tracks_count": 1,
@@ -24399,6 +24363,18 @@
             "entries_count": 1
         },
         {
+            "driver": "Adolf Gitler",
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2
+        },
+        {
             "driver": "ALEX ARKHIPOV",
             "first_seen": "2026-06-09 00:23:06",
             "last_seen": "2026-06-09 00:24:07",
@@ -24783,6 +24759,18 @@
             "entries_count": 2
         },
         {
+            "driver": "Lars Vegas [DR]",
+            "first_seen": "2026-06-13 19:33:44",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "Lec H",
             "first_seen": "2026-06-09 13:18:04",
             "last_seen": "2026-06-09 13:43:09",
@@ -24901,6 +24889,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1
+        },
+        {
+            "driver": "Matthew Nazarkin",
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2
         },
         {
             "driver": "Matvei Palamarchuk",
@@ -29409,26 +29409,6 @@
             "favorite_car_name": "Mercedes-AMG GT3"
         },
         {
-            "driver": "Matthew Nazarkin",
-            "active": true,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 95020,
-            "best_track": "zolder",
-            "best_session": "Qualifying",
-            "best_car_model": 15,
-            "best_car_name": "Lexus RC F GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 15,
-            "favorite_car_name": "Lexus RC F GT3"
-        },
-        {
             "driver": "Christian Koch",
             "active": true,
             "first_seen": "2026-07-17 23:47:07",
@@ -29527,26 +29507,6 @@
             "favorite_track": "zolder",
             "favorite_car_model": 35,
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
-        },
-        {
-            "driver": "Adolf Gitler",
-            "active": true,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "best_lap": 95095,
-            "best_track": "zolder",
-            "best_session": "Qualifying",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3"
         },
         {
             "driver": "MAX PENISOVICH",
@@ -30047,26 +30007,6 @@
             "favorite_track": "zolder",
             "favorite_car_model": 32,
             "favorite_car_name": "Ferrari 296 GT3"
-        },
-        {
-            "driver": "Lars Vegas [DR]",
-            "active": true,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 96697,
-            "best_track": "zolder",
-            "best_session": "Race",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3"
         },
         {
             "driver": "Cándido Núñez",
@@ -54849,6 +54789,46 @@
             "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
+            "driver": "Matthew Nazarkin",
+            "active": false,
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 95020,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 15,
+            "best_car_name": "Lexus RC F GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 15,
+            "favorite_car_name": "Lexus RC F GT3"
+        },
+        {
+            "driver": "Adolf Gitler",
+            "active": false,
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "best_lap": 95095,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
+        },
+        {
             "driver": "Kunya Nya",
             "active": false,
             "first_seen": "2026-06-06 18:37:54",
@@ -54927,6 +54907,26 @@
             "favorite_track": "zolder",
             "favorite_car_model": 23,
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
+        },
+        {
+            "driver": "Lars Vegas [DR]",
+            "active": false,
+            "first_seen": "2026-06-13 19:33:44",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 96697,
+            "best_track": "zolder",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
         },
         {
             "driver": "Neil George",
@@ -58024,73 +58024,6 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 96000
-                }
-            ]
-        },
-        {
-            "driver": "Adolf Gitler",
-            "active": true,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 14,
-            "valid_laps": 5,
-            "invalid_laps": 9,
-            "best_lap": 95095,
-            "best_track": "zolder",
-            "best_session": "Qualifying",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3",
-            "track_bests": [
-                {
-                    "track": "zolder",
-                    "best_lap": 95095,
-                    "sector1": 32005,
-                    "sector2": 30877,
-                    "sector3": 31177,
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "session": "Qualifying",
-                    "server_name": "ZOLDER",
-                    "session_date": "2026-06-13 19:09:50"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 95095,
-                    "best_track": "zolder"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "ZOLDER",
-                    "entries": 2,
-                    "tracks": 1,
-                    "last_seen": "2026-06-13 19:33:44"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 95095
-                },
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 96242
                 }
             ]
         },
@@ -104982,68 +104915,6 @@
             ]
         },
         {
-            "driver": "Lars Vegas [DR]",
-            "active": true,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 11,
-            "valid_laps": 6,
-            "invalid_laps": 5,
-            "best_lap": 96697,
-            "best_track": "zolder",
-            "best_session": "Race",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3",
-            "track_bests": [
-                {
-                    "track": "zolder",
-                    "best_lap": 96697,
-                    "sector1": 32520,
-                    "sector2": 31747,
-                    "sector3": 31822,
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "session": "Race",
-                    "server_name": "ZOLDER",
-                    "session_date": "2026-06-13 19:33:44"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 96697,
-                    "best_track": "zolder"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "ZOLDER",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-13 19:33:44"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 96697
-                }
-            ]
-        },
-        {
             "driver": "Laucha IT",
             "active": true,
             "first_seen": "2026-07-03 00:19:06",
@@ -112955,73 +112826,6 @@
                     "session": "R1",
                     "entries": 1,
                     "best_lap": 140945
-                }
-            ]
-        },
-        {
-            "driver": "Matthew Nazarkin",
-            "active": true,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44",
-            "days_since_last_seen": 90,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 2,
-            "total_laps": 15,
-            "valid_laps": 7,
-            "invalid_laps": 8,
-            "best_lap": 95020,
-            "best_track": "zolder",
-            "best_session": "Qualifying",
-            "best_car_model": 15,
-            "best_car_name": "Lexus RC F GT3",
-            "favorite_track": "zolder",
-            "favorite_car_model": 15,
-            "favorite_car_name": "Lexus RC F GT3",
-            "track_bests": [
-                {
-                    "track": "zolder",
-                    "best_lap": 95020,
-                    "sector1": 31660,
-                    "sector2": 31622,
-                    "sector3": 31290,
-                    "car_model": 15,
-                    "car_name": "Lexus RC F GT3",
-                    "session": "Qualifying",
-                    "server_name": "ZOLDER",
-                    "session_date": "2026-06-13 19:09:50"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 15,
-                    "car_name": "Lexus RC F GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 95020,
-                    "best_track": "zolder"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "ZOLDER",
-                    "entries": 2,
-                    "tracks": 1,
-                    "last_seen": "2026-06-13 19:33:44"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 95020
-                },
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 99957
                 }
             ]
         },
@@ -153370,6 +153174,73 @@
             ]
         },
         {
+            "driver": "Adolf Gitler",
+            "active": false,
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "total_laps": 14,
+            "valid_laps": 5,
+            "invalid_laps": 9,
+            "best_lap": 95095,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3",
+            "track_bests": [
+                {
+                    "track": "zolder",
+                    "best_lap": 95095,
+                    "sector1": 32005,
+                    "sector2": 30877,
+                    "sector3": 31177,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Qualifying",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-06-13 19:09:50"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 95095,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 2,
+                    "tracks": 1,
+                    "last_seen": "2026-06-13 19:33:44"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 95095
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 96242
+                }
+            ]
+        },
+        {
             "driver": "ALEX ARKHIPOV",
             "active": false,
             "first_seen": "2026-06-09 00:23:06",
@@ -155427,6 +155298,68 @@
             ]
         },
         {
+            "driver": "Lars Vegas [DR]",
+            "active": false,
+            "first_seen": "2026-06-13 19:33:44",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 11,
+            "valid_laps": 6,
+            "invalid_laps": 5,
+            "best_lap": 96697,
+            "best_track": "zolder",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3",
+            "track_bests": [
+                {
+                    "track": "zolder",
+                    "best_lap": 96697,
+                    "sector1": 32520,
+                    "sector2": 31747,
+                    "sector3": 31822,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Race",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-06-13 19:33:44"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 96697,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-13 19:33:44"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 96697
+                }
+            ]
+        },
+        {
             "driver": "Lec H",
             "active": false,
             "first_seen": "2026-06-09 13:18:04",
@@ -156053,6 +155986,73 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 142610
+                }
+            ]
+        },
+        {
+            "driver": "Matthew Nazarkin",
+            "active": false,
+            "first_seen": "2026-06-13 19:09:50",
+            "last_seen": "2026-06-13 19:33:44",
+            "days_since_last_seen": 90,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 2,
+            "total_laps": 15,
+            "valid_laps": 7,
+            "invalid_laps": 8,
+            "best_lap": 95020,
+            "best_track": "zolder",
+            "best_session": "Qualifying",
+            "best_car_model": 15,
+            "best_car_name": "Lexus RC F GT3",
+            "favorite_track": "zolder",
+            "favorite_car_model": 15,
+            "favorite_car_name": "Lexus RC F GT3",
+            "track_bests": [
+                {
+                    "track": "zolder",
+                    "best_lap": 95020,
+                    "sector1": 31660,
+                    "sector2": 31622,
+                    "sector3": 31290,
+                    "car_model": 15,
+                    "car_name": "Lexus RC F GT3",
+                    "session": "Qualifying",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-06-13 19:09:50"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 15,
+                    "car_name": "Lexus RC F GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 95020,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 2,
+                    "tracks": 1,
+                    "last_seen": "2026-06-13 19:33:44"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 95020
+                },
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 99957
                 }
             ]
         },
@@ -158495,12 +158495,12 @@
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "drivers": 256,
-            "entries": 508,
+            "drivers": 254,
+            "entries": 505,
             "best_lap": 84355,
             "best_driver": "Guille Monge",
             "best_track": "brands_hatch",
-            "avg_lap": 147142
+            "avg_lap": 147446
         },
         {
             "car_model": 32,
@@ -158625,12 +158625,12 @@
         {
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
-            "drivers": 45,
-            "entries": 94,
+            "drivers": 44,
+            "entries": 92,
             "best_lap": 88712,
             "best_driver": "Evgeniy Smagin",
             "best_track": "brands_hatch",
-            "avg_lap": 131560
+            "avg_lap": 132301
         },
         {
             "car_model": 22,
@@ -165337,6 +165337,26 @@
             "last_seen": "2026-07-06 19:31:47"
         },
         {
+            "driver": "Nikita Agapitov",
+            "safety_score": 78.9,
+            "grade": "B",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 8,
+            "invalid_laps": 5,
+            "valid_lap_ratio": 0.615,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 38.46,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-06-13 19:44:52",
+            "last_seen": "2026-06-13 20:08:47"
+        },
+        {
             "driver": "Noah Tschenett",
             "safety_score": 78.9,
             "grade": "B",
@@ -165717,24 +165737,24 @@
             "last_seen": "2026-07-09 00:34:25"
         },
         {
-            "driver": "Nikita Agapitov",
-            "safety_score": 77.3,
+            "driver": ". Mir doch egal",
+            "safety_score": 77.5,
             "grade": "B",
             "confidence": "low",
-            "total_laps": 21,
-            "valid_laps": 12,
-            "invalid_laps": 9,
-            "valid_lap_ratio": 0.571,
+            "total_laps": 47,
+            "valid_laps": 27,
+            "invalid_laps": 20,
+            "valid_lap_ratio": 0.574,
             "penalties_count": 0,
             "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 42.86,
+            "invalid_laps_per_100": 42.55,
             "penalties_per_100": 0.0,
             "post_race_penalties_per_100": 0.0,
-            "sessions_count": 3,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 20:08:47"
+            "sessions_count": 6,
+            "tracks_count": 3,
+            "servers_count": 3,
+            "first_seen": "2026-06-13 19:44:52",
+            "last_seen": "2026-08-03 19:47:17"
         },
         {
             "driver": "san stone",
@@ -166115,26 +166135,6 @@
             "servers_count": 2,
             "first_seen": "2026-06-20 15:17:32",
             "last_seen": "2026-06-20 17:33:25"
-        },
-        {
-            "driver": ". Mir doch egal",
-            "safety_score": 76.8,
-            "grade": "B",
-            "confidence": "low",
-            "total_laps": 48,
-            "valid_laps": 27,
-            "invalid_laps": 21,
-            "valid_lap_ratio": 0.562,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 43.75,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 7,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-08-03 19:47:17"
         },
         {
             "driver": "Daniil Skazov",
@@ -167115,26 +167115,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-09 17:38:07",
             "last_seen": "2026-07-09 17:38:07"
-        },
-        {
-            "driver": "Lars Vegas [DR]",
-            "safety_score": 74.7,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 11,
-            "valid_laps": 6,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.545,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 45.45,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 19:33:44"
         },
         {
             "driver": "Lind Control",
@@ -168517,26 +168497,6 @@
             "last_seen": "2026-07-01 18:28:30"
         },
         {
-            "driver": "Matthew Nazarkin",
-            "safety_score": 71.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 15,
-            "valid_laps": 7,
-            "invalid_laps": 8,
-            "valid_lap_ratio": 0.467,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 53.33,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44"
-        },
-        {
             "driver": "Vladimir Alemsky",
             "safety_score": 71.0,
             "grade": "C",
@@ -169855,6 +169815,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-07 22:43:20",
             "last_seen": "2026-08-07 22:43:20"
+        },
+        {
+            "driver": "F Davber",
+            "safety_score": 70.0,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 2,
+            "valid_laps": 1,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.5,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 50.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-06-13 19:44:52",
+            "last_seen": "2026-06-13 20:08:47"
         },
         {
             "driver": "Florian Hopfer",
@@ -186257,26 +186237,6 @@
             "last_seen": "2026-06-16 21:47:37"
         },
         {
-            "driver": "Bora Tatar",
-            "safety_score": 40.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 0,
-            "invalid_laps": 2,
-            "valid_lap_ratio": 0.0,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 100.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:33:44",
-            "last_seen": "2026-06-13 19:33:44"
-        },
-        {
             "driver": "Braden Eder",
             "safety_score": 40.0,
             "grade": "D",
@@ -190655,26 +190615,6 @@
             "servers_count": 2,
             "first_seen": "2026-06-15 22:27:50",
             "last_seen": "2026-08-18 23:36:16"
-        },
-        {
-            "driver": "Adolf Gitler",
-            "safety_score": 15.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 14,
-            "valid_laps": 5,
-            "invalid_laps": 9,
-            "valid_lap_ratio": 0.357,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 64.29,
-            "penalties_per_100": 7.14,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:09:50",
-            "last_seen": "2026-06-13 19:33:44"
         },
         {
             "driver": "Eric Chianca",
@@ -195335,26 +195275,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-08 18:57:00",
             "last_seen": "2026-07-08 18:57:00"
-        },
-        {
-            "driver": "F Davber",
-            "safety_score": 0.0,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 2,
-            "valid_laps": 1,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 50.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 2,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-13 19:44:52",
-            "last_seen": "2026-06-13 20:08:47"
         },
         {
             "driver": "LAN CZ",
