@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-13 07:39:49",
+        "generated_at": "2026-09-13 07:50:56",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-15 07:39:49",
+        "active_cutoff": "2026-06-15 07:50:56",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 103,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1546,
-        "sessions_last_7_days": 9,
+        "sessions_total": 1547,
+        "sessions_last_7_days": 10,
         "new_drivers_last_7_days": 3,
-        "lap_entries_total": 3143,
+        "lap_entries_total": 3144,
         "cars_total": 31,
-        "safety_laps_total": 24285,
+        "safety_laps_total": 24288,
         "safety_penalties_total": 707,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 26,
-        "last_activity": "2026-09-12 17:44:59",
+        "last_activity": "2026-09-13 07:45:51",
         "top_track": "spa",
         "top_track_sessions": 609,
         "top_car_model": 35,
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 204,
+            "sessions_count": 205,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-09-12 17:44:59"
+            "last_seen": "2026-09-13 07:45:51"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 164,
+            "sessions_count": 165,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-09-12 17:44:59"
+            "last_seen": "2026-09-13 07:45:51"
         },
         {
             "track": "cota",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1546,
+        "sessions": 1547,
         "drivers": 226,
-        "laps": 24285,
+        "laps": 24288,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 97,
+        "active_days": 98,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-09-12"
+        "last_activity": "2026-09-13"
     },
     "activity_by_date": [
         {
@@ -1012,6 +1012,15 @@
             "servers": 2,
             "tracks": 2,
             "entries": 1
+        },
+        {
+            "date": "2026-09-13",
+            "sessions": 1,
+            "drivers": 1,
+            "laps": 3,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
@@ -1047,13 +1056,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 204,
+            "sessions": 205,
             "drivers": 107,
-            "laps": 1902,
+            "laps": 1905,
             "tracks": 5,
-            "entries": 217,
+            "entries": 218,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-09-12 17:44:59"
+            "last_seen": "2026-09-13 07:45:51"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -1102,14 +1111,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 164,
+            "sessions": 165,
             "drivers": 88,
-            "laps": 1670,
+            "laps": 1673,
             "servers": 1,
-            "entries": 185,
+            "entries": 186,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
-            "last_seen": "2026-09-12 17:44:59"
+            "last_seen": "2026-09-13 07:45:51"
         },
         {
             "track": "nurburgring_24h",
@@ -1166,8 +1175,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 421,
-            "entries": 1335,
+            "sessions": 422,
+            "entries": 1336,
             "drivers": 949,
             "best_lap": 84185
         },
@@ -1402,6 +1411,15 @@
             "best_lap": 97085
         },
         {
+            "car_model": 14,
+            "car_name": "Jaguar G3",
+            "entries": 7,
+            "sessions": 7,
+            "drivers": 4,
+            "tracks": 3,
+            "best_lap": 87055
+        },
+        {
             "car_model": 7,
             "car_name": "BMW M6 GT3",
             "entries": 6,
@@ -1409,15 +1427,6 @@
             "drivers": 5,
             "tracks": 1,
             "best_lap": 142740
-        },
-        {
-            "car_model": 14,
-            "car_name": "Jaguar G3",
-            "entries": 6,
-            "sessions": 6,
-            "drivers": 4,
-            "tracks": 3,
-            "best_lap": 87055
         },
         {
             "car_model": 12,
@@ -1816,6 +1825,14 @@
             "weekday": "Saturday",
             "hour": 7,
             "sessions": 2,
+            "servers": 1,
+            "tracks": 1
+        },
+        {
+            "weekday_number": 0,
+            "weekday": "Sunday",
+            "hour": 7,
+            "sessions": 1,
             "servers": 1,
             "tracks": 1
         },
@@ -2685,6 +2702,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-09-13",
+            "server_name": "Brands Hatch",
+            "track": "brands_hatch",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 3,
+            "best_lap": 88762,
+            "best_driver": "Igor Shakhalay"
+        },
         {
             "date": "2026-09-12",
             "server_name": "Brands Hatch",
@@ -13562,14 +13591,14 @@
         {
             "driver": "Igor Shakhalay",
             "first_seen": "2026-09-12 17:44:59",
-            "last_seen": "2026-09-12 17:44:59",
-            "days_since_last_seen": 1,
+            "last_seen": "2026-09-13 07:45:51",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 1,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1
+            "entries_count": 2
         },
         {
             "driver": "Igor Turkot",
@@ -26065,13 +26094,13 @@
             "driver": "Igor Shakhalay",
             "active": true,
             "first_seen": "2026-09-12 17:44:59",
-            "last_seen": "2026-09-12 17:44:59",
-            "days_since_last_seen": 1,
-            "sessions_count": 1,
+            "last_seen": "2026-09-13 07:45:51",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
+            "entries_count": 2,
             "best_lap": 87055,
             "best_track": "brands_hatch",
             "best_session": "Qualifying",
@@ -93180,16 +93209,16 @@
             "driver": "Igor Shakhalay",
             "active": true,
             "first_seen": "2026-09-12 17:44:59",
-            "last_seen": "2026-09-12 17:44:59",
-            "days_since_last_seen": 1,
-            "sessions_count": 1,
+            "last_seen": "2026-09-13 07:45:51",
+            "days_since_last_seen": 0,
+            "sessions_count": 2,
             "tracks_count": 1,
             "servers_count": 1,
             "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 8,
-            "valid_laps": 3,
-            "invalid_laps": 5,
+            "entries_count": 2,
+            "total_laps": 11,
+            "valid_laps": 5,
+            "invalid_laps": 6,
             "best_lap": 87055,
             "best_track": "brands_hatch",
             "best_session": "Qualifying",
@@ -93216,7 +93245,7 @@
                 {
                     "car_model": 14,
                     "car_name": "Jaguar G3",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
                     "best_lap": 87055,
                     "best_track": "brands_hatch"
@@ -93225,15 +93254,15 @@
             "server_usage": [
                 {
                     "server_name": "Brands Hatch",
-                    "entries": 1,
+                    "entries": 2,
                     "tracks": 1,
-                    "last_seen": "2026-09-12 17:44:59"
+                    "last_seen": "2026-09-13 07:45:51"
                 }
             ],
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 1,
+                    "entries": 2,
                     "best_lap": 87055
                 }
             ]
@@ -158681,11 +158710,11 @@
             "car_model": 14,
             "car_name": "Jaguar G3",
             "drivers": 4,
-            "entries": 6,
+            "entries": 7,
             "best_lap": 87055,
             "best_driver": "Igor Shakhalay",
             "best_track": "brands_hatch",
-            "avg_lap": 98909
+            "avg_lap": 97459
         },
         {
             "car_model": 8,
@@ -158993,11 +159022,11 @@
             "car_model": 14,
             "car_name": "Jaguar G3",
             "drivers": 4,
-            "entries": 6,
+            "entries": 7,
             "best_lap": 87055,
             "best_driver": "Igor Shakhalay",
             "best_track": "brands_hatch",
-            "avg_lap": 98909
+            "avg_lap": 97459
         },
         {
             "car_model": 8,
@@ -170832,6 +170861,26 @@
             "last_seen": "2026-08-10 00:23:26"
         },
         {
+            "driver": "Igor Shakhalay",
+            "safety_score": 69.3,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 5,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.455,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 54.55,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-12 17:44:59",
+            "last_seen": "2026-09-13 07:45:51"
+        },
+        {
             "driver": "Laurenz Linska",
             "safety_score": 69.3,
             "grade": "C",
@@ -173850,26 +173899,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-07 14:22:46",
             "last_seen": "2026-08-07 14:51:27"
-        },
-        {
-            "driver": "Igor Shakhalay",
-            "safety_score": 63.5,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 3,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.375,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 62.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-09-12 17:44:59",
-            "last_seen": "2026-09-12 17:44:59"
         },
         {
             "driver": "Nurasyl Kalymbek",
@@ -207974,6 +208003,26 @@
             "last_seen": "2026-08-10 00:23:26"
         },
         {
+            "driver": "Igor Shakhalay",
+            "safety_score": 69.3,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 5,
+            "invalid_laps": 6,
+            "valid_lap_ratio": 0.455,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 54.55,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-12 17:44:59",
+            "last_seen": "2026-09-13 07:45:51"
+        },
+        {
             "driver": "Laurenz Linska",
             "safety_score": 69.3,
             "grade": "C",
@@ -211212,26 +211261,6 @@
             "servers_count": 1,
             "first_seen": "2026-08-07 14:22:46",
             "last_seen": "2026-08-07 14:51:27"
-        },
-        {
-            "driver": "Igor Shakhalay",
-            "safety_score": 63.5,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 3,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.375,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 62.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-09-12 17:44:59",
-            "last_seen": "2026-09-12 17:44:59"
         },
         {
             "driver": "Kevin Parke",
