@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-14 13:50:56",
+        "generated_at": "2026-09-14 14:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-16 13:50:56",
+        "active_cutoff": "2026-06-16 14:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -20,26 +20,26 @@
         "privacy": "steam_id_server_id_and_local_paths_removed"
     },
     "site_stats": {
-        "drivers_total": 1535,
-        "drivers_active": 1429,
+        "drivers_total": 1536,
+        "drivers_active": 1430,
         "drivers_inactive": 106,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1547,
-        "sessions_last_7_days": 10,
-        "new_drivers_last_7_days": 3,
-        "lap_entries_total": 3144,
+        "sessions_total": 1549,
+        "sessions_last_7_days": 11,
+        "new_drivers_last_7_days": 4,
+        "lap_entries_total": 3145,
         "cars_total": 31,
-        "safety_laps_total": 24288,
+        "safety_laps_total": 24293,
         "safety_penalties_total": 707,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 24,
-        "last_activity": "2026-09-13 07:45:51",
+        "last_activity": "2026-09-14 14:32:26",
         "top_track": "spa",
         "top_track_sessions": 609,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 792
+        "top_car_entries": 793
     },
     "servers": [
         {
@@ -58,10 +58,10 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions_count": 205,
+            "sessions_count": 207,
             "tracks_count": 5,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-09-13 07:45:51"
+            "last_seen": "2026-09-14 14:32:26"
         },
         {
             "server_name": "MONZA",
@@ -87,9 +87,9 @@
         },
         {
             "track": "brands_hatch",
-            "sessions_count": 165,
+            "sessions_count": 167,
             "first_seen": "2026-06-21 20:49:40",
-            "last_seen": "2026-09-13 07:45:51"
+            "last_seen": "2026-09-14 14:32:26"
         },
         {
             "track": "cota",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1547,
+        "sessions": 1549,
         "drivers": 226,
-        "laps": 24288,
+        "laps": 24293,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 98,
+        "active_days": 99,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-09-13"
+        "last_activity": "2026-09-14"
     },
     "activity_by_date": [
         {
@@ -1021,6 +1021,15 @@
             "servers": 1,
             "tracks": 1,
             "entries": 1
+        },
+        {
+            "date": "2026-09-14",
+            "sessions": 2,
+            "drivers": 1,
+            "laps": 5,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
@@ -1056,13 +1065,13 @@
         },
         {
             "server_name": "Brands Hatch",
-            "sessions": 205,
-            "drivers": 107,
-            "laps": 1905,
+            "sessions": 207,
+            "drivers": 108,
+            "laps": 1910,
             "tracks": 5,
-            "entries": 218,
+            "entries": 219,
             "first_seen": "2026-06-18 22:16:39",
-            "last_seen": "2026-09-13 07:45:51"
+            "last_seen": "2026-09-14 14:32:26"
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
@@ -1111,14 +1120,14 @@
         },
         {
             "track": "brands_hatch",
-            "sessions": 165,
-            "drivers": 88,
-            "laps": 1673,
+            "sessions": 167,
+            "drivers": 89,
+            "laps": 1678,
             "servers": 1,
-            "entries": 186,
+            "entries": 187,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
-            "last_seen": "2026-09-13 07:45:51"
+            "last_seen": "2026-09-14 14:32:26"
         },
         {
             "track": "nurburgring_24h",
@@ -1175,9 +1184,9 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 422,
-            "entries": 1336,
-            "drivers": 949,
+            "sessions": 423,
+            "entries": 1337,
+            "drivers": 950,
             "best_lap": 84185
         },
         {
@@ -1206,9 +1215,9 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 824,
-            "sessions": 445,
-            "drivers": 372,
+            "entries": 825,
+            "sessions": 446,
+            "drivers": 373,
             "tracks": 7,
             "best_lap": 83802
         },
@@ -2144,7 +2153,7 @@
             "weekday_number": 1,
             "weekday": "Monday",
             "hour": 14,
-            "sessions": 7,
+            "sessions": 9,
             "servers": 3,
             "tracks": 3
         },
@@ -2702,6 +2711,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-09-14",
+            "server_name": "Brands Hatch",
+            "track": "brands_hatch",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 5,
+            "best_lap": 144930,
+            "best_driver": "Alexander Belsky"
+        },
         {
             "date": "2026-09-13",
             "server_name": "Brands Hatch",
@@ -7785,6 +7806,18 @@
             "first_seen": "2026-07-31 13:11:28",
             "last_seen": "2026-07-31 13:11:28",
             "days_since_last_seen": 45,
+            "active": true,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Alexander Belsky",
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56",
+            "days_since_last_seen": 0,
             "active": true,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -48251,6 +48284,26 @@
             "favorite_car_name": "Lamborghini Huracan GT3"
         },
         {
+            "driver": "Alexander Belsky",
+            "active": true,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 144930,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "brands_hatch",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
+        {
             "driver": "Max Verstapky",
             "active": true,
             "first_seen": "2026-06-24 14:50:25",
@@ -60731,6 +60784,68 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 110760
+                }
+            ]
+        },
+        {
+            "driver": "Alexander Belsky",
+            "active": true,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56",
+            "days_since_last_seen": 0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 4,
+            "valid_laps": 1,
+            "invalid_laps": 3,
+            "best_lap": 144930,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "brands_hatch",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023",
+            "track_bests": [
+                {
+                    "track": "brands_hatch",
+                    "best_lap": 144930,
+                    "sector1": 28292,
+                    "sector2": 79870,
+                    "sector3": 36767,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "Brands Hatch",
+                    "session_date": "2026-09-14 14:29:56"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 144930,
+                    "best_track": "brands_hatch"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "Brands Hatch",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-09-14 14:29:56"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 144930
                 }
             ]
         },
@@ -158619,12 +158734,12 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "drivers": 349,
-            "entries": 792,
+            "drivers": 350,
+            "entries": 793,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
             "best_track": "brands_hatch",
-            "avg_lap": 130764
+            "avg_lap": 130781
         },
         {
             "car_model": 21,
@@ -158931,12 +159046,12 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "drivers": 372,
-            "entries": 824,
+            "drivers": 373,
+            "entries": 825,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
             "best_track": "brands_hatch",
-            "avg_lap": 130541
+            "avg_lap": 130558
         },
         {
             "car_model": 21,
@@ -178561,6 +178676,26 @@
             "last_seen": "2026-08-29 22:04:50"
         },
         {
+            "driver": "Alexander Belsky",
+            "safety_score": 55.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 1,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.25,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 75.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56"
+        },
+        {
             "driver": "AMZ AKA",
             "safety_score": 55.0,
             "grade": "D",
@@ -188359,6 +188494,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-18 01:17:10",
             "last_seen": "2026-08-18 01:17:10"
+        },
+        {
+            "driver": "Kirill Semerok",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56"
         },
         {
             "driver": "Krzysztof Maciag",
@@ -216343,6 +216498,26 @@
             "last_seen": "2026-08-29 22:04:50"
         },
         {
+            "driver": "Alexander Belsky",
+            "safety_score": 55.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 4,
+            "valid_laps": 1,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.25,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 75.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56"
+        },
+        {
             "driver": "AMZ AKA",
             "safety_score": 55.0,
             "grade": "D",
@@ -226781,6 +226956,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-18 01:17:10",
             "last_seen": "2026-08-18 01:17:10"
+        },
+        {
+            "driver": "Kirill Semerok",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 1,
+            "valid_laps": 0,
+            "invalid_laps": 1,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-09-14 14:29:56",
+            "last_seen": "2026-09-14 14:29:56"
         },
         {
             "driver": "Krzysztof Maciag",
