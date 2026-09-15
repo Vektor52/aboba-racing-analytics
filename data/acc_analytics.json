@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-15 17:39:49",
+        "generated_at": "2026-09-15 17:50:56",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-17 17:39:49",
+        "active_cutoff": "2026-06-17 17:50:56",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -25,16 +25,16 @@
         "drivers_inactive": 121,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1549,
-        "sessions_last_7_days": 11,
+        "sessions_total": 1550,
+        "sessions_last_7_days": 12,
         "new_drivers_last_7_days": 4,
-        "lap_entries_total": 3145,
+        "lap_entries_total": 3146,
         "cars_total": 31,
-        "safety_laps_total": 24293,
+        "safety_laps_total": 24296,
         "safety_penalties_total": 707,
         "trusted_drivers_total": 4,
         "risky_drivers_total": 24,
-        "last_activity": "2026-09-14 14:32:26",
+        "last_activity": "2026-09-15 17:40:05",
         "top_track": "spa",
         "top_track_sessions": 609,
         "top_car_model": 35,
@@ -72,18 +72,18 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions_count": 155,
+            "sessions_count": 156,
             "tracks_count": 3,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-09-11 01:02:11"
+            "last_seen": "2026-09-15 17:40:05"
         }
     ],
     "tracks": [
         {
             "track": "barcelona",
-            "sessions_count": 50,
+            "sessions_count": 51,
             "first_seen": "2026-06-18 22:25:30",
-            "last_seen": "2026-09-11 01:02:11"
+            "last_seen": "2026-09-15 17:40:05"
         },
         {
             "track": "brands_hatch",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1549,
+        "sessions": 1550,
         "drivers": 226,
-        "laps": 24293,
+        "laps": 24296,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 99,
+        "active_days": 100,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-09-14"
+        "last_activity": "2026-09-15"
     },
     "activity_by_date": [
         {
@@ -1030,6 +1030,15 @@
             "servers": 1,
             "tracks": 1,
             "entries": 1
+        },
+        {
+            "date": "2026-09-15",
+            "sessions": 1,
+            "drivers": 1,
+            "laps": 3,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
@@ -1075,13 +1084,13 @@
         },
         {
             "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-            "sessions": 155,
-            "drivers": 88,
-            "laps": 1021,
+            "sessions": 156,
+            "drivers": 89,
+            "laps": 1024,
             "tracks": 3,
-            "entries": 129,
+            "entries": 130,
             "first_seen": "2026-07-05 02:28:57",
-            "last_seen": "2026-09-11 01:02:11"
+            "last_seen": "2026-09-15 17:40:05"
         }
     ],
     "activity_by_track": [
@@ -1142,14 +1151,14 @@
         },
         {
             "track": "barcelona",
-            "sessions": 50,
-            "drivers": 42,
-            "laps": 548,
+            "sessions": 51,
+            "drivers": 43,
+            "laps": 551,
             "servers": 2,
-            "entries": 69,
+            "entries": 70,
             "best_lap": 105380,
             "best_driver": "Jakub Piskulla",
-            "last_seen": "2026-09-11 01:02:11"
+            "last_seen": "2026-09-15 17:40:05"
         },
         {
             "track": "nurburgring",
@@ -1184,8 +1193,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 423,
-            "entries": 1337,
+            "sessions": 424,
+            "entries": 1338,
             "drivers": 950,
             "best_lap": 84185
         },
@@ -1332,9 +1341,9 @@
         {
             "car_model": 31,
             "car_name": "Audi R8 LMS GT3 Evo II",
-            "entries": 39,
-            "sessions": 36,
-            "drivers": 27,
+            "entries": 40,
+            "sessions": 37,
+            "drivers": 28,
             "tracks": 5,
             "best_lap": 94760
         },
@@ -2329,9 +2338,9 @@
             "weekday_number": 2,
             "weekday": "Tuesday",
             "hour": 17,
-            "sessions": 6,
-            "servers": 1,
-            "tracks": 1
+            "sessions": 7,
+            "servers": 2,
+            "tracks": 2
         },
         {
             "weekday_number": 3,
@@ -2711,6 +2720,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-09-15",
+            "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+            "track": "barcelona",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 3,
+            "best_lap": 109012,
+            "best_driver": "Andrei D1ver"
+        },
         {
             "date": "2026-09-14",
             "server_name": "Brands Hatch",
@@ -8164,14 +8185,14 @@
         {
             "driver": "Andrei D1ver",
             "first_seen": "2026-07-12 16:47:09",
-            "last_seen": "2026-07-25 22:07:56",
-            "days_since_last_seen": 52,
+            "last_seen": "2026-09-15 17:40:05",
+            "days_since_last_seen": 0,
             "active": true,
-            "sessions_count": 8,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "cars_count": 3,
-            "entries_count": 8
+            "sessions_count": 9,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "cars_count": 4,
+            "entries_count": 9
         },
         {
             "driver": "ANDRES TIMUR",
@@ -28427,13 +28448,13 @@
             "driver": "Andrei D1ver",
             "active": true,
             "first_seen": "2026-07-12 16:47:09",
-            "last_seen": "2026-07-25 22:07:56",
-            "days_since_last_seen": 52,
-            "sessions_count": 8,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "cars_count": 3,
-            "entries_count": 8,
+            "last_seen": "2026-09-15 17:40:05",
+            "days_since_last_seen": 0,
+            "sessions_count": 9,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "cars_count": 4,
+            "entries_count": 9,
             "best_lap": 93507,
             "best_track": "zolder",
             "best_session": "R2",
@@ -62790,16 +62811,16 @@
             "driver": "Andrei D1ver",
             "active": true,
             "first_seen": "2026-07-12 16:47:09",
-            "last_seen": "2026-07-25 22:07:56",
-            "days_since_last_seen": 52,
-            "sessions_count": 8,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "cars_count": 3,
-            "entries_count": 8,
-            "total_laps": 61,
-            "valid_laps": 21,
-            "invalid_laps": 40,
+            "last_seen": "2026-09-15 17:40:05",
+            "days_since_last_seen": 0,
+            "sessions_count": 9,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "cars_count": 4,
+            "entries_count": 9,
+            "total_laps": 64,
+            "valid_laps": 23,
+            "invalid_laps": 41,
             "best_lap": 93507,
             "best_track": "zolder",
             "best_session": "R2",
@@ -62809,6 +62830,18 @@
             "favorite_car_model": 32,
             "favorite_car_name": "Ferrari 296 GT3",
             "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 109012,
+                    "sector1": 30727,
+                    "sector2": 41620,
+                    "sector3": 36665,
+                    "car_model": 31,
+                    "car_name": "Audi R8 LMS GT3 Evo II",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-09-15 17:40:05"
+                },
                 {
                     "track": "monza",
                     "best_lap": 113300,
@@ -62864,6 +62897,14 @@
                     "best_track": "zolder"
                 },
                 {
+                    "car_model": 31,
+                    "car_name": "Audi R8 LMS GT3 Evo II",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 109012,
+                    "best_track": "barcelona"
+                },
+                {
                     "car_model": 25,
                     "car_name": "Mercedes-AMG GT3 2020",
                     "entries": 1,
@@ -62886,6 +62927,12 @@
                     "last_seen": "2026-07-25 22:07:56"
                 },
                 {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-09-15 17:40:05"
+                },
+                {
                     "server_name": "MONZA",
                     "entries": 1,
                     "tracks": 1,
@@ -62895,7 +62942,7 @@
             "session_types": [
                 {
                     "session": "Qualifying",
-                    "entries": 4,
+                    "entries": 5,
                     "best_lap": 94132
                 },
                 {
@@ -158944,12 +158991,12 @@
         {
             "car_model": 31,
             "car_name": "Audi R8 LMS GT3 Evo II",
-            "drivers": 25,
-            "entries": 37,
+            "drivers": 26,
+            "entries": 38,
             "best_lap": 94760,
             "best_driver": "Andrey Feoktistov",
             "best_track": "zolder",
-            "avg_lap": 148897
+            "avg_lap": 147847
         },
         {
             "car_model": 24,
@@ -159256,12 +159303,12 @@
         {
             "car_model": 31,
             "car_name": "Audi R8 LMS GT3 Evo II",
-            "drivers": 27,
-            "entries": 39,
+            "drivers": 28,
+            "entries": 40,
             "best_lap": 94760,
             "best_driver": "Andrey Feoktistov",
             "best_track": "zolder",
-            "avg_lap": 148588
+            "avg_lap": 147599
         },
         {
             "car_model": 24,
@@ -173236,6 +173283,26 @@
             "last_seen": "2026-07-09 00:34:25"
         },
         {
+            "driver": "Andrei D1ver",
+            "safety_score": 64.6,
+            "grade": "C",
+            "confidence": "medium",
+            "total_laps": 64,
+            "valid_laps": 23,
+            "invalid_laps": 41,
+            "valid_lap_ratio": 0.359,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 64.06,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 11,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "first_seen": "2026-07-12 16:47:09",
+            "last_seen": "2026-09-15 17:40:05"
+        },
+        {
             "driver": "David Herrnegger",
             "safety_score": 64.2,
             "grade": "C",
@@ -173674,26 +173741,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-20 17:19:39",
             "last_seen": "2026-06-20 17:36:28"
-        },
-        {
-            "driver": "Andrei D1ver",
-            "safety_score": 63.7,
-            "grade": "C",
-            "confidence": "medium",
-            "total_laps": 61,
-            "valid_laps": 21,
-            "invalid_laps": 40,
-            "valid_lap_ratio": 0.344,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 65.57,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 10,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "first_seen": "2026-07-12 16:47:09",
-            "last_seen": "2026-07-25 22:19:58"
         },
         {
             "driver": "PETROVICH HERO",
@@ -210238,6 +210285,26 @@
             "last_seen": "2026-07-09 00:34:25"
         },
         {
+            "driver": "Andrei D1ver",
+            "safety_score": 64.6,
+            "grade": "C",
+            "confidence": "medium",
+            "total_laps": 64,
+            "valid_laps": 23,
+            "invalid_laps": 41,
+            "valid_lap_ratio": 0.359,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 64.06,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 11,
+            "tracks_count": 4,
+            "servers_count": 4,
+            "first_seen": "2026-07-12 16:47:09",
+            "last_seen": "2026-09-15 17:40:05"
+        },
+        {
             "driver": "David Herrnegger",
             "safety_score": 64.2,
             "grade": "C",
@@ -210676,26 +210743,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-20 17:19:39",
             "last_seen": "2026-06-20 17:36:28"
-        },
-        {
-            "driver": "Andrei D1ver",
-            "safety_score": 63.7,
-            "grade": "C",
-            "confidence": "medium",
-            "total_laps": 61,
-            "valid_laps": 21,
-            "invalid_laps": 40,
-            "valid_lap_ratio": 0.344,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 65.57,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 10,
-            "tracks_count": 3,
-            "servers_count": 3,
-            "first_seen": "2026-07-12 16:47:09",
-            "last_seen": "2026-07-25 22:19:58"
         },
         {
             "driver": "PETROVICH HERO",
