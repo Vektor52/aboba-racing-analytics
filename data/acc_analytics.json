@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-16 17:39:49",
+        "generated_at": "2026-09-16 17:50:56",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-18 17:39:49",
+        "active_cutoff": "2026-06-18 17:50:56",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1536,
-        "drivers_active": 1406,
-        "drivers_inactive": 130,
+        "drivers_active": 1405,
+        "drivers_inactive": 131,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1550,
@@ -7611,18 +7611,6 @@
             "first_seen": "2026-06-23 00:10:14",
             "last_seen": "2026-06-23 00:10:14",
             "days_since_last_seen": 85,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
-            "driver": "Aleksey Anisimov",
-            "first_seen": "2026-06-18 17:46:13",
-            "last_seen": "2026-06-18 17:46:13",
-            "days_since_last_seen": 90,
             "active": true,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -23985,6 +23973,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2
+        },
+        {
+            "driver": "Aleksey Anisimov",
+            "first_seen": "2026-06-18 17:46:13",
+            "last_seen": "2026-06-18 17:46:13",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
         },
         {
             "driver": "ALEX ARKHIPOV",
@@ -42525,26 +42525,6 @@
             "favorite_car_name": "Mercedes-AMG GT3 2020"
         },
         {
-            "driver": "Aleksey Anisimov",
-            "active": true,
-            "first_seen": "2026-06-18 17:46:13",
-            "last_seen": "2026-06-18 17:46:13",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 141707,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3"
-        },
-        {
             "driver": "Dmitry Shelchkov",
             "active": true,
             "first_seen": "2026-07-20 16:07:33",
@@ -55025,6 +55005,26 @@
             "favorite_car_name": "BMW M4 GT3"
         },
         {
+            "driver": "Aleksey Anisimov",
+            "active": false,
+            "first_seen": "2026-06-18 17:46:13",
+            "last_seen": "2026-06-18 17:46:13",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 141707,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3"
+        },
+        {
             "driver": "Fernando Acebedo",
             "active": false,
             "first_seen": "2026-06-04 23:18:20",
@@ -59615,68 +59615,6 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 142702
-                }
-            ]
-        },
-        {
-            "driver": "Aleksey Anisimov",
-            "active": true,
-            "first_seen": "2026-06-18 17:46:13",
-            "last_seen": "2026-06-18 17:46:13",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 7,
-            "valid_laps": 3,
-            "invalid_laps": 4,
-            "best_lap": 141707,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 30,
-            "best_car_name": "BMW M4 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 30,
-            "favorite_car_name": "BMW M4 GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 141707,
-                    "sector1": 41427,
-                    "sector2": 62940,
-                    "sector3": 37332,
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "session": "Race",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-18 17:46:13"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 141707,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-18 17:46:13"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 141707
                 }
             ]
         },
@@ -150841,6 +150779,68 @@
             ]
         },
         {
+            "driver": "Aleksey Anisimov",
+            "active": false,
+            "first_seen": "2026-06-18 17:46:13",
+            "last_seen": "2026-06-18 17:46:13",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 7,
+            "valid_laps": 3,
+            "invalid_laps": 4,
+            "best_lap": 141707,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 30,
+            "best_car_name": "BMW M4 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 30,
+            "favorite_car_name": "BMW M4 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 141707,
+                    "sector1": 41427,
+                    "sector2": 62940,
+                    "sector3": 37332,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-18 17:46:13"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 141707,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-18 17:46:13"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 141707
+                }
+            ]
+        },
+        {
             "driver": "ALEX ARKHIPOV",
             "active": false,
             "first_seen": "2026-06-09 00:23:06",
@@ -158801,12 +158801,12 @@
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "drivers": 254,
-            "entries": 505,
+            "drivers": 253,
+            "entries": 504,
             "best_lap": 84355,
             "best_driver": "Guille Monge",
             "best_track": "brands_hatch",
-            "avg_lap": 147446
+            "avg_lap": 147457
         },
         {
             "car_model": 32,
@@ -168641,26 +168641,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-04 16:33:30",
             "last_seen": "2026-07-04 16:43:59"
-        },
-        {
-            "driver": "Aleksey Anisimov",
-            "safety_score": 71.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 6,
-            "valid_laps": 3,
-            "invalid_laps": 3,
-            "valid_lap_ratio": 0.5,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 50.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-18 17:46:13",
-            "last_seen": "2026-06-18 17:46:13"
         },
         {
             "driver": "Alex Sienkiewicz",
