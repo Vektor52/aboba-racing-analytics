@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-16 17:50:56",
+        "generated_at": "2026-09-16 18:39:49",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-18 17:50:56",
+        "active_cutoff": "2026-06-18 18:39:49",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1536,
-        "drivers_active": 1405,
-        "drivers_inactive": 131,
+        "drivers_active": 1404,
+        "drivers_inactive": 132,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1550,
@@ -9081,18 +9081,6 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 2
-        },
-        {
-            "driver": "Ben Lawlor",
-            "first_seen": "2026-06-18 18:01:22",
-            "last_seen": "2026-06-18 18:01:22",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
         },
         {
             "driver": "Ben Parkinson",
@@ -24098,6 +24086,18 @@
             "driver": "Baring Linggi",
             "first_seen": "2026-06-18 16:29:32",
             "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Ben Lawlor",
+            "first_seen": "2026-06-18 18:01:22",
+            "last_seen": "2026-06-18 18:01:22",
             "days_since_last_seen": 90,
             "active": false,
             "sessions_count": 1,
@@ -50205,26 +50205,6 @@
             "favorite_car_name": "BMW M4 GT3"
         },
         {
-            "driver": "Ben Lawlor",
-            "active": true,
-            "first_seen": "2026-06-18 18:01:22",
-            "last_seen": "2026-06-18 18:01:22",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 147080,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 2,
-            "best_car_name": "Ferrari 488 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 2,
-            "favorite_car_name": "Ferrari 488 GT3"
-        },
-        {
             "driver": "Charleso Leclercov",
             "active": true,
             "first_seen": "2026-07-03 23:35:02",
@@ -56083,6 +56063,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 15,
             "favorite_car_name": "Lexus RC F GT3"
+        },
+        {
+            "driver": "Ben Lawlor",
+            "active": false,
+            "first_seen": "2026-06-18 18:01:22",
+            "last_seen": "2026-06-18 18:01:22",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 147080,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 2,
+            "best_car_name": "Ferrari 488 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 2,
+            "favorite_car_name": "Ferrari 488 GT3"
         },
         {
             "driver": "Andrey VinogradoFF",
@@ -67851,68 +67851,6 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 144702
-                }
-            ]
-        },
-        {
-            "driver": "Ben Lawlor",
-            "active": true,
-            "first_seen": "2026-06-18 18:01:22",
-            "last_seen": "2026-06-18 18:01:22",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "best_lap": 147080,
-            "best_track": "spa",
-            "best_session": "Qualifying",
-            "best_car_model": 2,
-            "best_car_name": "Ferrari 488 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 2,
-            "favorite_car_name": "Ferrari 488 GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 147080,
-                    "sector1": 43187,
-                    "sector2": 64770,
-                    "sector3": 39122,
-                    "car_model": 2,
-                    "car_name": "Ferrari 488 GT3",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-18 18:01:22"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 2,
-                    "car_name": "Ferrari 488 GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 147080,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-18 18:01:22"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 147080
                 }
             ]
         },
@@ -151486,6 +151424,68 @@
             ]
         },
         {
+            "driver": "Ben Lawlor",
+            "active": false,
+            "first_seen": "2026-06-18 18:01:22",
+            "last_seen": "2026-06-18 18:01:22",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 1,
+            "valid_laps": 1,
+            "invalid_laps": 0,
+            "best_lap": 147080,
+            "best_track": "spa",
+            "best_session": "Qualifying",
+            "best_car_model": 2,
+            "best_car_name": "Ferrari 488 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 2,
+            "favorite_car_name": "Ferrari 488 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 147080,
+                    "sector1": 43187,
+                    "sector2": 64770,
+                    "sector3": 39122,
+                    "car_model": 2,
+                    "car_name": "Ferrari 488 GT3",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-18 18:01:22"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 2,
+                    "car_name": "Ferrari 488 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 147080,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-18 18:01:22"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 147080
+                }
+            ]
+        },
+        {
             "driver": "BlackDarkSee Azz",
             "active": false,
             "first_seen": "2026-06-16 23:52:09",
@@ -158971,12 +158971,12 @@
         {
             "car_model": 2,
             "car_name": "Ferrari 488 GT3",
-            "drivers": 37,
-            "entries": 56,
+            "drivers": 36,
+            "entries": 55,
             "best_lap": 89657,
             "best_driver": "Matheus Ferreira",
             "best_track": "brands_hatch",
-            "avg_lap": 139569
+            "avg_lap": 139433
         },
         {
             "car_model": 0,
@@ -159921,26 +159921,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-22 15:09:08",
             "last_seen": "2026-07-22 15:09:08"
-        },
-        {
-            "driver": "Ben Lawlor",
-            "safety_score": 100.0,
-            "grade": "S",
-            "confidence": "very_low",
-            "total_laps": 1,
-            "valid_laps": 1,
-            "invalid_laps": 0,
-            "valid_lap_ratio": 1.0,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 0.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-18 18:01:22",
-            "last_seen": "2026-06-18 18:01:22"
         },
         {
             "driver": "Benjamin Netanyahu",
