@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-09-16 15:50:56",
+        "generated_at": "2026-09-16 16:39:56",
         "activity_window_days": 90,
-        "active_cutoff": "2026-06-18 15:50:56",
+        "active_cutoff": "2026-06-18 16:39:56",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1536,
-        "drivers_active": 1410,
-        "drivers_inactive": 126,
+        "drivers_active": 1408,
+        "drivers_inactive": 128,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1550,
@@ -9047,18 +9047,6 @@
             "entries_count": 1
         },
         {
-            "driver": "Baring Linggi",
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "Barry Crous",
             "first_seen": "2026-08-18 22:32:35",
             "last_seen": "2026-08-18 22:57:02",
@@ -16631,18 +16619,6 @@
             "entries_count": 1
         },
         {
-            "driver": "Martin Mortensen",
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
             "driver": "martin rodriguez",
             "first_seen": "2026-07-12 03:02:23",
             "last_seen": "2026-07-12 03:02:23",
@@ -24131,6 +24107,18 @@
             "entries_count": 3
         },
         {
+            "driver": "Baring Linggi",
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "BlackDarkSee Azz",
             "first_seen": "2026-06-16 23:52:09",
             "last_seen": "2026-06-16 23:52:09",
@@ -24735,6 +24723,18 @@
             "first_seen": "2026-06-07 14:39:21",
             "last_seen": "2026-06-07 14:39:21",
             "days_since_last_seen": 101,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
+            "driver": "Martin Mortensen",
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
             "active": false,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -49745,26 +49745,6 @@
             "favorite_car_name": "Audi R8 LMS GT3 Evo II"
         },
         {
-            "driver": "Martin Mortensen",
-            "active": true,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 146500,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 22,
-            "best_car_name": "McLaren 720S GT3 (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 22,
-            "favorite_car_name": "McLaren 720S GT3 (2019)"
-        },
-        {
             "driver": "Anton Casimiro",
             "active": true,
             "first_seen": "2026-06-20 17:36:28",
@@ -50156,26 +50136,6 @@
             "cars_count": 1,
             "entries_count": 1,
             "best_lap": 146935,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 32,
-            "best_car_name": "Ferrari 296 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 32,
-            "favorite_car_name": "Ferrari 296 GT3"
-        },
-        {
-            "driver": "Baring Linggi",
-            "active": true,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 146942,
             "best_track": "spa",
             "best_session": "Race",
             "best_car_model": 32,
@@ -56025,6 +55985,26 @@
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
         },
         {
+            "driver": "Martin Mortensen",
+            "active": false,
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 146500,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 22,
+            "best_car_name": "McLaren 720S GT3 (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 22,
+            "favorite_car_name": "McLaren 720S GT3 (2019)"
+        },
+        {
             "driver": "Linus Kastengren",
             "active": false,
             "first_seen": "2026-06-16 21:47:37",
@@ -56063,6 +56043,26 @@
             "favorite_track": "spa",
             "favorite_car_model": 23,
             "favorite_car_name": "Porsche 911 II GT3 R (2019)"
+        },
+        {
+            "driver": "Baring Linggi",
+            "active": false,
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 146942,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3"
         },
         {
             "driver": "MALIC0S GITLER",
@@ -67634,68 +67634,6 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 142470
-                }
-            ]
-        },
-        {
-            "driver": "Baring Linggi",
-            "active": true,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 9,
-            "valid_laps": 2,
-            "invalid_laps": 7,
-            "best_lap": 146942,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 32,
-            "best_car_name": "Ferrari 296 GT3",
-            "favorite_track": "spa",
-            "favorite_car_model": 32,
-            "favorite_car_name": "Ferrari 296 GT3",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 146942,
-                    "sector1": 43557,
-                    "sector2": 65702,
-                    "sector3": 37682,
-                    "car_model": 32,
-                    "car_name": "Ferrari 296 GT3",
-                    "session": "Race",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-18 16:29:32"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 32,
-                    "car_name": "Ferrari 296 GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 146942,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-18 16:29:32"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 146942
                 }
             ]
         },
@@ -109936,68 +109874,6 @@
             ]
         },
         {
-            "driver": "Martin Mortensen",
-            "active": true,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 9,
-            "valid_laps": 3,
-            "invalid_laps": 6,
-            "best_lap": 146500,
-            "best_track": "spa",
-            "best_session": "Race",
-            "best_car_model": 22,
-            "best_car_name": "McLaren 720S GT3 (2019)",
-            "favorite_track": "spa",
-            "favorite_car_model": 22,
-            "favorite_car_name": "McLaren 720S GT3 (2019)",
-            "track_bests": [
-                {
-                    "track": "spa",
-                    "best_lap": 146500,
-                    "sector1": 43232,
-                    "sector2": 64347,
-                    "sector3": 38825,
-                    "car_model": 22,
-                    "car_name": "McLaren 720S GT3 (2019)",
-                    "session": "Race",
-                    "server_name": "SPA",
-                    "session_date": "2026-06-18 16:29:32"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 22,
-                    "car_name": "McLaren 720S GT3 (2019)",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 146500,
-                    "best_track": "spa"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-06-18 16:29:32"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Race",
-                    "entries": 1,
-                    "best_lap": 146500
-                }
-            ]
-        },
-        {
             "driver": "martin rodriguez",
             "active": true,
             "first_seen": "2026-07-12 03:02:23",
@@ -151615,6 +151491,68 @@
             ]
         },
         {
+            "driver": "Baring Linggi",
+            "active": false,
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 9,
+            "valid_laps": 2,
+            "invalid_laps": 7,
+            "best_lap": 146942,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 32,
+            "best_car_name": "Ferrari 296 GT3",
+            "favorite_track": "spa",
+            "favorite_car_model": 32,
+            "favorite_car_name": "Ferrari 296 GT3",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 146942,
+                    "sector1": 43557,
+                    "sector2": 65702,
+                    "sector3": 37682,
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-18 16:29:32"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 32,
+                    "car_name": "Ferrari 296 GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 146942,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-18 16:29:32"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 146942
+                }
+            ]
+        },
+        {
             "driver": "BlackDarkSee Azz",
             "active": false,
             "first_seen": "2026-06-16 23:52:09",
@@ -154879,6 +154817,68 @@
                     "session": "Race",
                     "entries": 1,
                     "best_lap": 89805
+                }
+            ]
+        },
+        {
+            "driver": "Martin Mortensen",
+            "active": false,
+            "first_seen": "2026-06-18 16:29:32",
+            "last_seen": "2026-06-18 16:29:32",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 9,
+            "valid_laps": 3,
+            "invalid_laps": 6,
+            "best_lap": 146500,
+            "best_track": "spa",
+            "best_session": "Race",
+            "best_car_model": 22,
+            "best_car_name": "McLaren 720S GT3 (2019)",
+            "favorite_track": "spa",
+            "favorite_car_model": 22,
+            "favorite_car_name": "McLaren 720S GT3 (2019)",
+            "track_bests": [
+                {
+                    "track": "spa",
+                    "best_lap": 146500,
+                    "sector1": 43232,
+                    "sector2": 64347,
+                    "sector3": 38825,
+                    "car_model": 22,
+                    "car_name": "McLaren 720S GT3 (2019)",
+                    "session": "Race",
+                    "server_name": "SPA",
+                    "session_date": "2026-06-18 16:29:32"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 22,
+                    "car_name": "McLaren 720S GT3 (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 146500,
+                    "best_track": "spa"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-06-18 16:29:32"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Race",
+                    "entries": 1,
+                    "best_lap": 146500
                 }
             ]
         },
@@ -158811,12 +158811,12 @@
         {
             "car_model": 32,
             "car_name": "Ferrari 296 GT3",
-            "drivers": 244,
-            "entries": 428,
+            "drivers": 243,
+            "entries": 427,
             "best_lap": 85230,
             "best_driver": "Raf Rigor",
             "best_track": "brands_hatch",
-            "avg_lap": 140487
+            "avg_lap": 140471
         },
         {
             "car_model": 34,
@@ -158941,12 +158941,12 @@
         {
             "car_model": 22,
             "car_name": "McLaren 720S GT3 (2019)",
-            "drivers": 22,
-            "entries": 39,
+            "drivers": 21,
+            "entries": 38,
             "best_lap": 89040,
             "best_driver": "DingKai Li",
             "best_track": "brands_hatch",
-            "avg_lap": 120869
+            "avg_lap": 120194
         },
         {
             "car_model": 19,
@@ -167683,26 +167683,6 @@
             "last_seen": "2026-07-08 23:01:49"
         },
         {
-            "driver": "Gabriel Brun",
-            "safety_score": 74.2,
-            "grade": "C",
-            "confidence": "low",
-            "total_laps": 25,
-            "valid_laps": 13,
-            "invalid_laps": 12,
-            "valid_lap_ratio": 0.52,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 48.0,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 5,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-18 16:04:45",
-            "last_seen": "2026-06-18 17:24:05"
-        },
-        {
             "driver": "King Jabuu'",
             "safety_score": 74.2,
             "grade": "C",
@@ -172603,6 +172583,26 @@
             "last_seen": "2026-07-08 20:32:02"
         },
         {
+            "driver": "Kashir19 TOPRACING",
+            "safety_score": 65.5,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 16,
+            "valid_laps": 6,
+            "invalid_laps": 10,
+            "valid_lap_ratio": 0.375,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 62.5,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 6,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-06-18 16:44:40",
+            "last_seen": "2026-07-03 02:48:39"
+        },
+        {
             "driver": "Roman Stukalov",
             "safety_score": 65.5,
             "grade": "C",
@@ -172741,6 +172741,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-03 00:53:18",
             "last_seen": "2026-07-03 00:53:18"
+        },
+        {
+            "driver": "Gabriel Brun",
+            "safety_score": 65.1,
+            "grade": "C",
+            "confidence": "very_low",
+            "total_laps": 13,
+            "valid_laps": 5,
+            "invalid_laps": 8,
+            "valid_lap_ratio": 0.385,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 61.54,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 3,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-06-18 16:44:40",
+            "last_seen": "2026-06-18 17:24:05"
         },
         {
             "driver": "grzesiu lato",
@@ -173301,26 +173321,6 @@
             "servers_count": 1,
             "first_seen": "2026-07-06 21:04:05",
             "last_seen": "2026-07-06 21:50:31"
-        },
-        {
-            "driver": "Kashir19 TOPRACING",
-            "safety_score": 64.2,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 17,
-            "valid_laps": 6,
-            "invalid_laps": 11,
-            "valid_lap_ratio": 0.353,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 64.71,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 7,
-            "tracks_count": 2,
-            "servers_count": 2,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-07-03 02:48:39"
         },
         {
             "driver": "Kirill Sergeev",
@@ -174901,26 +174901,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-18 22:00:47",
             "last_seen": "2026-06-18 22:00:47"
-        },
-        {
-            "driver": "Martin Mortensen",
-            "safety_score": 61.0,
-            "grade": "C",
-            "confidence": "very_low",
-            "total_laps": 9,
-            "valid_laps": 3,
-            "invalid_laps": 6,
-            "valid_lap_ratio": 0.333,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 66.67,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32"
         },
         {
             "driver": "Omar Rodriguez Roman",
@@ -179221,26 +179201,6 @@
             "servers_count": 1,
             "first_seen": "2026-06-30 21:34:07",
             "last_seen": "2026-06-30 21:34:07"
-        },
-        {
-            "driver": "Baring Linggi",
-            "safety_score": 54.3,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 9,
-            "valid_laps": 2,
-            "invalid_laps": 7,
-            "valid_lap_ratio": 0.222,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 77.78,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-06-18 16:29:32"
         },
         {
             "driver": "FLASH FLASH",
@@ -189743,26 +189703,6 @@
             "last_seen": "2026-07-20 14:05:49"
         },
         {
-            "driver": "Kashir20 TOPRACING",
-            "safety_score": 20.8,
-            "grade": "D",
-            "confidence": "very_low",
-            "total_laps": 12,
-            "valid_laps": 7,
-            "invalid_laps": 5,
-            "valid_lap_ratio": 0.583,
-            "penalties_count": 1,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 41.67,
-            "penalties_per_100": 8.33,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 5,
-            "tracks_count": 2,
-            "servers_count": 2,
-            "first_seen": "2026-06-18 16:29:32",
-            "last_seen": "2026-07-03 02:48:39"
-        },
-        {
             "driver": "Patrick Rother",
             "safety_score": 20.8,
             "grade": "D",
@@ -189841,6 +189781,26 @@
             "servers_count": 2,
             "first_seen": "2026-07-08 21:20:08",
             "last_seen": "2026-07-13 23:39:40"
+        },
+        {
+            "driver": "Kashir20 TOPRACING",
+            "safety_score": 19.1,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 11,
+            "valid_laps": 7,
+            "invalid_laps": 4,
+            "valid_lap_ratio": 0.636,
+            "penalties_count": 1,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 36.36,
+            "penalties_per_100": 9.09,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 4,
+            "tracks_count": 2,
+            "servers_count": 2,
+            "first_seen": "2026-07-03 00:19:06",
+            "last_seen": "2026-07-03 02:48:39"
         },
         {
             "driver": "Timur ANDRES",
