@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-11-26 14:39:56",
+        "generated_at": "2026-11-26 21:13:30",
         "activity_window_days": 90,
-        "active_cutoff": "2026-08-28 14:39:56",
+        "active_cutoff": "2026-08-28 21:13:30",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,33 +21,33 @@
     },
     "site_stats": {
         "drivers_total": 1536,
-        "drivers_active": 22,
-        "drivers_inactive": 1514,
+        "drivers_active": 23,
+        "drivers_inactive": 1513,
         "servers_total": 5,
         "tracks_total": 8,
-        "sessions_total": 1569,
-        "sessions_last_7_days": 10,
+        "sessions_total": 1571,
+        "sessions_last_7_days": 12,
         "new_drivers_last_7_days": 0,
-        "lap_entries_total": 3146,
+        "lap_entries_total": 3147,
         "cars_total": 31,
-        "safety_laps_total": 24296,
-        "safety_penalties_total": 707,
+        "safety_laps_total": 24302,
+        "safety_penalties_total": 709,
         "trusted_drivers_total": 0,
         "risky_drivers_total": 0,
-        "last_activity": "2026-11-25 22:15:43",
+        "last_activity": "2026-11-26 19:45:18",
         "top_track": "spa",
-        "top_track_sessions": 613,
+        "top_track_sessions": 615,
         "top_car_model": 35,
         "top_car_name": "McLaren 720S GT3 Evo 2023",
-        "top_car_entries": 87
+        "top_car_entries": 197
     },
     "servers": [
         {
             "server_name": "SPA",
-            "sessions_count": 613,
+            "sessions_count": 615,
             "tracks_count": 1,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-11-25 22:15:43"
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "server_name": "ZOLDER",
@@ -117,9 +117,9 @@
         },
         {
             "track": "spa",
-            "sessions_count": 613,
+            "sessions_count": 615,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-11-25 22:15:43"
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "track": "zolder",
@@ -129,15 +129,15 @@
         }
     ],
     "activity_summary": {
-        "sessions": 1569,
+        "sessions": 1571,
         "drivers": 226,
-        "laps": 24296,
+        "laps": 24302,
         "servers": 5,
         "tracks": 8,
         "cars": 31,
-        "active_days": 106,
+        "active_days": 107,
         "first_activity": "2026-06-04",
-        "last_activity": "2026-11-25"
+        "last_activity": "2026-11-26"
     },
     "activity_by_date": [
         {
@@ -1093,18 +1093,27 @@
             "servers": 5,
             "tracks": 5,
             "entries": 0
+        },
+        {
+            "date": "2026-11-26",
+            "sessions": 2,
+            "drivers": 1,
+            "laps": 6,
+            "servers": 1,
+            "tracks": 1,
+            "entries": 1
         }
     ],
     "activity_by_server": [
         {
             "server_name": "SPA",
-            "sessions": 613,
+            "sessions": 615,
             "drivers": 888,
-            "laps": 12280,
+            "laps": 12286,
             "tracks": 1,
-            "entries": 1656,
+            "entries": 1657,
             "first_seen": "2026-06-04 20:09:24",
-            "last_seen": "2026-11-25 22:15:43"
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "server_name": "ZOLDER",
@@ -1150,14 +1159,14 @@
     "activity_by_track": [
         {
             "track": "spa",
-            "sessions": 613,
+            "sessions": 615,
             "drivers": 888,
-            "laps": 12280,
+            "laps": 12286,
             "servers": 1,
-            "entries": 1656,
+            "entries": 1657,
             "best_lap": 136667,
             "best_driver": "Herbert Rikka | RMS",
-            "last_seen": "2026-11-25 22:15:43"
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "track": "zolder",
@@ -1247,8 +1256,8 @@
         },
         {
             "session_type": "Qualifying",
-            "sessions": 424,
-            "entries": 1338,
+            "sessions": 425,
+            "entries": 1339,
             "drivers": 950,
             "best_lap": 84185
         },
@@ -1278,8 +1287,8 @@
         {
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
-            "entries": 825,
-            "sessions": 446,
+            "entries": 826,
+            "sessions": 447,
             "drivers": 373,
             "tracks": 7,
             "best_lap": 83802
@@ -2520,7 +2529,7 @@
             "weekday_number": 4,
             "weekday": "Thursday",
             "hour": 19,
-            "sessions": 18,
+            "sessions": 20,
             "servers": 5,
             "tracks": 5
         },
@@ -2774,6 +2783,18 @@
         }
     ],
     "activity_detail": [
+        {
+            "date": "2026-11-26",
+            "server_name": "SPA",
+            "track": "spa",
+            "session_type": "Qualifying",
+            "sessions": 1,
+            "entries": 1,
+            "drivers": 1,
+            "laps": 6,
+            "best_lap": 141250,
+            "best_driver": "Ekaterina Brysina"
+        },
         {
             "date": "2026-09-15",
             "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
@@ -7179,6 +7200,18 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1
+        },
+        {
+            "driver": "Ekaterina Brysina",
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-11-26 19:35:04",
+            "days_since_last_seen": 0,
+            "active": true,
+            "sessions_count": 142,
+            "tracks_count": 6,
+            "servers_count": 5,
+            "cars_count": 8,
+            "entries_count": 144
         },
         {
             "driver": "Igor Shakhalay",
@@ -12135,18 +12168,6 @@
             "servers_count": 1,
             "cars_count": 1,
             "entries_count": 1
-        },
-        {
-            "driver": "Ekaterina Brysina",
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-19 23:39:56",
-            "days_since_last_seen": 99,
-            "active": false,
-            "sessions_count": 141,
-            "tracks_count": 6,
-            "servers_count": 5,
-            "cars_count": 8,
-            "entries_count": 143
         },
         {
             "driver": "Eldar Tikhomirov",
@@ -25532,35 +25553,35 @@
     "active_track_records": [
         {
             "track": "brands_hatch",
-            "driver": "Luca Cavalli",
-            "car_model": 34,
-            "car_name": "Porsche 992 GT3 R",
-            "session": "R1",
-            "lap_ms": 85422,
-            "sector1": 27575,
-            "sector2": 22037,
-            "sector3": 35460,
+            "driver": "Ekaterina Brysina",
+            "car_model": 35,
+            "car_name": "McLaren 720S GT3 Evo 2023",
+            "session": "Qualifying",
+            "lap_ms": 84940,
+            "sector1": 27405,
+            "sector2": 21935,
+            "sector3": 35502,
             "server_name": "Brands Hatch",
-            "session_date": "2026-08-29 14:02:07",
+            "session_date": "2026-08-17 22:43:41",
             "active_driver": true,
-            "driver_last_seen": "2026-08-29 14:02:07",
-            "driver_days_since_last_seen": 89
+            "driver_last_seen": "2026-11-26 19:35:04",
+            "driver_days_since_last_seen": 0
         },
         {
             "track": "zolder",
-            "driver": "Sergey Guk",
-            "car_model": 36,
-            "car_name": "Ford Mustang GT3",
-            "session": "Practice",
-            "lap_ms": 90910,
-            "sector1": 30850,
-            "sector2": 29937,
-            "sector3": 29940,
+            "driver": "Ekaterina Brysina",
+            "car_model": 35,
+            "car_name": "McLaren 720S GT3 Evo 2023",
+            "session": "Qualifying",
+            "lap_ms": 90260,
+            "sector1": 30817,
+            "sector2": 29480,
+            "sector3": 29962,
             "server_name": "ZOLDER",
-            "session_date": "2026-07-04 00:14:03",
+            "session_date": "2026-07-04 16:43:59",
             "active_driver": true,
-            "driver_last_seen": "2026-08-28 23:08:02",
-            "driver_days_since_last_seen": 90
+            "driver_last_seen": "2026-11-26 19:35:04",
+            "driver_days_since_last_seen": 0
         },
         {
             "track": "barcelona",
@@ -25612,19 +25633,19 @@
         },
         {
             "track": "spa",
-            "driver": "Sergey Guk",
+            "driver": "Ekaterina Brysina",
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "session": "Qualifying",
-            "lap_ms": 139597,
-            "sector1": 40845,
-            "sector2": 62100,
-            "sector3": 36652,
+            "lap_ms": 138560,
+            "sector1": 40582,
+            "sector2": 61257,
+            "sector3": 36565,
             "server_name": "SPA",
-            "session_date": "2026-08-13 00:31:38",
+            "session_date": "2026-08-18 22:32:35",
             "active_driver": true,
-            "driver_last_seen": "2026-08-28 23:08:02",
-            "driver_days_since_last_seen": 90
+            "driver_last_seen": "2026-11-26 19:35:04",
+            "driver_days_since_last_seen": 0
         }
     ],
     "all_time_track_records": [
@@ -25742,6 +25763,26 @@
         }
     ],
     "driver_stats": [
+        {
+            "driver": "Ekaterina Brysina",
+            "active": true,
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-11-26 19:35:04",
+            "days_since_last_seen": 0,
+            "sessions_count": 142,
+            "tracks_count": 6,
+            "servers_count": 5,
+            "cars_count": 8,
+            "entries_count": 144,
+            "best_lap": 84940,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "spa",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
+        },
         {
             "driver": "Luca Cavalli",
             "active": true,
@@ -26261,26 +26302,6 @@
             "favorite_track": "brands_hatch",
             "favorite_car_model": 30,
             "favorite_car_name": "BMW M4 GT3"
-        },
-        {
-            "driver": "Ekaterina Brysina",
-            "active": false,
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-19 23:39:56",
-            "days_since_last_seen": 99,
-            "sessions_count": 141,
-            "tracks_count": 6,
-            "servers_count": 5,
-            "cars_count": 8,
-            "entries_count": 143,
-            "best_lap": 84940,
-            "best_track": "brands_hatch",
-            "best_session": "Qualifying",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "spa",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023"
         },
         {
             "driver": "Raf Rigor",
@@ -57000,6 +57021,234 @@
             ]
         },
         {
+            "driver": "Ekaterina Brysina",
+            "active": true,
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-11-26 19:35:04",
+            "days_since_last_seen": 0,
+            "sessions_count": 142,
+            "tracks_count": 6,
+            "servers_count": 5,
+            "cars_count": 8,
+            "entries_count": 144,
+            "total_laps": 1048,
+            "valid_laps": 493,
+            "invalid_laps": 555,
+            "best_lap": 84940,
+            "best_track": "brands_hatch",
+            "best_session": "Qualifying",
+            "best_car_model": 35,
+            "best_car_name": "McLaren 720S GT3 Evo 2023",
+            "favorite_track": "spa",
+            "favorite_car_model": 35,
+            "favorite_car_name": "McLaren 720S GT3 Evo 2023",
+            "track_bests": [
+                {
+                    "track": "barcelona",
+                    "best_lap": 108375,
+                    "sector1": 30455,
+                    "sector2": 41577,
+                    "sector3": 36207,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "session_date": "2026-08-19 23:15:11"
+                },
+                {
+                    "track": "brands_hatch",
+                    "best_lap": 84940,
+                    "sector1": 27405,
+                    "sector2": 21935,
+                    "sector3": 35502,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "Brands Hatch",
+                    "session_date": "2026-08-17 22:43:41"
+                },
+                {
+                    "track": "monza",
+                    "best_lap": 110187,
+                    "sector1": 35375,
+                    "sector2": 38785,
+                    "sector3": 35965,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "MONZA",
+                    "session_date": "2026-08-03 22:21:59"
+                },
+                {
+                    "track": "nurburgring",
+                    "best_lap": 122870,
+                    "sector1": 58267,
+                    "sector2": 46150,
+                    "sector3": 18452,
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "session": "Qualifying",
+                    "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
+                    "session_date": "2026-08-09 00:19:14"
+                },
+                {
+                    "track": "spa",
+                    "best_lap": 138560,
+                    "sector1": 40582,
+                    "sector2": 61257,
+                    "sector3": 36565,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "SPA",
+                    "session_date": "2026-08-18 22:32:35"
+                },
+                {
+                    "track": "zolder",
+                    "best_lap": 90260,
+                    "sector1": 30817,
+                    "sector2": 29480,
+                    "sector3": 29962,
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "session": "Qualifying",
+                    "server_name": "ZOLDER",
+                    "session_date": "2026-07-04 16:43:59"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 35,
+                    "car_name": "McLaren 720S GT3 Evo 2023",
+                    "entries": 110,
+                    "tracks": 5,
+                    "best_lap": 84940,
+                    "best_track": "brands_hatch"
+                },
+                {
+                    "car_model": 30,
+                    "car_name": "BMW M4 GT3",
+                    "entries": 19,
+                    "tracks": 3,
+                    "best_lap": 93220,
+                    "best_track": "zolder"
+                },
+                {
+                    "car_model": 23,
+                    "car_name": "Porsche 911 II GT3 R (2019)",
+                    "entries": 6,
+                    "tracks": 2,
+                    "best_lap": 87347,
+                    "best_track": "brands_hatch"
+                },
+                {
+                    "car_model": 2,
+                    "car_name": "Ferrari 488 GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 92160,
+                    "best_track": "zolder"
+                },
+                {
+                    "car_model": 1,
+                    "car_name": "Mercedes-AMG GT3",
+                    "entries": 2,
+                    "tracks": 1,
+                    "best_lap": 93940,
+                    "best_track": "zolder"
+                },
+                {
+                    "car_model": 21,
+                    "car_name": "Honda NSX Evo (2019)",
+                    "entries": 2,
+                    "tracks": 2,
+                    "best_lap": 96635,
+                    "best_track": "zolder"
+                },
+                {
+                    "car_model": 14,
+                    "car_name": "Jaguar G3",
+                    "entries": 2,
+                    "tracks": 2,
+                    "best_lap": 98220,
+                    "best_track": "zolder"
+                },
+                {
+                    "car_model": 15,
+                    "car_name": "Lexus RC F GT3",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 93910,
+                    "best_track": "zolder"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "SPA",
+                    "entries": 60,
+                    "tracks": 1,
+                    "last_seen": "2026-11-26 19:35:04"
+                },
+                {
+                    "server_name": "ZOLDER",
+                    "entries": 56,
+                    "tracks": 1,
+                    "last_seen": "2026-08-19 22:45:22"
+                },
+                {
+                    "server_name": "Brands Hatch",
+                    "entries": 22,
+                    "tracks": 1,
+                    "last_seen": "2026-08-17 23:10:04"
+                },
+                {
+                    "server_name": "MONZA",
+                    "entries": 4,
+                    "tracks": 1,
+                    "last_seen": "2026-08-03 22:55:47"
+                },
+                {
+                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-08-19 23:15:11"
+                },
+                {
+                    "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-08-09 00:19:14"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 66,
+                    "best_lap": 84940
+                },
+                {
+                    "session": "Race",
+                    "entries": 25,
+                    "best_lap": 86870
+                },
+                {
+                    "session": "Practice",
+                    "entries": 23,
+                    "best_lap": 91217
+                },
+                {
+                    "session": "R1",
+                    "entries": 22,
+                    "best_lap": 85072
+                },
+                {
+                    "session": "R2",
+                    "entries": 8,
+                    "best_lap": 86260
+                }
+            ]
+        },
+        {
             "driver": "Igor Shakhalay",
             "active": true,
             "first_seen": "2026-09-12 17:44:59",
@@ -84635,234 +84884,6 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 143462
-                }
-            ]
-        },
-        {
-            "driver": "Ekaterina Brysina",
-            "active": false,
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-19 23:39:56",
-            "days_since_last_seen": 99,
-            "sessions_count": 141,
-            "tracks_count": 6,
-            "servers_count": 5,
-            "cars_count": 8,
-            "entries_count": 143,
-            "total_laps": 1045,
-            "valid_laps": 492,
-            "invalid_laps": 553,
-            "best_lap": 84940,
-            "best_track": "brands_hatch",
-            "best_session": "Qualifying",
-            "best_car_model": 35,
-            "best_car_name": "McLaren 720S GT3 Evo 2023",
-            "favorite_track": "spa",
-            "favorite_car_model": 35,
-            "favorite_car_name": "McLaren 720S GT3 Evo 2023",
-            "track_bests": [
-                {
-                    "track": "barcelona",
-                    "best_lap": 108375,
-                    "sector1": 30455,
-                    "sector2": 41577,
-                    "sector3": 36207,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
-                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
-                    "session_date": "2026-08-19 23:15:11"
-                },
-                {
-                    "track": "brands_hatch",
-                    "best_lap": 84940,
-                    "sector1": 27405,
-                    "sector2": 21935,
-                    "sector3": 35502,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
-                    "server_name": "Brands Hatch",
-                    "session_date": "2026-08-17 22:43:41"
-                },
-                {
-                    "track": "monza",
-                    "best_lap": 110187,
-                    "sector1": 35375,
-                    "sector2": 38785,
-                    "sector3": 35965,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
-                    "server_name": "MONZA",
-                    "session_date": "2026-08-03 22:21:59"
-                },
-                {
-                    "track": "nurburgring",
-                    "best_lap": 122870,
-                    "sector1": 58267,
-                    "sector2": 46150,
-                    "sector3": 18452,
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "session": "Qualifying",
-                    "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-                    "session_date": "2026-08-09 00:19:14"
-                },
-                {
-                    "track": "spa",
-                    "best_lap": 138560,
-                    "sector1": 40582,
-                    "sector2": 61257,
-                    "sector3": 36565,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
-                    "server_name": "SPA",
-                    "session_date": "2026-08-18 22:32:35"
-                },
-                {
-                    "track": "zolder",
-                    "best_lap": 90260,
-                    "sector1": 30817,
-                    "sector2": 29480,
-                    "sector3": 29962,
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "session": "Qualifying",
-                    "server_name": "ZOLDER",
-                    "session_date": "2026-07-04 16:43:59"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 35,
-                    "car_name": "McLaren 720S GT3 Evo 2023",
-                    "entries": 109,
-                    "tracks": 5,
-                    "best_lap": 84940,
-                    "best_track": "brands_hatch"
-                },
-                {
-                    "car_model": 30,
-                    "car_name": "BMW M4 GT3",
-                    "entries": 19,
-                    "tracks": 3,
-                    "best_lap": 93220,
-                    "best_track": "zolder"
-                },
-                {
-                    "car_model": 23,
-                    "car_name": "Porsche 911 II GT3 R (2019)",
-                    "entries": 6,
-                    "tracks": 2,
-                    "best_lap": 87347,
-                    "best_track": "brands_hatch"
-                },
-                {
-                    "car_model": 2,
-                    "car_name": "Ferrari 488 GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 92160,
-                    "best_track": "zolder"
-                },
-                {
-                    "car_model": 1,
-                    "car_name": "Mercedes-AMG GT3",
-                    "entries": 2,
-                    "tracks": 1,
-                    "best_lap": 93940,
-                    "best_track": "zolder"
-                },
-                {
-                    "car_model": 21,
-                    "car_name": "Honda NSX Evo (2019)",
-                    "entries": 2,
-                    "tracks": 2,
-                    "best_lap": 96635,
-                    "best_track": "zolder"
-                },
-                {
-                    "car_model": 14,
-                    "car_name": "Jaguar G3",
-                    "entries": 2,
-                    "tracks": 2,
-                    "best_lap": 98220,
-                    "best_track": "zolder"
-                },
-                {
-                    "car_model": 15,
-                    "car_name": "Lexus RC F GT3",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 93910,
-                    "best_track": "zolder"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "SPA",
-                    "entries": 59,
-                    "tracks": 1,
-                    "last_seen": "2026-08-19 23:39:56"
-                },
-                {
-                    "server_name": "ZOLDER",
-                    "entries": 56,
-                    "tracks": 1,
-                    "last_seen": "2026-08-19 22:45:22"
-                },
-                {
-                    "server_name": "Brands Hatch",
-                    "entries": 22,
-                    "tracks": 1,
-                    "last_seen": "2026-08-17 23:10:04"
-                },
-                {
-                    "server_name": "MONZA",
-                    "entries": 4,
-                    "tracks": 1,
-                    "last_seen": "2026-08-03 22:55:47"
-                },
-                {
-                    "server_name": "ABOBA RACING BARCELONA /VOLGA-RUS/",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-08-19 23:15:11"
-                },
-                {
-                    "server_name": "ABOBA RACING Nordschleife GP /VOLGA-RUS/",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-08-09 00:19:14"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 65,
-                    "best_lap": 84940
-                },
-                {
-                    "session": "Race",
-                    "entries": 25,
-                    "best_lap": 86870
-                },
-                {
-                    "session": "Practice",
-                    "entries": 23,
-                    "best_lap": 91217
-                },
-                {
-                    "session": "R1",
-                    "entries": 22,
-                    "best_lap": 85072
-                },
-                {
-                    "session": "R2",
-                    "entries": 8,
-                    "best_lap": 86260
                 }
             ]
         },
@@ -158817,6 +158838,16 @@
     ],
     "active_car_stats": [
         {
+            "car_model": 35,
+            "car_name": "McLaren 720S GT3 Evo 2023",
+            "drivers": 6,
+            "entries": 197,
+            "best_lap": 84940,
+            "best_driver": "Ekaterina Brysina",
+            "best_track": "brands_hatch",
+            "avg_lap": 113753
+        },
+        {
             "car_model": 34,
             "car_name": "Porsche 992 GT3 R",
             "drivers": 4,
@@ -158825,16 +158856,6 @@
             "best_driver": "Luca Cavalli",
             "best_track": "brands_hatch",
             "avg_lap": 100419
-        },
-        {
-            "car_model": 35,
-            "car_name": "McLaren 720S GT3 Evo 2023",
-            "drivers": 5,
-            "entries": 87,
-            "best_lap": 85687,
-            "best_driver": "Sergey Guk",
-            "best_track": "brands_hatch",
-            "avg_lap": 110308
         },
         {
             "car_model": 25,
@@ -158869,22 +158890,32 @@
         {
             "car_model": 14,
             "car_name": "Jaguar G3",
-            "drivers": 1,
-            "entries": 2,
+            "drivers": 2,
+            "entries": 4,
             "best_lap": 87055,
             "best_driver": "Igor Shakhalay",
             "best_track": "brands_hatch",
-            "avg_lap": 87908
+            "avg_lap": 97623
+        },
+        {
+            "car_model": 23,
+            "car_name": "Porsche 911 II GT3 R (2019)",
+            "drivers": 1,
+            "entries": 6,
+            "best_lap": 87347,
+            "best_driver": "Ekaterina Brysina",
+            "best_track": "brands_hatch",
+            "avg_lap": 91220
         },
         {
             "car_model": 21,
             "car_name": "Honda NSX Evo (2019)",
-            "drivers": 2,
-            "entries": 3,
+            "drivers": 3,
+            "entries": 5,
             "best_lap": 87765,
             "best_driver": "Super K",
             "best_track": "brands_hatch",
-            "avg_lap": 106242
+            "avg_lap": 111575
         },
         {
             "car_model": 32,
@@ -158899,22 +158930,42 @@
         {
             "car_model": 30,
             "car_name": "BMW M4 GT3",
-            "drivers": 2,
-            "entries": 9,
+            "drivers": 3,
+            "entries": 28,
             "best_lap": 90630,
             "best_driver": "Sergey Guk",
             "best_track": "brands_hatch",
-            "avg_lap": 139002
+            "avg_lap": 138405
+        },
+        {
+            "car_model": 2,
+            "car_name": "Ferrari 488 GT3",
+            "drivers": 1,
+            "entries": 2,
+            "best_lap": 92160,
+            "best_driver": "Ekaterina Brysina",
+            "best_track": "zolder",
+            "avg_lap": 92418
         },
         {
             "car_model": 15,
             "car_name": "Lexus RC F GT3",
-            "drivers": 1,
-            "entries": 1,
+            "drivers": 2,
+            "entries": 2,
             "best_lap": 93360,
             "best_driver": "Sergey Guk",
             "best_track": "zolder",
-            "avg_lap": 93360
+            "avg_lap": 93635
+        },
+        {
+            "car_model": 1,
+            "car_name": "Mercedes-AMG GT3",
+            "drivers": 1,
+            "entries": 2,
+            "best_lap": 93940,
+            "best_driver": "Ekaterina Brysina",
+            "best_track": "zolder",
+            "avg_lap": 94018
         },
         {
             "car_model": 31,
@@ -158952,11 +159003,11 @@
             "car_model": 35,
             "car_name": "McLaren 720S GT3 Evo 2023",
             "drivers": 373,
-            "entries": 825,
+            "entries": 826,
             "best_lap": 83802,
             "best_driver": "Isaac Melvatron",
             "best_track": "brands_hatch",
-            "avg_lap": 130558
+            "avg_lap": 130571
         },
         {
             "car_model": 21,
@@ -159681,6 +159732,26 @@
             "last_seen": "2026-09-09 21:36:24"
         },
         {
+            "driver": "Notayke N",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 0,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-11-26 19:45:18",
+            "last_seen": "2026-11-26 19:45:18"
+        },
+        {
             "driver": "Karen Khachikyan",
             "safety_score": 40.0,
             "grade": "D",
@@ -159759,6 +159830,26 @@
             "servers_count": 1,
             "first_seen": "2026-08-29 13:36:22",
             "last_seen": "2026-08-29 14:02:07"
+        },
+        {
+            "driver": "Ekaterina Brysina",
+            "safety_score": 0.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 1,
+            "invalid_laps": 2,
+            "valid_lap_ratio": 0.333,
+            "penalties_count": 2,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 66.67,
+            "penalties_per_100": 66.67,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 2,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-11-26 19:35:04",
+            "last_seen": "2026-11-26 19:45:18"
         }
     ],
     "lifetime_safety_rating": [
@@ -183543,26 +183634,6 @@
             "last_seen": "2026-06-09 14:25:48"
         },
         {
-            "driver": "Ekaterina Brysina",
-            "safety_score": 49.6,
-            "grade": "D",
-            "confidence": "server_legend 🏆",
-            "total_laps": 1045,
-            "valid_laps": 492,
-            "invalid_laps": 553,
-            "valid_lap_ratio": 0.471,
-            "penalties_count": 30,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 52.92,
-            "penalties_per_100": 2.87,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 166,
-            "tracks_count": 6,
-            "servers_count": 5,
-            "first_seen": "2026-06-04 21:24:23",
-            "last_seen": "2026-08-25 22:59:45"
-        },
-        {
             "driver": "Adenir Schuster",
             "safety_score": 49.6,
             "grade": "D",
@@ -184121,6 +184192,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-20 17:52:28",
             "last_seen": "2026-07-20 18:22:16"
+        },
+        {
+            "driver": "Ekaterina Brysina",
+            "safety_score": 48.4,
+            "grade": "D",
+            "confidence": "server_legend 🏆",
+            "total_laps": 1048,
+            "valid_laps": 493,
+            "invalid_laps": 555,
+            "valid_lap_ratio": 0.47,
+            "penalties_count": 32,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 52.96,
+            "penalties_per_100": 3.05,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 168,
+            "tracks_count": 6,
+            "servers_count": 5,
+            "first_seen": "2026-06-04 21:24:23",
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "driver": "Деку Мидория",
@@ -187981,6 +188072,26 @@
             "servers_count": 1,
             "first_seen": "2026-07-09 20:34:15",
             "last_seen": "2026-07-09 20:34:15"
+        },
+        {
+            "driver": "Notayke N",
+            "safety_score": 40.0,
+            "grade": "D",
+            "confidence": "very_low",
+            "total_laps": 3,
+            "valid_laps": 0,
+            "invalid_laps": 3,
+            "valid_lap_ratio": 0.0,
+            "penalties_count": 0,
+            "post_race_penalties_count": 0,
+            "invalid_laps_per_100": 100.0,
+            "penalties_per_100": 0.0,
+            "post_race_penalties_per_100": 0.0,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "first_seen": "2026-11-26 19:45:18",
+            "last_seen": "2026-11-26 19:45:18"
         },
         {
             "driver": "Oto Zakalashvili",
