@@ -1,8 +1,8 @@
 {
     "meta": {
-        "generated_at": "2026-11-28 14:39:49",
+        "generated_at": "2026-11-28 17:59:34",
         "activity_window_days": 90,
-        "active_cutoff": "2026-08-30 14:39:49",
+        "active_cutoff": "2026-08-30 17:59:34",
         "data_source": "SQLite",
         "safety_model": "v1_5_laps_penalties_clean_mileage_bonus_legend_ladder",
         "excluded_server_name_parts": [
@@ -21,8 +21,8 @@
     },
     "site_stats": {
         "drivers_total": 1536,
-        "drivers_active": 13,
-        "drivers_inactive": 1523,
+        "drivers_active": 12,
+        "drivers_inactive": 1524,
         "servers_total": 5,
         "tracks_total": 8,
         "sessions_total": 1577,
@@ -7230,18 +7230,6 @@
             "first_seen": "2026-09-11 01:01:51",
             "last_seen": "2026-09-11 01:01:51",
             "days_since_last_seen": 78,
-            "active": true,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1
-        },
-        {
-            "driver": "Top Racing",
-            "first_seen": "2026-08-30 15:59:46",
-            "last_seen": "2026-08-30 15:59:46",
-            "days_since_last_seen": 90,
             "active": true,
             "sessions_count": 1,
             "tracks_count": 1,
@@ -22898,6 +22886,18 @@
             "entries_count": 2
         },
         {
+            "driver": "Top Racing",
+            "first_seen": "2026-08-30 15:59:46",
+            "last_seen": "2026-08-30 15:59:46",
+            "days_since_last_seen": 90,
+            "active": false,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1
+        },
+        {
             "driver": "Toprak Kılıç",
             "first_seen": "2026-06-08 18:03:38",
             "last_seen": "2026-06-08 18:03:38",
@@ -25982,26 +25982,6 @@
             "favorite_track": "barcelona",
             "favorite_car_model": 20,
             "favorite_car_name": "AMR V8 Vantage (2019)"
-        },
-        {
-            "driver": "Top Racing",
-            "active": true,
-            "first_seen": "2026-08-30 15:59:46",
-            "last_seen": "2026-08-30 15:59:46",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "best_lap": 121235,
-            "best_track": "monza",
-            "best_session": "Qualifying",
-            "best_car_model": 16,
-            "best_car_name": "Lamborghini Huracan Evo (2019)",
-            "favorite_track": "monza",
-            "favorite_car_model": 16,
-            "favorite_car_name": "Lamborghini Huracan Evo (2019)"
         },
         {
             "driver": "Alexander Belsky",
@@ -39302,6 +39282,26 @@
             "favorite_track": "monza",
             "favorite_car_model": 34,
             "favorite_car_name": "Porsche 992 GT3 R"
+        },
+        {
+            "driver": "Top Racing",
+            "active": false,
+            "first_seen": "2026-08-30 15:59:46",
+            "last_seen": "2026-08-30 15:59:46",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "best_lap": 121235,
+            "best_track": "monza",
+            "best_session": "Qualifying",
+            "best_car_model": 16,
+            "best_car_name": "Lamborghini Huracan Evo (2019)",
+            "favorite_track": "monza",
+            "favorite_car_model": 16,
+            "favorite_car_name": "Lamborghini Huracan Evo (2019)"
         },
         {
             "driver": "Sippkorn Prajubsook",
@@ -57382,68 +57382,6 @@
                     "session": "Qualifying",
                     "entries": 1,
                     "best_lap": 111022
-                }
-            ]
-        },
-        {
-            "driver": "Top Racing",
-            "active": true,
-            "first_seen": "2026-08-30 15:59:46",
-            "last_seen": "2026-08-30 15:59:46",
-            "days_since_last_seen": 90,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "cars_count": 1,
-            "entries_count": 1,
-            "total_laps": 8,
-            "valid_laps": 7,
-            "invalid_laps": 1,
-            "best_lap": 121235,
-            "best_track": "monza",
-            "best_session": "Qualifying",
-            "best_car_model": 16,
-            "best_car_name": "Lamborghini Huracan Evo (2019)",
-            "favorite_track": "monza",
-            "favorite_car_model": 16,
-            "favorite_car_name": "Lamborghini Huracan Evo (2019)",
-            "track_bests": [
-                {
-                    "track": "monza",
-                    "best_lap": 121235,
-                    "sector1": 39302,
-                    "sector2": 42600,
-                    "sector3": 38847,
-                    "car_model": 16,
-                    "car_name": "Lamborghini Huracan Evo (2019)",
-                    "session": "Qualifying",
-                    "server_name": "MONZA",
-                    "session_date": "2026-08-30 15:59:46"
-                }
-            ],
-            "car_usage": [
-                {
-                    "car_model": 16,
-                    "car_name": "Lamborghini Huracan Evo (2019)",
-                    "entries": 1,
-                    "tracks": 1,
-                    "best_lap": 121235,
-                    "best_track": "monza"
-                }
-            ],
-            "server_usage": [
-                {
-                    "server_name": "MONZA",
-                    "entries": 1,
-                    "tracks": 1,
-                    "last_seen": "2026-08-30 15:59:46"
-                }
-            ],
-            "session_types": [
-                {
-                    "session": "Qualifying",
-                    "entries": 1,
-                    "best_lap": 121235
                 }
             ]
         },
@@ -144058,6 +143996,68 @@
             ]
         },
         {
+            "driver": "Top Racing",
+            "active": false,
+            "first_seen": "2026-08-30 15:59:46",
+            "last_seen": "2026-08-30 15:59:46",
+            "days_since_last_seen": 90,
+            "sessions_count": 1,
+            "tracks_count": 1,
+            "servers_count": 1,
+            "cars_count": 1,
+            "entries_count": 1,
+            "total_laps": 8,
+            "valid_laps": 7,
+            "invalid_laps": 1,
+            "best_lap": 121235,
+            "best_track": "monza",
+            "best_session": "Qualifying",
+            "best_car_model": 16,
+            "best_car_name": "Lamborghini Huracan Evo (2019)",
+            "favorite_track": "monza",
+            "favorite_car_model": 16,
+            "favorite_car_name": "Lamborghini Huracan Evo (2019)",
+            "track_bests": [
+                {
+                    "track": "monza",
+                    "best_lap": 121235,
+                    "sector1": 39302,
+                    "sector2": 42600,
+                    "sector3": 38847,
+                    "car_model": 16,
+                    "car_name": "Lamborghini Huracan Evo (2019)",
+                    "session": "Qualifying",
+                    "server_name": "MONZA",
+                    "session_date": "2026-08-30 15:59:46"
+                }
+            ],
+            "car_usage": [
+                {
+                    "car_model": 16,
+                    "car_name": "Lamborghini Huracan Evo (2019)",
+                    "entries": 1,
+                    "tracks": 1,
+                    "best_lap": 121235,
+                    "best_track": "monza"
+                }
+            ],
+            "server_usage": [
+                {
+                    "server_name": "MONZA",
+                    "entries": 1,
+                    "tracks": 1,
+                    "last_seen": "2026-08-30 15:59:46"
+                }
+            ],
+            "session_types": [
+                {
+                    "session": "Qualifying",
+                    "entries": 1,
+                    "best_lap": 121235
+                }
+            ]
+        },
+        {
             "driver": "Toprak Kılıç",
             "active": false,
             "first_seen": "2026-06-08 18:03:38",
@@ -158966,16 +158966,6 @@
             "best_driver": "Andrei D1ver",
             "best_track": "monza",
             "avg_lap": 113300
-        },
-        {
-            "car_model": 16,
-            "car_name": "Lamborghini Huracan Evo (2019)",
-            "drivers": 1,
-            "entries": 1,
-            "best_lap": 121235,
-            "best_driver": "Top Racing",
-            "best_track": "monza",
-            "avg_lap": 121235
         }
     ],
     "all_time_car_stats": [
@@ -159291,26 +159281,6 @@
         }
     ],
     "active_safety_rating": [
-        {
-            "driver": "Top Racing",
-            "safety_score": 93.5,
-            "grade": "A",
-            "confidence": "very_low",
-            "total_laps": 8,
-            "valid_laps": 7,
-            "invalid_laps": 1,
-            "valid_lap_ratio": 0.875,
-            "penalties_count": 0,
-            "post_race_penalties_count": 0,
-            "invalid_laps_per_100": 12.5,
-            "penalties_per_100": 0.0,
-            "post_race_penalties_per_100": 0.0,
-            "sessions_count": 1,
-            "tracks_count": 1,
-            "servers_count": 1,
-            "first_seen": "2026-08-30 15:59:46",
-            "last_seen": "2026-08-30 15:59:46"
-        },
         {
             "driver": "Andrei D1ver",
             "safety_score": 80.0,
